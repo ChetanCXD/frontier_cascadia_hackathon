@@ -82,7 +82,10 @@ export async function fetchSource(url, { searchResult = {}, role = 'RESEARCHER',
   const title = firstMatch(raw, [/<title[^>]*>([\s\S]*?)<\/title>/i, /<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)/i]) || searchResult.title || parsed.hostname;
   const description = firstMatch(raw, [/<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)/i, /<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)/i]);
   const text = htmlToText(raw);
-  const excerpt = (searchResult.snippet || description || text).slice(0, 900);
+  const excerptSource = String(searchResult.snippet ?? '').trim().length >= 8 ? searchResult.snippet : [description, text, searchResult.snippet].find((value) => String(value ?? '').trim().length > 20) || searchResult.snippet || description || text || '';
+  const excerpt = String(excerptSource).slice(0, 900);
+  const content = text.trim().length > 20 ? text.slice(0, 80_000) : excerpt;
+  const fetchError = content.trim().length > 20 ? undefined : 'No readable page text extracted';
   const publishedAt = parseDate(firstMatch(raw, [/<meta[^>]+property=["']article:published_time["'][^>]+content=["']([^"']+)/i, /<meta[^>]+name=["']date["'][^>]+content=["']([^"']+)/i, /<time[^>]+datetime=["']([^"']+)/i]));
   const author = firstMatch(raw, [/<meta[^>]+name=["']author["'][^>]+content=["']([^"']+)/i, /<meta[^>]+property=["']article:author["'][^>]+content=["']([^"']+)/i]) || undefined;
   const sourceType = inferSourceType(canonicalUrl, title, text);
@@ -90,8 +93,8 @@ export async function fetchSource(url, { searchResult = {}, role = 'RESEARCHER',
     url: parsed.toString(), canonicalUrl, title: title.slice(0, 500), publisher: publisherFor(canonicalUrl), author,
     publishedAt, sourceType, sourceKind: ['government', 'academic', 'peer-reviewed', 'press-release'].includes(sourceType) ? 'PRIMARY' : 'SECONDARY',
     quality: scoreSourceQuality({ sourceType, publisher: publisherFor(canonicalUrl), title, author, publishedAt, url: canonicalUrl }),
-    snippet: searchResult.snippet || '', excerpt, content: text.slice(0, 80_000), links: extractLinks(raw, canonicalUrl),
-    searchRole: role, retrievedAt: new Date().toISOString(), fetchError: undefined,
+    snippet: searchResult.snippet || '', excerpt, content, links: extractLinks(raw, canonicalUrl),
+    searchRole: role, retrievedAt: new Date().toISOString(), fetchError,
   };
   return source;
 }

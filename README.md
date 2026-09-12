@@ -28,7 +28,7 @@ npm start
 
 Open <http://127.0.0.1:4173>. Use the example question:
 
-> Will solid-state batteries reach mass-market electric vehicles before 2030?
+> Does intermittent fasting improve weight loss compared with calorie restriction?
 
 The default search adapter uses the public DuckDuckGo HTML endpoint. For stronger and more controllable results, configure one provider key in `.env`; ClaimLens tries configured providers before DuckDuckGo:
 
@@ -104,12 +104,14 @@ npm test
 
 Tests cover URL canonicalization, source deduplication, source genealogy, independent evidence collapse, all four adjudication states, weakness/follow-up generation, report citation safety, durable persistence, pipeline role separation, and the HTTP API. The pipeline tests use clearly labeled synthetic provider fixtures; they do not masquerade as research evidence.
 
-The live runtime should also be exercised with:
+The committed live evaluator (`SEARCH_PROVIDER=duckduckgo node scripts/evaluate-live.mjs`) exercises:
 
-1. a conflicting question,
-2. a repeated-press-release/source-lineage question,
-3. a consensus question, and
+1. a conflicting weight-loss question,
+2. a repeated-source/current-rate lineage question,
+3. a consensus health question, and
 4. a question with genuinely insufficient evidence.
+
+It writes inspectable snapshots to `data/evaluations/` and fails assertions if the runs do not complete, retain receipts/citations, execute skeptic and follow-up roles, and surface the expected graph behavior.
 
 Results can be partial when a provider or page is unavailable; the session remains inspectable and terminates at its hard budgets.
 

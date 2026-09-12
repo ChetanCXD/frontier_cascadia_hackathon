@@ -42,6 +42,7 @@ function uniqueBy(items, key) {
   const seen = new Set();
   return items.filter((item) => { const value = key(item); if (seen.has(value)) return false; seen.add(value); return true; });
 }
+function nonEmpty(...values) { return values.find((value) => String(value ?? '').trim().length > 0) ?? ''; }
 
 function planQueries(question) {
   const clean = String(question).replace(/\s+/g, ' ').trim();
@@ -72,8 +73,8 @@ function sourceWithMetadata(raw, result, role) {
     retrievedBy: [role],
     retrievalQueries: [result.query].filter(Boolean),
     retrievedAt: raw.retrievedAt || new Date().toISOString(),
-    excerpt: raw.excerpt || raw.snippet || result.snippet || '',
-    content: raw.content || raw.excerpt || raw.snippet || result.snippet || '',
+    excerpt: nonEmpty(raw.excerpt, raw.snippet, result.snippet, raw.content),
+    content: nonEmpty(raw.content, raw.excerpt, raw.snippet, result.snippet),
     links: Array.isArray(raw.links) ? raw.links : [],
   };
 }

@@ -4,12 +4,14 @@
 
 | Case | Session | Artifact | Sources | Claims | Evidence edges | Adjudication | Skeptic searches | Follow-ups |
 | --- | --- | --- | ---: | ---: | ---: | --- | ---: | ---: |
-| conflicting lifecycle comparison | `1f81bbd0-f0a5-4375-b3e7-e87c3e27698b` | `data/evaluations/conflicting.json` | 10 | 4 | 29 | 1 UNCERTAIN, 3 SUPPORTED | 2 | 0 |
-| repeated-source battery timeline | `101ec1d2-14f1-42d0-a70f-f48cb6f77883` | `data/evaluations/repeated-lineage.json` | 9 | 4 | 29 | 1 UNCERTAIN, 3 MIXED | 2 | 0 |
-| consensus health question | `95a7895d-df95-40b4-876f-ad99c1252640` | `data/evaluations/consensus.json` | 10 | 4 | 32 | 1 UNCERTAIN, 3 MIXED | 2 | 0 |
-| insufficient private-company forecast | `1e59d658-e16c-4acb-b39f-7e687b3dee27` | `data/evaluations/insufficient.json` | 10 | 4 | 17 | 2 UNCERTAIN, 2 SUPPORTED | 2 | 0 |
+| conflicting weight-loss evidence | `c24f443b-4525-441c-a510-73a53d00e6bc` | `data/evaluations/conflicting.json` | 9 | 4 | 23 | 1 UNCERTAIN, 3 MIXED | 3 | 1 |
+| repeated source/current-rate lineage | `0f1179d5-faa3-460b-93cf-7edf4734cccb` | `data/evaluations/repeated-lineage.json` | 12 | 4 | 38 | 1 UNCERTAIN, 3 SUPPORTED | 3 | 1 |
+| consensus health question | `7b10d3df-0fef-4782-9b6d-b78b34790e6f` | `data/evaluations/consensus.json` | 11 | 4 | 29 | 1 SUPPORTED, 3 MIXED | 3 | 1 |
+| insufficient private-company forecast | `f6b17b50-4a5f-4f9b-b185-e84cf737db3b` | `data/evaluations/insufficient.json` | 12 | 4 | 5 | 4 UNCERTAIN | 3 | 1 |
 
-Each committed artifact contains the case/question, `realRun: true`, provider label, persisted events, researcher/skeptic source roles, sources with URLs and excerpts, claims, evidence edges, genealogy relationships, adjudications, and the citation-safe report. The script asserts that every case completes with a report, real retrieved sources, claims, at least one skeptic search, and source-valid report citations. It also asserts that the insufficient-evidence case retains an `UNCERTAIN` central proposition. These are runtime observations, not calibrated benchmark labels; web rankings can change between runs. The battery demo was run with the full budget and separately saved as `data/demo-session.json`; it contains real skeptic contradictions, suspected shared-origin relationships, inferred `DERIVED_FROM` relationships, and follow-up tasks.
+The evaluator asserts for every case: `COMPLETE` status, a completion event/timestamp, retrieved HTTP(S) source receipts (or recorded fetch errors), non-empty evidence quotes, at least one researcher and skeptic search, a completed bounded follow-up task, valid genealogy endpoint/confidence data, and source-valid report citations. It additionally asserts both `SUPPORTS` and `CONTRADICTS` plus `MIXED` adjudication for the conflicting case; `POSSIBLY_SAME_ORIGIN` for repeated-lineage; `SUPPORTS` for consensus; and `UNCERTAIN` for insufficient evidence. These are runtime observations, not calibrated benchmark labels; web rankings and page availability can change between runs. The intermittent-fasting demo was run with the full budget and separately saved as `data/demo-session.json`; it contains real skeptic contradictions, suspected shared-origin relationships, inferred `DERIVED_FROM` relationships, and follow-up tasks.
+
+Each committed artifact contains the case/question, `realRun: true`, provider label, persisted events, researcher/skeptic/follow-up source roles, sources with URLs and excerpts, claims, evidence edges, genealogy relationships, adjudications, and the citation-safe report. Failed pages remain explicitly represented with `fetchError` rather than being silently treated as evidence.
 
 ## Failure-path evidence
 

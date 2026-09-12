@@ -61,11 +61,11 @@ export function deriveSourceRelationships(sources = [], explicitLinks = [], opti
   for (let i = 0; i < sources.length; i++) for (let j = i + 1; j < sources.length; j++) {
     const a = sources[i], b = sources[j]; if (!a?.id || !b?.id) continue;
     const titleSimilarity = tokenSetSimilarity(a.title ?? '', b.title ?? '');
-    if (tokenize(a.title ?? '').length >= 4 && titleSimilarity >= titleThreshold) add({ sourceId: a.id, targetSourceId: b.id, confidence: clamp(Math.round(titleSimilarity * 100)) }, SourceRelationshipType.POSSIBLY_SAME_ORIGIN, titleSimilarity * 100);
+    if (tokenize(a.title ?? '').length >= 4 && titleSimilarity >= titleThreshold) add({ sourceId: a.id, targetSourceId: b.id, confidence: clamp(Math.round(titleSimilarity * 100)), suspected: true, basis: `near-duplicate titles (similarity ${titleSimilarity.toFixed(2)})` }, SourceRelationshipType.POSSIBLY_SAME_ORIGIN, titleSimilarity * 100);
     const at = sourceText(a), bt = sourceText(b);
     if (!at || !bt || at.trim().split(/\s+/).length < minTokens || bt.trim().split(/\s+/).length < minTokens) continue;
     const similarity = tokenSetSimilarity(at, bt);
-    if (similarity >= threshold) add({ sourceId: a.id, targetSourceId: b.id, confidence: clamp(Math.round(similarity * 100)) }, SourceRelationshipType.POSSIBLY_SAME_ORIGIN, similarity * 100);
+    if (similarity >= threshold) add({ sourceId: a.id, targetSourceId: b.id, confidence: clamp(Math.round(similarity * 100)), suspected: true, basis: `near-duplicate text (similarity ${similarity.toFixed(2)})` }, SourceRelationshipType.POSSIBLY_SAME_ORIGIN, similarity * 100);
   }
   return result;
 }

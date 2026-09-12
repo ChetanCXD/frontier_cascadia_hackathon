@@ -3,7 +3,7 @@
 ## The 60-second judge path
 
 1. Run `npm start` and open `http://127.0.0.1:4173`.
-2. Enter: **Will solid-state batteries reach mass-market electric vehicles before 2030?**
+2. Enter: **Does intermittent fasting improve weight loss compared with calorie restriction?**
 3. While the graph builds, call out the left timeline: Researcher searches first, then the separate Skeptic searches for counterevidence and caveats.
 4. Click a claim. Show its status, 0–100 Evidence Strength, independent support/contradiction counts, source buckets, and the “why keep researching” note.
 5. Click a source. Show retrieval role, excerpt, quality, publication/retrieval metadata, URL, and lineage group.
