@@ -2,36 +2,36 @@
   "artifactVersion": 1,
   "realRun": true,
   "provider": "DuckDuckGo HTML",
-  "evaluatedAt": "2026-09-12T18:07:38.753Z",
+  "evaluatedAt": "2026-09-12T18:44:22.792Z",
   "case": {
     "name": "consensus",
     "question": "Does smoking cause lung cancer?"
   },
   "session": {
-    "id": "95a7895d-df95-40b4-876f-ad99c1252640",
-    "createdAt": "2026-09-12T18:07:26.980Z",
+    "id": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+    "createdAt": "2026-09-12T18:44:05.908Z",
     "title": "Investigation: Does smoking cause lung cancer?",
     "question": "Does smoking cause lung cancer?",
     "status": "COMPLETE",
-    "updatedAt": "2026-09-12T18:07:38.740Z",
+    "updatedAt": "2026-09-12T18:44:22.779Z",
     "metadata": {
       "evaluationCase": "consensus"
     },
     "phase": "DONE",
-    "completedAt": "2026-09-12T18:07:38.724Z"
+    "completedAt": "2026-09-12T18:44:22.763Z"
   },
   "progress": {
     "phase": "DONE",
     "percent": 100,
     "message": "Investigation complete. Inspect the graph to see why each claim earned its status.",
     "actor": "system",
-    "updatedAt": "2026-09-12T18:07:38.724Z"
+    "updatedAt": "2026-09-12T18:44:22.763Z"
   },
   "tasks": [
     {
-      "id": "dde6954a-a3f9-4f72-8258-df3b638fdf68",
-      "createdAt": "2026-09-12T18:07:26.984Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "75ba5816-80d8-47db-b08a-045c651e2eee",
+      "createdAt": "2026-09-12T18:44:05.912Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "objective": "Researcher search: Does smoking cause lung cancer?",
       "status": "COMPLETE",
       "priority": 60,
@@ -39,12 +39,12 @@
       "constraints": [
         "Prefer direct, recent, and primary evidence"
       ],
-      "updatedAt": "2026-09-12T18:07:29.165Z"
+      "updatedAt": "2026-09-12T18:44:07.932Z"
     },
     {
-      "id": "88c33419-438e-44f5-b4a6-3110b24adcfe",
-      "createdAt": "2026-09-12T18:07:26.985Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "a88b41b7-38de-4f83-9ea3-768e8de6a26a",
+      "createdAt": "2026-09-12T18:44:05.913Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "objective": "Researcher search: Does smoking cause lung cancer? independent evidence data study",
       "status": "COMPLETE",
       "priority": 60,
@@ -52,12 +52,12 @@
       "constraints": [
         "Prefer direct, recent, and primary evidence"
       ],
-      "updatedAt": "2026-09-12T18:07:30.664Z"
+      "updatedAt": "2026-09-12T18:44:09.624Z"
     },
     {
-      "id": "3a7bff05-6a97-47d4-8836-f237d59db090",
-      "createdAt": "2026-09-12T18:07:26.987Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "8699a64e-fd9b-45e2-a32b-c5a9aaf4c421",
+      "createdAt": "2026-09-12T18:44:05.914Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "objective": "Researcher search: Does smoking cause lung cancer? limitations criticism analysis",
       "status": "COMPLETE",
       "priority": 60,
@@ -65,12 +65,12 @@
       "constraints": [
         "Prefer direct, recent, and primary evidence"
       ],
-      "updatedAt": "2026-09-12T18:07:32.041Z"
+      "updatedAt": "2026-09-12T18:44:10.739Z"
     },
     {
-      "id": "8779d4a5-5794-4e1e-8870-7b04b108a4f6",
-      "createdAt": "2026-09-12T18:07:32.499Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "806afcc7-9df0-491a-aa84-613a17b1aab5",
+      "createdAt": "2026-09-12T18:44:10.959Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "objective": "Skeptic search: Does smoking cause lung cancer? counterevidence criticism limitations",
       "status": "COMPLETE",
       "priority": 80,
@@ -78,12 +78,12 @@
       "constraints": [
         "Look for credible contradiction, qualification, or independent evidence"
       ],
-      "updatedAt": "2026-09-12T18:07:34.028Z"
+      "updatedAt": "2026-09-12T18:44:12.535Z"
     },
     {
-      "id": "8847cd72-5e08-4919-b858-a8ae14a0ef81",
-      "createdAt": "2026-09-12T18:07:32.507Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "6fa1080a-2f59-4b98-8561-11bcd12812ac",
+      "createdAt": "2026-09-12T18:44:10.963Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "objective": "Skeptic search: The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. contrary evidence independent data",
       "status": "COMPLETE",
       "priority": 80,
@@ -91,116 +91,131 @@
       "constraints": [
         "Look for credible contradiction, qualification, or independent evidence"
       ],
-      "updatedAt": "2026-09-12T18:07:37.938Z"
+      "updatedAt": "2026-09-12T18:44:16.322Z"
     },
     {
-      "id": "c9dad11b-4940-4c04-839a-c2f0010f8846",
-      "createdAt": "2026-09-12T18:07:32.514Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
-      "objective": "Skeptic search: Etiology of lung cancer: Evidence from epidemiologic studies contrary evidence independent data",
-      "status": "OPEN",
+      "id": "3083bda1-10f0-4ba4-ba59-754fb754d203",
+      "createdAt": "2026-09-12T18:44:10.967Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "objective": "Skeptic search: In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk.. contrary evidence independent data",
+      "status": "COMPLETE",
       "priority": 80,
       "assignedTo": "SKEPTIC",
       "constraints": [
         "Look for credible contradiction, qualification, or independent evidence"
       ],
-      "updatedAt": "2026-09-12T18:07:32.514Z"
+      "updatedAt": "2026-09-12T18:44:18.538Z"
+    },
+    {
+      "id": "b1f26645-b94e-4788-b419-95f93fcceaaf",
+      "createdAt": "2026-09-12T18:44:18.949Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "objective": "Find an independent source that directly tests this claim: The evidence base is being evaluated for this proposition: Does smoking cause lung cancer.",
+      "status": "COMPLETE",
+      "priority": 70,
+      "assignedTo": "FOLLOW_UP",
+      "parentTaskId": "75ba5816-80d8-47db-b08a-045c651e2eee",
+      "constraints": [
+        "Prefer an independent primary source",
+        "Record a short supporting or contradicting quote"
+      ],
+      "updatedAt": "2026-09-12T18:44:22.235Z"
     }
   ],
   "claims": [
     {
-      "id": "cbd30b2d-1a48-4a04-bf66-a747f967d12a",
-      "createdAt": "2026-09-12T18:07:32.079Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "f8ad251c-de18-4173-921a-826a09fad8b7",
+      "createdAt": "2026-09-12T18:44:10.786Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "text": "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer.",
-      "updatedAt": "2026-09-12T18:07:38.635Z",
+      "updatedAt": "2026-09-12T18:44:22.690Z",
       "isCentral": true,
       "extractionScore": 0,
-      "status": "UNCERTAIN",
-      "evidenceStrength": 7,
+      "status": "SUPPORTED",
+      "evidenceStrength": 51,
       "factors": {
-        "supportWeight": 0,
+        "supportWeight": 12,
         "contradictionWeight": 0,
-        "independentSupportGroups": 0,
+        "independentSupportGroups": 1,
         "independentContradictionGroups": 0,
-        "sourceQuality": 0,
-        "corroboration": 0,
-        "balance": 0,
-        "coverage": 0,
-        "qualificationAdjustment": 68
+        "sourceQuality": 36,
+        "corroboration": 33,
+        "balance": 100,
+        "coverage": 18,
+        "qualificationAdjustment": 89
       }
     },
     {
-      "id": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "createdAt": "2026-09-12T18:07:32.079Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
-      "text": "Etiology of lung cancer: Evidence from epidemiologic studies",
-      "updatedAt": "2026-09-12T18:07:38.635Z",
-      "originSourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-      "extractionScore": 100,
+      "id": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "createdAt": "2026-09-12T18:44:10.786Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "text": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
+      "updatedAt": "2026-09-12T18:44:22.690Z",
+      "originSourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+      "extractionScore": 91,
       "status": "MIXED",
-      "evidenceStrength": 33,
+      "evidenceStrength": 32,
       "factors": {
-        "supportWeight": 15,
-        "contradictionWeight": 16,
+        "supportWeight": 12,
+        "contradictionWeight": 17,
         "independentSupportGroups": 1,
         "independentContradictionGroups": 1,
-        "sourceQuality": 47,
+        "sourceQuality": 44,
         "corroboration": 33,
-        "balance": 4,
-        "coverage": 47,
-        "qualificationAdjustment": 25
+        "balance": 15,
+        "coverage": 44,
+        "qualificationAdjustment": 7
       }
     },
     {
-      "id": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "createdAt": "2026-09-12T18:07:32.079Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
-      "text": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-      "updatedAt": "2026-09-12T18:07:38.635Z",
-      "originSourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-      "extractionScore": 100,
+      "id": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "createdAt": "2026-09-12T18:44:10.786Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "text": "1 Tobacco use is the leading cause of lung cancer; 55% of lung cancer deaths in women and over 70% of lung cancer deaths in men are due to smoking.",
+      "updatedAt": "2026-09-12T18:44:22.690Z",
+      "originSourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+      "extractionScore": 84,
       "status": "MIXED",
-      "evidenceStrength": 52,
+      "evidenceStrength": 49,
       "factors": {
-        "supportWeight": 8,
-        "contradictionWeight": 33,
-        "independentSupportGroups": 1,
-        "independentContradictionGroups": 2,
-        "sourceQuality": 41,
+        "supportWeight": 29,
+        "contradictionWeight": 17,
+        "independentSupportGroups": 2,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 47,
         "corroboration": 67,
-        "balance": 61,
-        "coverage": 62,
-        "qualificationAdjustment": 10
+        "balance": 26,
+        "coverage": 70,
+        "qualificationAdjustment": 24
       }
     },
     {
-      "id": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "createdAt": "2026-09-12T18:07:32.079Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
-      "text": "We systematically searched PubMed and EMBASE for studies published between 1 January 1999 and 15 April 2016 that reported on the relationship between smoking and lung cancer in men and women from a general population.",
-      "updatedAt": "2026-09-12T18:07:38.635Z",
-      "originSourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-      "extractionScore": 51,
+      "id": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "createdAt": "2026-09-12T18:44:10.786Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "text": "Lung cancer is the leading cause of cancer death worldwide with 1.7 million global deaths attributed to cigarette smoking in 2015.",
+      "updatedAt": "2026-09-12T18:44:22.690Z",
+      "originSourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+      "extractionScore": 83,
       "status": "MIXED",
-      "evidenceStrength": 52,
+      "evidenceStrength": 48,
       "factors": {
-        "supportWeight": 8,
-        "contradictionWeight": 33,
-        "independentSupportGroups": 1,
-        "independentContradictionGroups": 2,
-        "sourceQuality": 41,
+        "supportWeight": 28,
+        "contradictionWeight": 17,
+        "independentSupportGroups": 2,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 45,
         "corroboration": 67,
-        "balance": 61,
-        "coverage": 62,
-        "qualificationAdjustment": 15
+        "balance": 25,
+        "coverage": 67,
+        "qualificationAdjustment": 26
       }
     }
   ],
   "sources": [
     {
-      "id": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-      "createdAt": "2026-09-12T18:07:28.347Z",
+      "id": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+      "createdAt": "2026-09-12T18:44:07.151Z",
       "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer",
       "canonicalUrl": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer",
       "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
@@ -313,20 +328,21 @@
         "https://www.youtube.com/channel/UC7snF15Idi7px6XujWe_h9A"
       ],
       "searchRole": "RESEARCHER",
-      "retrievedAt": "2026-09-12T18:07:28.347Z",
+      "retrievedAt": "2026-09-12T18:44:07.151Z",
       "retrievedBy": [
         "RESEARCHER",
         "SKEPTIC"
       ],
       "retrievalQueries": [
         "Does smoking cause lung cancer?",
-        "Does smoking cause lung cancer? counterevidence criticism limitations"
+        "Does smoking cause lung cancer? counterevidence criticism limitations",
+        "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk.. contrary evidence independent data"
       ],
-      "lastRetrievedAt": "2026-09-12T18:07:33.865Z"
+      "lastRetrievedAt": "2026-09-12T18:44:18.248Z"
     },
     {
-      "id": "39068524-0c22-4b92-9424-dbd8a036f27f",
-      "createdAt": "2026-09-12T18:07:28.823Z",
+      "id": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+      "createdAt": "2026-09-12T18:44:07.634Z",
       "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer",
       "canonicalUrl": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer",
       "title": "How does smoking cause lung cancer? Experts explain",
@@ -439,17 +455,20 @@
         "https://www.medicalnewstoday.com/articles/drugs-augtyro"
       ],
       "searchRole": "RESEARCHER",
-      "retrievedAt": "2026-09-12T18:07:28.823Z",
+      "retrievedAt": "2026-09-12T18:44:07.634Z",
       "retrievedBy": [
-        "RESEARCHER"
+        "RESEARCHER",
+        "SKEPTIC"
       ],
       "retrievalQueries": [
-        "Does smoking cause lung cancer?"
-      ]
+        "Does smoking cause lung cancer?",
+        "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk.. contrary evidence independent data"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:44:17.570Z"
     },
     {
-      "id": "7ae3b19a-a799-458e-9de8-014852ff0673",
-      "createdAt": "2026-09-12T18:07:29.143Z",
+      "id": "7014860d-8089-483f-8863-efa5c7e1bff7",
+      "createdAt": "2026-09-12T18:44:07.911Z",
       "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html",
       "canonicalUrl": "https://www.cdc.gov/lung-cancer/risk-factors/index.html",
       "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
@@ -536,7 +555,7 @@
         "https://usa.gov/"
       ],
       "searchRole": "RESEARCHER",
-      "retrievedAt": "2026-09-12T18:07:29.143Z",
+      "retrievedAt": "2026-09-12T18:44:07.911Z",
       "retrievedBy": [
         "RESEARCHER",
         "SKEPTIC"
@@ -545,13 +564,14 @@
         "Does smoking cause lung cancer?",
         "Does smoking cause lung cancer? independent evidence data study",
         "Does smoking cause lung cancer? limitations criticism analysis",
-        "Does smoking cause lung cancer? counterevidence criticism limitations"
+        "Does smoking cause lung cancer? counterevidence criticism limitations",
+        "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk.. contrary evidence independent data"
       ],
-      "lastRetrievedAt": "2026-09-12T18:07:33.340Z"
+      "lastRetrievedAt": "2026-09-12T18:44:18.519Z"
     },
     {
-      "id": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-      "createdAt": "2026-09-12T18:07:30.465Z",
+      "id": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+      "createdAt": "2026-09-12T18:44:09.266Z",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/",
       "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454",
       "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
@@ -664,7 +684,7 @@
         "https://pubmed.ncbi.nlm.nih.gov/22322343"
       ],
       "searchRole": "RESEARCHER",
-      "retrievedAt": "2026-09-12T18:07:30.464Z",
+      "retrievedAt": "2026-09-12T18:44:09.266Z",
       "retrievedBy": [
         "RESEARCHER"
       ],
@@ -672,33 +692,11 @@
         "Does smoking cause lung cancer? independent evidence data study",
         "Does smoking cause lung cancer? limitations criticism analysis"
       ],
-      "lastRetrievedAt": "2026-09-12T18:07:31.651Z"
+      "lastRetrievedAt": "2026-09-12T18:44:10.548Z"
     },
     {
-      "id": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-      "createdAt": "2026-09-12T18:07:30.646Z",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667",
-      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S2667005422000667",
-      "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-      "publisher": "sciencedirect.com",
-      "sourceType": "web",
-      "quality": 50,
-      "snippet": "",
-      "excerpt": "",
-      "searchRole": "RESEARCHER",
-      "retrievedAt": "2026-09-12T18:07:30.646Z",
-      "fetchError": "HTTP 403",
-      "links": [],
-      "retrievedBy": [
-        "RESEARCHER"
-      ],
-      "retrievalQueries": [
-        "Does smoking cause lung cancer? independent evidence data study"
-      ]
-    },
-    {
-      "id": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-      "createdAt": "2026-09-12T18:07:32.032Z",
+      "id": "2c4561bf-0a5a-431f-bd17-27fe2b476a14",
+      "createdAt": "2026-09-12T18:44:09.599Z",
       "url": "https://bmjopen.bmj.com/content/8/10/e021611",
       "canonicalUrl": "https://bmjopen.bmj.com/content/8/10/e021611",
       "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
@@ -708,19 +706,23 @@
       "snippet": "",
       "excerpt": "",
       "searchRole": "RESEARCHER",
-      "retrievedAt": "2026-09-12T18:07:32.032Z",
+      "retrievedAt": "2026-09-12T18:44:09.599Z",
       "fetchError": "HTTP 403",
       "links": [],
       "retrievedBy": [
-        "RESEARCHER"
+        "RESEARCHER",
+        "FOLLOW_UP"
       ],
       "retrievalQueries": [
-        "Does smoking cause lung cancer? limitations criticism analysis"
-      ]
+        "Does smoking cause lung cancer? independent evidence data study",
+        "Does smoking cause lung cancer? limitations criticism analysis",
+        "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. independent primary data"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:44:22.204Z"
     },
     {
-      "id": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
-      "createdAt": "2026-09-12T18:07:34.003Z",
+      "id": "939fc9c9-f031-4833-bf7e-4506b03f569c",
+      "createdAt": "2026-09-12T18:44:12.518Z",
       "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html",
       "canonicalUrl": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html",
       "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
@@ -831,7 +833,7 @@
         "https://usa.gov/"
       ],
       "searchRole": "SKEPTIC",
-      "retrievedAt": "2026-09-12T18:07:34.003Z",
+      "retrievedAt": "2026-09-12T18:44:12.518Z",
       "retrievedBy": [
         "SKEPTIC"
       ],
@@ -840,8 +842,8 @@
       ]
     },
     {
-      "id": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
-      "createdAt": "2026-09-12T18:07:36.468Z",
+      "id": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
+      "createdAt": "2026-09-12T18:44:14.880Z",
       "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/",
       "canonicalUrl": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer",
       "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
@@ -915,7 +917,7 @@
         "https://aapnews.aap.com.au/news/sea-of-red-for-miners-metals-as-aussie-market-slumps"
       ],
       "searchRole": "SKEPTIC",
-      "retrievedAt": "2026-09-12T18:07:36.468Z",
+      "retrievedAt": "2026-09-12T18:44:14.880Z",
       "retrievedBy": [
         "SKEPTIC"
       ],
@@ -924,117 +926,41 @@
       ]
     },
     {
-      "id": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-      "createdAt": "2026-09-12T18:07:37.145Z",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016/",
-      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016",
-      "title": "Explanation of observational data engenders a causal belief about smoking and cancer - PMC",
-      "publisher": "pmc.ncbi.nlm.nih.gov",
-      "sourceType": "government",
-      "quality": 90,
-      "sourceKind": "PRIMARY",
+      "id": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+      "createdAt": "2026-09-12T18:44:15.400Z",
+      "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer",
+      "canonicalUrl": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer",
+      "title": "Did smoking cause lung cancer? - Is There Consensus?",
+      "publisher": "isthereconsensus.org",
+      "publishedAt": "2026-04-01T23:52:29.327Z",
+      "sourceType": "web",
+      "quality": 70,
+      "sourceKind": "SECONDARY",
       "snippet": "",
-      "excerpt": "Most researchers do not deliberately claim causal results in an observational study. But do we lead our readers to draw a causal conclusion unintentionally by explaining why significant correlations and relationships may exist? Here we perform a ...",
+      "excerpt": "Yes. The causal link between cigarette smoking and lung cancer is one of the clearest historical examples of scientific consensus emerging against organized doubt.",
       "links": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016",
-        "https://www.ncbi.nlm.nih.gov/",
-        "https://www.ncbi.nlm.nih.gov/myncbi",
-        "https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography",
-        "https://www.ncbi.nlm.nih.gov/account/settings",
-        "https://pmc.ncbi.nlm.nih.gov/",
-        "https://pmc.ncbi.nlm.nih.gov/journals",
-        "https://pmc.ncbi.nlm.nih.gov/about/userguide",
-        "https://doi.org/10.7717/peerj.5597",
-        "https://pmc.ncbi.nlm.nih.gov/articles/pdf/peerj-06-5597.pdf",
-        "https://pmc.ncbi.nlm.nih.gov/about/disclaimer",
-        "https://pmc.ncbi.nlm.nih.gov/about/copyright",
-        "http://peerj.com/life-environment",
-        "https://pmc.ncbi.nlm.nih.gov/search?term=",
-        "https://pubmed.ncbi.nlm.nih.gov/?term=",
-        "https://www.ncbi.nlm.nih.gov/nlmcatalog?term=",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016?term=",
-        "http://creativecommons.org/licenses/by/4.0",
-        "https://pubmed.ncbi.nlm.nih.gov/30225177",
-        "https://pmc.ncbi.nlm.nih.gov/articles/table/table-1",
-        "https://pmc.ncbi.nlm.nih.gov/articles/table/table-2",
-        "https://pmc.ncbi.nlm.nih.gov/articles/table/table-3",
-        "https://pmc.ncbi.nlm.nih.gov/articles/table/table-4",
-        "https://pmc.ncbi.nlm.nih.gov/articles/instance/6139016/bin/peerj-06-5597-s001.docx",
-        "https://pmc.ncbi.nlm.nih.gov/articles/instance/6139016/bin/peerj-06-5597-s002.docx",
-        "https://pmc.ncbi.nlm.nih.gov/articles/instance/6139016/bin/peerj-06-5597-s003.docx",
-        "https://pmc.ncbi.nlm.nih.gov/articles/instance/6139016/bin/peerj-06-5597-s004.docx",
-        "https://pmc.ncbi.nlm.nih.gov/articles/instance/6139016/bin/peerj-06-5597-s005.docx",
-        "https://github.com/leekgroup/explanatory_language",
-        "https://doi.org/10.5944/openpraxis.8.3.282",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=RY+Bayeck&amp%3Bdoi=10.5944%2Fopenpraxis.8.3.282&amp%3Bpages=223-233&amp%3Bpublication_year=2016&amp%3Btitle=Exploratory+study+of+MOOC+learners%E2%80%99+demographics+and+motivation%3A+the+case+of+students+involved+in+groups&amp%3Bvolume=8&journal=Open+Praxis",
-        "https://doi.org/10.1126/science.229.4716.828",
-        "https://pubmed.ncbi.nlm.nih.gov/17777913",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=R+McGill&amp%3Bauthor=WS+Cleveland&amp%3Bdoi=10.1126%2Fscience.229.4716.828&amp%3Bpages=828-833&amp%3Bpmid=17777913&amp%3Bpublication_year=1985&amp%3Btitle=Graphical+perception+and+graphical+methods+for+analyzing+scientific+data&amp%3Bvolume=229&journal=Science",
-        "https://doi.org/10.1159/000322940",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3280017",
-        "https://pubmed.ncbi.nlm.nih.gov/21196788",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=DB+Allison&amp%3Bauthor=RV+Corona&amp%3Bauthor=SS+Cofield&amp%3Bdoi=10.1159%2F000322940&amp%3Bpages=353-356&amp%3Bpmid=21196788&amp%3Bpublication_year=2010&amp%3Btitle=Use+of+causal+language+in+observational+studies+of+obesity+and+nutrition&amp%3Bvolume=3&journal=Obesity+Facts",
-        "https://doi.org/10.3389/fpsyg.2017.01430",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5591454",
-        "https://pubmed.ncbi.nlm.nih.gov/28928679",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=J+Sprenger&amp%3Bauthor=L+Bucher&amp%3Bauthor=M+Colombo&amp%3Bdoi=10.3389%2Ffpsyg.2017.01430&amp%3Bpmid=28928679&amp%3Bpublication_year=2017&amp%3Btitle=Determinants+of+judgments+of+explanatory+power%3A+credibility%2C+generality%2C+and+statistical+relevance&amp%3Bvolume=8&journal=Frontiers+in+Psychology",
-        "https://doi.org/10.1093/aje/kwx259",
-        "https://pubmed.ncbi.nlm.nih.gov/28938712",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=S+Greenland&amp%3Bdoi=10.1093%2Faje%2Fkwx259&amp%3Bissue=6&amp%3Bpages=639-645&amp%3Bpmid=28938712&amp%3Bpublication_year=2017&amp%3Btitle=Invited+commentary%3A+the+need+for+cognitive+science+in+methodology&amp%3Bvolume=186&journal=American+Journal+of+Epidemiology",
-        "https://doi.org/10.1186/1742-7622-2-11",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1291382",
-        "https://pubmed.ncbi.nlm.nih.gov/16269083",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=M+H%C3%B6fler&amp%3Bdoi=10.1186%2F1742-7622-2-11&amp%3Bpmid=16269083&amp%3Bpublication_year=2005&amp%3Btitle=The+Bradford+Hill+considerations+on+causality%3A+a+counterfactual+perspective&amp%3Bvolume=2&journal=Emerging+Themes+in+Epidemiology",
-        "http://www.cbsnews.com/news/eating-lots-of-chocolate-helps-people-stay-thin-study-finds",
-        "https://doi.org/10.1126/science.aaa6146",
-        "https://pubmed.ncbi.nlm.nih.gov/25721505",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=JT+Leek&amp%3Bauthor=RD+Peng&amp%3Bdoi=10.1126%2Fscience.aaa6146&amp%3Bpages=1314-1315&amp%3Bpmid=25721505&amp%3Bpublication_year=2015&amp%3Btitle=Statistics.+What+is+the+question%3F&amp%3Bvolume=347&journal=Science",
-        "https://www.npr.org/sections/13.7/2017/06/12/532554252/the-dangers-of-hidden-jargon-in-communicating-science",
-        "https://www.mirror.co.uk/news/uk-news/junk-food-in-pregnancy-leaves-children-316010",
-        "https://doi.org/10.4161/derm.20449",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3427194",
-        "https://pubmed.ncbi.nlm.nih.gov/22928071",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=CA+Macera&amp%3Bauthor=CI+Kane&amp%3Bauthor=ED+Gorham&amp%3Bauthor=JE+Alcaraz&amp%3Bauthor=SB+Mohr&amp%3Bdoi=10.4161%2Fderm.20449&amp%3Bissue=2&amp%3Bpages=152-157&amp%3Bpmid=22928071&amp%3Bpublication_year=2012&amp%3Btitle=Does+the+evidence+for+an+inverse+relationship+between+serum+vitamin+D+status+and+breast+cancer+risk+satisfy+the+hill+criteria%3F&amp%3Bvolume=4&journal=Dermato-Endocrinology",
-        "https://doi.org/10.1101/066803",
-        "http://www.thehindu.com/sci-tech/health/medicine-and-research/drinking-too-much-tea-can-cause-prostate-cancer-study/article3547285.ece",
-        "https://doi.org/10.1056/NEJMsr1604338",
-        "https://pubmed.ncbi.nlm.nih.gov/27074377",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=DJ+Jamieson&amp%3Bauthor=LR+Petersen&amp%3Bauthor=MA+Honein&amp%3Bauthor=SA+Rasmussen&amp%3Bdoi=10.1056%2FNEJMsr1604338&amp%3Bissue=20&amp%3Bpages=1981-1987&amp%3Bpmid=27074377&amp%3Bpublication_year=2016&amp%3Btitle=Zika+virus+and+birth+defects%E2%80%94reviewing+the+evidence+for+causality&amp%3Bvolume=374&journal=The+New+England+Journal+of+Medicine",
-        "https://doi.org/10.1038/512131a",
-        "https://pubmed.ncbi.nlm.nih.gov/25119222",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=CR+Daniels&amp%3Bauthor=J+Golden&amp%3Bauthor=MW+Gillman&amp%3Bauthor=R+Kukla&amp%3Bauthor=SS+Richardson&amp%3Bdoi=10.1038%2F512131a&amp%3Bpages=131-132&amp%3Bpmid=25119222&amp%3Bpublication_year=2014&amp%3Btitle=Society%3A+don%E2%80%99t+blame+the+mothers&amp%3Bvolume=512&journal=Nature",
-        "https://doi.org/10.3102/0002831207302174",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=DH+Robinson&amp%3Bauthor=GD+Thomas&amp%3Bauthor=JR+Levin&amp%3Bauthor=KA+Pituch&amp%3Bauthor=S+Vaughn&amp%3Bdoi=10.3102%2F0002831207302174&amp%3Bpages=400-413&amp%3Bpublication_year=2007&amp%3Btitle=The+incidence+of+%E2%80%9Ccausal%E2%80%9D+statements+in+teaching-and-learning+research+journals&amp%3Bvolume=44&journal=American+Educational+Research+Journal",
-        "https://doi.org/10.1177/0956797616662271",
-        "https://pubmed.ncbi.nlm.nih.gov/27670662",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=N+Rabb&amp%3Bauthor=SA+Sloman&amp%3Bdoi=10.1177%2F0956797616662271&amp%3Bpages=1451-1460&amp%3Bpmid=27670662&amp%3Bpublication_year=2016&amp%3Btitle=Your+understanding+is+my+understanding%3A+evidence+for+a+community+of+knowledge&amp%3Bvolume=27&journal=Psychological+Science",
-        "https://doi.org/10.1136/bmj.g7015",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4262123",
-        "https://pubmed.ncbi.nlm.nih.gov/25498121",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3Bauthor=A+Williams&amp%3Bauthor=CA+Venetis&amp%3Bauthor=J+Boivin&amp%3Bauthor=P+Sumner&amp%3Bauthor=S+Vivian-Griffiths&amp%3Bdoi=10.1136%2Fbmj.g7015&amp%3Bpmid=25498121&amp%3Bpublication_year=2014&amp%3Btitle=The+association+between+exaggeration+in+health+related+science+news+and+academic+press+releases%3A+retrospective+observational+study&amp%3Bvolume=349&journal=BMJ",
-        "https://doi.org/10.1177/0959354317726876",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5606298",
-        "https://pubmed.ncbi.nlm.nih.gov/28989240",
-        "https://scholar.google.com/scholar_lookup?amp%3B=&amp%3B+Psychology=&amp%3Bauthor=A+Tellings&amp%3Bdoi=10.1177%2F0959354317726876&amp%3Bissue=5&amp%3Bpages=581-599&amp%3Bpmid=28989240&amp%3Bpublication_year=2017&amp%3Btitle=Evidence-based+practice+in+the+social+sciences%3F+A+scale+of+causality%2C+interventions%2C+and+possibilities+for+scientific+proof&amp%3Bvolume=27&journal=Theory+",
-        "https://twitter.com/ncbi",
-        "https://www.facebook.com/ncbi.nlm",
-        "https://www.linkedin.com/company/ncbinlm",
-        "https://github.com/ncbi",
-        "https://ncbiinsights.ncbi.nlm.nih.gov/",
-        "https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/%4038.9959508,%20%20%20%20%20%20%20%20%20%20%20%20-77.101021,17z/data%3D!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb%3A0x19156f88b27635b8!8m2!3d38.9959508!%20%20%20%20%20%20%20%20%20%20%20%204d-77.0988323",
-        "https://www.nlm.nih.gov/web_policies.html",
-        "https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office",
-        "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
-        "https://support.nlm.nih.gov/",
-        "https://www.nlm.nih.gov/accessibility.html",
-        "https://www.nlm.nih.gov/careers/careers.html",
-        "https://www.nlm.nih.gov/",
-        "https://www.nih.gov/",
-        "https://www.hhs.gov/",
-        "https://www.usa.gov/"
+        "https://isthereconsensus.org/",
+        "https://isthereconsensus.org/consensus",
+        "https://isthereconsensus.org/explainers",
+        "https://isthereconsensus.org/ask",
+        "https://isthereconsensus.org/library",
+        "https://isthereconsensus.org/consensus/historical-case-studies",
+        "https://isthereconsensus.org/ask?amp%3Bquestion=Did+smoking+cause+lung+cancer%3F&topic=historical-case-studies",
+        "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer",
+        "https://www.govinfo.gov/content/pkg/GPO-SMOKINGANDHEALTH/pdf/GPO-SMOKINGANDHEALTH.pdf",
+        "https://doi.org/10.1136/bmj.2.4682.739",
+        "https://isthereconsensus.org/api/topics/historical-case-studies/claims/did-smoking-cause-lung-cancer/citations?format=bibtex",
+        "https://isthereconsensus.org/api/topics/historical-case-studies/claims/did-smoking-cause-lung-cancer/citations?format=ris",
+        "https://isthereconsensus.org/api/topics/historical-case-studies/claims/did-smoking-cause-lung-cancer/citations?format=markdown",
+        "https://isthereconsensus.org/api/topics/historical-case-studies/claims/did-smoking-cause-lung-cancer/citations?format=json",
+        "https://isthereconsensus.org/standards",
+        "https://isthereconsensus.org/account",
+        "https://isthereconsensus.org/corrections",
+        "https://isthereconsensus.org/privacy",
+        "https://isthereconsensus.org/terms"
       ],
       "searchRole": "SKEPTIC",
-      "retrievedAt": "2026-09-12T18:07:37.145Z",
+      "retrievedAt": "2026-09-12T18:44:15.400Z",
       "retrievedBy": [
         "SKEPTIC"
       ],
@@ -1043,436 +969,452 @@
       ]
     },
     {
-      "id": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-      "createdAt": "2026-09-12T18:07:37.905Z",
-      "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer",
-      "canonicalUrl": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer",
-      "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-      "publisher": "dana-farber.org",
+      "id": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+      "createdAt": "2026-09-12T18:44:16.294Z",
+      "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+      "canonicalUrl": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+      "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+      "publisher": "linkedin.com",
       "sourceType": "analysis",
       "quality": 60,
       "sourceKind": "SECONDARY",
       "snippet": "",
-      "excerpt": "Geoffrey Oxnard, MD, a medical oncologist at Dana-Farber's Lowe Center for Thoracic Oncology, talks about the links between smoking and lung cancer, as well as why lung cancer also occurs in non-smokers.",
+      "excerpt": "A friend recently asked me a thought-provoking question: \"If smoking causes lung cancer, why is Rajinikanth, a famous smoker, still alive and hasn",
       "links": [
-        "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer",
-        "https://www.dana-farber.org/for-physicians/education-training",
-        "https://careers.dana-farber.org/",
-        "https://www.dana-farber.org/contact",
-        "https://danafarber.jimmyfund.org/site/Donation2?amp%3B2100.donation=form1&amp%3Bmfc_pref=T&df_id=2100",
-        "https://www.dana-farber.org/",
-        "https://www.dana-farber.org/find-a-doctor",
-        "https://www.dana-farber.org/appointments-second-opinions",
-        "https://www.dana-farber.org/locations",
-        "https://www.dana-farber.org/patient-portals",
-        "https://www.dana-farber.org/cancer-care",
-        "https://www.dana-farber.org/cancer-care/types",
-        "https://www.dana-farber.org/cancer-care/types?amp%3Bfq=sm_age%3A%22adult%22&rows=10",
-        "https://www.dana-farber.org/cancer-care/types?amp%3Bfq=sm_age%3A%22pediatric%22&rows=10",
-        "https://www.dana-farber.org/cancer-care/treatment",
-        "https://www.dana-farber.org/cancer-care/treatment/early-detection-interception",
-        "https://www.dana-farber.org/cancer-care/care-team",
-        "https://www.dana-farber.org/cancer-care/care-team/nursing",
-        "https://www.dana-farber.org/research/clinical-trials",
-        "https://www.dana-farber.org/patient-family",
-        "https://www.dana-farber.org/about/our-vision-for-the-future-of-cancer-care/about-our-collaboration-with-bidmc",
-        "https://www.dana-farber.org/patient-family/becoming-our-patient",
-        "https://www.dana-farber.org/patient-family/becoming-our-patient/insurance-financial-information",
-        "https://www.dana-farber.org/patient-family/becoming-our-patient/first-appointment",
-        "https://www.dana-farber.org/patient-family/becoming-our-patient/virtual-visits",
-        "https://www.dana-farber.org/patient-family/becoming-our-patient/practical-legal-matters",
-        "https://www.dana-farber.org/patient-family/becoming-our-patient/patient-communications",
-        "https://www.dana-farber.org/patient-family/planning-your-visit",
-        "https://www.dana-farber.org/patient-family/planning-your-visit/prescreening-mask-requirements",
-        "https://www.dana-farber.org/patient-family/planning-your-visit/outpatient-visitor-policy",
-        "https://www.dana-farber.org/patient-family/planning-your-visit/lodging",
-        "https://www.dana-farber.org/patient-family/planning-your-visit/dining",
-        "https://www.dana-farber.org/patient-family/international",
-        "https://www.dana-farber.org/patient-family/support-services",
-        "https://www.dana-farber.org/patient-family/safety-advocacy",
-        "https://www.dana-farber.org/patient-family/caregivers",
-        "https://www.dana-farber.org/patient-family/survivors",
-        "https://www.dana-farber.org/patient-family/cancer-prevention-risk",
-        "https://www.dana-farber.org/research",
-        "https://www.dana-farber.org/clinical-trials",
-        "https://www.dana-farber.org/research/departments-centers",
-        "https://www.dana-farber.org/research/integrative-research",
-        "https://www.dana-farber.org/research/labs",
-        "https://www.dana-farber.org/research/core-facilities",
-        "https://innovations.dana-farber.org/",
-        "https://www.dana-farber.org/research/featured",
-        "https://www.dana-farber.org/research/our-researchers",
-        "https://www.dana-farber.org/for-physicians",
-        "https://www.dana-farber.org/refer",
-        "https://www.dana-farber.org/transfer",
-        "https://www.dana-farber.org/for-physicians/education-training/continuing-medical-education",
-        "https://www.dana-farber.org/for-physicians/education-training/fellowships-training-programs",
-        "https://www.dana-farber.org/for-physicians/education-training/faculty-development",
-        "https://www.dana-farber.org/for-physicians/clinical-resources",
-        "https://www.dana-farber.org/for-physicians/clinical-resources/hematologic-malignancies",
-        "https://www.dana-farber.org/for-physicians/clinical-resources/stem-cell-transplant-and-cellular-therapies",
-        "https://physicianresources.dana-farber.org/",
-        "https://www.dana-farber.org/for-physicians/physician-gateway",
-        "https://www.dana-farber.org/how-you-can-help",
-        "https://www.jimmyfund.org/",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/make-a-memorial-or-tribute-gift",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/give-monthly",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/naming-funding-opportunities",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/tax-efficient-gifts",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/corporate-employee-giving",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/foundation-giving",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/create-your-own-fundraising-page",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/giving-societies",
-        "https://www.dana-farber.org/how-you-can-help/ways-to-give/giving-day",
-        "https://danafarber.jimmyfund.org/site/Donation2?amp%3B10522.donation=form1&amp%3Bmfc_pref=T&df_id=10522",
-        "https://danafarber.myplannedgift.org/",
-        "https://www.dana-farber.org/how-you-can-help/events",
-        "https://www.dana-farber.org/how-you-can-help/events/participate",
-        "https://www.dana-farber.org/how-you-can-help/events/support",
-        "https://www.dana-farber.org/how-you-can-help/events/organize",
-        "https://www.dana-farber.org/how-you-can-help/get-involved",
-        "https://www.dana-farber.org/how-you-can-help/get-involved/corporate-engagement",
-        "https://www.dana-farber.org/how-you-can-help/get-involved/volunteer",
-        "https://www.dana-farber.org/how-you-can-help/get-involved/friends-dana-farber-cancer-institute",
-        "https://www.dana-farber.org/how-you-can-help/get-involved/donate-blood-platelets",
-        "https://www.dana-farber.org/how-you-can-help/get-involved/donate-bone-marrow-stem-cells",
-        "https://www.dana-farber.org/how-you-can-help/get-involved/behind-the-breakthroughs",
-        "https://www.dana-farber.org/how-you-can-help/get-involved/legislative-action-network",
-        "https://www.dana-farber.org/how-you-can-help/shop",
-        "https://danafarber.jimmyfund.org/site/Donation2?amp%3B2100.donation=form1&amp%3Bmfc_pref=T&amp%3Bs_src=AGDFH110123&amp%3Bs_subsrc=AGDFH110123&amp%3Butm_campaign=AGDFH110123&amp%3Butm_medium=button&amp%3Butm_source=dfh&df_id=2100",
-        "https://www.dana-farber.org/about",
-        "https://www.dana-farber.org/about/why-dana-farber",
-        "https://www.dana-farber.org/about/mission-values",
-        "https://www.dana-farber.org/about/history",
-        "https://www.dana-farber.org/about/leadership",
-        "https://www.dana-farber.org/about/our-vision-for-the-future-of-cancer-care",
-        "https://www.dana-farber.org/about/partners-affiliates",
-        "https://www.dana-farber.org/about/collaborations",
-        "https://www.dana-farber.org/about/awards",
-        "https://www.dana-farber.org/newsroom",
-        "https://www.dana-farber.org/about/inclusion-engagement-access",
-        "https://www.dana-farber.org/about/quality-safety",
-        "https://www.dana-farber.org/community-health",
-        "https://www.dana-farber.org/global-health"
+        "https://www.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement",
+        "https://www.linkedin.com/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy",
+        "https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy",
+        "https://www.linkedin.com/uas/request-password-reset?trk=csm-v2_forgot_password",
+        "https://www.linkedin.com/signup/cold-join?session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc&trk=pulse-article_contextual-sign-in-modal_join-link",
+        "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/?trk=article-ssr-frontend-pulse_nav-header-logo",
+        "https://www.linkedin.com/top-content?trk=article-ssr-frontend-pulse_guest_nav_menu_topContent",
+        "https://www.linkedin.com/pub/dir/+/+?trk=article-ssr-frontend-pulse_guest_nav_menu_people",
+        "https://www.linkedin.com/learning/search?trk=article-ssr-frontend-pulse_guest_nav_menu_learning",
+        "https://www.linkedin.com/jobs/search?trk=article-ssr-frontend-pulse_guest_nav_menu_jobs",
+        "https://www.linkedin.com/games?trk=article-ssr-frontend-pulse_guest_nav_menu_games",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_nav-header-join&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/uas/login?amp%3BfromSignIn=true&amp%3Btrk=article-ssr-frontend-pulse_nav-header-signin&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/uas/login?amp%3B_f=guest-reporting&amp%3BguestReportContentType=PONCHO_ARTICLE&amp%3Btrk=article-ssr-frontend-pulse_ellipsis-menu-semaphore-sign-in-redirect&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://in.linkedin.com/in/draravindac",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_publisher-author-card&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/pulse/inflammation-next-frontier-prevention-treatment-julia-naesby-phd-ohrhe",
+        "https://www.linkedin.com/pulse/why-treg-therapies-could-make-broad-immunosuppression-glswf",
+        "https://www.linkedin.com/pulse/subtyping-predicting-treating-chronic-kidney-disease-finding-cxpqf",
+        "https://www.who.int/news-room/fact-sheets/detail/tobacco?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_x-social-details_like-toggle_like-cta&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_comment-cta&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_x-social-details_likes-count_social-actions-reactions&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_x-social-details_likes-count_social-actions-comments&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://in.linkedin.com/in/jeyaram-thirumalai-2b6792131?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment_actor-image",
+        "https://in.linkedin.com/in/jeyaram-thirumalai-2b6792131?trk=article-ssr-frontend-pulse_x-social-details_comments-action_comment_actor-name",
+        "https://www.linkedin.com/uas/login?amp%3B_f=guest-reporting&amp%3BguestReportContentType=COMMENT&amp%3Btrk=article-ssr-frontend-pulse_x-social-details_comments-action_comment_ellipsis-menu-semaphore-sign-in-redirect&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_x-social-details_comments-action_comment_like&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/signup/cold-join?amp%3Btrk=article-ssr-frontend-pulse_x-social-details_comments-action_comment_reply&session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "https://www.linkedin.com/signup/cold-join?session_redirect=%2Fpulse%2Fcopy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc&trk=article-ssr-frontend-pulse_x-social-details_feed-cta-banner-cta",
+        "https://www.linkedin.com/pulse/two-tongues-one-irony-how-indira-gandhis-language-each-chinnadurai-jaz7c",
+        "https://www.linkedin.com/pulse/beyond-stampede-mental-health-memory-infodemic-chinnadurai-o9lpc",
+        "https://www.linkedin.com/pulse/deontology-dilemma-dr-aravinda-chinnadurai-eftrc",
+        "https://www.linkedin.com/pulse/stray-dog-dilemma-compassion-versus-caution-dr-aravinda-chinnadurai-vs43c",
+        "https://www.linkedin.com/pulse/hivaids-patients-india-story-rights-dr-aravinda-chinnadurai-pzhmc",
+        "https://www.linkedin.com/pulse/study-exploring-ai-chatbots-improving-medical-review-chinnadurai-97bic",
+        "https://www.linkedin.com/pulse/navigating-ai-academia-why-balanced-approach-dr-aravinda-chinnadurai-ngqzc",
+        "https://www.linkedin.com/pulse/tamil-nadu-makes-snakebite-envenoming-notifiable-chinnadurai-u1exc",
+        "https://www.linkedin.com/pulse/beyond-judgments-transformative-tenure-cji-dy-common-mans-sw83c",
+        "https://www.linkedin.com/pulse/unmasking-hype-review-i-snake-oil-arvind-narayanan-chinnadurai-apwvc",
+        "https://in.linkedin.com/in/draravindac/recent-activity/articles",
+        "https://www.linkedin.com/pulse/transforming-point-of-care-testing-rapid-immunoassay-4p4vc",
+        "https://www.linkedin.com/pulse/helicobacter-pylori-global-prevalence-growing-role-stool-dzrhe",
+        "https://www.linkedin.com/pulse/how-prevent-cancer-med-sparkles-3en1f",
+        "https://www.linkedin.com/pulse/predict-prevent-right-prescription-tackling-chronic-disease-bradway",
+        "https://www.linkedin.com/pulse/breaking-ceiling-remodeling-inflammatory-network-next-gen-multispecific-hvzae",
+        "https://www.linkedin.com/pulse/why-were-making-same-mistake-we-did-ebola-our-race-find-lydia-ramsey",
+        "https://www.linkedin.com/pulse/beyond-detection-h-pylori-testing-todays-laboratory-workflow-nxxce",
+        "https://www.linkedin.com/pulse/esophageal-cancer-early-detection-can-save-lives-4satf",
+        "https://www.linkedin.com/pulse/covid-19-delta-variant-mutates-plus-california-fully-mishra-ph-d--1c",
+        "https://www.linkedin.com/pulse/cancer-parasites-what-ivermectin-mebendazole-federal-have-simon-mqj5c",
+        "https://www.linkedin.com/top-content/career",
+        "https://www.linkedin.com/top-content/productivity",
+        "https://www.linkedin.com/top-content/finance",
+        "https://www.linkedin.com/top-content/soft-skills-emotional-intelligence",
+        "https://www.linkedin.com/top-content/project-management",
+        "https://www.linkedin.com/top-content/education",
+        "https://www.linkedin.com/top-content/technology",
+        "https://www.linkedin.com/top-content/leadership",
+        "https://www.linkedin.com/top-content/ecommerce",
+        "https://www.linkedin.com/top-content/user-experience",
+        "https://www.linkedin.com/top-content/recruitment-hr",
+        "https://www.linkedin.com/top-content/customer-experience",
+        "https://www.linkedin.com/top-content/real-estate",
+        "https://www.linkedin.com/top-content/marketing",
+        "https://www.linkedin.com/top-content/sales",
+        "https://www.linkedin.com/top-content/retail-merchandising",
+        "https://www.linkedin.com/top-content/science",
+        "https://www.linkedin.com/top-content/supply-chain-management",
+        "https://www.linkedin.com/top-content/future-of-work",
+        "https://www.linkedin.com/top-content/consulting",
+        "https://www.linkedin.com/top-content/writing",
+        "https://www.linkedin.com/top-content/economics",
+        "https://www.linkedin.com/top-content/artificial-intelligence",
+        "https://www.linkedin.com/top-content/employee-experience",
+        "https://www.linkedin.com/top-content/workplace-trends",
+        "https://www.linkedin.com/top-content/fundraising",
+        "https://www.linkedin.com/top-content/networking",
+        "https://www.linkedin.com/top-content/corporate-social-responsibility",
+        "https://www.linkedin.com/top-content/negotiation",
+        "https://www.linkedin.com/top-content/communication",
+        "https://www.linkedin.com/top-content/engineering",
+        "https://www.linkedin.com/top-content/hospitality-tourism",
+        "https://www.linkedin.com/top-content/business-strategy",
+        "https://www.linkedin.com/top-content/change-management",
+        "https://www.linkedin.com/top-content/organizational-culture",
+        "https://www.linkedin.com/top-content/design",
+        "https://www.linkedin.com/top-content/innovation",
+        "https://www.linkedin.com/top-content/event-planning",
+        "https://www.linkedin.com/top-content/training-development",
+        "https://about.linkedin.com/?trk=d_flagship2_pulse_read_footer-about",
+        "https://www.linkedin.com/accessibility?trk=d_flagship2_pulse_read_footer-accessibility",
+        "https://www.linkedin.com/legal/user-agreement?trk=d_flagship2_pulse_read_footer-user-agreement",
+        "https://www.linkedin.com/legal/privacy-policy?trk=d_flagship2_pulse_read_footer-privacy-policy",
+        "https://www.linkedin.com/legal/california-privacy-disclosure?trk=d_flagship2_pulse_read_footer-california-privacy-rights-act",
+        "https://www.linkedin.com/legal/cookie-policy?trk=d_flagship2_pulse_read_footer-cookie-policy",
+        "https://www.linkedin.com/legal/copyright-policy?trk=d_flagship2_pulse_read_footer-copyright-policy",
+        "https://brand.linkedin.com/policies?trk=d_flagship2_pulse_read_footer-brand-policy",
+        "https://www.linkedin.com/psettings/guest-controls?trk=d_flagship2_pulse_read_footer-guest-controls"
       ],
       "searchRole": "SKEPTIC",
-      "retrievedAt": "2026-09-12T18:07:37.905Z",
+      "retrievedAt": "2026-09-12T18:44:16.294Z",
       "retrievedBy": [
         "SKEPTIC"
       ],
       "retrievalQueries": [
         "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. contrary evidence independent data"
+      ]
+    },
+    {
+      "id": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+      "createdAt": "2026-09-12T18:44:21.656Z",
+      "url": "https://www.nature.com/articles/s41416-022-01736-3",
+      "canonicalUrl": "https://www.nature.com/articles/s41416-022-01736-3",
+      "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+      "publisher": "nature.com",
+      "publishedAt": "2022-02-22T00:00:00.000Z",
+      "sourceType": "peer-reviewed",
+      "quality": 95,
+      "sourceKind": "PRIMARY",
+      "snippet": "",
+      "excerpt": "Genetic variation increases the risk of lung cancer, but the extent to which smoking amplifies this effect remains unknown. Therefore, we aimed to investigate the risk of lung cancer in people with different genetic risks and smoking habits. This prospective cohort study included 345,794 European ancestry participants from the UK Biobank and followed up for 7.2 [6.5–7.8] years. Overall, 26.2% of the participants were former smokers, and 9.8% were current smokers. During follow-up, 1687 (0.49%) participants developed lung cancer. High genetic risk and smoking were independently associated with an increased risk of incident lung cancer. Compared with never-smokers, HR per standard deviation of the PRS increase was 1.16 (95% CI, 1.11–1.22), and HR of heavy smokers (≥40 pack-years) was 17.89 (95% CI, 15.31–20.91). There were no significant interactions between the PRS and the smoking status ",
+      "links": [
+        "https://www.nature.com/articles/s41416-022-01736-3",
+        "https://pubads.g.doubleclick.net/gampad/jump?amp%3Bc=617895595&amp%3Bsz=728x90&amp%3Bt=pos%3Dtop%26type%3Darticle%26artid%3Ds41416-022-01736-3%26doi%3D10.1038%2Fs41416-022-01736-3%26subjmeta%3D1612%2C499%2C67%2C692%2C699%26kwrd%3DLung+cancer%2CRisk+factors&iu=%2F285%2Fbjc%2Farticle",
+        "https://www.nature.com/bjc",
+        "https://www.nature.com/siteindex",
+        "https://www.nature.com/saved-research",
+        "https://my-profile.springernature.com/",
+        "https://idp.nature.com/authorize/natureuser?client_id=",
+        "https://journal-alerts.springernature.com/subscribe?journal_id=",
+        "https://www.nature.com/bjc.rss",
+        "https://www.nature.com/",
+        "https://www.nature.com/bjc/articles?type=",
+        "https://www.nature.com/articles/s41416-022-01736-3.pdf",
+        "https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research",
+        "https://orcid.org/0000-0002-6537-6215",
+        "https://www.nature.com/articles/s41416-022-01736-3/save-research?_csrf=DE29gy9Jo8CnIUeeO7W-_5gY0ALaun9Q",
+        "https://www.nature.com/articles/s41416-022-01736-3/metrics",
+        "https://www.nature.com/articles/s41416-025-03330-9?fromPaywallRec=false",
+        "https://www.nature.com/articles/s41588-022-01035-w?fromPaywallRec=false",
+        "https://www.nature.com/articles/s41598-023-30962-9?fromPaywallRec=false",
+        "https://www.nature.com/subjects/lung-cancer",
+        "https://www.nature.com/subjects/risk-factors",
+        "https://www.nature.com/articles/s41416-022-01736-3/figures/1",
+        "https://www.nature.com/articles/s41416-022-01736-3/tables/1",
+        "https://www.nature.com/articles/s41416-022-01736-3/tables/2",
+        "https://www.nature.com/articles/s41416-022-01736-3/figures/2",
+        "https://www.nature.com/articles/s41416-022-01736-3/tables/3",
+        "https://www.nature.com/articles/s41416-022-01736-3/figures/3",
+        "https://www.nature.com/articles/s41416-022-01736-3/tables/4",
+        "https://www.ukbiobank.ac.uk/",
+        "https://doi.org/10.3322%2Fcaac.21492",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=30207593&cmd=Retrieve",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Bray%2CF&amp%3Bauthor=Ferlay%2CJ&amp%3Bauthor=Jemal%2CA&amp%3Bauthor=Siegel%2CRL&amp%3Bauthor=Soerjomataram%2CI&amp%3Bauthor=Torre%2CLA&amp%3Bdoi=10.3322%2Fcaac.21492&amp%3Bjournal=CA+Cancer+J+Clin&amp%3Bpages=394-424&amp%3Bpublication_year=2018&amp%3Btitle=Global+cancer+statistics+2018%3A+GLOBOCAN+estimates+of+incidence+and+mortality+worldwide+for+36+cancers+in+185+countries&amp%3Bvolume=68",
+        "https://doi.org/10.1016%2FS1470-2045%2803%2900960-4",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=12517539&cmd=Retrieve",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Bray%2CF&amp%3Bauthor=Parkin%2CDM&amp%3Bauthor=Tyczynski%2CJE&amp%3Bdoi=10.1016%2FS1470-2045%2803%2900960-4&amp%3Bjournal=Lancet+Oncol&amp%3Bpages=45-55&amp%3Bpublication_year=2003&amp%3Btitle=Lung+cancer+in+Europe+in+2000%3A+epidemiology%2C+prevention%2C+and+early+detection&amp%3Bvolume=4",
+        "https://doi.org/10.1056%2FNEJM200007133430201",
+        "https://www.nature.com/articles/cas-redirect/1:STN:280:DC%2BD3czjtFCiug%3D%3D",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=10891514&cmd=Retrieve",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Holm%2CNV&amp%3Bauthor=Iliadou%2CA&amp%3Bauthor=Kaprio%2CJ&amp%3Bauthor=Koskenvuo%2CM&amp%3Bauthor=Lichtenstein%2CP&amp%3Bauthor=Verkasalo%2CPK&amp%3Bdoi=10.1056%2FNEJM200007133430201&amp%3Bjournal=N.+Engl+J+Med&amp%3Bpages=78-85&amp%3Bpublication_year=2000&amp%3Btitle=Environmental+and+heritable+factors+in+the+causation+of+cancer%E2%80%94analyses+of+cohorts+of+twins+from+Sweden%2C+Denmark%2C+and+Finland&amp%3Bvolume=343",
+        "https://doi.org/10.1002%2Fijc.30447",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC28Xhs1eksL7P",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=27668986&cmd=Retrieve",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Chang%2CJ&amp%3Bauthor=Chen%2CH&amp%3Bauthor=Dai%2CJ&amp%3Bauthor=Shen%2CW&amp%3Bauthor=Wang%2CT&amp%3Bauthor=Wen%2CW&amp%3Bdoi=10.1002%2Fijc.30447&amp%3Bjournal=Int+J+Cancer&amp%3Bpages=329-36&amp%3Bpublication_year=2017&amp%3Btitle=Estimation+of+heritability+for+nine+common+cancers+using+data+from+genome-wide+association+studies+in+Chinese+population&amp%3Bvolume=140",
+        "https://doi.org/10.1093%2Fjnci%2Fdjv279",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=26464424&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806328",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC2sXhs1WjurjL",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Berndt%2CSI&amp%3Bauthor=Panagiotou%2CO&amp%3Bauthor=Sampson%2CJN&amp%3Bauthor=Wang%2CZ&amp%3Bauthor=Wheeler%2CWA&amp%3Bauthor=Yeager%2CM&amp%3Bdoi=10.1093%2Fjnci%2Fdjv279&amp%3Bjournal=J+Natl+Cancer+Inst&amp%3Bpublication_year=2015&amp%3Btitle=Analysis+of+heritability+and+shared+heritability+based+on+genome-wide+association+studies+for+thirteen+cancer+types&amp%3Bvolume=107",
+        "https://doi.org/10.1158%2F1055-9965.EPI-16-0794",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Amos%2CCI&amp%3Bauthor=Boss%C3%A9%2CY&amp%3Bdoi=10.1158%2F1055-9965.EPI-16-0794&amp%3Bjournal=Cancer+Epidemiol+Biomark+Prev&amp%3Bpages=363-79&amp%3Bpublication_year=2018&amp%3Btitle=A+decade+of+GWAS+results+in+lung+cancer&amp%3Bvolume=27",
+        "https://doi.org/10.1158%2F0008-5472.CAN-15-2980",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC28XhsVehtLvI",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=27197191&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5010493",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Chatterjee%2CN&amp%3Bauthor=Eeles%2CRA&amp%3Bauthor=Fehringer%2CG&amp%3Bauthor=Kraft%2CP&amp%3Bauthor=Pharoah%2CPD&amp%3Bauthor=Schumacher%2CFR&amp%3Bdoi=10.1158%2F0008-5472.CAN-15-2980&amp%3Bjournal=Cancer+Res&amp%3Bpages=5103-14&amp%3Bpublication_year=2016&amp%3Btitle=Cross-cancer+genome-wide+analysis+of+lung%2C+ovary%2C+breast%2C+prostate%2C+and+colorectal+cancer+reveals+novel+pleiotropic+associations&amp%3Bvolume=76",
+        "https://doi.org/10.1038%2Fng.3892",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC2sXpvFCmurY%3D",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=28604730&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5510465",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Carreras-Torres%2CR&amp%3Bauthor=Christiani%2CDC&amp%3Bauthor=Han%2CY&amp%3Bauthor=Hung%2CRJ&amp%3Bauthor=McKay%2CJD&amp%3Bauthor=Zong%2CX&amp%3Bdoi=10.1038%2Fng.3892&amp%3Bjournal=Nat+Genet&amp%3Bpages=1126-32&amp%3Bpublication_year=2017&amp%3Btitle=Large-scale+association+analysis+identifies+new+lung+cancer+susceptibility+loci+and+heterogeneity+in+genetic+susceptibility+across+histological+subtypes&amp%3Bvolume=49",
+        "https://doi.org/10.1016%2FS2213-2600%2819%2930144-4",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=31326317&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7015703",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Dai%2CJ&amp%3Bauthor=Lv%2CJ&amp%3Bauthor=Ma%2CH&amp%3Bauthor=Qin%2CN&amp%3Bauthor=Wang%2CY&amp%3Bauthor=Zhu%2CM&amp%3Bdoi=10.1016%2FS2213-2600%2819%2930144-4&amp%3Bjournal=Lancet+Respir+Med&amp%3Bpages=881-91&amp%3Bpublication_year=2019&amp%3Btitle=Identification+of+risk+loci+and+a+polygenic+risk+score+for+lung+cancer%3A+a+large-scale+prospective+cohort+study+in+Chinese+populations&amp%3Bvolume=7",
+        "https://doi.org/10.1038%2Fs41576-018-0018-x",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC1cXhtVSlu73K",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=29789686&cmd=Retrieve",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Topol%2CEJ&amp%3Bauthor=Torkamani%2CA&amp%3Bauthor=Wineinger%2CNE&amp%3Bdoi=10.1038%2Fs41576-018-0018-x&amp%3Bjournal=Nat+Rev+Genet&amp%3Bpages=581-90&amp%3Bpublication_year=2018&amp%3Btitle=The+personal+and+clinical+utility+of+polygenic+risk+scores&amp%3Bvolume=19",
+        "https://doi.org/10.1038%2Fng.572",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC3cXltFKlsro%3D",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=20418889&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612983",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Liu%2CJZ&amp%3Bauthor=Middleton%2CL&amp%3Bauthor=Muglia%2CP&amp%3Bauthor=Pillai%2CSG&amp%3Bauthor=Tozzi%2CF&amp%3Bauthor=Waterworth%2CDM&amp%3Bdoi=10.1038%2Fng.572&amp%3Bjournal=Nat+Genet&amp%3Bpages=436-40&amp%3Bpublication_year=2010&amp%3Btitle=Meta-analysis+and+imputation+refines+the+association+of+15q25+with+smoking+quantity&amp%3Bvolume=42",
+        "https://doi.org/10.1038%2Fnature06846",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BD1cXktFCgsbg%3D",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=18385739&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4539558",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Geller%2CF&amp%3Bauthor=Magnusson%2CKP&amp%3Bauthor=Rafnar%2CT&amp%3Bauthor=Sulem%2CP&amp%3Bauthor=Thorgeirsson%2CTE&amp%3Bauthor=Wiste%2CA&amp%3Bdoi=10.1038%2Fnature06846&amp%3Bjournal=Nature&amp%3Bpages=638-42&amp%3Bpublication_year=2008&amp%3Btitle=A+variant+associated+with+nicotine+dependence%2C+lung+cancer+and+peripheral+arterial+disease&amp%3Bvolume=452",
+        "https://doi.org/10.1038%2Fs41467-020-16483-3",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BB3cXhtlGmsrjJ",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=32620889&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC7335068",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Choudhury%2CPP&amp%3Bauthor=Easton%2CDF&amp%3Bauthor=Hurson%2CAN&amp%3Bauthor=Milne%2CRL&amp%3Bauthor=Zhang%2CH&amp%3Bauthor=Zhang%2CYD&amp%3Bdoi=10.1038%2Fs41467-020-16483-3&amp%3Bjournal=Nat+Commun&amp%3Bpublication_year=2020&amp%3Btitle=Assessment+of+polygenic+architecture+and+risk+prediction+based+on+common+variants+across+fourteen+cancers&amp%3Bvolume=11",
+        "https://doi.org/10.1097%2FJTO.0b013e3181c8cae3",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=20035239&cmd=Retrieve",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Horiuchi%2CT&amp%3Bauthor=Kiyohara%2CC&amp%3Bauthor=Nakanishi%2CY&amp%3Bauthor=Takayama%2CK&amp%3Bdoi=10.1097%2FJTO.0b013e3181c8cae3&amp%3Bjournal=J+Thorac+Oncol&amp%3Bpages=299-304&amp%3Bpublication_year=2010&amp%3Btitle=IL1B+rs1143634+polymorphism%2C+cigarette+smoking%2C+alcohol+use%2C+and+lung+cancer+risk+in+a+Japanese+population&amp%3Bvolume=5",
+        "https://doi.org/10.1371%2Fjournal.pmed.1001779",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=25826379&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4380465",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Allen%2CN&amp%3Bauthor=Beral%2CV&amp%3Bauthor=Burton%2CP&amp%3Bauthor=Danesh%2CJ&amp%3Bauthor=Gallacher%2CJ&amp%3Bauthor=Sudlow%2CC&amp%3Bdoi=10.1371%2Fjournal.pmed.1001779&amp%3Bjournal=PLoS+Med&amp%3Bpublication_year=2015&amp%3Btitle=UK+biobank%3A+an+open+access+resource+for+identifying+the+causes+of+a+wide+range+of+complex+diseases+of+middle+and+old+age&amp%3Bvolume=12",
+        "https://doi.org/10.1093%2Fnar%2Fgky1120",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BC1MXhs1GqtrvO",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=30445434&cmd=Retrieve",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Buniello%2CA&amp%3Bauthor=Cerezo%2CM&amp%3Bauthor=Harris%2CLW&amp%3Bauthor=Hayhurst%2CJ&amp%3Bauthor=MacArthur%2CJAL&amp%3Bauthor=Malangone%2CC&amp%3Bdoi=10.1093%2Fnar%2Fgky1120&amp%3Bjournal=Nucleic+Acids+Res&amp%3Bpages=D1005-d1012&amp%3Bpublication_year=2019&amp%3Btitle=The+NHGRI-EBI+GWAS+Catalog+of+published+genome-wide+association+studies%2C+targeted+arrays+and+summary+statistics+2019&amp%3Bvolume=47",
+        "https://doi.org/10.1158%2F0008-5472.CAN-09-0680",
+        "https://www.nature.com/articles/cas-redirect/1:CAS:528:DC%2BD1MXpvFejtb4%3D",
+        "http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?amp%3Bdb=PubMed&amp%3Bdopt=Abstract&amp%3Blist_uids=19654303&cmd=Retrieve",
+        "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2754318",
+        "http://scholar.google.com/scholar_lookup?amp%3Bauthor=Broderick%2CP&amp%3Bauthor=Eisen%2CT&amp%3Bauthor=Matakidou%2CA&amp%3Bauthor=Spitz%2CMR&amp%3Bauthor=Vijayakrishnan%2CJ&amp%3Bauthor=Wang%2CY&amp%3Bdoi=10.1158%2F0008-5472.CAN-09-0680&amp%3Bjournal=Cancer+Res&amp%3Bpages=6633-41&amp%3Bpublication_year=2009&amp%3Btitle=Deciphering+the+impact+of+common+genetic+variation+on+lung+cancer+risk%3A+a+genome-wide+association+study&amp%3Bvolume=69",
+        "https://doi.org/10.1093%2Fcarcin%2Fbgw070"
+      ],
+      "searchRole": "FOLLOW_UP",
+      "retrievedAt": "2026-09-12T18:44:21.656Z",
+      "retrievedBy": [
+        "FOLLOW_UP"
+      ],
+      "retrievalQueries": [
+        "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. independent primary data"
+      ]
+    },
+    {
+      "id": "109fe9f9-acd2-4855-a920-38fd6eb5f34e",
+      "createdAt": "2026-09-12T18:44:21.895Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667",
+      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S2667005422000667",
+      "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
+      "publisher": "sciencedirect.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "FOLLOW_UP",
+      "retrievedAt": "2026-09-12T18:44:21.895Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "FOLLOW_UP"
+      ],
+      "retrievalQueries": [
+        "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. independent primary data"
       ]
     }
   ],
   "evidenceEdges": [
     {
-      "id": "59dfe68e-592a-4d3b-a466-a8b293827d95",
-      "createdAt": "2026-09-12T18:07:32.104Z",
-      "claimId": "cbd30b2d-1a48-4a04-bf66-a747f967d12a",
-      "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-      "type": "QUALIFIES",
-      "quote": "Smoking is the number one risk factor for lung cancer.",
+      "id": "e9ace2cb-4aeb-4760-b4f9-1e6da1155a08",
+      "createdAt": "2026-09-12T18:44:10.797Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+      "type": "SUPPORTS",
+      "quote": "Along with lowering your risk of lung cancer, quitting smoking can improve many other aspects of your health.",
+      "confidence": 57,
+      "strength": 24,
+      "directness": 30,
+      "explanation": "The matched passage states a direct result or relationship relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "c63011a7-5b81-465d-9b99-2628cdfd1303",
+      "createdAt": "2026-09-12T18:44:10.803Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+      "type": "SUPPORTS",
+      "quote": "Cigarette smoking is the leading cause of preventable disease, disability, and death in America..",
+      "confidence": 55,
+      "strength": 19,
+      "directness": 24,
+      "explanation": "The matched passage states a direct result or relationship relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "c3f7bc29-6016-4089-9bc5-66e305aef42f",
+      "createdAt": "2026-09-12T18:44:10.809Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+      "type": "SUPPORTS",
+      "quote": "Cigarette smoking is the leading cause of preventable disease, disability, and death in America..",
+      "confidence": 52,
+      "strength": 14,
+      "directness": 17,
+      "explanation": "The matched passage states a direct result or relationship relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "20c9062a-c2d0-4d19-9bb2-2123feec29cd",
+      "createdAt": "2026-09-12T18:44:10.816Z",
+      "claimId": "f8ad251c-de18-4173-921a-826a09fad8b7",
+      "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+      "type": "SUPPORTS",
+      "quote": "Davis explains that stopping can decrease their risk..",
       "confidence": 55,
       "strength": 20,
       "directness": 25,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "explanation": "The matched passage states a direct result or relationship relevant to the claim.",
       "role": "RESEARCHER"
     },
     {
-      "id": "8d30d1a0-523f-4cfa-aaa6-7d842eb93a34",
-      "createdAt": "2026-09-12T18:07:32.114Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-      "type": "QUALIFIES",
-      "quote": "How does smoking increase your risk of lung cancer?",
-      "confidence": 49,
-      "strength": 6,
-      "directness": 7,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "d24acf3b-3782-441a-ad23-c2fc0ed6dab9",
-      "createdAt": "2026-09-12T18:07:32.136Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-      "type": "QUALIFIES",
-      "quote": "Smoking is the number one risk factor for lung cancer.",
-      "confidence": 59,
-      "strength": 28,
-      "directness": 35,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "52d7923a-1d06-4414-acd9-6ef977ee1554",
-      "createdAt": "2026-09-12T18:07:32.156Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-      "type": "QUALIFIES",
-      "quote": "A 2018 review of studies found that exposure to secondhand smoke significantly increases the risk of cancer for non-smokers, especially the risk of developing lung and breast cancer in women.",
-      "confidence": 53,
-      "strength": 16,
-      "directness": 20,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "a6b0a78f-3e04-4b7e-83f4-89781d6da608",
-      "createdAt": "2026-09-12T18:07:32.173Z",
-      "claimId": "cbd30b2d-1a48-4a04-bf66-a747f967d12a",
-      "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
-      "type": "QUALIFIES",
-      "quote": "Is sleep the missing piece in mental health?",
-      "confidence": 54,
-      "strength": 18,
-      "directness": 23,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "9bf3f376-4b66-411b-8efc-0f24a0d8a42d",
-      "createdAt": "2026-09-12T18:07:32.198Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
-      "type": "QUALIFIES",
-      "quote": "Aside from lung cancer, smoking has associations with an increased risk for at least 15 other types of cancer.",
-      "confidence": 50,
-      "strength": 10,
-      "directness": 13,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "00d5ed44-081e-4c99-af0e-80a38010d932",
-      "createdAt": "2026-09-12T18:07:32.216Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
+      "id": "94963645-3388-4c27-a5d8-ab7ed56ed49d",
+      "createdAt": "2026-09-12T18:44:10.825Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
       "type": "QUALIFIES",
       "quote": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
-      "confidence": 54,
-      "strength": 19,
-      "directness": 23,
+      "confidence": 63,
+      "strength": 37,
+      "directness": 46,
       "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
       "role": "RESEARCHER"
     },
     {
-      "id": "d297f0dc-7c0b-492a-b2d3-586fed219138",
-      "createdAt": "2026-09-12T18:07:32.226Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
+      "id": "522821a5-be2f-40a7-bf9e-6c58413c3bf5",
+      "createdAt": "2026-09-12T18:44:10.833Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
       "type": "QUALIFIES",
-      "quote": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
-      "confidence": 51,
-      "strength": 12,
-      "directness": 15,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "05e1015c-095f-4d31-bdb6-11a5a8695950",
-      "createdAt": "2026-09-12T18:07:32.229Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
-      "type": "QUALIFIES",
-      "quote": "The risk of lung cancer from radon exposure is higher for people who smoke than for people who don't smoke.",
+      "quote": "Smoking cigarettes is the number one risk factor for lung cancer, which relates to around 80% to 90% of lung cancer deaths in the United States..",
       "confidence": 55,
-      "strength": 10,
-      "directness": 13,
+      "strength": 21,
+      "directness": 26,
       "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
       "role": "RESEARCHER"
     },
     {
-      "id": "feac3dba-2b00-4933-b361-9e06d379f34b",
-      "createdAt": "2026-09-12T18:07:32.233Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+      "id": "a8da14f1-867e-4824-8f9d-ef6a72cad180",
+      "createdAt": "2026-09-12T18:44:10.840Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
       "type": "QUALIFIES",
-      "quote": "Cigarette smoking is the number one risk factor for lung cancer..",
-      "confidence": 58,
-      "strength": 17,
-      "directness": 22,
+      "quote": "Smoking cigarettes is the number one risk factor for lung cancer, which relates to around 80% to 90% of lung cancer deaths in the United States..",
+      "confidence": 55,
+      "strength": 21,
+      "directness": 26,
       "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
       "role": "RESEARCHER"
     },
     {
-      "id": "a1bf3662-a382-4e37-aa3d-3821ed3cc902",
-      "createdAt": "2026-09-12T18:07:32.237Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+      "id": "24987da9-bf54-4e62-b33f-4f88ad1e2c12",
+      "createdAt": "2026-09-12T18:44:10.844Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
       "type": "QUALIFIES",
-      "quote": "Radon is a naturally occurring gas that forms in rocks, soil, and water.",
-      "confidence": 53,
-      "strength": 7,
-      "directness": 9,
+      "quote": "This animated infographic shows the positive changes the body experiences over time after quitting smoking..",
+      "confidence": 59,
+      "strength": 19,
+      "directness": 24,
       "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
       "role": "RESEARCHER"
     },
     {
-      "id": "ad3d6633-5f83-4242-a607-6474a2a6a64e",
-      "createdAt": "2026-09-12T18:07:32.307Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+      "id": "42cdb28a-342b-48e8-90c2-e7d11de07612",
+      "createdAt": "2026-09-12T18:44:10.847Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
       "type": "QUALIFIES",
-      "quote": "Are male and female smokers at equal risk of smoking-related cancer: evidence from a Swedish prospective study.",
-      "confidence": 53,
-      "strength": 10,
-      "directness": 12,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "cb2136a2-4623-4a46-914e-ff92c72025c8",
-      "createdAt": "2026-09-12T18:07:32.377Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-      "type": "QUALIFIES",
-      "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis.",
-      "confidence": 65,
-      "strength": 35,
-      "directness": 44,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "507998d1-a4b6-499c-b8e7-0559708bbd25",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-      "type": "QUALIFIES",
-      "quote": "We systematically searched PubMed and EMBASE for studies published between 1 January 1999 and 15 April 2016 that reported on the relationship between smoking and lung cancer in men and women from a general population.",
-      "confidence": 72,
-      "strength": 51,
-      "directness": 64,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "49ac154a-ccc0-4c0e-a8e6-5955ae6a1751",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-      "type": "SUPPORTS",
-      "quote": "Etiology of lung cancer: Evidence from epidemiologic studies",
-      "confidence": 90,
-      "strength": 100,
-      "directness": 100,
-      "explanation": "The source contains language relevant to the claim.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "0ba8d243-97be-4a7a-bd73-025cbc14599e",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-      "type": "SUPPORTS",
-      "quote": "Etiology of lung cancer: Evidence from epidemiologic studies",
-      "confidence": 49,
-      "strength": 11,
-      "directness": 13,
-      "explanation": "The source contains language relevant to the claim.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "c9fb253f-8aab-455a-8dcf-cd8ee96ab978",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-      "type": "SUPPORTS",
-      "quote": "Etiology of lung cancer: Evidence from epidemiologic studies",
-      "confidence": 49,
-      "strength": 11,
-      "directness": 14,
-      "explanation": "The source contains language relevant to the claim.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "9e66a541-f636-4d59-b7a6-85ec39170fdf",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "cbd30b2d-1a48-4a04-bf66-a747f967d12a",
-      "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-      "type": "QUALIFIES",
-      "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-      "confidence": 52,
-      "strength": 17,
-      "directness": 22,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "cb3ab6cd-489d-40ac-9a6e-6d147e2a5516",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-      "type": "QUALIFIES",
-      "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-      "confidence": 49,
-      "strength": 11,
-      "directness": 13,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "70cb90f3-fb29-4c7a-bd91-fe6a4020b778",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-      "type": "QUALIFIES",
-      "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-      "confidence": 90,
-      "strength": 100,
-      "directness": 100,
-      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
-      "role": "RESEARCHER"
-    },
-    {
-      "id": "bc362760-26f6-4385-82df-adb93080cb20",
-      "createdAt": "2026-09-12T18:07:32.470Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-      "type": "QUALIFIES",
-      "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
+      "quote": "In the United States, cigarette smoking is linked to about 80% of lung cancer deaths.",
       "confidence": 56,
-      "strength": 26,
-      "directness": 32,
+      "strength": 13,
+      "directness": 16,
       "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
       "role": "RESEARCHER"
     },
     {
-      "id": "b87a7062-1ba1-489a-ab08-2f996afcf25b",
-      "createdAt": "2026-09-12T18:07:38.312Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+      "id": "995632a4-27f8-4e22-bcd6-23585d35e34f",
+      "createdAt": "2026-09-12T18:44:10.851Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
       "type": "QUALIFIES",
-      "quote": "Increases the risk of death, including death from cancer.",
-      "confidence": 57,
-      "strength": 9,
-      "directness": 11,
-      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
-      "role": "SKEPTIC"
+      "quote": "In the United States, cigarette smoking is linked to about 80% of lung cancer deaths.",
+      "confidence": 53,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
     },
     {
-      "id": "98a3cc40-be92-4b57-b5b6-351fca0c5bf5",
-      "createdAt": "2026-09-12T18:07:38.321Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+      "id": "9c2f2df0-8f14-489d-85fa-4c22b316ea5c",
+      "createdAt": "2026-09-12T18:44:10.882Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
       "type": "QUALIFIES",
-      "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
+      "quote": "The validity of self-reported smoking: a review and meta-analysis.",
+      "confidence": 56,
+      "strength": 15,
+      "directness": 19,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "a261dd77-8ba9-40d0-bd37-3aa98b2169f2",
+      "createdAt": "2026-09-12T18:44:10.912Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+      "type": "SUPPORTS",
+      "quote": "1 Tobacco use is the leading cause of lung cancer; 55% of lung cancer deaths in women and over 70% of lung cancer deaths in men are due to smoking.",
       "confidence": 58,
-      "strength": 12,
-      "directness": 14,
-      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
-      "role": "SKEPTIC"
+      "strength": 20,
+      "directness": 26,
+      "explanation": "The matched passage states a direct result or relationship relevant to the claim.",
+      "role": "RESEARCHER"
     },
     {
-      "id": "19421fef-1b0e-417d-ac23-482cc8cf3380",
-      "createdAt": "2026-09-12T18:07:38.335Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+      "id": "7c9b3a99-1e21-42bd-a0fb-ae6461eb984b",
+      "createdAt": "2026-09-12T18:44:10.941Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+      "type": "SUPPORTS",
+      "quote": "Lung cancer is the leading cause of cancer death worldwide with 1.7 million global deaths attributed to cigarette smoking in 2015.",
+      "confidence": 55,
+      "strength": 14,
+      "directness": 17,
+      "explanation": "The matched passage states a direct result or relationship relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "4eeffa10-8fce-4092-ab95-e36409be284e",
+      "createdAt": "2026-09-12T18:44:18.722Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
       "type": "QUALIFIES",
-      "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
+      "quote": "Smoking can cause cancer almost anywhere in the body.",
       "confidence": 60,
       "strength": 15,
       "directness": 18,
@@ -1480,64 +1422,38 @@
       "role": "SKEPTIC"
     },
     {
-      "id": "b0067b17-fe36-41a0-aa6f-c43ebd8b04fa",
-      "createdAt": "2026-09-12T18:07:38.339Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
-      "type": "CONTRADICTS",
-      "quote": "Smoking is the leading preventable cause of many illnesses including lung cancer.",
-      "confidence": 54,
-      "strength": 5,
-      "directness": 6,
-      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
+      "id": "f9b8c46c-e263-4152-90df-96761fe59cde",
+      "createdAt": "2026-09-12T18:44:18.728Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
+      "type": "QUALIFIES",
+      "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
+      "confidence": 63,
+      "strength": 23,
+      "directness": 28,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
       "role": "SKEPTIC"
     },
     {
-      "id": "46955717-aa9b-4e10-9560-511b5b23421a",
-      "createdAt": "2026-09-12T18:07:38.343Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
-      "type": "CONTRADICTS",
-      "quote": "\"There is convincing evidence that tobacco smoking strongly increases the risk of lung cancer in the Japanese population, with the relative risk for current smokers compared with never smokers measuring around 4.4 for men and 2.8 for women,\" the researchers conclude..",
-      "confidence": 55,
-      "strength": 6,
-      "directness": 7,
-      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
+      "id": "8852b6e0-6832-4c54-907c-62da2d2ce014",
+      "createdAt": "2026-09-12T18:44:18.734Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
+      "type": "QUALIFIES",
+      "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
+      "confidence": 59,
+      "strength": 12,
+      "directness": 15,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
       "role": "SKEPTIC"
     },
     {
-      "id": "c3774bc1-2606-46ad-8be6-7dc38c4f543f",
-      "createdAt": "2026-09-12T18:07:38.348Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
+      "id": "cc6808d7-1cc2-4cd7-a44c-dbe313acd522",
+      "createdAt": "2026-09-12T18:44:18.739Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
       "type": "CONTRADICTS",
-      "quote": "\"There is convincing evidence that tobacco smoking strongly increases the risk of lung cancer in the Japanese population, with the relative risk for current smokers compared with never smokers measuring around 4.4 for men and 2.8 for women,\" the researchers conclude..",
-      "confidence": 55,
-      "strength": 8,
-      "directness": 10,
-      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
-      "role": "SKEPTIC"
-    },
-    {
-      "id": "0ef26848-84de-4952-8274-57c568025abd",
-      "createdAt": "2026-09-12T18:07:38.391Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-      "type": "CONTRADICTS",
-      "quote": "Invited commentary: the need for cognitive science in methodology.",
-      "confidence": 56,
-      "strength": 10,
-      "directness": 13,
-      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
-      "role": "SKEPTIC"
-    },
-    {
-      "id": "e894403f-873b-42c6-8809-82fb35067fd0",
-      "createdAt": "2026-09-12T18:07:38.446Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-      "type": "CONTRADICTS",
-      "quote": "We claim that the smoking is related to lung cancer in the larger population..",
+      "quote": "A cancer expert told AAP FactCheck that asking how we know smoking causes lung cancer was like being asked how we know the Earth was round..",
       "confidence": 56,
       "strength": 9,
       "directness": 11,
@@ -1545,61 +1461,178 @@
       "role": "SKEPTIC"
     },
     {
-      "id": "68fce8c4-4cad-4660-a6eb-231e1b63a6b2",
-      "createdAt": "2026-09-12T18:07:38.454Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-      "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
+      "id": "05bee3b9-e30d-4b83-9554-f4b322da453b",
+      "createdAt": "2026-09-12T18:44:18.742Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
+      "type": "CONTRADICTS",
+      "quote": "Smoking is the leading preventable cause of many illnesses including lung cancer.",
+      "confidence": 58,
+      "strength": 13,
+      "directness": 16,
+      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "d62bfcbf-3cbf-4c0f-9fa5-0d2313673dbf",
+      "createdAt": "2026-09-12T18:44:18.745Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
+      "type": "CONTRADICTS",
+      "quote": "Smoking is the leading preventable cause of many illnesses including lung cancer.",
+      "confidence": 56,
+      "strength": 9,
+      "directness": 11,
+      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "f20ab4ee-4f77-4614-b8ad-d14d7cf91f6e",
+      "createdAt": "2026-09-12T18:44:18.747Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
       "type": "QUALIFIES",
-      "quote": "Each year, thousands of patients from around the world come to Dana-Farber for their cancer care.",
-      "confidence": 51,
-      "strength": 5,
-      "directness": 7,
+      "quote": "The smoking and lung-cancer record shows how consensus can harden over time despite organized campaigns to manufacture doubt.",
+      "confidence": 55,
+      "strength": 12,
+      "directness": 15,
       "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
       "role": "SKEPTIC"
     },
     {
-      "id": "8a4f2185-439e-4834-91ad-d509035cc69c",
-      "createdAt": "2026-09-12T18:07:38.461Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-      "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
+      "id": "73e68e6d-06e9-429e-a044-e7be2bd76f5a",
+      "createdAt": "2026-09-12T18:44:18.749Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
       "type": "QUALIFIES",
-      "quote": "MEGAN : If smoking is the #1 risk factor for lung cancer, how do you explain lung cancer in nonsmokers?.",
+      "quote": "Smoking and carcinoma of the lung; preliminary report.",
+      "confidence": 59,
+      "strength": 21,
+      "directness": 26,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "0b2b53b6-c38e-474d-af11-358d1468ba54",
+      "createdAt": "2026-09-12T18:44:18.751Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+      "type": "QUALIFIES",
+      "quote": "Smoking and carcinoma of the lung; preliminary report.",
+      "confidence": 59,
+      "strength": 21,
+      "directness": 26,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "8a612148-0254-46b6-99e7-84b980bab7b8",
+      "createdAt": "2026-09-12T18:44:18.754Z",
+      "claimId": "f8ad251c-de18-4173-921a-826a09fad8b7",
+      "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+      "type": "QUALIFIES",
+      "quote": "Smoking Increases the Risk of Lung Cancer: The Scientific Claim .",
+      "confidence": 56,
+      "strength": 18,
+      "directness": 22,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "ad6389b2-5d87-47c7-98c5-aa7c5b7da944",
+      "createdAt": "2026-09-12T18:44:18.757Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+      "type": "QUALIFIES",
+      "quote": "In contrast, lung cancer is a non-communicable disease .",
       "confidence": 58,
-      "strength": 22,
+      "strength": 21,
       "directness": 27,
       "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
       "role": "SKEPTIC"
     },
     {
-      "id": "10b15898-6081-47dd-bc6e-3f42d1501f25",
-      "createdAt": "2026-09-12T18:07:38.470Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-      "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
+      "id": "5c9f584d-03a8-42a4-a8d8-4a903bdcb70f",
+      "createdAt": "2026-09-12T18:44:18.761Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
       "type": "QUALIFIES",
-      "quote": "MEGAN : We know that smoking is the #1 risk factor for lung cancer.",
+      "quote": "This concept is primarily used in the context of communicable diseases (infectious diseases).",
       "confidence": 56,
-      "strength": 17,
-      "directness": 21,
+      "strength": 16,
+      "directness": 20,
       "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
       "role": "SKEPTIC"
+    },
+    {
+      "id": "de8c1b55-0edf-41eb-b5db-ee82eb4f639d",
+      "createdAt": "2026-09-12T18:44:18.765Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+      "type": "QUALIFIES",
+      "quote": "This concept is primarily used in the context of communicable diseases (infectious diseases).",
+      "confidence": 55,
+      "strength": 14,
+      "directness": 17,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "172310ec-bb3b-41d7-a2fa-d3d6a4c96b20",
+      "createdAt": "2026-09-12T18:44:22.506Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+      "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+      "type": "QUALIFIES",
+      "quote": "Therefore, this PRS may have better generalisations in other populations [ 38 ].",
+      "confidence": 56,
+      "strength": 8,
+      "directness": 9,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "FOLLOW_UP"
+    },
+    {
+      "id": "69b51e71-4376-49a0-908a-4d1d768a3321",
+      "createdAt": "2026-09-12T18:44:22.539Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+      "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+      "type": "QUALIFIES",
+      "quote": "Tobacco exposure is the leading cause of lung cancer, despite differences in the intensity of smoking and the type of cigarettes, and ~90% of lung cancers are attributed to smoking [ 2 ].",
+      "confidence": 56,
+      "strength": 8,
+      "directness": 10,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "FOLLOW_UP"
+    },
+    {
+      "id": "a301ec0c-c7ef-4ec7-b47c-a54035e5d865",
+      "createdAt": "2026-09-12T18:44:22.567Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+      "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+      "type": "QUALIFIES",
+      "quote": "Tobacco exposure is the leading cause of lung cancer, despite differences in the intensity of smoking and the type of cigarettes, and ~90% of lung cancers are attributed to smoking [ 2 ].",
+      "confidence": 56,
+      "strength": 9,
+      "directness": 11,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "FOLLOW_UP"
     }
   ],
   "sourceRelationships": [
     {
-      "id": "66e0d21c-96f5-5254-87b8-4de7ff10efb9",
-      "createdAt": "2026-09-12T18:07:38.583Z",
-      "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
-      "targetSourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+      "id": "47a56d70-665e-5c9e-b140-ca3e9f05ad5d",
+      "createdAt": "2026-09-12T18:44:18.860Z",
+      "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
+      "targetSourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
       "type": "CITES",
       "confidence": 94,
       "suspected": false,
       "basis": "explicit hyperlink found in retrieved page"
     },
     {
-      "id": "9b22c522-7290-5c29-a506-5f7443d111c5",
-      "createdAt": "2026-09-12T18:07:38.583Z",
-      "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
-      "targetSourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+      "id": "277f2d29-8017-5793-8ac7-7b5dc6b8fdb0",
+      "createdAt": "2026-09-12T18:44:18.860Z",
+      "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
+      "targetSourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
       "type": "DERIVED_FROM",
       "confidence": 72,
       "suspected": true,
@@ -1608,134 +1641,132 @@
   ],
   "adjudications": [
     {
-      "id": "b4935872-23f7-5e3d-977e-a4532959ffd3",
-      "createdAt": "2026-09-12T18:07:38.624Z",
-      "claimId": "cbd30b2d-1a48-4a04-bf66-a747f967d12a",
-      "status": "UNCERTAIN",
-      "evidenceStrength": 7,
+      "id": "7193c021-c93a-50f1-82b9-d08a9883282d",
+      "createdAt": "2026-09-12T18:44:22.686Z",
+      "claimId": "f8ad251c-de18-4173-921a-826a09fad8b7",
+      "status": "SUPPORTED",
+      "evidenceStrength": 51,
       "factors": {
-        "supportWeight": 0,
+        "supportWeight": 12,
         "contradictionWeight": 0,
-        "independentSupportGroups": 0,
+        "independentSupportGroups": 1,
         "independentContradictionGroups": 0,
-        "sourceQuality": 0,
-        "corroboration": 0,
-        "balance": 0,
-        "coverage": 0,
-        "qualificationAdjustment": 68
+        "sourceQuality": 36,
+        "corroboration": 33,
+        "balance": 100,
+        "coverage": 18,
+        "qualificationAdjustment": 89
       },
-      "supportingSourceIds": [],
+      "supportingSourceIds": [
+        "c3f7bc32-1475-493e-ac09-24d024c4c901"
+      ],
       "contradictingSourceIds": [],
       "qualifyingSourceIds": [
-        "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-        "39068524-0c22-4b92-9424-dbd8a036f27f",
-        "a7323a73-1ca1-491a-91ff-786e4d385e73"
+        "be62a00a-ce05-4366-9f0d-90531bd4321c"
       ]
     },
     {
-      "id": "0d38c415-234b-512f-85b2-d6e498e886fe",
-      "createdAt": "2026-09-12T18:07:38.624Z",
-      "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
+      "id": "0f457540-0404-578a-b315-370b43499f4a",
+      "createdAt": "2026-09-12T18:44:22.686Z",
+      "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
       "status": "MIXED",
-      "evidenceStrength": 33,
+      "evidenceStrength": 32,
       "factors": {
-        "supportWeight": 15,
-        "contradictionWeight": 16,
+        "supportWeight": 12,
+        "contradictionWeight": 17,
         "independentSupportGroups": 1,
         "independentContradictionGroups": 1,
-        "sourceQuality": 47,
+        "sourceQuality": 44,
         "corroboration": 33,
-        "balance": 4,
-        "coverage": 47,
-        "qualificationAdjustment": 25
+        "balance": 15,
+        "coverage": 44,
+        "qualificationAdjustment": 7
       },
       "supportingSourceIds": [
-        "4f2656ea-d4a5-4680-a08a-4628e7d10371"
+        "06d4ac08-e47d-44c6-ab8c-a204672c065b"
       ],
       "contradictingSourceIds": [
-        "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c"
+        "0589f1ab-eaaa-41c0-8040-c730f973ad92"
       ],
       "qualifyingSourceIds": [
-        "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-        "39068524-0c22-4b92-9424-dbd8a036f27f",
-        "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
-        "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-        "a7323a73-1ca1-491a-91ff-786e4d385e73",
-        "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7"
+        "c3f7bc32-1475-493e-ac09-24d024c4c901",
+        "939fc9c9-f031-4833-bf7e-4506b03f569c",
+        "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+        "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+        "be62a00a-ce05-4366-9f0d-90531bd4321c",
+        "608f8070-2457-4b2f-a15f-aa1a38917cd1"
       ]
     },
     {
-      "id": "f1be8bec-934a-526d-bfbf-dd28ae68c10b",
-      "createdAt": "2026-09-12T18:07:38.624Z",
-      "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
+      "id": "d05aa2a3-4620-5065-9661-6b9d1f9ff659",
+      "createdAt": "2026-09-12T18:44:22.686Z",
+      "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
       "status": "MIXED",
-      "evidenceStrength": 52,
+      "evidenceStrength": 49,
       "factors": {
-        "supportWeight": 8,
-        "contradictionWeight": 33,
-        "independentSupportGroups": 1,
-        "independentContradictionGroups": 2,
-        "sourceQuality": 41,
+        "supportWeight": 29,
+        "contradictionWeight": 17,
+        "independentSupportGroups": 2,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 47,
         "corroboration": 67,
-        "balance": 61,
-        "coverage": 62,
-        "qualificationAdjustment": 10
+        "balance": 26,
+        "coverage": 70,
+        "qualificationAdjustment": 24
       },
       "supportingSourceIds": [
-        "4f2656ea-d4a5-4680-a08a-4628e7d10371"
+        "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+        "0d11134a-e9a2-439e-8e7a-57ea462249f2"
       ],
       "contradictingSourceIds": [
-        "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
-        "23ce81ef-45b6-4b10-9e37-4a70e67fe024"
+        "0589f1ab-eaaa-41c0-8040-c730f973ad92"
       ],
       "qualifyingSourceIds": [
-        "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-        "39068524-0c22-4b92-9424-dbd8a036f27f",
-        "7ae3b19a-a799-458e-9de8-014852ff0673",
-        "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-        "a7323a73-1ca1-491a-91ff-786e4d385e73",
-        "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7"
+        "c3f7bc32-1475-493e-ac09-24d024c4c901",
+        "939fc9c9-f031-4833-bf7e-4506b03f569c",
+        "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+        "be62a00a-ce05-4366-9f0d-90531bd4321c",
+        "608f8070-2457-4b2f-a15f-aa1a38917cd1"
       ]
     },
     {
-      "id": "2f4439ba-89df-5eba-bd92-a16be52c93fc",
-      "createdAt": "2026-09-12T18:07:38.624Z",
-      "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
+      "id": "3df0a100-384d-51d1-8e12-3422e441cd54",
+      "createdAt": "2026-09-12T18:44:22.686Z",
+      "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
       "status": "MIXED",
-      "evidenceStrength": 52,
+      "evidenceStrength": 48,
       "factors": {
-        "supportWeight": 8,
-        "contradictionWeight": 33,
-        "independentSupportGroups": 1,
-        "independentContradictionGroups": 2,
-        "sourceQuality": 41,
+        "supportWeight": 28,
+        "contradictionWeight": 17,
+        "independentSupportGroups": 2,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 45,
         "corroboration": 67,
-        "balance": 61,
-        "coverage": 62,
-        "qualificationAdjustment": 15
+        "balance": 25,
+        "coverage": 67,
+        "qualificationAdjustment": 26
       },
       "supportingSourceIds": [
-        "4f2656ea-d4a5-4680-a08a-4628e7d10371"
+        "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+        "0d11134a-e9a2-439e-8e7a-57ea462249f2"
       ],
       "contradictingSourceIds": [
-        "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
-        "23ce81ef-45b6-4b10-9e37-4a70e67fe024"
+        "0589f1ab-eaaa-41c0-8040-c730f973ad92"
       ],
       "qualifyingSourceIds": [
-        "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-        "39068524-0c22-4b92-9424-dbd8a036f27f",
-        "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
-        "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-        "a7323a73-1ca1-491a-91ff-786e4d385e73",
-        "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7"
+        "c3f7bc32-1475-493e-ac09-24d024c4c901",
+        "939fc9c9-f031-4833-bf7e-4506b03f569c",
+        "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+        "be62a00a-ce05-4366-9f0d-90531bd4321c",
+        "608f8070-2457-4b2f-a15f-aa1a38917cd1"
       ]
     }
   ],
   "events": [
     {
-      "id": "da26dd71-90fb-432a-96bf-ca3c428a163a",
-      "timestamp": "2026-09-12T18:07:26.983Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "6b697243-e94a-44fe-9611-495d8e49b198",
+      "timestamp": "2026-09-12T18:44:05.911Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "planner",
       "payload": {
@@ -1745,9 +1776,9 @@
       }
     },
     {
-      "id": "3b322774-f8ca-4720-94e4-16cea685a101",
-      "timestamp": "2026-09-12T18:07:26.988Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "fdd26abf-3d41-494e-834b-5062f35dd0a3",
+      "timestamp": "2026-09-12T18:44:05.915Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "planner.completed",
       "actor": "planner",
       "payload": {
@@ -1755,9 +1786,9 @@
       }
     },
     {
-      "id": "60176c6e-4cff-4c3e-8586-842cfe275630",
-      "timestamp": "2026-09-12T18:07:26.990Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "5d289825-878d-4cca-bc94-59b7b8c63508",
+      "timestamp": "2026-09-12T18:44:05.917Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "researcher",
       "payload": {
@@ -1767,60 +1798,60 @@
       }
     },
     {
-      "id": "2960497d-db9f-4634-b492-5926f9b375d2",
-      "timestamp": "2026-09-12T18:07:26.993Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "8077f883-9a6b-45dc-87d0-252094f2c6ff",
+      "timestamp": "2026-09-12T18:44:05.920Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.started",
       "actor": "researcher",
       "payload": {
         "query": "Does smoking cause lung cancer?",
         "role": "RESEARCHER",
-        "taskId": "dde6954a-a3f9-4f72-8258-df3b638fdf68"
+        "taskId": "75ba5816-80d8-47db-b08a-045c651e2eee"
       }
     },
     {
-      "id": "2a825638-abe6-4d54-9814-c94e594f3e7e",
-      "timestamp": "2026-09-12T18:07:28.349Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "47789ef0-932d-4024-8d3e-cec7e25563f5",
+      "timestamp": "2026-09-12T18:44:07.155Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
+        "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
         "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
         "domain": "healthline.com",
         "role": "RESEARCHER"
       }
     },
     {
-      "id": "933ac80d-67ee-47ad-91fb-1d75e776ebd9",
-      "timestamp": "2026-09-12T18:07:28.826Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "04b9cc89-9edd-4ba5-9833-9e816e8e60d4",
+      "timestamp": "2026-09-12T18:44:07.638Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
+        "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
         "title": "How does smoking cause lung cancer? Experts explain",
         "domain": "medicalnewstoday.com",
         "role": "RESEARCHER"
       }
     },
     {
-      "id": "fa4c970e-b131-4293-bd69-2d6cdb695089",
-      "timestamp": "2026-09-12T18:07:29.146Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "1a682d03-a249-487e-b3e4-28701ec7f6ac",
+      "timestamp": "2026-09-12T18:44:07.914Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+        "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
         "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
         "domain": "cdc.gov",
         "role": "RESEARCHER"
       }
     },
     {
-      "id": "94f84788-e217-4f0f-a285-51b4937013a0",
-      "timestamp": "2026-09-12T18:07:29.166Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "4e9e2655-91fa-4c7f-8efe-d214c3f6b4c0",
+      "timestamp": "2026-09-12T18:44:07.935Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.completed",
       "actor": "researcher",
       "payload": {
@@ -1830,9 +1861,9 @@
       }
     },
     {
-      "id": "47307db8-8642-4491-a02d-6c640209c042",
-      "timestamp": "2026-09-12T18:07:29.170Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "ea9eb341-0d07-433a-9c57-f4217ba67bcd",
+      "timestamp": "2026-09-12T18:44:07.940Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "researcher",
       "payload": {
@@ -1842,61 +1873,61 @@
       }
     },
     {
-      "id": "fdcbde6b-b54c-45c9-bfb4-a1f629ff94de",
-      "timestamp": "2026-09-12T18:07:29.173Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "6299db37-563a-4ecd-a388-754cc11c76d5",
+      "timestamp": "2026-09-12T18:44:07.945Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.started",
       "actor": "researcher",
       "payload": {
         "query": "Does smoking cause lung cancer? independent evidence data study",
         "role": "RESEARCHER",
-        "taskId": "88c33419-438e-44f5-b4a6-3110b24adcfe"
+        "taskId": "a88b41b7-38de-4f83-9ea3-768e8de6a26a"
       }
     },
     {
-      "id": "f6d681b8-5093-48fd-bfc0-db4aa1dc3db0",
-      "timestamp": "2026-09-12T18:07:30.470Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "61cc6959-9234-4e0e-ac4b-2615c2b8c878",
+      "timestamp": "2026-09-12T18:44:09.270Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+        "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
         "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
         "domain": "pmc.ncbi.nlm.nih.gov",
         "role": "RESEARCHER"
       }
     },
     {
-      "id": "0aeb2fc5-1a23-4881-b2bb-e930eb389da5",
-      "timestamp": "2026-09-12T18:07:30.574Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "db6498a6-f56a-4a30-8c20-19fc5f2494c4",
+      "timestamp": "2026-09-12T18:44:09.367Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+        "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
         "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
         "domain": "cdc.gov",
         "role": "RESEARCHER"
       }
     },
     {
-      "id": "034ff39f-b3da-42c2-9cef-ef8eb3d6c594",
-      "timestamp": "2026-09-12T18:07:30.658Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "45427035-dfc7-46b5-8e81-1deea8ecfe78",
+      "timestamp": "2026-09-12T18:44:09.606Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-        "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-        "domain": "sciencedirect.com",
+        "sourceId": "2c4561bf-0a5a-431f-bd17-27fe2b476a14",
+        "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
+        "domain": "bmjopen.bmj.com",
         "role": "RESEARCHER",
         "fetchError": "HTTP 403"
       }
     },
     {
-      "id": "1abcb393-1d6b-471c-8c79-91d6d58c4001",
-      "timestamp": "2026-09-12T18:07:30.666Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "1d97bacd-8dc7-4fe6-a915-d7d0a36deef7",
+      "timestamp": "2026-09-12T18:44:09.627Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.completed",
       "actor": "researcher",
       "payload": {
@@ -1906,9 +1937,9 @@
       }
     },
     {
-      "id": "c88e1d8a-e366-439f-9640-3d177aef5c5c",
-      "timestamp": "2026-09-12T18:07:30.675Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "fb80eab0-8dae-4a91-ad4b-29e61bffcacd",
+      "timestamp": "2026-09-12T18:44:09.637Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "researcher",
       "payload": {
@@ -1918,51 +1949,51 @@
       }
     },
     {
-      "id": "73e1c920-61ad-4653-9fbb-1874a2e2bffa",
-      "timestamp": "2026-09-12T18:07:30.681Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "d9da0153-dd90-4ea5-8d4d-451f3615039d",
+      "timestamp": "2026-09-12T18:44:09.644Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.started",
       "actor": "researcher",
       "payload": {
         "query": "Does smoking cause lung cancer? limitations criticism analysis",
         "role": "RESEARCHER",
-        "taskId": "3a7bff05-6a97-47d4-8836-f237d59db090"
+        "taskId": "8699a64e-fd9b-45e2-a32b-c5a9aaf4c421"
       }
     },
     {
-      "id": "4f5721e7-ed1e-48f6-8111-71fa466c99f7",
-      "timestamp": "2026-09-12T18:07:31.655Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "87d1a30c-1cae-415a-bad2-8f1c8cbcc55d",
+      "timestamp": "2026-09-12T18:44:10.555Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+        "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
         "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
         "domain": "pmc.ncbi.nlm.nih.gov",
         "role": "RESEARCHER"
       }
     },
     {
-      "id": "4b859f6e-47c2-4345-982d-12454082bef4",
-      "timestamp": "2026-09-12T18:07:31.776Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "2c368c97-7fa4-4c81-b0cf-72f0d4b27505",
+      "timestamp": "2026-09-12T18:44:10.677Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+        "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
         "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
         "domain": "cdc.gov",
         "role": "RESEARCHER"
       }
     },
     {
-      "id": "f62cd64e-61c4-4daa-b8d5-8e51518612e8",
-      "timestamp": "2026-09-12T18:07:32.037Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "4cd9f98b-7898-4194-a71b-c96eb58d8f18",
+      "timestamp": "2026-09-12T18:44:10.733Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "researcher",
       "payload": {
-        "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
+        "sourceId": "2c4561bf-0a5a-431f-bd17-27fe2b476a14",
         "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
         "domain": "bmjopen.bmj.com",
         "role": "RESEARCHER",
@@ -1970,9 +2001,9 @@
       }
     },
     {
-      "id": "eed760ef-d315-44ca-9a55-b68ef43bda60",
-      "timestamp": "2026-09-12T18:07:32.043Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "8a0cdca4-9c43-4390-9eea-b1cd3b905bf3",
+      "timestamp": "2026-09-12T18:44:10.741Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.completed",
       "actor": "researcher",
       "payload": {
@@ -1982,21 +2013,21 @@
       }
     },
     {
-      "id": "cbc804dd-5244-4678-9d6a-36a50424a63f",
-      "timestamp": "2026-09-12T18:07:32.051Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "00d0c3d5-1bc1-4fdf-97a6-2175696eb403",
+      "timestamp": "2026-09-12T18:44:10.750Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "researcher",
       "payload": {
         "phase": "RESEARCHING",
         "percent": 35,
-        "message": "Researcher found 6 sources."
+        "message": "Researcher found 5 sources."
       }
     },
     {
-      "id": "76120a72-8ac9-4007-9559-1e93131f16b8",
-      "timestamp": "2026-09-12T18:07:32.057Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "17af98d4-c739-4d4f-904c-19c0fd0a7fcf",
+      "timestamp": "2026-09-12T18:44:10.759Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "claim-extractor",
       "payload": {
@@ -2006,9 +2037,9 @@
       }
     },
     {
-      "id": "88624df7-f72f-4aed-b97b-764afefbc5b4",
-      "timestamp": "2026-09-12T18:07:32.476Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "538aa590-f394-4ea2-8237-64c94b986780",
+      "timestamp": "2026-09-12T18:44:10.945Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "claims.extracted",
       "actor": "claim-extractor",
       "payload": {
@@ -2016,9 +2047,9 @@
       }
     },
     {
-      "id": "e8904454-5b0a-4b45-b26d-ea8a2305bce0",
-      "timestamp": "2026-09-12T18:07:32.491Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "3e88b0cd-06d4-4d7a-8fa6-3679ed496342",
+      "timestamp": "2026-09-12T18:44:10.953Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "skeptic",
       "payload": {
@@ -2028,60 +2059,60 @@
       }
     },
     {
-      "id": "5cfd0258-a291-4326-9699-e292b3ea9bbf",
-      "timestamp": "2026-09-12T18:07:32.529Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "8d405329-1370-4466-ac36-c8c15e7bbfb3",
+      "timestamp": "2026-09-12T18:44:10.976Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.started",
       "actor": "skeptic",
       "payload": {
         "query": "Does smoking cause lung cancer? counterevidence criticism limitations",
         "role": "SKEPTIC",
-        "taskId": "8779d4a5-5794-4e1e-8870-7b04b108a4f6"
+        "taskId": "806afcc7-9df0-491a-aa84-613a17b1aab5"
       }
     },
     {
-      "id": "521807d7-cde6-45b2-af34-ecad3962e922",
-      "timestamp": "2026-09-12T18:07:33.349Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "e92c5cc0-6160-40e7-b129-079dfb2ecab0",
+      "timestamp": "2026-09-12T18:44:11.875Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "skeptic",
       "payload": {
-        "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+        "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
         "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
         "domain": "cdc.gov",
         "role": "SKEPTIC"
       }
     },
     {
-      "id": "9889a8fe-a1a8-4ec2-baf0-3fc781b61ad7",
-      "timestamp": "2026-09-12T18:07:33.876Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "0c9c5e7d-1624-471a-8cbd-d2bbd1a41f7f",
+      "timestamp": "2026-09-12T18:44:12.408Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "skeptic",
       "payload": {
-        "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
+        "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
         "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
         "domain": "healthline.com",
         "role": "SKEPTIC"
       }
     },
     {
-      "id": "78bcfb77-7968-4df4-8efc-8175c800835d",
-      "timestamp": "2026-09-12T18:07:34.016Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "83bc4c5f-99a9-4e2e-ad40-7828c90a6303",
+      "timestamp": "2026-09-12T18:44:12.527Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "skeptic",
       "payload": {
-        "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+        "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
         "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
         "domain": "cdc.gov",
         "role": "SKEPTIC"
       }
     },
     {
-      "id": "23fb44e1-ef74-4e4c-8aab-7a64912a8b0f",
-      "timestamp": "2026-09-12T18:07:34.035Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "841a0eca-3fb0-40f3-9b15-83d3112f4210",
+      "timestamp": "2026-09-12T18:44:12.540Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.completed",
       "actor": "skeptic",
       "payload": {
@@ -2091,60 +2122,60 @@
       }
     },
     {
-      "id": "468d9737-a6b1-4185-bfc7-c441df1091db",
-      "timestamp": "2026-09-12T18:07:34.053Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "eda35ef9-5ce2-4da2-b4fe-515b85cbbdb7",
+      "timestamp": "2026-09-12T18:44:12.554Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.started",
       "actor": "skeptic",
       "payload": {
         "query": "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. contrary evidence independent data",
         "role": "SKEPTIC",
-        "taskId": "8847cd72-5e08-4919-b858-a8ae14a0ef81"
+        "taskId": "6fa1080a-2f59-4b98-8561-11bcd12812ac"
       }
     },
     {
-      "id": "0af98a6f-9d18-457c-85bf-452bf9a32928",
-      "timestamp": "2026-09-12T18:07:36.479Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "205c2b5f-7346-49dd-afce-8920f99713a8",
+      "timestamp": "2026-09-12T18:44:14.888Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "skeptic",
       "payload": {
-        "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
+        "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
         "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
         "domain": "aap.com.au",
         "role": "SKEPTIC"
       }
     },
     {
-      "id": "22930937-3984-459f-9fa9-d0515929b8b8",
-      "timestamp": "2026-09-12T18:07:37.155Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "3ddcf5fb-3478-4878-a321-ba0c9492e09c",
+      "timestamp": "2026-09-12T18:44:15.408Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "skeptic",
       "payload": {
-        "sourceId": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-        "title": "Explanation of observational data engenders a causal belief about smoking and cancer - PMC",
-        "domain": "pmc.ncbi.nlm.nih.gov",
+        "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+        "title": "Did smoking cause lung cancer? - Is There Consensus?",
+        "domain": "isthereconsensus.org",
         "role": "SKEPTIC"
       }
     },
     {
-      "id": "64207976-3809-4de8-9eca-59c4c11b6409",
-      "timestamp": "2026-09-12T18:07:37.921Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "936d0c71-5022-43b9-b914-8ee8b3ecf5bc",
+      "timestamp": "2026-09-12T18:44:16.302Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.source.found",
       "actor": "skeptic",
       "payload": {
-        "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-        "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-        "domain": "dana-farber.org",
+        "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+        "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+        "domain": "linkedin.com",
         "role": "SKEPTIC"
       }
     },
     {
-      "id": "37b143c8-9f6e-4a4e-827f-8586f4d875d4",
-      "timestamp": "2026-09-12T18:07:37.947Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "5f889944-6d66-47f1-81f5-ffc29534bb81",
+      "timestamp": "2026-09-12T18:44:16.326Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "research.search.completed",
       "actor": "skeptic",
       "payload": {
@@ -2154,20 +2185,83 @@
       }
     },
     {
-      "id": "f9a578fe-4142-45fa-a567-e0390aaa7227",
-      "timestamp": "2026-09-12T18:07:38.484Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "851e1024-47c7-4094-bcdc-37cfc5ac45dd",
+      "timestamp": "2026-09-12T18:44:16.338Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.search.started",
+      "actor": "skeptic",
+      "payload": {
+        "query": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk.. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "taskId": "3083bda1-10f0-4ba4-ba59-754fb754d203"
+      }
+    },
+    {
+      "id": "0911ecaa-2e2c-4026-9fd6-8bebde81dacc",
+      "timestamp": "2026-09-12T18:44:17.593Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+        "title": "How does smoking cause lung cancer? Experts explain",
+        "domain": "medicalnewstoday.com",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "54cc28df-477a-4a8a-a30b-805a9aae0e3f",
+      "timestamp": "2026-09-12T18:44:18.257Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+        "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
+        "domain": "healthline.com",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "7262044a-5759-4ba5-959d-c7a695f962d8",
+      "timestamp": "2026-09-12T18:44:18.528Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
+        "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
+        "domain": "cdc.gov",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "a9e6fdc6-a741-4517-bc8c-6eecd0f9afc3",
+      "timestamp": "2026-09-12T18:44:18.543Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.search.completed",
+      "actor": "skeptic",
+      "payload": {
+        "query": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk.. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "found": 3
+      }
+    },
+    {
+      "id": "27779c19-9e00-4fbd-a970-183e80298c8e",
+      "timestamp": "2026-09-12T18:44:18.773Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "skeptic.completed",
       "actor": "skeptic",
       "payload": {
         "searches": 3,
-        "newSourceCount": 6
+        "newSourceCount": 7
       }
     },
     {
-      "id": "465be59a-f76a-442d-bc99-5a4624f0e541",
-      "timestamp": "2026-09-12T18:07:38.506Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "b44d42c3-743d-458a-99e8-b43550046815",
+      "timestamp": "2026-09-12T18:44:18.798Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "independence-auditor",
       "payload": {
@@ -2177,9 +2271,9 @@
       }
     },
     {
-      "id": "fbc7e41f-7c3a-4f19-97dd-4aa67019ab38",
-      "timestamp": "2026-09-12T18:07:38.592Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "6a031807-9db2-4d69-8cef-8b6f60696281",
+      "timestamp": "2026-09-12T18:44:18.865Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "genealogy.completed",
       "actor": "independence-auditor",
       "payload": {
@@ -2187,9 +2281,9 @@
       }
     },
     {
-      "id": "f84db6a3-89df-43db-b3d7-8ced0a439bbc",
-      "timestamp": "2026-09-12T18:07:38.610Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "98f7ff53-b753-4f9f-818e-68e63cd2a99b",
+      "timestamp": "2026-09-12T18:44:18.883Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "adjudicator",
       "payload": {
@@ -2199,37 +2293,141 @@
       }
     },
     {
-      "id": "5605927b-9fbf-416e-a3e5-af352b62bf34",
-      "timestamp": "2026-09-12T18:07:38.643Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "e4365d65-33e1-487c-813c-0a9abe7cae36",
+      "timestamp": "2026-09-12T18:44:18.903Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "adjudication.completed",
       "actor": "adjudicator",
       "payload": {
         "counts": {
-          "SUPPORTED": 0,
+          "SUPPORTED": 1,
           "CONTRADICTED": 0,
           "MIXED": 3,
-          "UNCERTAIN": 1
+          "UNCERTAIN": 0
         },
         "claims": 4
       }
     },
     {
-      "id": "184555e5-feaf-4aa4-a741-86a1d6f7d79a",
-      "timestamp": "2026-09-12T18:07:38.671Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "0c2ed296-8af9-4413-9d5c-463e06d98468",
+      "timestamp": "2026-09-12T18:44:18.930Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "weakness-detector",
       "payload": {
         "phase": "FOLLOW_UP",
         "percent": 82,
-        "message": "No additional targeted search was needed within the research budget."
+        "message": "Weak points found. Launching targeted independent follow-up research."
       }
     },
     {
-      "id": "de5fba54-8d2c-46b8-bdd1-31c5287fa014",
-      "timestamp": "2026-09-12T18:07:38.695Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "3ed1d27d-130c-46d6-8c54-6d4bfad0f03b",
+      "timestamp": "2026-09-12T18:44:18.940Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "followup.triggered",
+      "actor": "weakness-detector",
+      "payload": {
+        "count": 1,
+        "reasons": [
+          "Initial evidence was weak for “The evidence base is being evaluated for this proposition: Does smoking cause lung cancer.”; ClaimLens searched for an independent primary source."
+        ]
+      }
+    },
+    {
+      "id": "ff7f21cd-b2b5-4b9a-b6c8-722049a518e4",
+      "timestamp": "2026-09-12T18:44:18.965Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.search.started",
+      "actor": "follow_up",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. independent primary data",
+        "role": "FOLLOW_UP",
+        "taskId": "b1f26645-b94e-4788-b419-95f93fcceaaf"
+      }
+    },
+    {
+      "id": "7980e26b-7305-4df8-96a0-2bcbf3727cc4",
+      "timestamp": "2026-09-12T18:44:21.673Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.source.found",
+      "actor": "follow_up",
+      "payload": {
+        "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+        "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+        "domain": "nature.com",
+        "role": "FOLLOW_UP"
+      }
+    },
+    {
+      "id": "0180fc2b-8edd-49ef-a4fb-6c34d636dc8e",
+      "timestamp": "2026-09-12T18:44:21.922Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.source.found",
+      "actor": "follow_up",
+      "payload": {
+        "sourceId": "109fe9f9-acd2-4855-a920-38fd6eb5f34e",
+        "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
+        "domain": "sciencedirect.com",
+        "role": "FOLLOW_UP",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "319eaa25-378c-4310-9fff-3683990f7bda",
+      "timestamp": "2026-09-12T18:44:22.219Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.source.found",
+      "actor": "follow_up",
+      "payload": {
+        "sourceId": "2c4561bf-0a5a-431f-bd17-27fe2b476a14",
+        "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
+        "domain": "bmjopen.bmj.com",
+        "role": "FOLLOW_UP",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "5363e9a4-c7a5-4ff8-9b64-edb9af114858",
+      "timestamp": "2026-09-12T18:44:22.245Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "research.search.completed",
+      "actor": "follow_up",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer. independent primary data",
+        "role": "FOLLOW_UP",
+        "found": 3
+      }
+    },
+    {
+      "id": "737b18e6-e7d2-4642-90bf-57d418cbabee",
+      "timestamp": "2026-09-12T18:44:22.671Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "genealogy.completed",
+      "actor": "independence-auditor",
+      "payload": {
+        "relationships": 2
+      }
+    },
+    {
+      "id": "e75ee1ab-60f4-4612-9b7e-69e883070514",
+      "timestamp": "2026-09-12T18:44:22.700Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "type": "adjudication.completed",
+      "actor": "adjudicator",
+      "payload": {
+        "counts": {
+          "SUPPORTED": 1,
+          "CONTRADICTED": 0,
+          "MIXED": 3,
+          "UNCERTAIN": 0
+        },
+        "claims": 4
+      }
+    },
+    {
+      "id": "63ff9047-6114-46a5-8bd0-dbeedc7953be",
+      "timestamp": "2026-09-12T18:44:22.727Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "agent.progress",
       "actor": "reporter",
       "payload": {
@@ -2239,15 +2437,15 @@
       }
     },
     {
-      "id": "2d426859-36f1-4e0c-b187-8bc4bd072951",
-      "timestamp": "2026-09-12T18:07:38.737Z",
-      "sessionId": "95a7895d-df95-40b4-876f-ad99c1252640",
+      "id": "0e4cd1a6-836b-4eef-a831-7e1b3f85d7f8",
+      "timestamp": "2026-09-12T18:44:22.775Z",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
       "type": "session.completed",
       "actor": "system",
       "payload": {
-        "sources": 10,
+        "sources": 11,
         "claims": 4,
-        "searchCalls": 5
+        "searchCalls": 7
       }
     }
   ],
@@ -2255,658 +2453,625 @@
     "title": "ClaimLens evidence report",
     "claims": [
       {
-        "claimId": "cbd30b2d-1a48-4a04-bf66-a747f967d12a",
+        "claimId": "f8ad251c-de18-4173-921a-826a09fad8b7",
         "text": "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer.",
-        "status": "UNCERTAIN",
-        "evidenceStrength": 7,
+        "status": "SUPPORTED",
+        "evidenceStrength": 51,
         "evidence": [
-          {
-            "type": "QUALIFIES",
-            "confidence": 55,
-            "quote": "Smoking is the number one risk factor for lung cancer.",
-            "citation": {
-              "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-              "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
-              "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 54,
-            "quote": "Is sleep the missing piece in mental health?",
-            "citation": {
-              "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
-              "title": "How does smoking cause lung cancer? Experts explain",
-              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 52,
-            "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-            "citation": {
-              "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-              "url": "https://bmjopen.bmj.com/content/8/10/e021611"
-            }
-          }
-        ]
-      },
-      {
-        "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-        "text": "Etiology of lung cancer: Evidence from epidemiologic studies",
-        "status": "MIXED",
-        "evidenceStrength": 33,
-        "evidence": [
-          {
-            "type": "QUALIFIES",
-            "confidence": 49,
-            "quote": "How does smoking increase your risk of lung cancer?",
-            "citation": {
-              "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-              "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
-              "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 50,
-            "quote": "Aside from lung cancer, smoking has associations with an increased risk for at least 15 other types of cancer.",
-            "citation": {
-              "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
-              "title": "How does smoking cause lung cancer? Experts explain",
-              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 55,
-            "quote": "The risk of lung cancer from radon exposure is higher for people who smoke than for people who don't smoke.",
-            "citation": {
-              "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
-              "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
-              "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 53,
-            "quote": "Are male and female smokers at equal risk of smoking-related cancer: evidence from a Swedish prospective study.",
-            "citation": {
-              "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
-            }
-          },
           {
             "type": "SUPPORTS",
-            "confidence": 90,
-            "quote": "Etiology of lung cancer: Evidence from epidemiologic studies",
+            "confidence": 55,
+            "quote": "Davis explains that stopping can decrease their risk..",
             "citation": {
-              "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-              "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-              "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667"
+              "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+              "title": "How does smoking cause lung cancer? Experts explain",
+              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
             }
           },
           {
             "type": "QUALIFIES",
-            "confidence": 49,
-            "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
+            "confidence": 56,
+            "quote": "Smoking Increases the Risk of Lung Cancer: The Scientific Claim .",
             "citation": {
-              "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-              "url": "https://bmjopen.bmj.com/content/8/10/e021611"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 57,
-            "quote": "Increases the risk of death, including death from cancer.",
-            "citation": {
-              "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
-              "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
-              "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
-            }
-          },
-          {
-            "type": "CONTRADICTS",
-            "confidence": 54,
-            "quote": "Smoking is the leading preventable cause of many illnesses including lung cancer.",
-            "citation": {
-              "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
-              "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
-              "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 51,
-            "quote": "Each year, thousands of patients from around the world come to Dana-Farber for their cancer care.",
-            "citation": {
-              "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-              "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-              "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer"
+              "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+              "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+              "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
             }
           }
         ]
       },
       {
-        "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-        "text": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
+        "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+        "text": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
         "status": "MIXED",
-        "evidenceStrength": 52,
+        "evidenceStrength": 32,
         "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 57,
+            "quote": "Along with lowering your risk of lung cancer, quitting smoking can improve many other aspects of your health.",
+            "citation": {
+              "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+              "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
+              "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 63,
+            "quote": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
+            "citation": {
+              "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+              "title": "How does smoking cause lung cancer? Experts explain",
+              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
+            }
+          },
           {
             "type": "QUALIFIES",
             "confidence": 59,
-            "quote": "Smoking is the number one risk factor for lung cancer.",
+            "quote": "This animated infographic shows the positive changes the body experiences over time after quitting smoking..",
             "citation": {
-              "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-              "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
-              "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 54,
-            "quote": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
-            "citation": {
-              "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
-              "title": "How does smoking cause lung cancer? Experts explain",
-              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 58,
-            "quote": "Cigarette smoking is the number one risk factor for lung cancer..",
-            "citation": {
-              "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+              "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
               "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
               "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
             }
           },
           {
             "type": "QUALIFIES",
-            "confidence": 65,
-            "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis.",
+            "confidence": 56,
+            "quote": "The validity of self-reported smoking: a review and meta-analysis.",
             "citation": {
-              "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+              "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
               "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
               "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
-            }
-          },
-          {
-            "type": "SUPPORTS",
-            "confidence": 49,
-            "quote": "Etiology of lung cancer: Evidence from epidemiologic studies",
-            "citation": {
-              "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-              "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-              "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 90,
-            "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-            "citation": {
-              "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-              "url": "https://bmjopen.bmj.com/content/8/10/e021611"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 58,
-            "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
-            "citation": {
-              "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
-              "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
-              "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
-            }
-          },
-          {
-            "type": "CONTRADICTS",
-            "confidence": 55,
-            "quote": "\"There is convincing evidence that tobacco smoking strongly increases the risk of lung cancer in the Japanese population, with the relative risk for current smokers compared with never smokers measuring around 4.4 for men and 2.8 for women,\" the researchers conclude..",
-            "citation": {
-              "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
-              "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
-              "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
-            }
-          },
-          {
-            "type": "CONTRADICTS",
-            "confidence": 56,
-            "quote": "Invited commentary: the need for cognitive science in methodology.",
-            "citation": {
-              "sourceId": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-              "title": "Explanation of observational data engenders a causal belief about smoking and cancer - PMC",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016/"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 58,
-            "quote": "MEGAN : If smoking is the #1 risk factor for lung cancer, how do you explain lung cancer in nonsmokers?.",
-            "citation": {
-              "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-              "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-              "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer"
-            }
-          }
-        ]
-      },
-      {
-        "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-        "text": "We systematically searched PubMed and EMBASE for studies published between 1 January 1999 and 15 April 2016 that reported on the relationship between smoking and lung cancer in men and women from a general population.",
-        "status": "MIXED",
-        "evidenceStrength": 52,
-        "evidence": [
-          {
-            "type": "QUALIFIES",
-            "confidence": 53,
-            "quote": "A 2018 review of studies found that exposure to secondhand smoke significantly increases the risk of cancer for non-smokers, especially the risk of developing lung and breast cancer in women.",
-            "citation": {
-              "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-              "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
-              "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 51,
-            "quote": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
-            "citation": {
-              "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
-              "title": "How does smoking cause lung cancer? Experts explain",
-              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 53,
-            "quote": "Radon is a naturally occurring gas that forms in rocks, soil, and water.",
-            "citation": {
-              "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
-              "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
-              "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 72,
-            "quote": "We systematically searched PubMed and EMBASE for studies published between 1 January 1999 and 15 April 2016 that reported on the relationship between smoking and lung cancer in men and women from a general population.",
-            "citation": {
-              "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
-              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
-            }
-          },
-          {
-            "type": "SUPPORTS",
-            "confidence": 49,
-            "quote": "Etiology of lung cancer: Evidence from epidemiologic studies",
-            "citation": {
-              "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-              "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-              "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667"
-            }
-          },
-          {
-            "type": "QUALIFIES",
-            "confidence": 56,
-            "quote": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-            "citation": {
-              "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-              "url": "https://bmjopen.bmj.com/content/8/10/e021611"
             }
           },
           {
             "type": "QUALIFIES",
             "confidence": 60,
-            "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
+            "quote": "Smoking can cause cancer almost anywhere in the body.",
             "citation": {
-              "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+              "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
               "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
               "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
             }
           },
           {
             "type": "CONTRADICTS",
-            "confidence": 55,
-            "quote": "\"There is convincing evidence that tobacco smoking strongly increases the risk of lung cancer in the Japanese population, with the relative risk for current smokers compared with never smokers measuring around 4.4 for men and 2.8 for women,\" the researchers conclude..",
+            "confidence": 56,
+            "quote": "A cancer expert told AAP FactCheck that asking how we know smoking causes lung cancer was like being asked how we know the Earth was round..",
             "citation": {
-              "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
+              "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
               "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
               "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
             }
           },
           {
-            "type": "CONTRADICTS",
-            "confidence": 56,
-            "quote": "We claim that the smoking is related to lung cancer in the larger population..",
+            "type": "QUALIFIES",
+            "confidence": 55,
+            "quote": "The smoking and lung-cancer record shows how consensus can harden over time despite organized campaigns to manufacture doubt.",
             "citation": {
-              "sourceId": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-              "title": "Explanation of observational data engenders a causal belief about smoking and cancer - PMC",
-              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016/"
+              "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+              "title": "Did smoking cause lung cancer? - Is There Consensus?",
+              "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 58,
+            "quote": "In contrast, lung cancer is a non-communicable disease .",
+            "citation": {
+              "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+              "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+              "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
             }
           },
           {
             "type": "QUALIFIES",
             "confidence": 56,
-            "quote": "MEGAN : We know that smoking is the #1 risk factor for lung cancer.",
+            "quote": "Therefore, this PRS may have better generalisations in other populations [ 38 ].",
             "citation": {
-              "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-              "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-              "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer"
+              "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+              "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+              "url": "https://www.nature.com/articles/s41416-022-01736-3"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+        "text": "1 Tobacco use is the leading cause of lung cancer; 55% of lung cancer deaths in women and over 70% of lung cancer deaths in men are due to smoking.",
+        "status": "MIXED",
+        "evidenceStrength": 49,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 55,
+            "quote": "Cigarette smoking is the leading cause of preventable disease, disability, and death in America..",
+            "citation": {
+              "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+              "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
+              "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 55,
+            "quote": "Smoking cigarettes is the number one risk factor for lung cancer, which relates to around 80% to 90% of lung cancer deaths in the United States..",
+            "citation": {
+              "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+              "title": "How does smoking cause lung cancer? Experts explain",
+              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 56,
+            "quote": "In the United States, cigarette smoking is linked to about 80% of lung cancer deaths.",
+            "citation": {
+              "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
+              "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
+              "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 58,
+            "quote": "1 Tobacco use is the leading cause of lung cancer; 55% of lung cancer deaths in women and over 70% of lung cancer deaths in men are due to smoking.",
+            "citation": {
+              "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 63,
+            "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
+            "citation": {
+              "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
+              "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
+              "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
+            }
+          },
+          {
+            "type": "CONTRADICTS",
+            "confidence": 58,
+            "quote": "Smoking is the leading preventable cause of many illnesses including lung cancer.",
+            "citation": {
+              "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
+              "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
+              "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 59,
+            "quote": "Smoking and carcinoma of the lung; preliminary report.",
+            "citation": {
+              "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+              "title": "Did smoking cause lung cancer? - Is There Consensus?",
+              "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 56,
+            "quote": "This concept is primarily used in the context of communicable diseases (infectious diseases).",
+            "citation": {
+              "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+              "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+              "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 56,
+            "quote": "Tobacco exposure is the leading cause of lung cancer, despite differences in the intensity of smoking and the type of cigarettes, and ~90% of lung cancers are attributed to smoking [ 2 ].",
+            "citation": {
+              "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+              "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+              "url": "https://www.nature.com/articles/s41416-022-01736-3"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+        "text": "Lung cancer is the leading cause of cancer death worldwide with 1.7 million global deaths attributed to cigarette smoking in 2015.",
+        "status": "MIXED",
+        "evidenceStrength": 48,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 52,
+            "quote": "Cigarette smoking is the leading cause of preventable disease, disability, and death in America..",
+            "citation": {
+              "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
+              "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
+              "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 55,
+            "quote": "Smoking cigarettes is the number one risk factor for lung cancer, which relates to around 80% to 90% of lung cancer deaths in the United States..",
+            "citation": {
+              "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
+              "title": "How does smoking cause lung cancer? Experts explain",
+              "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 53,
+            "quote": "In the United States, cigarette smoking is linked to about 80% of lung cancer deaths.",
+            "citation": {
+              "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
+              "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
+              "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 55,
+            "quote": "Lung cancer is the leading cause of cancer death worldwide with 1.7 million global deaths attributed to cigarette smoking in 2015.",
+            "citation": {
+              "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
+              "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 59,
+            "quote": "Lung cancer is the leading cause of cancer death in men and women in the United States.",
+            "citation": {
+              "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
+              "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
+              "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
+            }
+          },
+          {
+            "type": "CONTRADICTS",
+            "confidence": 56,
+            "quote": "Smoking is the leading preventable cause of many illnesses including lung cancer.",
+            "citation": {
+              "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
+              "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
+              "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 59,
+            "quote": "Smoking and carcinoma of the lung; preliminary report.",
+            "citation": {
+              "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+              "title": "Did smoking cause lung cancer? - Is There Consensus?",
+              "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 55,
+            "quote": "This concept is primarily used in the context of communicable diseases (infectious diseases).",
+            "citation": {
+              "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+              "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+              "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 56,
+            "quote": "Tobacco exposure is the leading cause of lung cancer, despite differences in the intensity of smoking and the type of cigarettes, and ~90% of lung cancers are attributed to smoking [ 2 ].",
+            "citation": {
+              "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+              "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+              "url": "https://www.nature.com/articles/s41416-022-01736-3"
             }
           }
         ]
       }
     ],
-    "generatedAt": "2026-09-12T18:07:38.707Z",
+    "generatedAt": "2026-09-12T18:44:22.748Z",
     "executiveConclusion": "The evidence is not settled. The graph contains meaningful counterevidence or competing interpretations.",
     "statusCounts": {
-      "SUPPORTED": 0,
+      "SUPPORTED": 1,
       "CONTRADICTED": 0,
       "MIXED": 3,
-      "UNCERTAIN": 1
+      "UNCERTAIN": 0
     },
     "keyFindings": [
       {
-        "claimId": "cbd30b2d-1a48-4a04-bf66-a747f967d12a",
+        "claimId": "f8ad251c-de18-4173-921a-826a09fad8b7",
         "text": "The evidence base is being evaluated for this proposition: Does smoking cause lung cancer.",
-        "status": "UNCERTAIN",
-        "evidenceStrength": 7,
+        "status": "SUPPORTED",
+        "evidenceStrength": 51,
         "citations": [
           {
-            "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
-            "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
-            "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
-          },
-          {
-            "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
+            "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
             "title": "How does smoking cause lung cancer? Experts explain",
             "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
           },
           {
-            "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-            "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-            "url": "https://bmjopen.bmj.com/content/8/10/e021611"
+            "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+            "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+            "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
           }
         ]
       },
       {
-        "claimId": "7f4cd32f-d677-4e41-a8b8-6b81ecbe7347",
-        "text": "Etiology of lung cancer: Evidence from epidemiologic studies",
+        "claimId": "07ad9832-f835-460a-8dd7-3354180c44f1",
+        "text": "In this article, experts explain the science behind how smoking causes lung cancer and other health concerns and how quitting can lower a person’s risk..",
         "status": "MIXED",
-        "evidenceStrength": 33,
+        "evidenceStrength": 32,
         "citations": [
           {
-            "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
+            "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
             "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
             "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
           },
           {
-            "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
+            "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
             "title": "How does smoking cause lung cancer? Experts explain",
             "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
           },
           {
-            "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+            "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
             "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
             "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
           },
           {
-            "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+            "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
             "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
           },
           {
-            "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-            "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667"
-          },
-          {
-            "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-            "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-            "url": "https://bmjopen.bmj.com/content/8/10/e021611"
-          },
-          {
-            "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+            "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
             "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
             "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
           },
           {
-            "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
+            "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
             "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
             "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
           },
           {
-            "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-            "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-            "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer"
+            "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+            "title": "Did smoking cause lung cancer? - Is There Consensus?",
+            "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer"
+          },
+          {
+            "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+            "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+            "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
+          },
+          {
+            "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+            "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+            "url": "https://www.nature.com/articles/s41416-022-01736-3"
           }
         ]
       },
       {
-        "claimId": "42ec30c4-a83a-44df-b73b-845eb00bb765",
-        "text": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
+        "claimId": "2e6929c7-9586-4b37-a275-8d126fc0de70",
+        "text": "1 Tobacco use is the leading cause of lung cancer; 55% of lung cancer deaths in women and over 70% of lung cancer deaths in men are due to smoking.",
         "status": "MIXED",
-        "evidenceStrength": 52,
+        "evidenceStrength": 49,
         "citations": [
           {
-            "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
+            "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
             "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
             "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
           },
           {
-            "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
+            "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
             "title": "How does smoking cause lung cancer? Experts explain",
             "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
           },
           {
-            "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+            "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
             "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
             "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
           },
           {
-            "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+            "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
             "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
           },
           {
-            "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-            "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667"
-          },
-          {
-            "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-            "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-            "url": "https://bmjopen.bmj.com/content/8/10/e021611"
-          },
-          {
-            "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+            "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
             "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
             "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
           },
           {
-            "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
+            "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
             "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
             "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
           },
           {
-            "sourceId": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-            "title": "Explanation of observational data engenders a causal belief about smoking and cancer - PMC",
-            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016/"
+            "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+            "title": "Did smoking cause lung cancer? - Is There Consensus?",
+            "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer"
           },
           {
-            "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-            "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-            "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer"
+            "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+            "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+            "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
+          },
+          {
+            "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+            "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+            "url": "https://www.nature.com/articles/s41416-022-01736-3"
           }
         ]
       },
       {
-        "claimId": "19a59602-44d6-4d00-abb9-828db3d7f7a7",
-        "text": "We systematically searched PubMed and EMBASE for studies published between 1 January 1999 and 15 April 2016 that reported on the relationship between smoking and lung cancer in men and women from a general population.",
+        "claimId": "54f68af7-8e08-43f8-b55d-aacd8e2bcb80",
+        "text": "Lung cancer is the leading cause of cancer death worldwide with 1.7 million global deaths attributed to cigarette smoking in 2015.",
         "status": "MIXED",
-        "evidenceStrength": 52,
+        "evidenceStrength": 48,
         "citations": [
           {
-            "sourceId": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
+            "sourceId": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
             "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
             "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer"
           },
           {
-            "sourceId": "39068524-0c22-4b92-9424-dbd8a036f27f",
+            "sourceId": "c3f7bc32-1475-493e-ac09-24d024c4c901",
             "title": "How does smoking cause lung cancer? Experts explain",
             "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer"
           },
           {
-            "sourceId": "7ae3b19a-a799-458e-9de8-014852ff0673",
+            "sourceId": "7014860d-8089-483f-8863-efa5c7e1bff7",
             "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
             "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html"
           },
           {
-            "sourceId": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+            "sourceId": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
             "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
             "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/"
           },
           {
-            "sourceId": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-            "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-            "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667"
-          },
-          {
-            "sourceId": "a7323a73-1ca1-491a-91ff-786e4d385e73",
-            "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
-            "url": "https://bmjopen.bmj.com/content/8/10/e021611"
-          },
-          {
-            "sourceId": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+            "sourceId": "939fc9c9-f031-4833-bf7e-4506b03f569c",
             "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
             "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"
           },
           {
-            "sourceId": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
+            "sourceId": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
             "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
             "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/"
           },
           {
-            "sourceId": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-            "title": "Explanation of observational data engenders a causal belief about smoking and cancer - PMC",
-            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016/"
+            "sourceId": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+            "title": "Did smoking cause lung cancer? - Is There Consensus?",
+            "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer"
           },
           {
-            "sourceId": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-            "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-            "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer"
+            "sourceId": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+            "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+            "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc"
+          },
+          {
+            "sourceId": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+            "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+            "url": "https://www.nature.com/articles/s41416-022-01736-3"
           }
         ]
       }
     ],
     "limitations": [
-      "10 retrieved sources were assessed; snippets and page availability can affect directness.",
-      "Some apparent source diversity was collapsed into suspected or explicit lineages; genealogy is an auditable heuristic, not certainty."
+      "11 retrieved sources were assessed; snippets and page availability can affect directness.",
+      "Some apparent source diversity was collapsed into suspected or explicit lineages; genealogy is an auditable heuristic, not certainty.",
+      "Initial evidence was weak for “The evidence base is being evaluated for this proposition: Does smoking cause lung cancer.”; ClaimLens searched for an independent primary source."
     ],
     "sources": [
       {
-        "id": "9d5000c9-b8b4-40c1-b649-a1ad68f8a902",
+        "id": "06d4ac08-e47d-44c6-ab8c-a204672c065b",
         "title": "Smoking and Lung Cancer: How Does Smoking Increase Your Risk?",
         "publisher": "healthline.com",
         "url": "https://www.healthline.com/health/lung-cancer/smoking-lung-cancer",
-        "retrievedAt": "2026-09-12T18:07:28.347Z",
+        "retrievedAt": "2026-09-12T18:44:07.151Z",
         "searchRole": "RESEARCHER",
         "quality": 65
       },
       {
-        "id": "39068524-0c22-4b92-9424-dbd8a036f27f",
+        "id": "c3f7bc32-1475-493e-ac09-24d024c4c901",
         "title": "How does smoking cause lung cancer? Experts explain",
         "publisher": "medicalnewstoday.com",
         "url": "https://www.medicalnewstoday.com/articles/how-smoking-can-cause-lung-cancer",
-        "retrievedAt": "2026-09-12T18:07:28.823Z",
+        "retrievedAt": "2026-09-12T18:44:07.634Z",
         "searchRole": "RESEARCHER",
         "quality": 65
       },
       {
-        "id": "7ae3b19a-a799-458e-9de8-014852ff0673",
+        "id": "7014860d-8089-483f-8863-efa5c7e1bff7",
         "title": "Lung Cancer Risk Factors | Lung Cancer | CDC",
         "publisher": "cdc.gov",
         "url": "https://www.cdc.gov/lung-cancer/risk-factors/index.html",
         "publishedAt": "2026-05-18T09:00:00.000Z",
-        "retrievedAt": "2026-09-12T18:07:29.143Z",
+        "retrievedAt": "2026-09-12T18:44:07.911Z",
         "searchRole": "RESEARCHER",
         "quality": 100
       },
       {
-        "id": "4f87bd08-89bf-473b-a311-d173eb58fa9a",
+        "id": "0d11134a-e9a2-439e-8e7a-57ea462249f2",
         "title": "Smoking as a risk factor for lung cancer in women and men: a systematic review and meta-analysis - PMC",
         "publisher": "pmc.ncbi.nlm.nih.gov",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6194454/",
-        "retrievedAt": "2026-09-12T18:07:30.464Z",
+        "retrievedAt": "2026-09-12T18:44:09.266Z",
         "searchRole": "RESEARCHER",
         "quality": 90
       },
       {
-        "id": "4f2656ea-d4a5-4680-a08a-4628e7d10371",
-        "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
-        "publisher": "sciencedirect.com",
-        "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667",
-        "retrievedAt": "2026-09-12T18:07:30.646Z",
-        "searchRole": "RESEARCHER",
-        "quality": 50
-      },
-      {
-        "id": "a7323a73-1ca1-491a-91ff-786e4d385e73",
+        "id": "2c4561bf-0a5a-431f-bd17-27fe2b476a14",
         "title": "Smoking as a risk factor for lung cancer in women and men: a systematic ...",
         "publisher": "bmjopen.bmj.com",
         "url": "https://bmjopen.bmj.com/content/8/10/e021611",
-        "retrievedAt": "2026-09-12T18:07:32.032Z",
+        "retrievedAt": "2026-09-12T18:44:09.599Z",
         "searchRole": "RESEARCHER",
         "quality": 50
       },
       {
-        "id": "b1de1e3c-de3e-4419-a75c-c649f8b0716e",
+        "id": "939fc9c9-f031-4833-bf7e-4506b03f569c",
         "title": "Health Effects of Cigarettes: Cancer | Smoking and Tobacco Use | CDC",
         "publisher": "cdc.gov",
         "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html",
         "publishedAt": "2024-09-17T09:00:00.000Z",
-        "retrievedAt": "2026-09-12T18:07:34.003Z",
+        "retrievedAt": "2026-09-12T18:44:12.518Z",
         "searchRole": "SKEPTIC",
         "quality": 100
       },
       {
-        "id": "ca9f543d-5f9e-4688-9390-f6c2ad04eb0c",
+        "id": "0589f1ab-eaaa-41c0-8040-c730f973ad92",
         "title": "Science stubs out claim smoking doesn't cause cancer | AAP",
         "publisher": "aap.com.au",
         "url": "https://www.aap.com.au/factcheck/science-stubs-out-claim-smoking-doesnt-cause-cancer/",
-        "retrievedAt": "2026-09-12T18:07:36.468Z",
+        "retrievedAt": "2026-09-12T18:44:14.880Z",
         "searchRole": "SKEPTIC",
         "quality": 90
       },
       {
-        "id": "23ce81ef-45b6-4b10-9e37-4a70e67fe024",
-        "title": "Explanation of observational data engenders a causal belief about smoking and cancer - PMC",
-        "publisher": "pmc.ncbi.nlm.nih.gov",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6139016/",
-        "retrievedAt": "2026-09-12T18:07:37.145Z",
+        "id": "aeb569fc-b1de-45c6-b248-3add4f0768c3",
+        "title": "Did smoking cause lung cancer? - Is There Consensus?",
+        "publisher": "isthereconsensus.org",
+        "url": "https://isthereconsensus.org/consensus/historical-case-studies/did-smoking-cause-lung-cancer",
+        "publishedAt": "2026-04-01T23:52:29.327Z",
+        "retrievedAt": "2026-09-12T18:44:15.400Z",
         "searchRole": "SKEPTIC",
-        "quality": 90
+        "quality": 70
       },
       {
-        "id": "fe84ab6d-ae6d-4e9b-b862-56f3aa9740d7",
-        "title": "Cancer Mythbusters: Smoking and Lung Cancer | Dana-Farber Cancer Institute",
-        "publisher": "dana-farber.org",
-        "url": "https://www.dana-farber.org/health-library/cancer-mythbusters-smoking-lung-cancer",
-        "retrievedAt": "2026-09-12T18:07:37.905Z",
+        "id": "be62a00a-ce05-4366-9f0d-90531bd4321c",
+        "title": "Does Smoking Cause Lung Cancer? Decoding the Science Behind the Claim",
+        "publisher": "linkedin.com",
+        "url": "https://www.linkedin.com/pulse/copy-does-smoking-cause-lung-cancer-decoding-science-chinnadurai-oyrmc",
+        "retrievedAt": "2026-09-12T18:44:16.294Z",
         "searchRole": "SKEPTIC",
         "quality": 60
+      },
+      {
+        "id": "608f8070-2457-4b2f-a15f-aa1a38917cd1",
+        "title": "Association of smoking and polygenic risk with the incidence of lung cancer: a prospective cohort study | British Journal of Cancer",
+        "publisher": "nature.com",
+        "url": "https://www.nature.com/articles/s41416-022-01736-3",
+        "publishedAt": "2022-02-22T00:00:00.000Z",
+        "retrievedAt": "2026-09-12T18:44:21.656Z",
+        "searchRole": "FOLLOW_UP",
+        "quality": 95
+      },
+      {
+        "id": "109fe9f9-acd2-4855-a920-38fd6eb5f34e",
+        "title": "Etiology of lung cancer: Evidence from epidemiologic studies",
+        "publisher": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2667005422000667",
+        "retrievedAt": "2026-09-12T18:44:21.895Z",
+        "searchRole": "FOLLOW_UP",
+        "quality": 50
       }
     ],
-    "whyResearchContinued": "The initial evidence set was reviewed by a separate skeptic stage before adjudication."
+    "whyResearchContinued": "Initial evidence was weak for “The evidence base is being evaluated for this proposition: Does smoking cause lung cancer.”; ClaimLens searched for an independent primary source."
   }
 }

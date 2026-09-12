@@ -57,7 +57,7 @@ async function browserSmoke() {
   let browser;
   const dataDir = join(temp, 'data', 'sessions');
   const saved = JSON.parse(await readFile(join(ROOT, 'data', 'demo-session.json'), 'utf8'));
-  const { server } = await createClaimLensServer({ dataDir, publicDir: join(ROOT, 'public') });
+  const { server } = await createClaimLensServer({ dataDir, publicDir: join(ROOT, 'public'), pipelineConfig: { maxSearchCalls: 8, maxSources: 8, maxClaims: 4, maxFollowUps: 1, maxIterations: 2, searchResultsPerCall: 2 } });
   await new Promise((resolveListen) => server.listen(0, '127.0.0.1', resolveListen));
   const port = server.address().port;
   await cp(join(ROOT, 'data', 'demo-session.json'), join(temp, 'data', 'demo-session.json'));
@@ -75,6 +75,14 @@ async function browserSmoke() {
     const landing = await evaluate("({ heading: document.querySelector('h1')?.textContent.trim(), input: !!document.querySelector('#question') })");
     assert.equal(landing.input, true);
     assert.match(landing.heading, /prove itself wrong/i);
+    const submitted = await evaluate("(() => { const form = document.querySelector('#question-form'); const input = document.querySelector('#question'); input.value = 'Does smoking cause lung cancer?'; input.dispatchEvent(new Event('input', { bubbles: true })); form.requestSubmit(); return true; })()");
+    assert.equal(submitted, true);
+    await waitFor("location.hash.startsWith('#/research/')");
+    const liveId = await evaluate("decodeURIComponent(location.hash.split('/').pop())");
+    await waitFor("document.querySelector('.workspace')");
+    await waitFor(`['complete','done'].includes((document.querySelector('.status-chip')?.textContent || '').trim().toLowerCase())`, 180_000);
+    const live = await evaluate(`fetch('/api/sessions/${liveId}').then(response => response.json())`);
+    assert.equal(live.session.status, 'COMPLETE'); assert.ok(live.sources.length >= 1); assert.ok(live.claims.length >= 1); assert.ok(live.report); assert.ok(live.events.some(event => event.actor === 'researcher')); assert.ok(live.events.some(event => event.actor === 'skeptic'));
     await command('Page.navigate', { url: `http://127.0.0.1:${port}/#/research/${saved.session.id}` });
     await waitFor("document.querySelector('.workspace')");
     const graph = await evaluate("({ nodes: document.querySelectorAll('.graph-node').length, claims: document.querySelectorAll('.node-claim').length, sources: document.querySelectorAll('.node-source').length, question: document.querySelectorAll('.node-question').length, trace: document.querySelectorAll('.timeline-group').length })");
@@ -115,7 +123,7 @@ async function browserSmoke() {
   }
 }
 
-test('browser smoke: landing, graph, inspectors, report, refresh and mobile layout', { skip: !e2eAvailable && `Chromium/WebSocket unavailable${chromePath ? '' : ' (set CHROME_PATH to run)'}` }, async () => {
+test('browser smoke: landing, live submit, graph, inspectors, report, refresh and mobile layout', { timeout: 240_000, skip: !e2eAvailable && `Chromium/WebSocket unavailable${chromePath ? '' : ' (set CHROME_PATH to run)'}` }, async () => {
   const result = await browserSmoke();
   assert.ok(result.graph.nodes > 0);
 });
