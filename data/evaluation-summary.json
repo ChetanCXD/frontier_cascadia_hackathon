@@ -1,0 +1,144 @@
+{
+  "generatedAt": "2026-09-12T18:44:35.349Z",
+  "cases": [
+    {
+      "name": "conflicting",
+      "question": "Does intermittent fasting improve weight loss compared with calorie restriction?",
+      "sessionId": "c24f443b-4525-441c-a510-73a53d00e6bc",
+      "artifact": "data/evaluations/conflicting.json",
+      "status": "COMPLETE",
+      "terminated": true,
+      "sources": 9,
+      "claims": 4,
+      "edgeTypes": {
+        "SUPPORTS": 5,
+        "QUALIFIES": 15,
+        "CONTRADICTS": 3
+      },
+      "sourceRelationships": 0,
+      "relationshipTypes": [],
+      "statusCounts": {
+        "UNCERTAIN": 1,
+        "MIXED": 3
+      },
+      "skepticSearches": 3,
+      "followUps": 1,
+      "report": true,
+      "assertions": {
+        "citationsValid": true,
+        "sourcesHaveReceipts": true,
+        "edgesHaveReceipts": true,
+        "relationshipsValid": true,
+        "followUpCompleted": true,
+        "terminated": true,
+        "skepticSearches": true,
+        "followUps": true
+      }
+    },
+    {
+      "name": "repeated-lineage",
+      "question": "What is the current federal funds rate?",
+      "sessionId": "0f1179d5-faa3-460b-93cf-7edf4734cccb",
+      "artifact": "data/evaluations/repeated-lineage.json",
+      "status": "COMPLETE",
+      "terminated": true,
+      "sources": 12,
+      "claims": 4,
+      "edgeTypes": {
+        "QUALIFIES": 28,
+        "SUPPORTS": 10
+      },
+      "sourceRelationships": 32,
+      "relationshipTypes": [
+        "CITES",
+        "DERIVED_FROM",
+        "POSSIBLY_SAME_ORIGIN"
+      ],
+      "statusCounts": {
+        "UNCERTAIN": 1,
+        "SUPPORTED": 3
+      },
+      "skepticSearches": 3,
+      "followUps": 1,
+      "report": true,
+      "assertions": {
+        "citationsValid": true,
+        "sourcesHaveReceipts": true,
+        "edgesHaveReceipts": true,
+        "relationshipsValid": true,
+        "followUpCompleted": true,
+        "terminated": true,
+        "skepticSearches": true,
+        "followUps": true
+      }
+    },
+    {
+      "name": "consensus",
+      "question": "Does smoking cause lung cancer?",
+      "sessionId": "7b10d3df-0fef-4782-9b6d-b78b34790e6f",
+      "artifact": "data/evaluations/consensus.json",
+      "status": "COMPLETE",
+      "terminated": true,
+      "sources": 11,
+      "claims": 4,
+      "edgeTypes": {
+        "SUPPORTS": 6,
+        "QUALIFIES": 20,
+        "CONTRADICTS": 3
+      },
+      "sourceRelationships": 2,
+      "relationshipTypes": [
+        "CITES",
+        "DERIVED_FROM"
+      ],
+      "statusCounts": {
+        "SUPPORTED": 1,
+        "MIXED": 3
+      },
+      "skepticSearches": 3,
+      "followUps": 1,
+      "report": true,
+      "assertions": {
+        "citationsValid": true,
+        "sourcesHaveReceipts": true,
+        "edgesHaveReceipts": true,
+        "relationshipsValid": true,
+        "followUpCompleted": true,
+        "terminated": true,
+        "skepticSearches": true,
+        "followUps": true
+      }
+    },
+    {
+      "name": "insufficient",
+      "question": "Will a newly created private company double its stock price next Tuesday?",
+      "sessionId": "f6b17b50-4a5f-4f9b-b185-e84cf737db3b",
+      "artifact": "data/evaluations/insufficient.json",
+      "status": "COMPLETE",
+      "terminated": true,
+      "sources": 12,
+      "claims": 4,
+      "edgeTypes": {
+        "QUALIFIES": 5
+      },
+      "sourceRelationships": 0,
+      "relationshipTypes": [],
+      "statusCounts": {
+        "UNCERTAIN": 4
+      },
+      "skepticSearches": 3,
+      "followUps": 1,
+      "report": true,
+      "assertions": {
+        "citationsValid": true,
+        "sourcesHaveReceipts": true,
+        "edgesHaveReceipts": true,
+        "relationshipsValid": true,
+        "followUpCompleted": true,
+        "terminated": true,
+        "skepticSearches": true,
+        "followUps": true
+      }
+    }
+  ]
+}
