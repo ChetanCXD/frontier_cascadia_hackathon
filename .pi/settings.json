@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "npm:pi-subagents",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:pi-goal-x"
+  ]
+}

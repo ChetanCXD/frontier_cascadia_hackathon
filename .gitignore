@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/*.json
+data/**/*.json
+!data/demo-session.json
+*.log
+.DS_Store
+.pi/goals/
+.pi/.goals-pool-snapshot.json
+.pi/npm/node_modules/
