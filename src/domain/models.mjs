@@ -104,7 +104,7 @@ export function createEvidenceEdge(input = {}) {
 }
 export function createSourceRelationship(input = {}) {
   const v = object(input, 'SourceRelationship'); const b = base(v, 'SourceRelationship');
-  return { ...b, sourceId: id(v.sourceId, 'sourceId'), targetSourceId: id(v.targetSourceId, 'targetSourceId'), type: oneOf(v.type, 'type', SourceRelationshipType), confidence: number(v.confidence ?? 50, 'confidence'), createdAt: b.createdAt };
+  return { ...b, sourceId: id(v.sourceId, 'sourceId'), targetSourceId: id(v.targetSourceId, 'targetSourceId'), type: oneOf(v.type, 'type', SourceRelationshipType), confidence: number(v.confidence ?? 50, 'confidence'), suspected: Boolean(v.suspected ?? false), basis: v.basis === undefined ? undefined : str(v.basis, 'basis', MAX.short), createdAt: b.createdAt };
 }
 export function createAdjudication(input = {}) {
   const v = object(input, 'Adjudication'); const b = base(v, 'Adjudication');

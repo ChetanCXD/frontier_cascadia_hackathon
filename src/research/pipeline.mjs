@@ -57,7 +57,7 @@ function sourceWithMetadata(raw, result, role) {
   const base = createSource({
     id: randomUUID(), url, canonicalUrl: raw.canonicalUrl || url,
     title: raw.title || result.title || url, publisher: raw.publisher || new URL(url).hostname,
-    author: raw.author, publishedAt: raw.publishedAt, sourceType: raw.sourceType || 'web', quality: raw.quality,
+    author: raw.author, publishedAt: raw.publishedAt, sourceType: raw.sourceType || 'web', quality: raw.quality ?? 50,
   });
   return {
     ...base,
@@ -216,7 +216,10 @@ export class ResearchPipeline {
       for (const link of source.links ?? []) {
         try {
           const targetId = byCanonical.get(canonicalizeUrl(link));
-          if (targetId && targetId !== source.id) explicitLinks.push({ sourceId: source.id, targetSourceId: targetId, type: SourceRelationshipType.CITES, confidence: 94 });
+          if (targetId && targetId !== source.id) {
+            explicitLinks.push({ sourceId: source.id, targetSourceId: targetId, type: SourceRelationshipType.CITES, confidence: 94, basis: 'explicit hyperlink found in retrieved page' });
+            explicitLinks.push({ sourceId: source.id, targetSourceId: targetId, type: SourceRelationshipType.DERIVED_FROM, confidence: 72, suspected: true, basis: 'suspected dependency inferred from explicit hyperlink' });
+          }
         } catch { /* malformed page links are ignored */ }
       }
     }

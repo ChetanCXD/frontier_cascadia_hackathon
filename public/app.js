@@ -128,7 +128,7 @@
     if (!nodes.length) nodes = [...claims().map(c => ({ ...c, id: idOf(c), type: 'CLAIM', label: labelOf(c, idOf(c)) })), ...sources().map(s => ({ ...s, id: idOf(s), type: 'SOURCE', label: labelOf(s, idOf(s)) }))];
     const qid = text(obj(d).session?.id, d.sessionId, state.id) || 'question';
     if (nodes.length && !nodes.some(n => /question/i.test(String(text(obj(n).type, obj(n).kind)))) ) nodes.unshift({ id: qid, type: 'QUESTION', label: sessionQuestion(d) });
-    nodes = nodes.map((n, i) => { const entity = obj(n).entity; const rawType = String(text(obj(n).type, obj(n).kind, obj(n).entityType, entity.type, 'CLAIM')).toUpperCase(); const type = rawType === 'SESSION' ? 'QUESTION' : rawType; return { ...entity, ...obj(n), id: idOf(n) || `node-${i}`, type, label: labelOf(n, idOf(n)) }; });
+    nodes = nodes.map((n, i) => { const entity = obj(obj(n).entity); const rawType = String(text(obj(n).type, obj(n).kind, obj(n).entityType, entity.type, 'CLAIM')).toUpperCase(); const type = rawType === 'SESSION' ? 'QUESTION' : rawType; return { ...entity, ...obj(n), id: idOf(n) || `node-${i}`, type, label: labelOf(n, idOf(n)) }; });
     const nodeIds = new Set(nodes.map(n => n.id));
     edges = edges.map((e, i) => ({ ...obj(e), id: idOf(e) || `edge-${i}`, source: String(text(obj(e).source, obj(e).from, obj(e).sourceId)), target: String(text(obj(e).target, obj(e).to, obj(e).targetId)), type: String(text(obj(e).type, obj(e).relationship, 'SUPPORTS')).toUpperCase() })).filter(e => nodeIds.has(e.source) && nodeIds.has(e.target));
     const cols = { QUESTION: 1, CLAIM: 2, SOURCE: 3 }; nodes.forEach((n, i) => { n.x = Number(n.x) || cols[n.type] * 290 || 260; n.y = Number(n.y) || 90 + (i % 7) *  ninety(); });

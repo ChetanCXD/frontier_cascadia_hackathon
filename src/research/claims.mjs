@@ -40,17 +40,20 @@ export function extractClaims(question, sources = [], { sessionId, maxClaims = 6
     chosen.push(candidate);
     if (chosen.length >= Math.max(1, maxClaims - 1)) break;
   }
-  if (!chosen.length) chosen.push({ text: propositionFromQuestion(question), sourceId: undefined, score: 0 });
+  const centralText = propositionFromQuestion(question);
+  if (!chosen.length) chosen.push({ text: centralText, sourceId: undefined, score: 0 });
   if (chosen.length === 1 && sources.length > 1) {
     const second = sources.find((source) => source.id !== chosen[0].sourceId);
     const sentence = sentences(second?.content || second?.excerpt || second?.snippet || '')[0];
     if (sentence && !chosen.some((item) => tokenSetSimilarity(item.text, sentence) >= 0.62)) chosen.push({ text: sentence, sourceId: second.id, score: relevance({ text: sentence }, second) });
   }
-  return chosen.slice(0, maxClaims).map((candidate) => ({
+  const central = { ...createClaim({ id: randomUUID(), sessionId, text: centralText }), isCentral: true, extractionScore: 0 };
+  const extracted = chosen.filter((candidate) => candidate.text !== centralText).slice(0, Math.max(0, maxClaims - 1)).map((candidate) => ({
     ...createClaim({ id: randomUUID(), sessionId, text: candidate.text }),
     originSourceId: candidate.sourceId,
     extractionScore: Math.round(candidate.score * 100),
   }));
+  return [central, ...extracted].slice(0, maxClaims);
 }
 
 function bestQuote(claim, source) {
@@ -83,7 +86,7 @@ export function evidenceEdgesFor(claims, sources) {
   for (const source of sources) {
     for (const claim of claims) {
       const overlap = relevance(claim, source);
-      const threshold = claim.originSourceId === source.id ? 0 : 0.045;
+      const threshold = claim.isCentral ? 0.16 : claim.originSourceId === source.id ? 0 : 0.045;
       if (overlap >= threshold && (overlap > 0 || claim.originSourceId === source.id)) edges.push(classifyEvidence(claim, source));
     }
   }

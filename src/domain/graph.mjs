@@ -47,7 +47,7 @@ export function deriveSourceRelationships(sources = [], explicitLinks = [], opti
     const confidence = clamp(link.confidence ?? fallbackConfidence);
     const key = [sourceId, targetSourceId, type].join('|');
     if (seen.has(key)) return; seen.add(key);
-    result.push({ id: link.id ?? idFor('relationship', key), sourceId, targetSourceId, type, confidence });
+    result.push({ id: link.id ?? idFor('relationship', key), sourceId, targetSourceId, type, confidence, suspected: Boolean(link.suspected ?? false), basis: link.basis ?? undefined });
   };
   for (const link of asArray(explicitLinks)) add(link, SourceRelationshipType.CITES, 95);
   for (const source of asArray(sources)) {
@@ -136,7 +136,7 @@ export function adjudicateClaims(claims = [], edges = [], sources = [], relation
     const hasSupport = supportCount > 0 && support > 0; const hasContradiction = contradictionCount > 0 && contradiction > 0;
     const threshold = options.minimumStrength ?? 35;
     let status = AdjudicationStatus.UNCERTAIN;
-    if (hasSupport && hasContradiction && support >= threshold && contradiction >= threshold) status = AdjudicationStatus.MIXED;
+    if (hasSupport && hasContradiction) status = AdjudicationStatus.MIXED;
     else if (hasSupport && support > contradiction && support >= threshold) status = AdjudicationStatus.SUPPORTED;
     else if (hasContradiction && contradiction > support && contradiction >= threshold) status = AdjudicationStatus.CONTRADICTED;
     output.push(createAdjudication({ id: idFor('adjudication', claim.id), claimId: claim.id, status, evidenceStrength, factors: { supportWeight: Math.round(clamp(support / maxGroups)), contradictionWeight: Math.round(clamp(contradiction / maxGroups)), independentSupportGroups: Math.round(clamp(supportCount, 0, 100)), independentContradictionGroups: Math.round(clamp(contradictionCount, 0, 100)), sourceQuality: Math.round(quality), corroboration: Math.round(corroboration), balance: Math.round(balance), coverage: Math.round(coverage), qualificationAdjustment: Math.round(qualificationAdjustment) }, supportingSourceIds: group.support.map(edge => edge.sourceId), contradictingSourceIds: group.contradiction.map(edge => edge.sourceId), qualifyingSourceIds: group.qualifies.map(edge => edge.sourceId) }));

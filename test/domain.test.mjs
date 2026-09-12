@@ -31,8 +31,9 @@ test('derives explicit and possible genealogy without network access', () => {
   const a = source(ids.a, 'https://a.example/report', { content: 'one two three four five six seven eight nine ten eleven twelve' });
   const b = source(ids.b, 'https://b.example/report', { content: a.content });
   const c = source(ids.c, 'https://c.example/report');
-  const links = deriveSourceRelationships([a, b, c], [{ sourceId: ids.a, targetSourceId: ids.c, type: SourceRelationshipType.CITES, confidence: 99 }]);
+  const links = deriveSourceRelationships([a, b, c], [{ sourceId: ids.a, targetSourceId: ids.c, type: SourceRelationshipType.CITES, confidence: 99 }, { sourceId: ids.b, targetSourceId: ids.a, type: SourceRelationshipType.DERIVED_FROM, confidence: 72, suspected: true, basis: 'explicit hyperlink' }]);
   assert.ok(links.some(link => link.type === SourceRelationshipType.CITES));
+  assert.ok(links.some(link => link.type === SourceRelationshipType.DERIVED_FROM && link.suspected));
   assert.ok(links.some(link => link.type === SourceRelationshipType.POSSIBLY_SAME_ORIGIN));
   assert.equal(findSourceLineages([a, b, c], links).length, 1);
 });
