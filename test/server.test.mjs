@@ -26,6 +26,12 @@ test('HTTP API creates, persists, polls and serves a complete research session',
   try {
     const health = await (await fetch(`${base}/api/health`)).json();
     assert.equal(health.ok, true);
+    for (const body of [{}, { question: 42 }, { question: 'short' }, null, []]) {
+      const response = await fetch(`${base}/api/sessions`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) });
+      assert.equal(response.status, 400); assert.ok((await response.json()).error);
+    }
+    const malformed = await fetch(`${base}/api/sessions`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: '{not-json' });
+    assert.equal(malformed.status, 400);
     const createdResponse = await fetch(`${base}/api/sessions`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ question: 'Can this evidence workflow be tested reliably?' }) });
     assert.equal(createdResponse.status, 202);
     const created = await createdResponse.json();
@@ -45,6 +51,8 @@ test('HTTP API creates, persists, polls and serves a complete research session',
     assert.ok(snapshot.graph.nodes.some((node) => node.type === 'claim'));
     const events = await (await fetch(`${base}/api/sessions/${created.sessionId}/events?after=-1`)).json();
     assert.ok(events.events.length >= snapshot.events.length);
+    const badCursor = await fetch(`${base}/api/sessions/${created.sessionId}/events?after=not-a-cursor`);
+    assert.equal(badCursor.status, 400);
     assert.ok((await store.load(created.sessionId)).report);
     assert.equal((await (await fetch(`${base}/styles.css`)).text()).includes('--mint'), true);
   } finally {

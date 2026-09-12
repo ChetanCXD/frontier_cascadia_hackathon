@@ -370,12 +370,15 @@ export class ResearchPipeline {
       });
       await this.emit(sessionId, 'session.completed', 'system', { sources: (await this.store.load(sessionId)).sources.length, claims: adjudications.length, searchCalls: budget.searchCalls });
     } catch (error) {
+      const message = error?.message ?? 'Research pipeline failed';
       await this.store.update(sessionId, (state) => {
-        state.errors.push({ message: error?.message ?? 'Research pipeline failed', timestamp: new Date().toISOString() });
-        state.session.status = SessionStatus.PAUSED;
-        state.progress = { ...(state.progress ?? {}), phase: 'PAUSED', message: 'Research paused after an error. Partial evidence remains available.', percent: state.progress?.percent ?? 0 };
+        state.errors.push({ message, timestamp: new Date().toISOString() });
+        state.session.status = SessionStatus.FAILED;
+        state.session.error = message.slice(0, 500);
+        state.session.failedAt = new Date().toISOString();
+        state.progress = { ...(state.progress ?? {}), phase: 'FAILED', message: 'Research failed. Partial evidence remains available.', percent: state.progress?.percent ?? 0 };
       }).catch(() => undefined);
-      await this.emit(sessionId, 'session.paused', 'system', { message: error?.message ?? 'Research pipeline failed' }).catch(() => undefined);
+      await this.emit(sessionId, 'session.failed', 'system', { message }).catch(() => undefined);
     } finally {
       this.running.delete(sessionId);
     }

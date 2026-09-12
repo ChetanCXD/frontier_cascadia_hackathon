@@ -90,7 +90,9 @@ export async function createClaimLensServer({ dataDir = resolve(process.cwd(), p
       if (url.pathname === '/api/sessions' && req.method === 'GET') return json(res, 200, { sessions: await store.list() });
       if (url.pathname === '/api/sessions' && req.method === 'POST') {
         const input = await bodyJson(req);
-        const question = String(input.question ?? '').replace(/\s+/g, ' ').trim();
+        if (!input || typeof input !== 'object' || Array.isArray(input)) return errorJson(res, 400, 'Request body must contain a research question.', 'invalid_payload');
+        if (typeof input.question !== 'string') return errorJson(res, 400, 'The research question must be text.', 'invalid_question');
+        const question = input.question.replace(/\s+/g, ' ').trim();
         if (question.length < 8 || question.length > 2_000) return errorJson(res, 400, 'Enter a research question between 8 and 2,000 characters.', 'invalid_question');
         const state = await store.create(question, { demo: false });
         await pipeline.emit(state.session.id, 'session.created', 'system', { message: 'Research session created.' });
@@ -98,11 +100,11 @@ export async function createClaimLensServer({ dataDir = resolve(process.cwd(), p
         return json(res, 202, { sessionId: state.session.id, session: snapshot(await store.load(state.session.id)) });
       }
       if (url.pathname === '/api/demo' && req.method === 'GET') {
-        const sessions = (await store.list()).filter((session) => session.metadata?.demo);
-        if (sessions.length) return json(res, 200, snapshot(await store.load(sessions[0].id)));
+        const sessions = (await store.list()).filter((session) => session.metadata?.demo && session.status === 'COMPLETE');
+        for (const session of sessions) { const candidate = await store.load(session.id); if (candidate?.report && candidate.sources?.length) return json(res, 200, snapshot(candidate)); }
         try {
           const saved = JSON.parse(await readFile(demoFile, 'utf8'));
-          if (saved?.session?.metadata?.demo && saved.session.status === 'COMPLETE') return json(res, 200, snapshot(saved));
+          if (saved?.session?.metadata?.demo && saved.session.status === 'COMPLETE' && saved.report && saved.sources?.length) return json(res, 200, snapshot(saved));
         } catch { /* A missing or invalid fallback is an honest 404. */ }
         return errorJson(res, 404, 'No previously completed real demo session is available yet.', 'demo_unavailable');
       }
@@ -113,7 +115,9 @@ export async function createClaimLensServer({ dataDir = resolve(process.cwd(), p
         const state = await store.load(id);
         if (!state) return errorJson(res, 404, 'Research session not found.', 'session_not_found');
         if (subroute === 'events' && req.method === 'GET') {
-          const after = Math.max(-1, Number(url.searchParams.get('after') ?? -1));
+          const rawAfter = url.searchParams.get('after') ?? '-1'; const parsedAfter = Number(rawAfter);
+          if (!Number.isInteger(parsedAfter) || parsedAfter < -1) return errorJson(res, 400, 'Event cursor must be an integer greater than or equal to -1.', 'invalid_cursor');
+          const after = parsedAfter;
           const events = (state.events ?? []).map((event, index) => ({ cursor: index, id: event.id, type: event.type, actor: event.actor, payload: event.payload, timestamp: event.timestamp })).filter((event) => event.cursor > after);
           return json(res, 200, { events, nextCursor: (state.events?.length ?? 0) - 1, done: state.session.status !== 'ACTIVE' });
         }
@@ -137,6 +141,9 @@ export async function createClaimLensServer({ dataDir = resolve(process.cwd(), p
       errorJson(res, error?.statusCode || 500, error?.message || 'Unexpected server error.', 'server_error');
     }
   });
+  if (env.RESUME_ACTIVE !== 'false') {
+    for (const session of await store.list()) if (session.status === 'ACTIVE') void pipeline.run(session.id).catch(() => undefined);
+  }
   return { server, store, pipeline, dataDir, publicDir };
 }
 
