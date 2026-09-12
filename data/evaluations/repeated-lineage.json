@@ -1,0 +1,2351 @@
+{
+  "artifactVersion": 1,
+  "realRun": true,
+  "provider": "DuckDuckGo HTML",
+  "evaluatedAt": "2026-09-12T18:07:26.979Z",
+  "case": {
+    "name": "repeated-lineage",
+    "question": "Will solid-state batteries reach mass-market electric vehicles before 2030?"
+  },
+  "session": {
+    "id": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+    "createdAt": "2026-09-12T18:07:11.586Z",
+    "title": "Investigation: Will solid-state batteries reach mass-market electric vehicles before 2030?",
+    "question": "Will solid-state batteries reach mass-market electric vehicles before 2030?",
+    "status": "COMPLETE",
+    "updatedAt": "2026-09-12T18:07:26.971Z",
+    "metadata": {
+      "evaluationCase": "repeated-lineage"
+    },
+    "phase": "DONE",
+    "completedAt": "2026-09-12T18:07:26.961Z"
+  },
+  "progress": {
+    "phase": "DONE",
+    "percent": 100,
+    "message": "Investigation complete. Inspect the graph to see why each claim earned its status.",
+    "actor": "system",
+    "updatedAt": "2026-09-12T18:07:26.961Z"
+  },
+  "tasks": [
+    {
+      "id": "ec6d1e56-3e6d-413e-a6a5-ec9840b9c936",
+      "createdAt": "2026-09-12T18:07:11.590Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "objective": "Researcher search: Will solid-state batteries reach mass-market electric vehicles before 2030?",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:13.398Z"
+    },
+    {
+      "id": "0c05a311-0429-4e0a-99fb-174dd31cbef8",
+      "createdAt": "2026-09-12T18:07:11.591Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "objective": "Researcher search: Will solid-state batteries reach mass-market electric vehicles before 2030? independent evidence data study",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:21.719Z"
+    },
+    {
+      "id": "71a1c179-a709-4999-89d9-f5ae9650378e",
+      "createdAt": "2026-09-12T18:07:11.592Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "objective": "Researcher search: Will solid-state batteries reach mass-market electric vehicles before 2030? limitations criticism analysis",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:23.674Z"
+    },
+    {
+      "id": "ca51e6c9-c1ca-4562-930f-d235a9a61426",
+      "createdAt": "2026-09-12T18:07:23.846Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "objective": "Skeptic search: Will solid-state batteries reach mass-market electric vehicles before 2030? counterevidence criticism limitations",
+      "status": "COMPLETE",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:25.438Z"
+    },
+    {
+      "id": "6a700cf6-94e9-488b-b9be-a91c78d66ff7",
+      "createdAt": "2026-09-12T18:07:23.851Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "objective": "Skeptic search: The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030. contrary evidence independent data",
+      "status": "COMPLETE",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:26.720Z"
+    },
+    {
+      "id": "5bc2011a-874e-4100-b76d-145ff75cc4d5",
+      "createdAt": "2026-09-12T18:07:23.856Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "objective": "Skeptic search: Solid-state battery: An emerging transformation of battery technology ... contrary evidence independent data",
+      "status": "OPEN",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:23.856Z"
+    }
+  ],
+  "claims": [
+    {
+      "id": "51c6afdd-1ee4-442a-8f49-1a8f34b8a5fe",
+      "createdAt": "2026-09-12T18:07:23.704Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "text": "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030.",
+      "updatedAt": "2026-09-12T18:07:26.913Z",
+      "isCentral": true,
+      "extractionScore": 0,
+      "status": "UNCERTAIN",
+      "evidenceStrength": 47,
+      "factors": {
+        "supportWeight": 9,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 1,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 26,
+        "corroboration": 33,
+        "balance": 100,
+        "coverage": 13,
+        "qualificationAdjustment": 91
+      }
+    },
+    {
+      "id": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "createdAt": "2026-09-12T18:07:23.704Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "text": "Solid-state battery: An emerging transformation of battery technology ...",
+      "updatedAt": "2026-09-12T18:07:26.913Z",
+      "originSourceId": "c17380de-6791-4571-a329-740688da72b2",
+      "extractionScore": 100,
+      "status": "MIXED",
+      "evidenceStrength": 73,
+      "factors": {
+        "supportWeight": 66,
+        "contradictionWeight": 9,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 76,
+        "coverage": 100,
+        "qualificationAdjustment": 80
+      }
+    },
+    {
+      "id": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "createdAt": "2026-09-12T18:07:23.704Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "text": "Solid-state batteries, their future in the energy storage and electric ...",
+      "updatedAt": "2026-09-12T18:07:26.913Z",
+      "originSourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+      "extractionScore": 100,
+      "status": "MIXED",
+      "evidenceStrength": 72,
+      "factors": {
+        "supportWeight": 66,
+        "contradictionWeight": 10,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 74,
+        "coverage": 100,
+        "qualificationAdjustment": 71
+      }
+    },
+    {
+      "id": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "createdAt": "2026-09-12T18:07:23.704Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "text": "Future of Solid-State Batteries and Mass Adoption Timeline .",
+      "updatedAt": "2026-09-12T18:07:26.913Z",
+      "originSourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+      "extractionScore": 47,
+      "status": "MIXED",
+      "evidenceStrength": 71,
+      "factors": {
+        "supportWeight": 62,
+        "contradictionWeight": 10,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 31,
+        "corroboration": 100,
+        "balance": 73,
+        "coverage": 100,
+        "qualificationAdjustment": 74
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+      "createdAt": "2026-09-12T18:07:12.676Z",
+      "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline",
+      "canonicalUrl": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline",
+      "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+      "publisher": "recharged.com",
+      "sourceType": "analysis",
+      "quality": 60,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "Wondering when solid-state batteries will power mainstream EVs? See the realistic 2026–2035 timeline, who’s leading, and what it means if you’re buying an EV now.",
+      "links": [
+        "https://recharged.com/vehicles",
+        "https://recharged.com/commercial",
+        "https://recharged.com/learning",
+        "https://recharged.com/articles",
+        "https://recharged.com/chargers",
+        "https://recharged.com/sell",
+        "https://recharged.com/prequalify",
+        "https://recharged.com/credit-application",
+        "https://recharged.com/dashboard",
+        "https://recharged.com/contact/book",
+        "https://recharged.com/careers",
+        "https://recharged.com/locations/richmond",
+        "https://recharged.com/locations/fairfax",
+        "https://recharged.com/locations/charlotte",
+        "https://recharged.com/locations/jacksonville",
+        "https://recharged.com/returns",
+        "https://recharged.com/privacy",
+        "https://recharged.com/sms-optin",
+        "https://recharged.com/do-not-sell",
+        "https://www.tiktok.com/@recharged.com",
+        "https://www.youtube.com/@RechargedEVs",
+        "https://www.instagram.com/rechargedevs",
+        "https://www.linkedin.com/company/recharged-evs",
+        "https://www.facebook.com/Recharged.EVs",
+        "https://recharged.com/articles/category/battery-and-range",
+        "https://recharged.com/articles/solid-state-batteries-for-evs-timeline",
+        "https://recharged.com/vehicles/toyota/bz/JTMBFAEB7TA002933",
+        "https://recharged.com/vehicles/toyota/bz4x/JTMAAAAA1SA067315",
+        "https://recharged.com/vehicles/toyota/bz/JTMBCAEB3TA000783",
+        "https://recharged.com/articles/tesla-model-y-biggest-complaints",
+        "https://recharged.com/articles/ev-under-30k-best-buys-2025",
+        "https://recharged.com/articles/2023-kia-niro-ev-review",
+        "https://recharged.com/articles/best-used-tesla-to-buy",
+        "https://recharged.com/articles/sell-my-rivian-r1t-guide",
+        "https://recharged.com/articles/does-used-tesla-come-with-fsd"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:12.676Z",
+      "retrievedBy": [
+        "RESEARCHER",
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030?",
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? counterevidence criticism limitations"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:07:25.314Z"
+    },
+    {
+      "id": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+      "createdAt": "2026-09-12T18:07:12.945Z",
+      "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/",
+      "canonicalUrl": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s",
+      "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+      "publisher": "geeky-gadgets.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:12.945Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030?"
+      ]
+    },
+    {
+      "id": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+      "createdAt": "2026-09-12T18:07:13.388Z",
+      "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/",
+      "canonicalUrl": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030",
+      "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+      "publisher": "electrek.co",
+      "author": "Fred Lambert",
+      "publishedAt": "2026-06-25T15:27:07.000Z",
+      "sourceType": "web",
+      "quality": 75,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "CATL chairman Robin Zeng says solid-state batteries are only at 'level 4 of 9' and won't reach mass production before 2030, cooling industry hype.",
+      "links": [
+        "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030",
+        "https://electrek.co/",
+        "https://9to5mac.com/",
+        "https://9to5google.com/",
+        "https://9to5toys.com/",
+        "https://dronedj.com/",
+        "https://spaceexplored.com/",
+        "https://electrek.co/about",
+        "https://9to5mac.com/privacy",
+        "https://www.youtube.com/channel/UCcOIZzJgLCyMPILY7-1Vsdg",
+        "https://www.twitter.com/electrekco",
+        "https://www.facebook.com/electrekco",
+        "https://www.instagram.com/electrek.co",
+        "https://podcasts.apple.com/us/podcast/electrek/id1320055779",
+        "https://electrek.co/follow-electrek",
+        "https://apple.news/TDaZAAzogTHK5rrJYn3D6eQ",
+        "https://b.smartnews.be/r/3p2BcxbJznlh4Xi4",
+        "https://bsky.app/profile/electrek.co",
+        "https://flipboard.com/@electrek",
+        "https://www.linkedin.com/company/electrek",
+        "https://electrek.co/push",
+        "https://electrek.beehiiv.com/subscribe",
+        "https://electrek.co/contact-electrek",
+        "https://electrek.co/forums",
+        "https://electrek.co/best-electric-vehicle-prices",
+        "https://electrek.co/guides/tesla",
+        "https://electrek.co/guides/ford",
+        "https://electrek.co/guides/gm",
+        "https://electrek.co/guides/bmw",
+        "https://electrek.co/guides/jaguar",
+        "https://electrek.co/guides/vw",
+        "https://electrek.co/guides/daimler",
+        "https://electrek.co/guides/hyundai",
+        "https://electrek.co/guides/nissan",
+        "https://electrek.co/guides/Toyota",
+        "https://electrek.co/guides/ebikes",
+        "https://electrek.co/guides/electric-motorcycle",
+        "https://electrek.co/guides/bus",
+        "https://electrek.co/guides/hyperloop",
+        "https://electrek.co/guides/tesla-autopilot",
+        "https://electrek.co/guides/cruise-automation",
+        "https://electrek.co/guides/uber",
+        "https://electrek.co/guides/waymo",
+        "https://electrek.co/guides/egeb",
+        "https://electrek.co/guides/climate-crisis-weekly",
+        "https://electrek.co/shop",
+        "https://merch.electrek.co/",
+        "https://electrek.co/author/fredericclambert",
+        "https://electrek.co/2024/04/05/nio-begins-mass-production-semi-solid-state-batteriesev-use-q2",
+        "https://electrek.co/2026/05/11/15000-electric-suv-has-semi-solid-state-battery",
+        "https://electrek.co/2026/03/11/solid-state-ev-battery-patent-reveals-catls-ambitious-plans",
+        "https://electrek.co/2024/02/12/byd-catl-form-chinese-powerhouse-solid-state-ev-batteries",
+        "https://electrek.co/2025/02/17/byd-confirms-evs-all-solid-state-batteries-2027",
+        "https://electrek.co/2025/10/16/china-advances-all-solid-state-ev-batteries-with-1000-km-range",
+        "https://electrek.co/2026/04/21/catl-one-ups-byd-new-lfp-ev-battery-charges-in-6-mins",
+        "http://www.energysage.com/p/electrek",
+        "https://google.com/preferences/source?q=https%3A%2F%2Felectrek.co",
+        "https://news.google.com/publications/CAAqBwgKMKqD-Qow6c_gAg?amp%3Boc=3&ceid=US%3Aen",
+        "http://twitter.com/electrekco",
+        "https://youtube.com/c/electrekco",
+        "https://electrek.co/2026/09/12/evs-solar-v2h-hedge-energy-crisis",
+        "https://electrek.co/2026/09/11/amazon-puts-50-mercedes-benz-eactros-electric-semi-trucks-to-work-in-germany",
+        "https://electrek.co/author/joborras",
+        "https://electrek.co/2026/09/11/cat-puts-century-old-train-tech-to-work-in-new-heavier-electric-drive-dozer",
+        "https://electrek.co/2026/09/11/learn-how-to-save-money-on-gas-at-us-drive-electric-month-events-all-month",
+        "https://electrek.co/author/jamesondow",
+        "https://www.youtube.com/channel/UCcOIZzJgLCyMPILY7-1Vsdg?sub_confirmation=1",
+        "https://www.electrek.co/guides/electrek-podcast",
+        "https://electrek.co/category/news",
+        "https://twitter.com/intent/follow?original_referer=https%3A%2F%2Felectrek.co&screen_name=fredlambert",
+        "https://combat-edge.com/",
+        "https://t.sidekickopen60.com/s3t/c/5/f18dQhb0S7lM8dDTcYW39qybq2B9nMJN7t5XWPf2rmRN2zGJX-d0CtCW16gGF83Nsx19101?te=W3R5hFj4cm2zwW4mKLS-3K76ZWW3P8Rqf3P0nTBW43T4P41LwW69w3FdyYJ48Q2"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:13.388Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030?"
+      ]
+    },
+    {
+      "id": "c17380de-6791-4571-a329-740688da72b2",
+      "createdAt": "2026-09-12T18:07:14.265Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016",
+      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016",
+      "title": "Solid-state battery: An emerging transformation of battery technology ...",
+      "publisher": "sciencedirect.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:14.265Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER",
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? independent evidence data study",
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? limitations criticism analysis",
+        "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030. contrary evidence independent data"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:07:26.465Z"
+    },
+    {
+      "id": "944e4325-6196-451a-918b-3ca94183fa79",
+      "createdAt": "2026-09-12T18:07:14.368Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902",
+      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S2772569324000902",
+      "title": "Solid-state batteries, their future in the energy storage and electric ...",
+      "publisher": "sciencedirect.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:14.368Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER",
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? independent evidence data study",
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? limitations criticism analysis",
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? counterevidence criticism limitations",
+        "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030. contrary evidence independent data"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:07:26.342Z"
+    },
+    {
+      "id": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+      "createdAt": "2026-09-12T18:07:21.695Z",
+      "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/",
+      "canonicalUrl": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption",
+      "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+      "publisher": "thebatterymagazine.com",
+      "author": "Manshi",
+      "publishedAt": "2026-03-07T07:44:24.000Z",
+      "sourceType": "analysis",
+      "quality": 70,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "Explore solid-state batteries, their benefits, challenges, latest developments, and expected timeline for global mass adoption.",
+      "links": [
+        "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption",
+        "https://www.thebatterymagazine.com/category/just-in",
+        "https://www.thebatterymagazine.com/category/batteries",
+        "https://www.thebatterymagazine.com/category/batteries/battery-manufacturing-bess",
+        "https://www.thebatterymagazine.com/category/batteries/battery-materials-chemistries",
+        "https://www.thebatterymagazine.com/category/batteries/battery-recycling",
+        "https://www.thebatterymagazine.com/category/batteries/ci-storage",
+        "https://www.thebatterymagazine.com/category/renewable-energy/solar",
+        "https://www.thebatterymagazine.com/category/renewable-energy",
+        "https://www.thebatterymagazine.com/category/renewable-energy/wind-energy",
+        "https://www.thebatterymagazine.com/category/renewable-energy/hydropower",
+        "https://www.thebatterymagazine.com/category/renewable-energy/green-hydrogen",
+        "https://www.thebatterymagazine.com/category/renewable-energy/bioenergy",
+        "https://www.thebatterymagazine.com/category/tenders",
+        "https://www.thebatterymagazine.com/category/tenders/energy-storage",
+        "https://www.thebatterymagazine.com/category/tenders/solar-tender",
+        "https://www.thebatterymagazine.com/category/tenders/wind-tender",
+        "https://www.thebatterymagazine.com/category/policy",
+        "https://www.thebatterymagazine.com/category/policy/storage-policy",
+        "https://www.thebatterymagazine.com/category/policy/solar-policy",
+        "https://www.thebatterymagazine.com/category/policy/wind-policy",
+        "https://www.thebatterymagazine.com/category/policy/ev-policy",
+        "https://www.thebatterymagazine.com/category/policy/transmission-policy",
+        "https://www.thebatterymagazine.com/category/ev-charging",
+        "https://www.thebatterymagazine.com/category/ev-charging/ev-batteries",
+        "https://www.thebatterymagazine.com/category/ev-charging/ev-charging-infrastructure",
+        "https://www.thebatterymagazine.com/category/ev-charging/electric-mobility-trends",
+        "https://www.thebatterymagazine.com/category/grid",
+        "https://www.thebatterymagazine.com/category/grid/transmission-distribution",
+        "https://www.thebatterymagazine.com/category/grid/grid-infrastructure",
+        "https://www.thebatterymagazine.com/category/grid/power-generation-thermal-renewable-integration",
+        "https://www.thebatterymagazine.com/category/grid/power-equipments",
+        "https://www.thebatterymagazine.com/category/magazine-exclusive",
+        "https://www.thebatterymagazine.com/category/magazine-exclusive/cover-story",
+        "https://www.thebatterymagazine.com/category/magazine-exclusive/watt-matters",
+        "https://www.thebatterymagazine.com/category/magazine-exclusive/perspective",
+        "https://www.thebatterymagazine.com/category/articles",
+        "https://www.thebatterymagazine.com/category/emagazine",
+        "https://www.thebatterymagazine.com/events",
+        "https://www.thebatterymagazine.com/contact-us",
+        "https://www.facebook.com/TheBatteryMagazine",
+        "https://www.linkedin.com/company/the-battery-magazine",
+        "https://whatsapp.com/channel/0029Vb6Cw8pAInPq18jerv35",
+        "https://www.thebatterymagazine.com/",
+        "https://creative.spmgroup.in/www/delivery/ck.php?cb=INSERT_RANDOM_NUMBER_HERE&n=a43fae07",
+        "https://www.youtube.com/channel/UCQ8Epg8WBYz_iFstEPtdu5g",
+        "https://www.thebatterymagazine.com/author/manshi",
+        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.thebatterymagazine.com%2Fthe-future-of-solid-state-batteries-are-we-close-to-mass-adoption%2F",
+        "https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.thebatterymagazine.com%2Fthe-future-of-solid-state-batteries-are-we-close-to-mass-adoption%2F",
+        "https://www.linkedin.com/shareArticle?mini=true",
+        "https://wa.me/?text=The+Future+of+Solid-State+Batteries%3A+Are+We+Close+to+Mass+Adoption%3F+https%3A%2F%2Fwww.thebatterymagazine.com%2Fthe-future-of-solid-state-batteries-are-we-close-to-mass-adoption%2F",
+        "https://www.thebatterymagazine.com/panasonic-energy-to-supply-lithium-ion-batteries-for-zooxs-autonomous-robotaxi",
+        "https://www.thebatterymagazine.com/tag/battery-technologies",
+        "https://www.thebatterymagazine.com/tag/battery-technology",
+        "https://www.thebatterymagazine.com/tag/electric-vehicles",
+        "https://www.thebatterymagazine.com/tag/energy-storage-systems",
+        "https://www.thebatterymagazine.com/tag/lithium-ion-batteries",
+        "https://www.thebatterymagazine.com/tag/renewable-energy",
+        "https://www.thebatterymagazine.com/tag/solid-state-batteries",
+        "https://www.thebatterymagazine.com/bess-explosion-risk-when-battery-off-gassing-becomes-an-explosion-hazard",
+        "https://www.thebatterymagazine.com/fraunhofer-ise-battery-electrode-energy-density-15-percent",
+        "https://www.thebatterymagazine.com/blupine-energy-wins-gujarat-solar-award-for-120-mw-solar-pv-project",
+        "https://creative.spmgroup.in/www/delivery/ck.php?amp%3Bcb=INSERT_RANDOM_NUMBER_HERE&n=abdf9555",
+        "https://www.thebatterymagazine.com/small-hydro-power-india-clean-energy-transition-shripad-naik",
+        "https://www.thebatterymagazine.com/dr-jitendra-singh-critical-minerals-india-energy-security",
+        "https://www.thebatterymagazine.com/manohar-lal-g20-energy-ministerial-meeting-houston-2026",
+        "https://creative.spmgroup.in/www/delivery/ck.php?amp%3Bcb=INSERT_RANDOM_NUMBER_HERE&n=a148d830",
+        "https://www.thebatterymagazine.com/bspgcl-125-mw-500-mwh-bess-tender-bihar",
+        "https://www.thebatterymagazine.com/alstom-tpe-sign-e1-2-billion-contracts-battery-electric-train-fleet",
+        "https://www.thebatterymagazine.com/derc-approves-12-5-mw-25-mwh-battery-energy-storage-project-in-south-delhi",
+        "https://www.thebatterymagazine.com/about-us",
+        "https://www.thebatterymagazine.com/privacy-policy",
+        "https://www.thebatterymagazine.com/terms-of-service"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:21.695Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? independent evidence data study"
+      ]
+    },
+    {
+      "id": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+      "createdAt": "2026-09-12T18:07:23.566Z",
+      "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030",
+      "canonicalUrl": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030",
+      "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+      "publisher": "techbriefs.com",
+      "author": "SAE Media Group",
+      "publishedAt": "2024-04-01T12:00:00.000Z",
+      "sourceType": "web",
+      "quality": 75,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "Today’s lithium-ion (Li-ion) batteries are routinely able to provide ranges of 300 miles (483 km), but traditional Li-ion chemistry also has its limitations.",
+      "links": [
+        "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030",
+        "https://www.techbriefs.com/",
+        "https://www.techbriefs.com/account/registration",
+        "https://www.techbriefs.com/tb/topic/electronics-software",
+        "https://www.techbriefs.com/tb/topic/photonics-imaging",
+        "https://www.techbriefs.com/tb/topic/motion-control-automation",
+        "https://www.techbriefs.com/tb/topic/sensors-test",
+        "https://www.techbriefs.com/tb/topic/materials-manufacturing",
+        "https://www.techbriefs.com/tb/topic/mechanical-mechatronics",
+        "https://www.techbriefs.com/tb/techbriefs",
+        "https://www.techbriefs.com/tv",
+        "https://www.techbriefs.com/tb/webcasts",
+        "https://www.techbriefs.com/tb/webcasts/podcasts",
+        "https://www.techbriefs.com/tb/whitepapers",
+        "https://www.techbriefs.com/tb/stories/blog",
+        "https://www.techbriefs.com/tb/features/products",
+        "https://www.techbriefs.com/tb/features",
+        "https://www.techbriefs.com/tb/resources/special-reports",
+        "https://www.techbriefs.com/tb/events",
+        "https://www.techbriefs.com/tb/stories/quiz",
+        "https://www.techbriefs.com/tb/topic/electronics-software/software",
+        "https://www.techbriefs.com/tb/topic/electronics-software/communications",
+        "https://www.techbriefs.com/tb/topic/electronics-software/lighting",
+        "https://www.techbriefs.com/tb/topic/electronics-software/electrical-electronics",
+        "https://www.techbriefs.com/tb/topic/electronics-software/rf-microwave-electronics",
+        "https://www.techbriefs.com/tb/topic/electronics-software/semiconductors-ics",
+        "https://www.techbriefs.com/tb/topic/electronics-software/energy",
+        "https://www.techbriefs.com/tb/topic/photonics-imaging/photonics-optics",
+        "https://www.techbriefs.com/tb/topic/photonics-imaging/imaging",
+        "https://www.techbriefs.com/tb/topic/motion-control-automation/motion-control",
+        "https://www.techbriefs.com/tb/topic/motion-control-automation/robotics-automation-control",
+        "https://www.techbriefs.com/tb/topic/sensors-test/test-measurement",
+        "https://www.techbriefs.com/tb/topic/sensors-test/sensors-data-acquisition",
+        "https://www.techbriefs.com/tb/topic/materials-manufacturing/manufacturing-prototyping",
+        "https://www.techbriefs.com/tb/topic/materials-manufacturing/materials-coatings",
+        "https://www.techbriefs.com/tb/topic/mechanical-mechatronics/mechanical-fluid-systems",
+        "https://www.techbriefs.com/tb/topic/mechanical-mechatronics/propulsion",
+        "https://www.techbriefs.com/tb/topic/mechanical-mechatronics/transportation",
+        "https://www.techbriefs.com/tb/topic/mechanical-mechatronics/automotive",
+        "https://www.medicaldesignbriefs.com/",
+        "https://www.mobilityengineeringtech.com/",
+        "https://createthefuturecontest.com/",
+        "https://www.techbriefs.com/tb/spinoff",
+        "https://www.techbriefs.com/component/content/article/55845-doc-9991",
+        "https://www.techbriefs.com/tb/magazine/archives",
+        "https://tbm.dragonforms.com/loading.do?omedasite=TEBland",
+        "https://www.shareaholic.com/v2/follow?apikey=65befd2e10310fbce11aee6ee90bf582&service_nickname=facebook&username=TechBriefsMagazine",
+        "https://www.shareaholic.com/v2/follow?apikey=65befd2e10310fbce11aee6ee90bf582&service_nickname=twitter&username=TechBriefsMag",
+        "https://www.shareaholic.com/v2/follow?apikey=65befd2e10310fbce11aee6ee90bf582&service_nickname=linkedin_company&username=sae-media-group",
+        "https://www.shareaholic.com/v2/follow?apikey=65befd2e10310fbce11aee6ee90bf582&service_nickname=instagram&username=techbriefs",
+        "https://www.techbriefs.com/tb/features/articles",
+        "https://www.techbriefs.com/component/ntb_tags/topic/power/*/tb/*",
+        "https://www.techbriefs.com/component/ntb_tags/topic/automotive/*/tb/*",
+        "https://www.techbriefs.com/component/ntb_tags/topic/transportation/*/tb/*",
+        "https://www.shareaholic.com/api/share?apikey=65befd2e10310fbce11aee6ee90bf582&apitype=1&link=https%3A%2F%2Fwww.techbriefs.com%2Fcomponent%2Fcontent%2Farticle%2F50354-can-solid-state-batteries-commercialize-by-2030&service=facebook&title=Can+Solid-State+Batteries+Commercialize+by+2030%3F+&v=1",
+        "https://www.shareaholic.com/api/share?apikey=65befd2e10310fbce11aee6ee90bf582&apitype=1&link=https%3A%2F%2Fwww.techbriefs.com%2Fcomponent%2Fcontent%2Farticle%2F50354-can-solid-state-batteries-commercialize-by-2030&service=twitter&title=Can+Solid-State+Batteries+Commercialize+by+2030%3F+&v=1",
+        "https://www.shareaholic.com/api/share?apikey=65befd2e10310fbce11aee6ee90bf582&apitype=1&link=https%3A%2F%2Fwww.techbriefs.com%2Fcomponent%2Fcontent%2Farticle%2F50354-can-solid-state-batteries-commercialize-by-2030&service=linkedin&title=Can+Solid-State+Batteries+Commercialize+by+2030%3F+&v=1",
+        "https://www.techbriefs.com/component/ntb_tags/topic/automotive/automotive/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/transportation/automotive/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/energy/batteries/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/116/2006/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/116/1590/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/power/electrification/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/energy/energy/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/116/2005/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/116/5780/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/116/44431805/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/transportation/transportation/tb/*?start=0",
+        "https://www.techbriefs.com/component/ntb_tags/topic/116/2098/tb/*?start=0",
+        "https://www.mobilityengineeringtech.com/component/content/article/49520-sae-ma-07276",
+        "https://www.techbriefs.com/component/content/article/39142-range-doubling-lithium-metal-batteries-build-themselves-in-li-ion-manufacturing-method",
+        "https://www.techbriefs.com/component/content/article/39831-new-materials-move-li-ion-batteries-toward-the-solid-state-endgame",
+        "https://www.techbriefs.com/component/content/article/45713-manufacturing-advances-in-solid-state-batteries",
+        "https://www.mobilityengineeringtech.com/component/content/article/44423-sae-ma-03743",
+        "https://www.mobilityengineeringtech.com/component/content/article/44814-sae-ma-06746",
+        "https://www.techbriefs.com/component/content/article/45723-ultracapacitor-solutions-to-address-energy-storage-needs-of-vehicles",
+        "https://www.mobilityengineeringtech.com/component/content/article/53135-sae-ma-07585",
+        "https://www.techbriefs.com/component/content/article/49044-solid-state-ev-batteries-project-to-low-penetration-in-2030",
+        "https://www.techbriefs.com/component/content/article/45714-leading-the-charge-fast-40",
+        "https://www.techbriefs.com/component/content/article/37435-semi-liquid-metal-anode",
+        "https://www.techbriefs.com/component/content/article/39832-hybrid-membrane-doubles-the-lifetime-of-rechargeable-batteries",
+        "https://www.mobilityengineeringtech.com/component/content/article/45560-sae-ma-06886",
+        "https://www.mobilityengineeringtech.com/component/content/article/45140-sae-ma-06777",
+        "https://www.techbriefs.com/component/content/article/51815-factorials-solid-state-b-samples-send-a-message",
+        "https://www.techbriefs.com/component/content/article/51680-anode-free-sodium-solid-state-battery",
+        "https://www.mobilityengineeringtech.com/component/content/article/47422-sae-ma-07064",
+        "https://www.techbriefs.com/component/content/article/49012-2023-battery-show-north-america-opens-as-automakers-suppliers-intensify-battery-investments",
+        "https://www.techbriefs.com/component/content/article/36382-coating-extends-lithium-metal-battery-life",
+        "https://www.techbriefs.com/component/content/article/40467-safer-less-expensive-fast-charging-aqueous-battery-1638349834",
+        "https://www.techbriefs.com/component/content/article/37822-self-heating-battery-enables-quick-recharging-of-electric-vehicles",
+        "https://www.techbriefs.com/component/content/article/45768-safe-high-energy-li-ion-battery-for-electric-vehicles",
+        "https://www.techbriefs.com/component/content/article/39967-long-life-lithium-metal-battery",
+        "https://www.techbriefs.com/component/content/article/39836-advancing-battery-technology-the-2021-battery-show-preview",
+        "https://www.techbriefs.com/component/content/article/50822-next-generation-binder-for-lithium-ion-batteries",
+        "https://www.mobilityengineeringtech.com/component/content/article/52099-sae-ma-07492",
+        "https://www.techbriefs.com/component/content/article/47836-new-anode-materials-for-fast-charging-lithium-ion-batteries",
+        "https://www.techbriefs.com/component/content/article/40476-x-ray-tomography-lets-researchers-watch-solid-state-batteries-charge-and-discharge",
+        "https://www.techbriefs.com/component/content/article/39147-powering-tomorrow-battery-and-electrification-summit-preview",
+        "https://www.techbriefs.com/component/content/article/39146-cobalt-free-cathodes-for-lithium-ion-batteries",
+        "https://www.techbriefs.com/component/content/article/55580-new-drone-can-disappear-via-motion-blur"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:23.565Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? limitations criticism analysis"
+      ]
+    },
+    {
+      "id": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+      "createdAt": "2026-09-12T18:07:25.412Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913",
+      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S0378775325021913",
+      "title": "Challenges ahead in the development of solid-state batteries",
+      "publisher": "sciencedirect.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "SKEPTIC",
+      "retrievedAt": "2026-09-12T18:07:25.412Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Will solid-state batteries reach mass-market electric vehicles before 2030? counterevidence criticism limitations"
+      ]
+    },
+    {
+      "id": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+      "createdAt": "2026-09-12T18:07:26.701Z",
+      "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market",
+      "canonicalUrl": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market",
+      "title": "Solid-state batteries, their future in the energy storage and electric ...",
+      "publisher": "researchgate.net",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "SKEPTIC",
+      "retrievedAt": "2026-09-12T18:07:26.701Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030. contrary evidence independent data"
+      ]
+    }
+  ],
+  "evidenceEdges": [
+    {
+      "id": "0f9c5897-0ad4-409d-8e82-2f1368a3e75b",
+      "createdAt": "2026-09-12T18:07:23.732Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+      "type": "SUPPORTS",
+      "quote": "Recharged’s battery health diagnostics surface that story clearly, so you can spot an EV that will age gracefully, regardless of which electrolyte it uses..",
+      "confidence": 48,
+      "strength": 6,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "79f65b6e-f3c5-43ea-9289-564818df72b3",
+      "createdAt": "2026-09-12T18:07:23.758Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+      "type": "SUPPORTS",
+      "quote": "Promises the biggest gains in energy density and safety, but is also the most difficult to manufacture at scale..",
+      "confidence": 50,
+      "strength": 11,
+      "directness": 14,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "aa836e22-f4aa-4713-8cf8-7ff02f650e6f",
+      "createdAt": "2026-09-12T18:07:23.776Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+      "type": "SUPPORTS",
+      "quote": "Solid-State Batteries for EVs Timeline to 2035 | Recharged .",
+      "confidence": 51,
+      "strength": 12,
+      "directness": 15,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "02925ea2-f18b-42eb-b509-5eb4df412b61",
+      "createdAt": "2026-09-12T18:07:23.777Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+      "type": "SUPPORTS",
+      "quote": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+      "confidence": 51,
+      "strength": 14,
+      "directness": 18,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "c10034c6-27a8-4063-94d2-a18b60787606",
+      "createdAt": "2026-09-12T18:07:23.777Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+      "type": "SUPPORTS",
+      "quote": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+      "confidence": 47,
+      "strength": 6,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "f00f6174-348a-4040-9dc3-d11d4425222c",
+      "createdAt": "2026-09-12T18:07:23.777Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+      "type": "SUPPORTS",
+      "quote": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+      "confidence": 47,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "dccb712f-fff6-4ab9-a45f-ba413ab92be5",
+      "createdAt": "2026-09-12T18:07:23.784Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+      "type": "SUPPORTS",
+      "quote": "No sales calls until you pick an installer.",
+      "confidence": 50,
+      "strength": 6,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "ef32be48-c544-4637-8b32-174760a6e0c4",
+      "createdAt": "2026-09-12T18:07:23.792Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+      "type": "SUPPORTS",
+      "quote": "Electric cars and solar are the hedge against this out-of-control energy crisis .",
+      "confidence": 51,
+      "strength": 8,
+      "directness": 10,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "f077aec3-fef0-4c55-8418-e6b9af0202c3",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+      "type": "SUPPORTS",
+      "quote": "CATL chief: solid-state batteries at ‘level 4 of 9,’ no leap until 2030.",
+      "confidence": 54,
+      "strength": 16,
+      "directness": 20,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "32136e88-158f-4007-a925-e98cb4c6a0e4",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+      "type": "SUPPORTS",
+      "quote": "Solid-state battery: An emerging transformation of battery technology ...",
+      "confidence": 90,
+      "strength": 100,
+      "directness": 100,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "b095c3db-dbad-4da4-9d51-8042a8f3cdaf",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+      "type": "SUPPORTS",
+      "quote": "Solid-state battery: An emerging transformation of battery technology ...",
+      "confidence": 47,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "1225c60b-e80b-4f4d-975d-f696dca19ef3",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+      "type": "SUPPORTS",
+      "quote": "Solid-state battery: An emerging transformation of battery technology ...",
+      "confidence": 51,
+      "strength": 15,
+      "directness": 19,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "eb4a2143-672b-4523-8add-4f5dd40f5597",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "51c6afdd-1ee4-442a-8f49-1a8f34b8a5fe",
+      "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+      "type": "SUPPORTS",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 52,
+      "strength": 17,
+      "directness": 21,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "6bf299dc-deda-48c7-baf5-4567d1197610",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+      "type": "SUPPORTS",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 47,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "4db93119-1931-45b6-baa4-ecf6b3c4a90a",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+      "type": "SUPPORTS",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 90,
+      "strength": 100,
+      "directness": 100,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "a5573e61-9719-477e-a886-2d9d84b88a86",
+      "createdAt": "2026-09-12T18:07:23.800Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+      "type": "SUPPORTS",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 57,
+      "strength": 29,
+      "directness": 36,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "2773157f-9d20-4abc-9904-69a49442c766",
+      "createdAt": "2026-09-12T18:07:23.808Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+      "type": "QUALIFIES",
+      "quote": "Several companies currently working on solid-state battery technology include:.",
+      "confidence": 51,
+      "strength": 9,
+      "directness": 11,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "c107b619-439a-4fe7-b1d3-9abede5ce240",
+      "createdAt": "2026-09-12T18:07:23.817Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+      "type": "QUALIFIES",
+      "quote": "Get the latest news about energy storage in your inbox..",
+      "confidence": 57,
+      "strength": 23,
+      "directness": 28,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "aab11ea7-ca9d-4da0-9738-d0810768e3bf",
+      "createdAt": "2026-09-12T18:07:23.824Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+      "type": "QUALIFIES",
+      "quote": "Future of Solid-State Batteries and Mass Adoption Timeline .",
+      "confidence": 68,
+      "strength": 47,
+      "directness": 59,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "e3137a2c-ec66-4f8e-918e-1d72a6544994",
+      "createdAt": "2026-09-12T18:07:23.824Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+      "type": "SUPPORTS",
+      "quote": "Today’s lithium-ion (Li-ion) batteries are routinely able to provide ranges of 300 miles (483 km), but traditional Li-ion chemistry also has its limitations.",
+      "confidence": 50,
+      "strength": 6,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "a01e1b7a-93f6-4c7e-a5da-ccf5a5a63bdc",
+      "createdAt": "2026-09-12T18:07:23.824Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+      "type": "SUPPORTS",
+      "quote": "Today’s lithium-ion (Li-ion) batteries are routinely able to provide ranges of 300 miles (483 km), but traditional Li-ion chemistry also has its limitations.",
+      "confidence": 49,
+      "strength": 5,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "578d2d75-21e0-4364-8c1c-f17a149a4478",
+      "createdAt": "2026-09-12T18:07:23.824Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+      "type": "SUPPORTS",
+      "quote": "Today’s lithium-ion (Li-ion) batteries are routinely able to provide ranges of 300 miles (483 km), but traditional Li-ion chemistry also has its limitations.",
+      "confidence": 51,
+      "strength": 9,
+      "directness": 11,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "76854de8-12ac-43d8-893f-e0e702c9dac1",
+      "createdAt": "2026-09-12T18:07:26.844Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+      "type": "CONTRADICTS",
+      "quote": "Challenges ahead in the development of solid-state batteries",
+      "confidence": 54,
+      "strength": 15,
+      "directness": 19,
+      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "20e935e6-5420-41cb-8cb3-b65bb06d99c1",
+      "createdAt": "2026-09-12T18:07:26.844Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+      "type": "CONTRADICTS",
+      "quote": "Challenges ahead in the development of solid-state batteries",
+      "confidence": 60,
+      "strength": 29,
+      "directness": 36,
+      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "91a667bc-0c0e-4c38-83de-f209deaaeff0",
+      "createdAt": "2026-09-12T18:07:26.844Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+      "type": "CONTRADICTS",
+      "quote": "Challenges ahead in the development of solid-state batteries",
+      "confidence": 58,
+      "strength": 23,
+      "directness": 29,
+      "explanation": "Skeptic retrieval surfaced language that directly challenges the claim.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "0e887612-2a27-413d-a340-ae8430649aab",
+      "createdAt": "2026-09-12T18:07:26.844Z",
+      "claimId": "51c6afdd-1ee4-442a-8f49-1a8f34b8a5fe",
+      "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+      "type": "QUALIFIES",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 55,
+      "strength": 17,
+      "directness": 21,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "50806025-0f91-4918-9063-e83a1db4105a",
+      "createdAt": "2026-09-12T18:07:26.844Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+      "type": "QUALIFIES",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 50,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "fbe67566-111e-4c81-9f1e-d41e97078a9c",
+      "createdAt": "2026-09-12T18:07:26.844Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+      "type": "QUALIFIES",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 93,
+      "strength": 100,
+      "directness": 100,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "cec22f77-31d8-4597-b406-07b2cc8229dd",
+      "createdAt": "2026-09-12T18:07:26.844Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+      "type": "QUALIFIES",
+      "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+      "confidence": 60,
+      "strength": 29,
+      "directness": 36,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    }
+  ],
+  "sourceRelationships": [
+    {
+      "id": "13d5f0b5-8ea6-5b45-a416-a4c3f77e539c",
+      "createdAt": "2026-09-12T18:07:26.878Z",
+      "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+      "targetSourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+      "type": "POSSIBLY_SAME_ORIGIN",
+      "confidence": 100,
+      "suspected": false
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "27859670-0d6a-5e08-b1dc-af7fa5620ef2",
+      "createdAt": "2026-09-12T18:07:26.903Z",
+      "claimId": "51c6afdd-1ee4-442a-8f49-1a8f34b8a5fe",
+      "status": "UNCERTAIN",
+      "evidenceStrength": 47,
+      "factors": {
+        "supportWeight": 9,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 1,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 26,
+        "corroboration": 33,
+        "balance": 100,
+        "coverage": 13,
+        "qualificationAdjustment": 91
+      },
+      "supportingSourceIds": [
+        "944e4325-6196-451a-918b-3ca94183fa79"
+      ],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff"
+      ]
+    },
+    {
+      "id": "2706186d-4416-57ba-b058-87f59ae635a5",
+      "createdAt": "2026-09-12T18:07:26.903Z",
+      "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+      "status": "MIXED",
+      "evidenceStrength": 73,
+      "factors": {
+        "supportWeight": 66,
+        "contradictionWeight": 9,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 76,
+        "coverage": 100,
+        "qualificationAdjustment": 80
+      },
+      "supportingSourceIds": [
+        "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+        "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+        "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+        "c17380de-6791-4571-a329-740688da72b2",
+        "944e4325-6196-451a-918b-3ca94183fa79",
+        "f9e9b910-44d6-4699-973b-127e66da8c7c"
+      ],
+      "contradictingSourceIds": [
+        "41613e01-fb4f-40be-bb11-37b52f0b3fc9"
+      ],
+      "qualifyingSourceIds": [
+        "5d3cd178-617a-4a7e-ac68-8407168495f0",
+        "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff"
+      ]
+    },
+    {
+      "id": "8d00385f-a8ff-58a2-8d46-9be4a0546d9d",
+      "createdAt": "2026-09-12T18:07:26.903Z",
+      "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+      "status": "MIXED",
+      "evidenceStrength": 72,
+      "factors": {
+        "supportWeight": 66,
+        "contradictionWeight": 10,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 74,
+        "coverage": 100,
+        "qualificationAdjustment": 71
+      },
+      "supportingSourceIds": [
+        "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+        "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+        "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+        "c17380de-6791-4571-a329-740688da72b2",
+        "944e4325-6196-451a-918b-3ca94183fa79",
+        "f9e9b910-44d6-4699-973b-127e66da8c7c"
+      ],
+      "contradictingSourceIds": [
+        "41613e01-fb4f-40be-bb11-37b52f0b3fc9"
+      ],
+      "qualifyingSourceIds": [
+        "5d3cd178-617a-4a7e-ac68-8407168495f0",
+        "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff"
+      ]
+    },
+    {
+      "id": "22563b83-f977-5604-8f55-f3efc3259c86",
+      "createdAt": "2026-09-12T18:07:26.903Z",
+      "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+      "status": "MIXED",
+      "evidenceStrength": 71,
+      "factors": {
+        "supportWeight": 62,
+        "contradictionWeight": 10,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 1,
+        "sourceQuality": 31,
+        "corroboration": 100,
+        "balance": 73,
+        "coverage": 100,
+        "qualificationAdjustment": 74
+      },
+      "supportingSourceIds": [
+        "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+        "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+        "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+        "c17380de-6791-4571-a329-740688da72b2",
+        "944e4325-6196-451a-918b-3ca94183fa79",
+        "f9e9b910-44d6-4699-973b-127e66da8c7c"
+      ],
+      "contradictingSourceIds": [
+        "41613e01-fb4f-40be-bb11-37b52f0b3fc9"
+      ],
+      "qualifyingSourceIds": [
+        "5d3cd178-617a-4a7e-ac68-8407168495f0",
+        "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "f7387f61-8f54-4ce1-87ea-7c2658d0421e",
+      "timestamp": "2026-09-12T18:07:11.588Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "planner",
+      "payload": {
+        "phase": "PLANNING",
+        "percent": 5,
+        "message": "Planning independent research paths."
+      }
+    },
+    {
+      "id": "552dd71a-3ca8-44df-af6e-1654315ec0b6",
+      "timestamp": "2026-09-12T18:07:11.594Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "planner.completed",
+      "actor": "planner",
+      "payload": {
+        "paths": 3
+      }
+    },
+    {
+      "id": "22879cd6-dabd-488a-bf08-e4d8915db8eb",
+      "timestamp": "2026-09-12T18:07:11.597Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 15,
+        "message": "Researcher is finding the strongest available evidence."
+      }
+    },
+    {
+      "id": "647662a8-afe7-4174-96dc-464a33448e2d",
+      "timestamp": "2026-09-12T18:07:11.600Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030?",
+        "role": "RESEARCHER",
+        "taskId": "ec6d1e56-3e6d-413e-a6a5-ec9840b9c936"
+      }
+    },
+    {
+      "id": "57f10366-1bf3-4a26-bd29-77707a2ee110",
+      "timestamp": "2026-09-12T18:07:12.680Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+        "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+        "domain": "recharged.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "47163849-af04-44a5-8517-080748087ff8",
+      "timestamp": "2026-09-12T18:07:12.949Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+        "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+        "domain": "geeky-gadgets.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "651d78ae-03a8-4e43-b31e-d38266b43e5e",
+      "timestamp": "2026-09-12T18:07:13.391Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+        "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+        "domain": "electrek.co",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "b5d32aed-1c69-4563-8106-d40fc6044884",
+      "timestamp": "2026-09-12T18:07:13.400Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030?",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "670c4ca0-7ab5-4ca6-b56f-c26b62454e37",
+      "timestamp": "2026-09-12T18:07:13.404Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 22,
+        "message": "Researcher found 3 sources."
+      }
+    },
+    {
+      "id": "1dc9d9d2-dde4-48d0-97db-7b8f866fd08a",
+      "timestamp": "2026-09-12T18:07:13.407Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030? independent evidence data study",
+        "role": "RESEARCHER",
+        "taskId": "0c05a311-0429-4e0a-99fb-174dd31cbef8"
+      }
+    },
+    {
+      "id": "b4a62ca6-0d4d-4e59-a236-94912ffa742f",
+      "timestamp": "2026-09-12T18:07:14.270Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+        "title": "Solid-state battery: An emerging transformation of battery technology ...",
+        "domain": "sciencedirect.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "cd1590c2-360d-489f-bdd3-d7a068f03b7f",
+      "timestamp": "2026-09-12T18:07:14.373Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+        "title": "Solid-state batteries, their future in the energy storage and electric ...",
+        "domain": "sciencedirect.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "bb1e8794-911a-4602-95e0-0770fc8fea79",
+      "timestamp": "2026-09-12T18:07:21.699Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+        "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+        "domain": "thebatterymagazine.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "d6be3291-06f9-492e-8f84-073e98156044",
+      "timestamp": "2026-09-12T18:07:21.721Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030? independent evidence data study",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "dd053b69-bf88-4f6b-b4f6-29c937348e9e",
+      "timestamp": "2026-09-12T18:07:21.727Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 28,
+        "message": "Researcher found 6 sources."
+      }
+    },
+    {
+      "id": "c9f5be73-1400-40f2-912d-802b97240d44",
+      "timestamp": "2026-09-12T18:07:21.732Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030? limitations criticism analysis",
+        "role": "RESEARCHER",
+        "taskId": "71a1c179-a709-4999-89d9-f5ae9650378e"
+      }
+    },
+    {
+      "id": "6c35f4f5-4687-4198-8fb8-743d1a5a20c1",
+      "timestamp": "2026-09-12T18:07:22.761Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+        "title": "Solid-state battery: An emerging transformation of battery technology ...",
+        "domain": "sciencedirect.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "a311c622-73b9-4ac4-a84f-69724a94c319",
+      "timestamp": "2026-09-12T18:07:23.571Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+        "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+        "domain": "techbriefs.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "c673cadd-3728-403e-8a40-d52a8670cab1",
+      "timestamp": "2026-09-12T18:07:23.668Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+        "title": "Solid-state batteries, their future in the energy storage and electric ...",
+        "domain": "sciencedirect.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "9d91d923-2f63-4a1c-bf93-38d5b3141b00",
+      "timestamp": "2026-09-12T18:07:23.678Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030? limitations criticism analysis",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "8c5884df-8da3-422d-beb5-8e61d6605db1",
+      "timestamp": "2026-09-12T18:07:23.685Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 35,
+        "message": "Researcher found 7 sources."
+      }
+    },
+    {
+      "id": "d91b109f-d5d3-4c91-b581-c0695dda3555",
+      "timestamp": "2026-09-12T18:07:23.691Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "claim-extractor",
+      "payload": {
+        "phase": "EXTRACTING",
+        "percent": 40,
+        "message": "Extracting atomic claims and linking them to source passages."
+      }
+    },
+    {
+      "id": "cd90fb2f-c015-420b-81b1-7f569ffa59e2",
+      "timestamp": "2026-09-12T18:07:23.829Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "claims.extracted",
+      "actor": "claim-extractor",
+      "payload": {
+        "count": 4
+      }
+    },
+    {
+      "id": "b1a98075-1c3e-4a61-b4fd-fb3e124b08b7",
+      "timestamp": "2026-09-12T18:07:23.839Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "skeptic",
+      "payload": {
+        "phase": "SKEPTIC",
+        "percent": 50,
+        "message": "Skeptic is searching for contradictions, caveats, and missing primary evidence."
+      }
+    },
+    {
+      "id": "fd3a6047-11e2-4319-94c1-2892796d56c5",
+      "timestamp": "2026-09-12T18:07:23.867Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.started",
+      "actor": "skeptic",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030? counterevidence criticism limitations",
+        "role": "SKEPTIC",
+        "taskId": "ca51e6c9-c1ca-4562-930f-d235a9a61426"
+      }
+    },
+    {
+      "id": "3ba9ccc5-7f4c-4a3e-8f37-93c89744f71c",
+      "timestamp": "2026-09-12T18:07:24.908Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+        "title": "Solid-state batteries, their future in the energy storage and electric ...",
+        "domain": "sciencedirect.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "cfccd84f-e154-400a-be0d-13e342f2e1f3",
+      "timestamp": "2026-09-12T18:07:25.323Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+        "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+        "domain": "recharged.com",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "24f22822-9e36-450c-92bd-9f5f3dd1e0d6",
+      "timestamp": "2026-09-12T18:07:25.428Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+        "title": "Challenges ahead in the development of solid-state batteries",
+        "domain": "sciencedirect.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "3cff75ee-282b-4828-8dec-a05af5c87760",
+      "timestamp": "2026-09-12T18:07:25.443Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.completed",
+      "actor": "skeptic",
+      "payload": {
+        "query": "Will solid-state batteries reach mass-market electric vehicles before 2030? counterevidence criticism limitations",
+        "role": "SKEPTIC",
+        "found": 3
+      }
+    },
+    {
+      "id": "417bc968-e2b4-4240-a6b0-d4ee61cfee64",
+      "timestamp": "2026-09-12T18:07:25.456Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.started",
+      "actor": "skeptic",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "taskId": "6a700cf6-94e9-488b-b9be-a91c78d66ff7"
+      }
+    },
+    {
+      "id": "c84ec175-2900-4d77-b868-5feb80aff450",
+      "timestamp": "2026-09-12T18:07:26.355Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+        "title": "Solid-state batteries, their future in the energy storage and electric ...",
+        "domain": "sciencedirect.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "254c7d6e-c9b2-45d5-bc5e-7f9083849836",
+      "timestamp": "2026-09-12T18:07:26.475Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+        "title": "Solid-state battery: An emerging transformation of battery technology ...",
+        "domain": "sciencedirect.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "f28901b2-348a-4bc0-b1eb-4dd643bf86c5",
+      "timestamp": "2026-09-12T18:07:26.711Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+        "title": "Solid-state batteries, their future in the energy storage and electric ...",
+        "domain": "researchgate.net",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "2b772278-8b6a-4014-9333-1f5ae36c9fac",
+      "timestamp": "2026-09-12T18:07:26.724Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "research.search.completed",
+      "actor": "skeptic",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "found": 3
+      }
+    },
+    {
+      "id": "4c1a0f5d-9852-4205-a7dc-b45139d4ae53",
+      "timestamp": "2026-09-12T18:07:26.848Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "skeptic.completed",
+      "actor": "skeptic",
+      "payload": {
+        "searches": 3,
+        "newSourceCount": 5
+      }
+    },
+    {
+      "id": "1061a253-90ff-46aa-a0ad-d5f494ebf8b0",
+      "timestamp": "2026-09-12T18:07:26.860Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "independence-auditor",
+      "payload": {
+        "phase": "GENEALOGY",
+        "percent": 68,
+        "message": "Tracing shared origins so repeated citations do not count as independent proof."
+      }
+    },
+    {
+      "id": "c25402fd-904e-4af9-9328-801da2a17227",
+      "timestamp": "2026-09-12T18:07:26.883Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "genealogy.completed",
+      "actor": "independence-auditor",
+      "payload": {
+        "relationships": 1
+      }
+    },
+    {
+      "id": "39eb312c-5bf0-434b-8596-d695892123ba",
+      "timestamp": "2026-09-12T18:07:26.895Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "adjudicator",
+      "payload": {
+        "phase": "ADJUDICATING",
+        "percent": 76,
+        "message": "Adjudicating each claim using quality, directness, recency, and independent lineages."
+      }
+    },
+    {
+      "id": "7a785ea2-e0ce-4e87-b8c4-f7139344dd0d",
+      "timestamp": "2026-09-12T18:07:26.918Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "adjudication.completed",
+      "actor": "adjudicator",
+      "payload": {
+        "counts": {
+          "SUPPORTED": 0,
+          "CONTRADICTED": 0,
+          "MIXED": 3,
+          "UNCERTAIN": 1
+        },
+        "claims": 4
+      }
+    },
+    {
+      "id": "57c6f23a-d8f5-40cd-a445-311aa5d746c3",
+      "timestamp": "2026-09-12T18:07:26.930Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "weakness-detector",
+      "payload": {
+        "phase": "FOLLOW_UP",
+        "percent": 82,
+        "message": "No additional targeted search was needed within the research budget."
+      }
+    },
+    {
+      "id": "f45f4aba-3cf4-4d8f-9b4f-5fcac81595a4",
+      "timestamp": "2026-09-12T18:07:26.942Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "agent.progress",
+      "actor": "reporter",
+      "payload": {
+        "phase": "REPORTING",
+        "percent": 92,
+        "message": "Writing a cited report from the evidence graph."
+      }
+    },
+    {
+      "id": "64e60463-72e1-44ef-a426-35a21ce4510c",
+      "timestamp": "2026-09-12T18:07:26.969Z",
+      "sessionId": "101ec1d2-14f1-42d0-a70f-f48cb6f77883",
+      "type": "session.completed",
+      "actor": "system",
+      "payload": {
+        "sources": 9,
+        "claims": 4,
+        "searchCalls": 5
+      }
+    }
+  ],
+  "report": {
+    "title": "ClaimLens evidence report",
+    "claims": [
+      {
+        "claimId": "51c6afdd-1ee4-442a-8f49-1a8f34b8a5fe",
+        "text": "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030.",
+        "status": "UNCERTAIN",
+        "evidenceStrength": 47,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 52,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 55,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+        "text": "Solid-state battery: An emerging transformation of battery technology ...",
+        "status": "MIXED",
+        "evidenceStrength": 73,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 48,
+            "quote": "Recharged’s battery health diagnostics surface that story clearly, so you can spot an EV that will age gracefully, regardless of which electrolyte it uses..",
+            "citation": {
+              "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+              "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+              "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 51,
+            "quote": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+            "citation": {
+              "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+              "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+              "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 50,
+            "quote": "No sales calls until you pick an installer.",
+            "citation": {
+              "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+              "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+              "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 90,
+            "quote": "Solid-state battery: An emerging transformation of battery technology ...",
+            "citation": {
+              "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+              "title": "Solid-state battery: An emerging transformation of battery technology ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 47,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 51,
+            "quote": "Several companies currently working on solid-state battery technology include:.",
+            "citation": {
+              "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+              "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+              "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 50,
+            "quote": "Today’s lithium-ion (Li-ion) batteries are routinely able to provide ranges of 300 miles (483 km), but traditional Li-ion chemistry also has its limitations.",
+            "citation": {
+              "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+              "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+              "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030"
+            }
+          },
+          {
+            "type": "CONTRADICTS",
+            "confidence": 54,
+            "quote": "Challenges ahead in the development of solid-state batteries",
+            "citation": {
+              "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+              "title": "Challenges ahead in the development of solid-state batteries",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 50,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+        "text": "Solid-state batteries, their future in the energy storage and electric ...",
+        "status": "MIXED",
+        "evidenceStrength": 72,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 50,
+            "quote": "Promises the biggest gains in energy density and safety, but is also the most difficult to manufacture at scale..",
+            "citation": {
+              "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+              "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+              "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 47,
+            "quote": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+            "citation": {
+              "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+              "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+              "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 51,
+            "quote": "Electric cars and solar are the hedge against this out-of-control energy crisis .",
+            "citation": {
+              "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+              "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+              "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 47,
+            "quote": "Solid-state battery: An emerging transformation of battery technology ...",
+            "citation": {
+              "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+              "title": "Solid-state battery: An emerging transformation of battery technology ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 90,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 57,
+            "quote": "Get the latest news about energy storage in your inbox..",
+            "citation": {
+              "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+              "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+              "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "Today’s lithium-ion (Li-ion) batteries are routinely able to provide ranges of 300 miles (483 km), but traditional Li-ion chemistry also has its limitations.",
+            "citation": {
+              "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+              "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+              "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030"
+            }
+          },
+          {
+            "type": "CONTRADICTS",
+            "confidence": 60,
+            "quote": "Challenges ahead in the development of solid-state batteries",
+            "citation": {
+              "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+              "title": "Challenges ahead in the development of solid-state batteries",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 93,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+        "text": "Future of Solid-State Batteries and Mass Adoption Timeline .",
+        "status": "MIXED",
+        "evidenceStrength": 71,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 51,
+            "quote": "Solid-State Batteries for EVs Timeline to 2035 | Recharged .",
+            "citation": {
+              "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+              "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+              "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 47,
+            "quote": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+            "citation": {
+              "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+              "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+              "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 54,
+            "quote": "CATL chief: solid-state batteries at ‘level 4 of 9,’ no leap until 2030.",
+            "citation": {
+              "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+              "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+              "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 51,
+            "quote": "Solid-state battery: An emerging transformation of battery technology ...",
+            "citation": {
+              "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+              "title": "Solid-state battery: An emerging transformation of battery technology ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 57,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 68,
+            "quote": "Future of Solid-State Batteries and Mass Adoption Timeline .",
+            "citation": {
+              "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+              "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+              "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 51,
+            "quote": "Today’s lithium-ion (Li-ion) batteries are routinely able to provide ranges of 300 miles (483 km), but traditional Li-ion chemistry also has its limitations.",
+            "citation": {
+              "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+              "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+              "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030"
+            }
+          },
+          {
+            "type": "CONTRADICTS",
+            "confidence": 58,
+            "quote": "Challenges ahead in the development of solid-state batteries",
+            "citation": {
+              "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+              "title": "Challenges ahead in the development of solid-state batteries",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 60,
+            "quote": "Solid-state batteries, their future in the energy storage and electric ...",
+            "citation": {
+              "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+              "title": "Solid-state batteries, their future in the energy storage and electric ...",
+              "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+            }
+          }
+        ]
+      }
+    ],
+    "generatedAt": "2026-09-12T18:07:26.951Z",
+    "executiveConclusion": "The evidence is not settled. The graph contains meaningful counterevidence or competing interpretations.",
+    "statusCounts": {
+      "SUPPORTED": 0,
+      "CONTRADICTED": 0,
+      "MIXED": 3,
+      "UNCERTAIN": 1
+    },
+    "keyFindings": [
+      {
+        "claimId": "51c6afdd-1ee4-442a-8f49-1a8f34b8a5fe",
+        "text": "The evidence base is being evaluated for this proposition: Will solid-state batteries reach mass-market electric vehicles before 2030.",
+        "status": "UNCERTAIN",
+        "evidenceStrength": 47,
+        "citations": [
+          {
+            "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+          },
+          {
+            "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+          }
+        ]
+      },
+      {
+        "claimId": "d91aae96-e430-4dbc-bc57-329acfe63560",
+        "text": "Solid-state battery: An emerging transformation of battery technology ...",
+        "status": "MIXED",
+        "evidenceStrength": 73,
+        "citations": [
+          {
+            "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+            "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+            "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline"
+          },
+          {
+            "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+            "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+            "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/"
+          },
+          {
+            "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+            "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+            "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/"
+          },
+          {
+            "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+            "title": "Solid-state battery: An emerging transformation of battery technology ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016"
+          },
+          {
+            "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+          },
+          {
+            "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+            "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+            "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/"
+          },
+          {
+            "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+            "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+            "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030"
+          },
+          {
+            "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+            "title": "Challenges ahead in the development of solid-state batteries",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913"
+          },
+          {
+            "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+          }
+        ]
+      },
+      {
+        "claimId": "b21d868e-e214-4aaa-8c2e-8eaf46f7336a",
+        "text": "Solid-state batteries, their future in the energy storage and electric ...",
+        "status": "MIXED",
+        "evidenceStrength": 72,
+        "citations": [
+          {
+            "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+            "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+            "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline"
+          },
+          {
+            "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+            "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+            "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/"
+          },
+          {
+            "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+            "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+            "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/"
+          },
+          {
+            "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+            "title": "Solid-state battery: An emerging transformation of battery technology ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016"
+          },
+          {
+            "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+          },
+          {
+            "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+            "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+            "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/"
+          },
+          {
+            "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+            "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+            "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030"
+          },
+          {
+            "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+            "title": "Challenges ahead in the development of solid-state batteries",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913"
+          },
+          {
+            "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+          }
+        ]
+      },
+      {
+        "claimId": "ec8a0cfe-b5b5-4b97-805d-6d37d1f7a023",
+        "text": "Future of Solid-State Batteries and Mass Adoption Timeline .",
+        "status": "MIXED",
+        "evidenceStrength": 71,
+        "citations": [
+          {
+            "sourceId": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+            "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+            "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline"
+          },
+          {
+            "sourceId": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+            "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+            "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/"
+          },
+          {
+            "sourceId": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+            "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+            "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/"
+          },
+          {
+            "sourceId": "c17380de-6791-4571-a329-740688da72b2",
+            "title": "Solid-state battery: An emerging transformation of battery technology ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016"
+          },
+          {
+            "sourceId": "944e4325-6196-451a-918b-3ca94183fa79",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902"
+          },
+          {
+            "sourceId": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+            "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+            "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/"
+          },
+          {
+            "sourceId": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+            "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+            "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030"
+          },
+          {
+            "sourceId": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+            "title": "Challenges ahead in the development of solid-state batteries",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913"
+          },
+          {
+            "sourceId": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+            "title": "Solid-state batteries, their future in the energy storage and electric ...",
+            "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "9 retrieved sources were assessed; snippets and page availability can affect directness.",
+      "Some apparent source diversity was collapsed into suspected or explicit lineages; genealogy is an auditable heuristic, not certainty."
+    ],
+    "sources": [
+      {
+        "id": "c2d138c5-859c-4933-b9fd-e96fde1a9f1f",
+        "title": "Solid-State Batteries for EVs Timeline to 2035 | Recharged",
+        "publisher": "recharged.com",
+        "url": "https://recharged.com/articles/solid-state-batteries-for-evs-timeline",
+        "retrievedAt": "2026-09-12T18:07:12.676Z",
+        "searchRole": "RESEARCHER",
+        "quality": 60
+      },
+      {
+        "id": "2a812c14-7dad-4009-b9fb-e5ebdd6a8bff",
+        "title": "Solid-State Battery Commercialization : How Close Are We? - Geeky Gadgets",
+        "publisher": "geeky-gadgets.com",
+        "url": "https://www.geeky-gadgets.com/solid-state-batteries-timeline-2025-to-2030s/",
+        "retrievedAt": "2026-09-12T18:07:12.945Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "3e598738-62d8-4f4d-8b27-7a7a6ca9549e",
+        "title": "CATL chief: solid-state batteries at 'level 4 of 9,' no leap until 2030 | Electrek",
+        "publisher": "electrek.co",
+        "url": "https://electrek.co/2026/06/25/catl-solid-state-battery-level-4-2030/",
+        "publishedAt": "2026-06-25T15:27:07.000Z",
+        "retrievedAt": "2026-09-12T18:07:13.388Z",
+        "searchRole": "RESEARCHER",
+        "quality": 75
+      },
+      {
+        "id": "c17380de-6791-4571-a329-740688da72b2",
+        "title": "Solid-state battery: An emerging transformation of battery technology ...",
+        "publisher": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2352152X25037016",
+        "retrievedAt": "2026-09-12T18:07:14.265Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "944e4325-6196-451a-918b-3ca94183fa79",
+        "title": "Solid-state batteries, their future in the energy storage and electric ...",
+        "publisher": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2772569324000902",
+        "retrievedAt": "2026-09-12T18:07:14.368Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "5d3cd178-617a-4a7e-ac68-8407168495f0",
+        "title": "Future of Solid-State Batteries and Mass Adoption Timeline",
+        "publisher": "thebatterymagazine.com",
+        "url": "https://www.thebatterymagazine.com/the-future-of-solid-state-batteries-are-we-close-to-mass-adoption/",
+        "publishedAt": "2026-03-07T07:44:24.000Z",
+        "retrievedAt": "2026-09-12T18:07:21.695Z",
+        "searchRole": "RESEARCHER",
+        "quality": 70
+      },
+      {
+        "id": "f9e9b910-44d6-4699-973b-127e66da8c7c",
+        "title": "Can Solid-State Batteries Commercialize by 2030? - Tech Briefs",
+        "publisher": "techbriefs.com",
+        "url": "https://www.techbriefs.com/component/content/article/50354-can-solid-state-batteries-commercialize-by-2030",
+        "publishedAt": "2024-04-01T12:00:00.000Z",
+        "retrievedAt": "2026-09-12T18:07:23.565Z",
+        "searchRole": "RESEARCHER",
+        "quality": 75
+      },
+      {
+        "id": "41613e01-fb4f-40be-bb11-37b52f0b3fc9",
+        "title": "Challenges ahead in the development of solid-state batteries",
+        "publisher": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378775325021913",
+        "retrievedAt": "2026-09-12T18:07:25.412Z",
+        "searchRole": "SKEPTIC",
+        "quality": 50
+      },
+      {
+        "id": "aa879aba-7e0a-40aa-b1d0-67e29d99d1ff",
+        "title": "Solid-state batteries, their future in the energy storage and electric ...",
+        "publisher": "researchgate.net",
+        "url": "https://www.researchgate.net/publication/381884877_Solid-state_batteries_their_future_in_the_energy_storage_and_electric_vehicles_market",
+        "retrievedAt": "2026-09-12T18:07:26.701Z",
+        "searchRole": "SKEPTIC",
+        "quality": 50
+      }
+    ],
+    "whyResearchContinued": "The initial evidence set was reviewed by a separate skeptic stage before adjudication."
+  }
+}

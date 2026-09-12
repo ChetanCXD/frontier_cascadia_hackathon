@@ -1,0 +1,2162 @@
+{
+  "artifactVersion": 1,
+  "realRun": true,
+  "provider": "DuckDuckGo HTML",
+  "evaluatedAt": "2026-09-12T18:07:47.563Z",
+  "case": {
+    "name": "insufficient",
+    "question": "Will a newly created private company double its stock price next Tuesday?"
+  },
+  "session": {
+    "id": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+    "createdAt": "2026-09-12T18:07:38.754Z",
+    "title": "Investigation: Will a newly created private company double its stock price next Tuesday?",
+    "question": "Will a newly created private company double its stock price next Tuesday?",
+    "status": "COMPLETE",
+    "updatedAt": "2026-09-12T18:07:47.555Z",
+    "metadata": {
+      "evaluationCase": "insufficient"
+    },
+    "phase": "DONE",
+    "completedAt": "2026-09-12T18:07:47.547Z"
+  },
+  "progress": {
+    "phase": "DONE",
+    "percent": 100,
+    "message": "Investigation complete. Inspect the graph to see why each claim earned its status.",
+    "actor": "system",
+    "updatedAt": "2026-09-12T18:07:47.547Z"
+  },
+  "tasks": [
+    {
+      "id": "e08da814-b473-4708-8db6-5a3ca83589c9",
+      "createdAt": "2026-09-12T18:07:38.758Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "objective": "Researcher search: Will a newly created private company double its stock price next Tuesday?",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:41.078Z"
+    },
+    {
+      "id": "49b71c5e-8697-4b66-b960-a1f67919e060",
+      "createdAt": "2026-09-12T18:07:38.759Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "objective": "Researcher search: Will a newly created private company double its stock price next Tuesday? independent evidence data study",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:43.421Z"
+    },
+    {
+      "id": "118d135a-67b6-4d2b-b673-873abc9f5596",
+      "createdAt": "2026-09-12T18:07:38.760Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "objective": "Researcher search: Will a newly created private company double its stock price next Tuesday? limitations criticism analysis",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:44.877Z"
+    },
+    {
+      "id": "c016d300-91b8-4829-aed6-2658fbab3cd9",
+      "createdAt": "2026-09-12T18:07:44.947Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "objective": "Skeptic search: Will a newly created private company double its stock price next Tuesday? counterevidence criticism limitations",
+      "status": "COMPLETE",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:46.654Z"
+    },
+    {
+      "id": "f19e0c78-b722-4d40-80f6-78d2ac3e4cef",
+      "createdAt": "2026-09-12T18:07:44.951Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "objective": "Skeptic search: The evidence base is being evaluated for this proposition: Will a newly created private company double its stock price next Tuesday. contrary evidence independent data",
+      "status": "COMPLETE",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:47.396Z"
+    },
+    {
+      "id": "471324ae-87cd-4e49-9860-bcbc2458a656",
+      "createdAt": "2026-09-12T18:07:44.955Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "objective": "Skeptic search: Wall Street's IPO comeback is delivering mixed results - Fast Company contrary evidence independent data",
+      "status": "OPEN",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:44.955Z"
+    }
+  ],
+  "claims": [
+    {
+      "id": "21537ce8-dd7c-42c6-918a-f758eeae858a",
+      "createdAt": "2026-09-12T18:07:44.898Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "text": "The evidence base is being evaluated for this proposition: Will a newly created private company double its stock price next Tuesday.",
+      "updatedAt": "2026-09-12T18:07:47.508Z",
+      "isCentral": true,
+      "extractionScore": 0,
+      "status": "UNCERTAIN",
+      "evidenceStrength": 10,
+      "factors": {
+        "supportWeight": 0,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 0,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 0,
+        "corroboration": 0,
+        "balance": 0,
+        "coverage": 0,
+        "qualificationAdjustment": 100
+      }
+    },
+    {
+      "id": "b639c3a1-8999-4bdc-a7c6-9d98cbcbda75",
+      "createdAt": "2026-09-12T18:07:44.898Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "text": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+      "updatedAt": "2026-09-12T18:07:47.508Z",
+      "originSourceId": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+      "extractionScore": 100,
+      "status": "UNCERTAIN",
+      "evidenceStrength": 8,
+      "factors": {
+        "supportWeight": 0,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 0,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 0,
+        "corroboration": 0,
+        "balance": 0,
+        "coverage": 0,
+        "qualificationAdjustment": 77
+      }
+    },
+    {
+      "id": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "createdAt": "2026-09-12T18:07:44.898Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "text": "5 Things to Know Before the Stock Market Opens on Tuesday",
+      "updatedAt": "2026-09-12T18:07:47.508Z",
+      "originSourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+      "extractionScore": 100,
+      "status": "SUPPORTED",
+      "evidenceStrength": 77,
+      "factors": {
+        "supportWeight": 64,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 96,
+        "qualificationAdjustment": 81
+      }
+    },
+    {
+      "id": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "createdAt": "2026-09-12T18:07:44.898Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "text": "Understanding Private Placement and Its Impact on Share Prices",
+      "updatedAt": "2026-09-12T18:07:47.508Z",
+      "originSourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+      "extractionScore": 100,
+      "status": "SUPPORTED",
+      "evidenceStrength": 74,
+      "factors": {
+        "supportWeight": 52,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 5,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 31,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 77,
+        "qualificationAdjustment": 81
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+      "createdAt": "2026-09-12T18:07:39.671Z",
+      "url": "https://www.fastcompany.com/91576516/wall-streets-ipo-comeback-is-delivering-mixed-results",
+      "canonicalUrl": "https://www.fastcompany.com/91576516/wall-streets-ipo-comeback-is-delivering-mixed-results",
+      "title": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+      "publisher": "fastcompany.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:39.671Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER",
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday?",
+        "Will a newly created private company double its stock price next Tuesday? limitations criticism analysis",
+        "Will a newly created private company double its stock price next Tuesday? counterevidence criticism limitations"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:07:45.733Z"
+    },
+    {
+      "id": "d72ef5f2-5786-49f2-8109-96e2adca04f9",
+      "createdAt": "2026-09-12T18:07:40.239Z",
+      "url": "https://www.marketbeat.com/IPOs/",
+      "canonicalUrl": "https://www.marketbeat.com/IPOs",
+      "title": "2026 IPO Calendar | Upcoming Initial Public Offerings",
+      "publisher": "marketbeat.com",
+      "sourceType": "analysis",
+      "quality": 60,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "View a list of upcoming initial public offerings (IPOs) in 2026 with expected pricing, volume, and more at MarketBeat.com.",
+      "links": [
+        "https://www.marketbeat.com/IPOs",
+        "https://www.marketbeat.com/",
+        "https://www.marketbeat.com/all-access",
+        "https://www.marketbeat.com/all-access/live-news",
+        "https://www.marketbeat.com/manage/momentum-alerts",
+        "https://www.marketbeat.com/all-access/idea-engine",
+        "https://www.marketbeat.com/all-access/export-data",
+        "https://www.marketbeat.com/manage/watchlists",
+        "https://www.marketbeat.com/manage",
+        "https://www.marketbeat.com/calculators",
+        "https://www.marketbeat.com/dividends/calculator",
+        "https://www.marketbeat.com/dividends/yield-calculator",
+        "https://www.marketbeat.com/calculators/market-cap-calculator",
+        "https://www.marketbeat.com/calculators/options-profit-calculator",
+        "https://www.marketbeat.com/calculators/stock-average-calculator",
+        "https://www.marketbeat.com/stock-splits/calculator",
+        "https://www.marketbeat.com/calculators/stock-profit-calculator",
+        "https://www.marketbeat.com/screeners",
+        "https://www.marketbeat.com/stock-screener",
+        "https://www.marketbeat.com/all-access/etf-screener",
+        "https://www.marketbeat.com/all-access/ratings-screener",
+        "https://www.marketbeat.com/dividends/screener",
+        "https://www.marketbeat.com/all-access/earnings-screener",
+        "https://www.marketbeat.com/all-access/insider-trades-screener",
+        "https://www.marketbeat.com/stocks/trending",
+        "https://www.marketbeat.com/stocks/trending/media",
+        "https://www.marketbeat.com/stocks/trending/media-sentiment",
+        "https://www.marketbeat.com/all-access/reports",
+        "https://www.marketbeat.com/all-access/reports?report=buyandholdforever",
+        "https://www.marketbeat.com/all-access/reports?report=infrastructure",
+        "https://www.marketbeat.com/all-access/reports?report=spacestocks",
+        "https://www.marketbeat.com/all-access/reports?report=robots",
+        "https://www.marketbeat.com/all-access/reports?report=5g",
+        "https://www.marketbeat.com/all-access/reports?report=newyear",
+        "https://www.marketbeat.com/all-access/reports?report=ev",
+        "https://www.marketbeat.com/all-access/reports?report=7aistocks",
+        "https://www.marketbeat.com/all-access/articles",
+        "https://www.marketbeat.com/market-data",
+        "https://www.marketbeat.com/ratings",
+        "https://www.marketbeat.com/stocks/top-rated",
+        "https://www.marketbeat.com/stocks/lowest-rated",
+        "https://www.marketbeat.com/all-access/analyst-rankings",
+        "https://www.marketbeat.com/all-access/brokerage-rankings",
+        "https://www.marketbeat.com/stocks/most-upgraded",
+        "https://www.marketbeat.com/ratings/newsletter",
+        "https://www.marketbeat.com/congress-stock-trades",
+        "https://www.marketbeat.com/congress-stock-trades/most-purchased-stocks",
+        "https://www.marketbeat.com/congress-stock-trades/profiles",
+        "https://www.marketbeat.com/stock-buybacks",
+        "https://www.marketbeat.com/ipos",
+        "https://www.marketbeat.com/ipos/lockup-expirations",
+        "https://www.marketbeat.com/market-data/sec-filings",
+        "https://www.marketbeat.com/stock-splits",
+        "https://www.marketbeat.com/dividends",
+        "https://www.marketbeat.com/dividends/announcements",
+        "https://www.marketbeat.com/dividends/ex-dividend-calendar",
+        "https://www.marketbeat.com/dividends/increases",
+        "https://www.marketbeat.com/dividends/achievers",
+        "https://www.marketbeat.com/dividends/best-dividend-stocks",
+        "https://www.marketbeat.com/dividends/high-yield",
+        "https://www.marketbeat.com/dividends/top-rated-dividend-stocks",
+        "https://www.marketbeat.com/dividends/subscribe",
+        "https://www.marketbeat.com/earnings",
+        "https://www.marketbeat.com/earnings/latest",
+        "https://www.marketbeat.com/earnings/tomorrow",
+        "https://www.marketbeat.com/earnings/next-week",
+        "https://www.marketbeat.com/earnings/conference-calls",
+        "https://www.marketbeat.com/earnings/transcripts",
+        "https://www.marketbeat.com/fda-calendar/upcoming",
+        "https://www.marketbeat.com/fda-calendar",
+        "https://www.marketbeat.com/insider-trades",
+        "https://www.marketbeat.com/insider-trades/insider-buying-stocks",
+        "https://www.marketbeat.com/insider-trades/insider-selling-stocks",
+        "https://www.marketbeat.com/insider-trades/subscribe",
+        "https://www.marketbeat.com/stock-market-holidays",
+        "https://www.marketbeat.com/cryptocurrencies",
+        "https://www.marketbeat.com/cryptocurrencies/news",
+        "https://www.marketbeat.com/market-data/biggest-percentage-gainers",
+        "https://www.marketbeat.com/market-data/biggest-percentage-decliners",
+        "https://www.marketbeat.com/pre-market-movers",
+        "https://www.marketbeat.com/after-hours-movers",
+        "https://www.marketbeat.com/market-data/breakout-stocks",
+        "https://www.marketbeat.com/market-data/low-pe-stocks",
+        "https://www.marketbeat.com/market-data/high-pe-stocks",
+        "https://www.marketbeat.com/market-data/52-week-highs",
+        "https://www.marketbeat.com/market-data/52-week-lows",
+        "https://www.marketbeat.com/market-data/most-active-stocks",
+        "https://www.marketbeat.com/market-data/most-volatile-stocks",
+        "https://www.marketbeat.com/market-data/unusual-volume-stocks",
+        "https://www.marketbeat.com/market-data/trading-halts",
+        "https://www.marketbeat.com/market-data/unusual-call-options-volume",
+        "https://www.marketbeat.com/market-data/unusual-put-options-volume",
+        "https://www.marketbeat.com/market-data/sector-performance",
+        "https://www.marketbeat.com/short-interest",
+        "https://www.marketbeat.com/short-interest/short-interest-increases",
+        "https://www.marketbeat.com/short-interest/short-interest-decreases",
+        "https://www.marketbeat.com/stocks",
+        "https://www.marketbeat.com/types-of-stock",
+        "https://www.marketbeat.com/types-of-stock/5g-stocks",
+        "https://www.marketbeat.com/types-of-stock/blue-chip-stocks"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:40.239Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday?"
+      ]
+    },
+    {
+      "id": "0feb317e-15d7-4714-b479-2ebe44f031f1",
+      "createdAt": "2026-09-12T18:07:41.056Z",
+      "url": "https://www.fool.com/investing/2026/08/21/billionaire-stanley-druckenmiller-bought-this-newl/",
+      "canonicalUrl": "https://www.fool.com/investing/2026/08/21/billionaire-stanley-druckenmiller-bought-this-newl",
+      "title": "Billionaire Stanley Druckenmiller Bought This Newly Added S&P 500 Stock That's Up 351% Since Its IPO | The Motley Fool",
+      "publisher": "fool.com",
+      "author": "Adam Spatacco",
+      "publishedAt": "2026-08-21T13:51:00.000Z",
+      "sourceType": "analysis",
+      "quality": 70,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "His Duquesne Family Office opened a position in Reddit in the second quarter.",
+      "links": [
+        "https://www.fool.com/investing/2026/08/21/billionaire-stanley-druckenmiller-bought-this-newl",
+        "https://support.fool.com/",
+        "https://www.fool.com/about",
+        "https://www.fool.com/mms/mark/e-foolcom-sa-top-nav-returns",
+        "https://www.fool.com/",
+        "https://www.fool.com/services",
+        "https://www.fool.com/services/stock-advisor",
+        "https://www.fool.com/services/epic",
+        "https://www.fool.com/services/epic-plus",
+        "https://www.fool.com/services/fool-portfolios",
+        "https://www.fool.com/services/one",
+        "https://www.fool.com/services/compare",
+        "https://www.fool.com/podcasts",
+        "https://www.fool.com/podcasts/hidden-gems",
+        "https://www.fool.com/podcasts/rule-breaker-investing",
+        "https://foolfoundation.org/",
+        "https://www.fool.com/trending-news",
+        "https://www.fool.com/investing-news",
+        "https://www.fool.com/market-movers",
+        "https://www.fool.com/tech-stock-news",
+        "https://www.fool.com/market-trends",
+        "https://www.fool.com/crypto-news",
+        "https://www.fool.com/markets",
+        "https://www.fool.com/markets/most-active-stocks",
+        "https://www.fool.com/markets/top-stock-gainers",
+        "https://www.fool.com/markets/top-stock-losers",
+        "https://www.fool.com/quote",
+        "https://www.fool.com/research",
+        "https://www.fool.com/investing/breakfast-news",
+        "https://www.fool.com/investing/top-stocks-to-buy-and-hold",
+        "https://www.fool.com/investing/how-to-invest/etfs/etfs-to-buy",
+        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks",
+        "https://www.fool.com/investing/stock-market/types-of-stocks/growth-stocks",
+        "https://www.fool.com/investing/stock-market/types-of-stocks/dividend-stocks/dividend-kings",
+        "https://www.fool.com/investing/how-to-invest/index-funds/best-index-funds",
+        "https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/next-crypto-to-explode",
+        "https://www.fool.com/investing/stock-market/market-sectors/information-technology",
+        "https://www.fool.com/investing/stock-market/market-sectors/energy",
+        "https://www.fool.com/investing/stock-market/market-sectors/real-estate-investing",
+        "https://www.fool.com/investing/stock-market/market-sectors/healthcare",
+        "https://www.fool.com/investing/stock-market/market-sectors/consumer-staples",
+        "https://www.fool.com/investing/stock-market/market-sectors/materials",
+        "https://www.fool.com/investing/stock-market/market-sectors/industrials",
+        "https://www.fool.com/investing/how-to-invest",
+        "https://www.fool.com/investing/how-to-invest/what-to-invest-in",
+        "https://www.fool.com/investing/how-to-invest/stocks",
+        "https://www.fool.com/investing/how-to-invest/etfs",
+        "https://www.fool.com/investing/how-to-invest/index-funds",
+        "https://www.fool.com/investing/how-to-invest/bonds",
+        "https://www.fool.com/terms",
+        "https://www.fool.com/investing/stock-market",
+        "https://www.fool.com/investing/stock-market/types-of-stocks",
+        "https://www.fool.com/investing/stock-market/market-sectors",
+        "https://www.fool.com/investing/stock-market/indexes",
+        "https://www.fool.com/terms/s/stock-split",
+        "https://www.fool.com/investing/how-to-invest/stocks/compound-interest-accounts",
+        "https://www.fool.com/terms/a/after-hours-trading",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-buy-stock",
+        "https://www.fool.com/money/buying-stocks/best-online-stock-brokers-for-beginners",
+        "https://www.fool.com/money/buying-stocks",
+        "https://www.fool.com/investing/how-to-invest/stocks/good-time-to-buy-stocks",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-many-shares-buy-stock",
+        "https://www.fool.com/investing/how-to-invest/portfolio-diversification",
+        "https://www.fool.com/investing/how-to-invest/how-to-invest-100-dollars",
+        "https://www.fool.com/investing/how-to-invest/stocks/magnificent-seven",
+        "https://www.fool.com/investing/how-to-invest/famous-investors/warren-buffett-investments",
+        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/chatgpt",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-spacex-stock",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-openai-stock",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-nvidia-stock",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-databricks",
+        "https://www.fool.com/retirement-news",
+        "https://www.fool.com/retirement",
+        "https://www.fool.com/retirement/plans",
+        "https://www.fool.com/retirement/plans/401k/contribute-to-401k-and-ira",
+        "https://www.fool.com/retirement/strategies",
+        "https://www.fool.com/retirement/strategies/asset-allocation-by-age",
+        "https://www.fool.com/money/buying-stocks/best-ira-accounts",
+        "https://www.fool.com/retirement/social-security",
+        "https://www.fool.com/retirement/social-security/how-to-maximize-social-security",
+        "https://www.fool.com/retirement/social-security/full-retirement-age",
+        "https://www.fool.com/retirement/social-security/colas",
+        "https://www.fool.com/retirement/social-security/benefits-formula",
+        "https://www.fool.com/retirement/social-security/spousal-benefits",
+        "https://www.fool.com/retirement/how-much-do-i-need",
+        "https://www.fool.com/retirement/strategies/when-can-i-retire",
+        "https://www.fool.com/retirement/plans/401k",
+        "https://www.fool.com/retirement/plans/403b",
+        "https://www.fool.com/retirement/plans/roth-ira",
+        "https://www.fool.com/retirement/plans/ira",
+        "https://www.fool.com/retirement/plans/hsa",
+        "https://www.fool.com/retirement/complete-guide",
+        "https://www.fool.com/research/best-states-to-retire",
+        "https://www.fool.com/research/average-retirement-savings",
+        "https://www.fool.com/retirement/relocation",
+        "https://www.fool.com/retirement/healthcare-in-retirement",
+        "https://www.fool.com/retirement/taxes",
+        "https://www.fool.com/retirement/plans/401k/required-minimum-distributions",
+        "https://www.fool.com/money/credit-cards/best-credit-cards",
+        "https://www.fool.com/money/credit-cards/compare-cards"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:41.056Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday?"
+      ]
+    },
+    {
+      "id": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+      "createdAt": "2026-09-12T18:07:42.978Z",
+      "url": "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday/",
+      "canonicalUrl": "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday",
+      "title": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool",
+      "publisher": "fool.com",
+      "author": "Eric Volkman",
+      "publishedAt": "2026-09-08T23:15:24.000Z",
+      "sourceType": "analysis",
+      "quality": 70,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "It posted double-digit growth in key fundamentals in its second quarter, but this wasn't enough for a discerning market.",
+      "links": [
+        "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday",
+        "https://support.fool.com/",
+        "https://www.fool.com/about",
+        "https://www.fool.com/mms/mark/e-foolcom-sa-top-nav-returns",
+        "https://www.fool.com/",
+        "https://www.fool.com/services",
+        "https://www.fool.com/services/stock-advisor",
+        "https://www.fool.com/services/epic",
+        "https://www.fool.com/services/epic-plus",
+        "https://www.fool.com/services/fool-portfolios",
+        "https://www.fool.com/services/one",
+        "https://www.fool.com/services/compare",
+        "https://www.fool.com/podcasts",
+        "https://www.fool.com/podcasts/hidden-gems",
+        "https://www.fool.com/podcasts/rule-breaker-investing",
+        "https://foolfoundation.org/",
+        "https://www.fool.com/trending-news",
+        "https://www.fool.com/investing-news",
+        "https://www.fool.com/market-movers",
+        "https://www.fool.com/tech-stock-news",
+        "https://www.fool.com/market-trends",
+        "https://www.fool.com/crypto-news",
+        "https://www.fool.com/markets",
+        "https://www.fool.com/markets/most-active-stocks",
+        "https://www.fool.com/markets/top-stock-gainers",
+        "https://www.fool.com/markets/top-stock-losers",
+        "https://www.fool.com/quote",
+        "https://www.fool.com/research",
+        "https://www.fool.com/investing/breakfast-news",
+        "https://www.fool.com/investing/top-stocks-to-buy-and-hold",
+        "https://www.fool.com/investing/how-to-invest/etfs/etfs-to-buy",
+        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks",
+        "https://www.fool.com/investing/stock-market/types-of-stocks/growth-stocks",
+        "https://www.fool.com/investing/stock-market/types-of-stocks/dividend-stocks/dividend-kings",
+        "https://www.fool.com/investing/how-to-invest/index-funds/best-index-funds",
+        "https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/next-crypto-to-explode",
+        "https://www.fool.com/investing/stock-market/market-sectors/information-technology",
+        "https://www.fool.com/investing/stock-market/market-sectors/energy",
+        "https://www.fool.com/investing/stock-market/market-sectors/real-estate-investing",
+        "https://www.fool.com/investing/stock-market/market-sectors/healthcare",
+        "https://www.fool.com/investing/stock-market/market-sectors/consumer-staples",
+        "https://www.fool.com/investing/stock-market/market-sectors/materials",
+        "https://www.fool.com/investing/stock-market/market-sectors/industrials",
+        "https://www.fool.com/investing/how-to-invest",
+        "https://www.fool.com/investing/how-to-invest/what-to-invest-in",
+        "https://www.fool.com/investing/how-to-invest/stocks",
+        "https://www.fool.com/investing/how-to-invest/etfs",
+        "https://www.fool.com/investing/how-to-invest/index-funds",
+        "https://www.fool.com/investing/how-to-invest/bonds",
+        "https://www.fool.com/terms",
+        "https://www.fool.com/investing/stock-market",
+        "https://www.fool.com/investing/stock-market/types-of-stocks",
+        "https://www.fool.com/investing/stock-market/market-sectors",
+        "https://www.fool.com/investing/stock-market/indexes",
+        "https://www.fool.com/terms/s/stock-split",
+        "https://www.fool.com/investing/how-to-invest/stocks/compound-interest-accounts",
+        "https://www.fool.com/terms/a/after-hours-trading",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-buy-stock",
+        "https://www.fool.com/money/buying-stocks/best-online-stock-brokers-for-beginners",
+        "https://www.fool.com/money/buying-stocks",
+        "https://www.fool.com/investing/how-to-invest/stocks/good-time-to-buy-stocks",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-many-shares-buy-stock",
+        "https://www.fool.com/investing/how-to-invest/portfolio-diversification",
+        "https://www.fool.com/investing/how-to-invest/how-to-invest-100-dollars",
+        "https://www.fool.com/investing/how-to-invest/stocks/magnificent-seven",
+        "https://www.fool.com/investing/how-to-invest/famous-investors/warren-buffett-investments",
+        "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/chatgpt",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-spacex-stock",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-openai-stock",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-nvidia-stock",
+        "https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-databricks",
+        "https://www.fool.com/retirement-news",
+        "https://www.fool.com/retirement",
+        "https://www.fool.com/retirement/plans",
+        "https://www.fool.com/retirement/plans/401k/contribute-to-401k-and-ira",
+        "https://www.fool.com/retirement/strategies",
+        "https://www.fool.com/retirement/strategies/asset-allocation-by-age",
+        "https://www.fool.com/money/buying-stocks/best-ira-accounts",
+        "https://www.fool.com/retirement/social-security",
+        "https://www.fool.com/retirement/social-security/how-to-maximize-social-security",
+        "https://www.fool.com/retirement/social-security/full-retirement-age",
+        "https://www.fool.com/retirement/social-security/colas",
+        "https://www.fool.com/retirement/social-security/benefits-formula",
+        "https://www.fool.com/retirement/social-security/spousal-benefits",
+        "https://www.fool.com/retirement/how-much-do-i-need",
+        "https://www.fool.com/retirement/strategies/when-can-i-retire",
+        "https://www.fool.com/retirement/plans/401k",
+        "https://www.fool.com/retirement/plans/403b",
+        "https://www.fool.com/retirement/plans/roth-ira",
+        "https://www.fool.com/retirement/plans/ira",
+        "https://www.fool.com/retirement/plans/hsa",
+        "https://www.fool.com/retirement/complete-guide",
+        "https://www.fool.com/research/best-states-to-retire",
+        "https://www.fool.com/research/average-retirement-savings",
+        "https://www.fool.com/retirement/relocation",
+        "https://www.fool.com/retirement/healthcare-in-retirement",
+        "https://www.fool.com/retirement/taxes",
+        "https://www.fool.com/retirement/plans/401k/required-minimum-distributions",
+        "https://www.fool.com/money/credit-cards/best-credit-cards",
+        "https://www.fool.com/money/credit-cards/compare-cards"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:42.978Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday? independent evidence data study"
+      ]
+    },
+    {
+      "id": "402e1eee-c47e-4792-9e01-41bba36adec7",
+      "createdAt": "2026-09-12T18:07:43.245Z",
+      "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-tuesday-september-8-2026-12110869",
+      "canonicalUrl": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-tuesday-september-8-2026-12110869",
+      "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+      "publisher": "investopedia.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:43.245Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday? independent evidence data study"
+      ]
+    },
+    {
+      "id": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+      "createdAt": "2026-09-12T18:07:43.405Z",
+      "url": "https://www.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp",
+      "canonicalUrl": "https://www.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp",
+      "title": "How to Value Private Companies - Investopedia",
+      "publisher": "investopedia.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:43.405Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday? independent evidence data study"
+      ]
+    },
+    {
+      "id": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+      "createdAt": "2026-09-12T18:07:44.325Z",
+      "url": "https://www.investopedia.com/ask/answers/052815/how-does-private-placement-affect-share-price.asp",
+      "canonicalUrl": "https://www.investopedia.com/ask/answers/052815/how-does-private-placement-affect-share-price.asp",
+      "title": "Understanding Private Placement and Its Impact on Share Prices",
+      "publisher": "investopedia.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:44.324Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday? limitations criticism analysis"
+      ]
+    },
+    {
+      "id": "91232350-e673-41f9-be15-095bf1a3a300",
+      "createdAt": "2026-09-12T18:07:44.870Z",
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation",
+      "canonicalUrl": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation",
+      "title": "Private Company Valuation | CFA Institute",
+      "publisher": "cfainstitute.org",
+      "sourceType": "analysis",
+      "quality": 60,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "In this Refresher Reading, learn about the appropriate approaches to private company valuation and the adjustments that are required to normalize earnings, the rate of return, and the asset based approach.",
+      "links": [
+        "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation",
+        "https://www.cfainstitute.org/employers",
+        "https://www.cfainstitute.org/universities",
+        "https://www.cfainstitute.org/university-students",
+        "https://www.cfainstitute.org/Account/Login",
+        "https://www.cfainstitute.org/Account/CreateAccount",
+        "https://store.cfainstitute.org/cart.php",
+        "https://www.cfainstitute.org/",
+        "https://www.cfainstitute.org/programs/cfa-program",
+        "https://www.cfainstitute.org/programs/cfa-program/exam",
+        "https://www.cfainstitute.org/programs/cfa-program/dates-fees",
+        "https://www.cfainstitute.org/programs/cfa-program/curriculum",
+        "https://www.cfainstitute.org/programs/cfa-program/learning-ecosystem",
+        "https://www.cfainstitute.org/programs/cfa-program/career-prospects",
+        "https://www.cfainstitute.org/programs/cfa-program/policies",
+        "https://www.cfainstitute.org/programs/cfa-program/candidate-resources",
+        "https://cfaprogramregistration.cfainstitute.org/registration/exam",
+        "https://www.cfainstitute.org/programs/cipm",
+        "https://www.cfainstitute.org/programs/sustainable-investing-certificate",
+        "https://www.cfainstitute.org/zh-hans/programs/principles-of-sustainable-investing-certificate",
+        "https://www.cfainstitute.org/programs/climate-investing-certificate",
+        "https://www.cfainstitute.org/programs/private-markets-alternative-investments-certificate",
+        "https://www.cfainstitute.org/programs/private-equity-certificate",
+        "https://www.cfainstitute.org/programs/investment-foundations-certificate",
+        "https://www.cfainstitute.org/programs/all-programs",
+        "https://www.cfainstitute.org/programs/private-markets",
+        "https://www.cfainstitute.org/programs/sustainable-investing",
+        "https://www.cfainstitute.org/programs/learning-compass",
+        "https://www.cfainstitute.org/programs/candidate-resources",
+        "https://www.cfainstitute.org/membership",
+        "https://www.cfainstitute.org/membership/types",
+        "https://www.cfainstitute.org/membership/types/charterholder",
+        "https://www.cfainstitute.org/membership/types/professional",
+        "https://www.cfainstitute.org/membership/types/associate",
+        "https://directory.cfainstitute.org/",
+        "https://www.cfainstitute.org/membership/renew",
+        "https://my.cfainstitute.org/",
+        "https://careers.cfainstitute.org/",
+        "https://www.cfainstitute.org/membership/communities",
+        "https://www.cfainstitute.org/membership/volunteer-opportunities",
+        "https://www.cfainstitute.org/membership/find-cfa-society",
+        "https://www.cfainstitute.org/membership/benefits/professional-learning-program",
+        "https://rpc.cfainstitute.org/",
+        "https://rpc.cfainstitute.org/en/research/financial-analysts-journal",
+        "https://rpc.cfainstitute.org/en/research-foundation",
+        "https://rpc.cfainstitute.org/en/blogs-and-podcasts",
+        "https://www.cfainstitute.org/insights/articles/careers-professional-development",
+        "https://www.cfainstitute.org/insights/articles/digital-innovation",
+        "https://www.cfainstitute.org/insights/articles/first-person",
+        "https://www.cfainstitute.org/insights/articles/trends",
+        "https://www.cfainstitute.org/insights/articles/esg-sustainability",
+        "https://www.cfainstitute.org/insights/articles/private-markets",
+        "https://www.cfainstitute.org/insights/articles",
+        "https://www.cfainstitute.org/insights/events/upcoming",
+        "https://www.cfainstitute.org/insights/events/past",
+        "https://www.cfainstitute.org/insights/events/sponsorship",
+        "https://www.cfainstitute.org/insights/events/research-challenge",
+        "https://www.cfainstitute.org/insights/events/industry-events",
+        "https://www.cfainstitute.org/insights/professional-learning",
+        "https://www.cfainstitute.org/insights/professional-learning/refresher-readings",
+        "https://www.cfainstitute.org/insights/professional-learning/ethics-resources",
+        "https://www.gipsstandards.org/",
+        "https://rpc.cfainstitute.org/codes-and-standards/asset-manager-code",
+        "https://rpc.cfainstitute.org/en/codes-and-standards/diversity-equity-inclusion-codes",
+        "https://rpc.cfainstitute.org/en/esg-standards",
+        "https://rpc.cfainstitute.org/en/policy",
+        "https://rpc.cfainstitute.org/en/codes-and-standards",
+        "https://www.cfainstitute.org/standards/professionals/code-ethics-standards",
+        "https://www.cfainstitute.org/standards/professionals/conduct",
+        "https://www.cfainstitute.org/standards/professionals/conduct/sanctions",
+        "https://www.cfainstitute.org/standards/professionals/conduct/report-misconduct",
+        "https://www.cfainstitute.org/standards/professionals",
+        "https://www.cfainstitute.org/about/who-we-are",
+        "https://www.cfainstitute.org/about/set-the-standard",
+        "https://www.cfainstitute.org/about/history",
+        "https://www.cfainstitute.org/about/press-room",
+        "https://www.cfainstitute.org/about/governance/leadership-team",
+        "https://www.cfainstitute.org/about/governance/board",
+        "https://www.cfainstitute.org/about/governance/committees",
+        "https://www.cfainstitute.org/about/governance/annual-report",
+        "https://www.cfainstitute.org/about/governance/policies",
+        "https://www.cfainstitute.org/about/governance",
+        "https://www.cfainstitute.org/about/careers",
+        "https://www.cfainstitute.org/about/careers/working-at-cfa-institute",
+        "https://www.cfainstitute.org/about/careers/cfa-institute-values",
+        "https://www.cfainstitute.org/about/careers/cfa-institute-departments",
+        "https://osv_cfainstitute.wd5.myworkdayjobs.com/Careers",
+        "https://help.cfainstitute.org/s",
+        "https://www.cfainstitute.org/insights",
+        "https://my.cfainstitute.org/node/3081",
+        "https://www.cfainstitute.org/recordCredits/49691",
+        "https://cpd.cfainstitute.org/continuing-education/summary",
+        "https://www.cfainstitute.org/insights/events",
+        "https://profile.cfainstitute.org/ContactUs",
+        "https://www.cfainstitute.org/about/governance/policies/privacy-policy",
+        "https://www.cfainstitute.org/about/governance/policies/terms-conditions",
+        "https://www.cfainstitute.org/about/governance/policies/ai-usage-statement",
+        "https://www.cfainstitute.org/utility/accessibility",
+        "https://www.cfainstitute.org/sitemap",
+        "https://www.linkedin.com/company/cfainstitute"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:44.870Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday? limitations criticism analysis"
+      ]
+    },
+    {
+      "id": "12924f50-6c44-4499-9eac-fd92127e905c",
+      "createdAt": "2026-09-12T18:07:46.086Z",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349",
+      "canonicalUrl": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349",
+      "title": "Another newly listed insurance company headed back to private market",
+      "publisher": "spglobal.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "SKEPTIC",
+      "retrievedAt": "2026-09-12T18:07:46.086Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday? counterevidence criticism limitations"
+      ]
+    },
+    {
+      "id": "f0e64252-552c-45f8-857f-7fb54605378a",
+      "createdAt": "2026-09-12T18:07:46.636Z",
+      "url": "https://stockanalysis.com/private/prometheus/",
+      "canonicalUrl": "https://stockanalysis.com/private/prometheus",
+      "title": "Prometheus Stock Price, Valuation & News",
+      "publisher": "stockanalysis.com",
+      "sourceType": "analysis",
+      "quality": 60,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "Get a detailed overview of Prometheus, including its latest private market stock price, chart, valuation, news and other related information.",
+      "links": [
+        "https://stockanalysis.com/private/prometheus",
+        "https://stockanalysis.com/",
+        "https://stockanalysis.com/help",
+        "https://stockanalysis.com/login",
+        "https://stockanalysis.com/pro",
+        "https://stockanalysis.com/watchlist",
+        "https://stockanalysis.com/stocks",
+        "https://stockanalysis.com/stocks/screener",
+        "https://stockanalysis.com/list/exchanges",
+        "https://stockanalysis.com/stocks/compare",
+        "https://stockanalysis.com/stocks/earnings-calendar",
+        "https://stockanalysis.com/stocks/industry",
+        "https://stockanalysis.com/list",
+        "https://stockanalysis.com/analysts/top-stocks",
+        "https://stockanalysis.com/actions",
+        "https://stockanalysis.com/ipos",
+        "https://stockanalysis.com/ipos/calendar",
+        "https://stockanalysis.com/ipos/lockups",
+        "https://stockanalysis.com/ipos/statistics",
+        "https://stockanalysis.com/ipos/news",
+        "https://stockanalysis.com/ipos/screener",
+        "https://stockanalysis.com/etf",
+        "https://stockanalysis.com/etf/screener",
+        "https://stockanalysis.com/etf/compare",
+        "https://stockanalysis.com/etf/list/new",
+        "https://stockanalysis.com/etf/provider",
+        "https://stockanalysis.com/analysts",
+        "https://stockanalysis.com/news",
+        "https://stockanalysis.com/trending",
+        "https://stockanalysis.com/private",
+        "https://stockanalysis.com/chart",
+        "https://stockanalysis.com/fundamental-chart",
+        "https://stockanalysis.com/markets/gainers",
+        "https://stockanalysis.com/markets/losers",
+        "https://stockanalysis.com/markets/active",
+        "https://stockanalysis.com/markets/premarket",
+        "https://stockanalysis.com/markets/afterhours",
+        "https://stockanalysis.com/markets/heatmap",
+        "https://stockanalysis.com/subscribe",
+        "https://stockanalysis.com/tools",
+        "https://stockanalysis.com/private/prometheus/valuation",
+        "https://www.hiive.com/securities/project-prometheus-stock?amp%3Butm_content=prometheus-quote&amp%3Butm_medium=affiliate&amp%3Butm_source=stockanalysis",
+        "https://stockanalysis.com/private?category=Artificial+Intelligence",
+        "https://www.prometheus.ai/",
+        "https://stockanalysis.com/private/physicsx",
+        "https://247wallst.com/investing/2026/08/18/bezos-quietly-leases-100000-square-feet-in-oakland-for-start-up-that-could-drive-civilizational-wealth",
+        "https://www.kalw.org/bay-area-news/2026-08-13/jeff-bezos-west-oakland",
+        "https://therealdeal.com/san-francisco/2026/08/12/jeff-bezos-project-prometheus-ai-startup-settles-in-oakland",
+        "https://www.businesswire.com/news/home/20260715699795/en/Powerlaw-Corp.-Nasdaq-PWRL-Announces-Prometheus-and-Shield-AI-as-Newest-Holdings-Files-Updated-Schedule-of-Investments",
+        "https://stockanalysis.com/stocks/pwrl",
+        "https://www.cnbc.com/2026/06/12/why-jeff-bezos-says-he-embraced-being-a-ceo-again-prometheus-ai.html",
+        "https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing",
+        "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai",
+        "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world",
+        "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html",
+        "https://siliconangle.com/2026/06/11/jeff-bezos-prometheus-raises-12b-accelerate-industrial-engineering-projects",
+        "https://www.globenewswire.com/news-release/2026/06/09/3309138/0/en/TSG-Invest-Adds-Project-Prometheus-to-Venture-50-as-Cerebras-Goes-Public.html",
+        "https://stockanalysis.com/stocks/cbrs",
+        "https://www.cnbc.com/2026/01/09/meta-signs-nuclear-energy-deals-to-power-prometheus-ai-supercluster.html",
+        "https://stockanalysis.com/stocks/meta",
+        "https://stockanalysis.com/stocks/oklo",
+        "https://stockanalysis.com/stocks/vst",
+        "https://www.wired.com/story/jeff-bezos-new-ai-company-acquired-agentic-computing-startup",
+        "https://www.cnbc.com/2023/08/01/merck-mrk-q2-earnings-report-2023.html",
+        "https://stockanalysis.com/stocks/mrk",
+        "https://www.barrons.com/articles/merck-prometheus-deal-citi-bullish-stock-be287772",
+        "https://www.hiive.com/?amp%3Butm_content=data-disclaimer&amp%3Butm_medium=affiliate&amp%3Butm_source=stockanalysis",
+        "https://stockanalysis.com/data-sources",
+        "https://stockanalysis.com/report-data-error",
+        "https://apps.apple.com/us/app/stock-analysis-app/id6751272467",
+        "https://play.google.com/store/apps/details?id=com.stockanalysis.app",
+        "https://stockanalysis.com/support",
+        "https://stockanalysis.com/app",
+        "https://stockanalysis.com/create-account",
+        "https://stockanalysis.com/changelog",
+        "https://stockanalysis.com/advertise",
+        "https://stockanalysis.com/about",
+        "https://stockanalysis.com/contact",
+        "https://stockanalysis.com/terms-of-use",
+        "https://stockanalysis.com/privacy-policy",
+        "https://stockanalysis.com/affiliates",
+        "https://www.facebook.com/stockanalysisoff",
+        "https://x.com/stock_analysisx",
+        "https://www.linkedin.com/company/stock-analysis",
+        "https://www.threads.com/@stockanalysis_com"
+      ],
+      "searchRole": "SKEPTIC",
+      "retrievedAt": "2026-09-12T18:07:46.636Z",
+      "retrievedBy": [
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Will a newly created private company double its stock price next Tuesday? counterevidence criticism limitations"
+      ]
+    }
+  ],
+  "evidenceEdges": [
+    {
+      "id": "d9fc2930-a937-4fe8-81fe-2410bdd55a40",
+      "createdAt": "2026-09-12T18:07:44.903Z",
+      "claimId": "b639c3a1-8999-4bdc-a7c6-9d98cbcbda75",
+      "sourceId": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+      "type": "QUALIFIES",
+      "quote": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+      "confidence": 90,
+      "strength": 100,
+      "directness": 100,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "fcc8c3c8-2fef-4a8f-86d0-15aa9cb60c8b",
+      "createdAt": "2026-09-12T18:07:44.913Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "0feb317e-15d7-4714-b479-2ebe44f031f1",
+      "type": "SUPPORTS",
+      "quote": "Reddit was added to the S&P 500 index on Aug.",
+      "confidence": 49,
+      "strength": 5,
+      "directness": 6,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "b39b533a-4a56-44f1-a9d9-c3a48dcabe4e",
+      "createdAt": "2026-09-12T18:07:44.919Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+      "type": "SUPPORTS",
+      "quote": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool .",
+      "confidence": 54,
+      "strength": 17,
+      "directness": 21,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "895d8d2d-786d-46fd-86f1-0e5b1c4c3d1c",
+      "createdAt": "2026-09-12T18:07:44.924Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "sourceId": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+      "type": "SUPPORTS",
+      "quote": "The two consensus figures are $899 million and $0.63 per share, respectively..",
+      "confidence": 49,
+      "strength": 5,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "8c85566c-8e98-4ee6-aede-49921ee44ad1",
+      "createdAt": "2026-09-12T18:07:44.924Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+      "type": "SUPPORTS",
+      "quote": "5 Things to Know Before the Stock Market Opens on Tuesday",
+      "confidence": 90,
+      "strength": 100,
+      "directness": 100,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "bf408b49-e9d2-4a39-aee1-9b1d57d8898e",
+      "createdAt": "2026-09-12T18:07:44.924Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "sourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+      "type": "SUPPORTS",
+      "quote": "5 Things to Know Before the Stock Market Opens on Tuesday",
+      "confidence": 46,
+      "strength": 5,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "a282978d-36db-4bc0-9b49-49b4e2f17e15",
+      "createdAt": "2026-09-12T18:07:44.924Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+      "type": "SUPPORTS",
+      "quote": "How to Value Private Companies - Investopedia",
+      "confidence": 47,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "66e84525-5f15-4394-8093-03a38ba56fb9",
+      "createdAt": "2026-09-12T18:07:44.924Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "sourceId": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+      "type": "SUPPORTS",
+      "quote": "How to Value Private Companies - Investopedia",
+      "confidence": 47,
+      "strength": 7,
+      "directness": 9,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "e2bb7539-040e-43b9-aaec-21e8a584cc7c",
+      "createdAt": "2026-09-12T18:07:44.924Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+      "type": "SUPPORTS",
+      "quote": "Understanding Private Placement and Its Impact on Share Prices",
+      "confidence": 46,
+      "strength": 5,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "715e9d08-e0b9-40f8-beb1-aed7c6587939",
+      "createdAt": "2026-09-12T18:07:44.924Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "sourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+      "type": "SUPPORTS",
+      "quote": "Understanding Private Placement and Its Impact on Share Prices",
+      "confidence": 90,
+      "strength": 100,
+      "directness": 100,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "4cc68c2e-1d1e-406d-a5af-901b572a59f5",
+      "createdAt": "2026-09-12T18:07:44.928Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "91232350-e673-41f9-be15-095bf1a3a300",
+      "type": "SUPPORTS",
+      "quote": "explain the income, market, and asset-based approaches to private company valuation and factors relevant to the selection of each approach;.",
+      "confidence": 48,
+      "strength": 5,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "04d1f8f4-4648-4053-a2c2-f28ecc383674",
+      "createdAt": "2026-09-12T18:07:44.932Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "sourceId": "91232350-e673-41f9-be15-095bf1a3a300",
+      "type": "SUPPORTS",
+      "quote": "Until now we have focused on the valuation of publicly held companies with periodic audited financial statements and an observable market-based share price.",
+      "confidence": 48,
+      "strength": 6,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "43aec2ba-8efc-444d-8642-ec4bbcda25e0",
+      "createdAt": "2026-09-12T18:07:47.448Z",
+      "claimId": "b639c3a1-8999-4bdc-a7c6-9d98cbcbda75",
+      "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+      "type": "QUALIFIES",
+      "quote": "Another newly listed insurance company headed back to private market",
+      "confidence": 49,
+      "strength": 5,
+      "directness": 7,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "d5054092-ec15-4913-b833-55b0b488c990",
+      "createdAt": "2026-09-12T18:07:47.448Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+      "type": "QUALIFIES",
+      "quote": "Another newly listed insurance company headed back to private market",
+      "confidence": 52,
+      "strength": 11,
+      "directness": 13,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "d0c65d4c-279e-4bf0-b4cb-1a2920e9eec0",
+      "createdAt": "2026-09-12T18:07:47.448Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+      "type": "QUALIFIES",
+      "quote": "Another newly listed insurance company headed back to private market",
+      "confidence": 50,
+      "strength": 6,
+      "directness": 7,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "728f9544-e186-48e8-8784-7608a759bc73",
+      "createdAt": "2026-09-12T18:07:47.451Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "sourceId": "f0e64252-552c-45f8-857f-7fb54605378a",
+      "type": "QUALIFIES",
+      "quote": "Invest in the world's most exciting startups before they go public..",
+      "confidence": 51,
+      "strength": 7,
+      "directness": 9,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "73b96167-e21a-4669-bd4f-00c516b901e5",
+      "createdAt": "2026-09-12T18:07:47.454Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "sourceId": "f0e64252-552c-45f8-857f-7fb54605378a",
+      "type": "QUALIFIES",
+      "quote": "Hiive is a secondary marketplace where accredited investors can buy and sell shares of private, pre-IPO companies.",
+      "confidence": 54,
+      "strength": 12,
+      "directness": 14,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    }
+  ],
+  "sourceRelationships": [],
+  "adjudications": [
+    {
+      "id": "c4fad5a8-d6b7-5677-8997-334e87f6ba2e",
+      "createdAt": "2026-09-12T18:07:47.506Z",
+      "claimId": "21537ce8-dd7c-42c6-918a-f758eeae858a",
+      "status": "UNCERTAIN",
+      "evidenceStrength": 10,
+      "factors": {
+        "supportWeight": 0,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 0,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 0,
+        "corroboration": 0,
+        "balance": 0,
+        "coverage": 0,
+        "qualificationAdjustment": 100
+      },
+      "supportingSourceIds": [],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": []
+    },
+    {
+      "id": "4ae1f21f-d2e3-5d9e-aea0-4f9671346dde",
+      "createdAt": "2026-09-12T18:07:47.507Z",
+      "claimId": "b639c3a1-8999-4bdc-a7c6-9d98cbcbda75",
+      "status": "UNCERTAIN",
+      "evidenceStrength": 8,
+      "factors": {
+        "supportWeight": 0,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 0,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 0,
+        "corroboration": 0,
+        "balance": 0,
+        "coverage": 0,
+        "qualificationAdjustment": 77
+      },
+      "supportingSourceIds": [],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+        "12924f50-6c44-4499-9eac-fd92127e905c"
+      ]
+    },
+    {
+      "id": "024212de-eb53-5582-a547-e7171c0c14be",
+      "createdAt": "2026-09-12T18:07:47.507Z",
+      "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+      "status": "SUPPORTED",
+      "evidenceStrength": 77,
+      "factors": {
+        "supportWeight": 64,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 96,
+        "qualificationAdjustment": 81
+      },
+      "supportingSourceIds": [
+        "0feb317e-15d7-4714-b479-2ebe44f031f1",
+        "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+        "402e1eee-c47e-4792-9e01-41bba36adec7",
+        "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+        "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+        "91232350-e673-41f9-be15-095bf1a3a300"
+      ],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "12924f50-6c44-4499-9eac-fd92127e905c",
+        "f0e64252-552c-45f8-857f-7fb54605378a"
+      ]
+    },
+    {
+      "id": "52c69239-9aac-5928-a4c6-63f2dfa57a32",
+      "createdAt": "2026-09-12T18:07:47.507Z",
+      "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+      "status": "SUPPORTED",
+      "evidenceStrength": 74,
+      "factors": {
+        "supportWeight": 52,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 5,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 31,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 77,
+        "qualificationAdjustment": 81
+      },
+      "supportingSourceIds": [
+        "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+        "402e1eee-c47e-4792-9e01-41bba36adec7",
+        "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+        "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+        "91232350-e673-41f9-be15-095bf1a3a300"
+      ],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "12924f50-6c44-4499-9eac-fd92127e905c",
+        "f0e64252-552c-45f8-857f-7fb54605378a"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "7172c524-02cf-4a5e-a8f9-96081533e80f",
+      "timestamp": "2026-09-12T18:07:38.756Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "planner",
+      "payload": {
+        "phase": "PLANNING",
+        "percent": 5,
+        "message": "Planning independent research paths."
+      }
+    },
+    {
+      "id": "73ebf90a-8651-4173-b322-f7fcc6442afb",
+      "timestamp": "2026-09-12T18:07:38.761Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "planner.completed",
+      "actor": "planner",
+      "payload": {
+        "paths": 3
+      }
+    },
+    {
+      "id": "0d549711-ac4a-401e-b9b7-52b30a3f8491",
+      "timestamp": "2026-09-12T18:07:38.764Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 15,
+        "message": "Researcher is finding the strongest available evidence."
+      }
+    },
+    {
+      "id": "c2cdbad2-a393-47bb-88b4-3389fc727cb5",
+      "timestamp": "2026-09-12T18:07:38.767Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday?",
+        "role": "RESEARCHER",
+        "taskId": "e08da814-b473-4708-8db6-5a3ca83589c9"
+      }
+    },
+    {
+      "id": "b664aefa-57a0-41fb-b978-011d67e008f7",
+      "timestamp": "2026-09-12T18:07:39.673Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+        "title": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+        "domain": "fastcompany.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "54cb9fc1-5a9e-4942-bc5b-0ba19342f591",
+      "timestamp": "2026-09-12T18:07:40.241Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "d72ef5f2-5786-49f2-8109-96e2adca04f9",
+        "title": "2026 IPO Calendar | Upcoming Initial Public Offerings",
+        "domain": "marketbeat.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "b6aeabb9-d54f-434e-ba21-87cb9e37ea9a",
+      "timestamp": "2026-09-12T18:07:41.060Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "0feb317e-15d7-4714-b479-2ebe44f031f1",
+        "title": "Billionaire Stanley Druckenmiller Bought This Newly Added S&P 500 Stock That's Up 351% Since Its IPO | The Motley Fool",
+        "domain": "fool.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "da6ef994-d51d-4d0f-8e0b-050c2ca25d18",
+      "timestamp": "2026-09-12T18:07:41.079Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday?",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "d2e339eb-c96a-4825-90ca-889e69cacf40",
+      "timestamp": "2026-09-12T18:07:41.082Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 22,
+        "message": "Researcher found 3 sources."
+      }
+    },
+    {
+      "id": "bcb61955-beb0-4085-b0a0-7f0f07fcb6cb",
+      "timestamp": "2026-09-12T18:07:41.086Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday? independent evidence data study",
+        "role": "RESEARCHER",
+        "taskId": "49b71c5e-8697-4b66-b960-a1f67919e060"
+      }
+    },
+    {
+      "id": "d44018c8-9299-447b-9f78-cb1eb54ddb2f",
+      "timestamp": "2026-09-12T18:07:42.982Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+        "title": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool",
+        "domain": "fool.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "2ac2f16b-a89d-460f-a614-8acdd87dee71",
+      "timestamp": "2026-09-12T18:07:43.258Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+        "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+        "domain": "investopedia.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "185b4be2-af04-4c17-9abf-3de6d2f7241d",
+      "timestamp": "2026-09-12T18:07:43.414Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+        "title": "How to Value Private Companies - Investopedia",
+        "domain": "investopedia.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "92ec7975-c2f2-4698-b83f-388b29887ea4",
+      "timestamp": "2026-09-12T18:07:43.425Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday? independent evidence data study",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "c992c700-eff1-409e-b784-dfc2ba465331",
+      "timestamp": "2026-09-12T18:07:43.437Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 28,
+        "message": "Researcher found 6 sources."
+      }
+    },
+    {
+      "id": "1c0f7cd6-d0cc-4657-bb1c-d763edb6800a",
+      "timestamp": "2026-09-12T18:07:43.445Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday? limitations criticism analysis",
+        "role": "RESEARCHER",
+        "taskId": "118d135a-67b6-4d2b-b673-873abc9f5596"
+      }
+    },
+    {
+      "id": "3587ea90-4010-4b8c-97e6-efe9c98b0b20",
+      "timestamp": "2026-09-12T18:07:44.333Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+        "title": "Understanding Private Placement and Its Impact on Share Prices",
+        "domain": "investopedia.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "4ac4e718-dd79-4053-a617-d6e2fef899b5",
+      "timestamp": "2026-09-12T18:07:44.581Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+        "title": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+        "domain": "fastcompany.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "2dfb81b0-e09c-4ba7-8d82-3a121dd64f95",
+      "timestamp": "2026-09-12T18:07:44.874Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "91232350-e673-41f9-be15-095bf1a3a300",
+        "title": "Private Company Valuation | CFA Institute",
+        "domain": "cfainstitute.org",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "624d7104-7587-49a5-8836-4aca208df1d7",
+      "timestamp": "2026-09-12T18:07:44.879Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday? limitations criticism analysis",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "2b200a20-6bde-435d-ba2e-202ac15ddcbc",
+      "timestamp": "2026-09-12T18:07:44.884Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 35,
+        "message": "Researcher found 8 sources."
+      }
+    },
+    {
+      "id": "a226348b-d818-436a-8277-0f1ff18d17e4",
+      "timestamp": "2026-09-12T18:07:44.889Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "claim-extractor",
+      "payload": {
+        "phase": "EXTRACTING",
+        "percent": 40,
+        "message": "Extracting atomic claims and linking them to source passages."
+      }
+    },
+    {
+      "id": "b80640a9-f642-4e93-a82d-61fc3a17f46c",
+      "timestamp": "2026-09-12T18:07:44.935Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "claims.extracted",
+      "actor": "claim-extractor",
+      "payload": {
+        "count": 4
+      }
+    },
+    {
+      "id": "4f762b1d-8854-43f8-a84b-c0ab86aec38b",
+      "timestamp": "2026-09-12T18:07:44.942Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "skeptic",
+      "payload": {
+        "phase": "SKEPTIC",
+        "percent": 50,
+        "message": "Skeptic is searching for contradictions, caveats, and missing primary evidence."
+      }
+    },
+    {
+      "id": "6fad4b44-e7b8-46bb-8887-43e28650f332",
+      "timestamp": "2026-09-12T18:07:44.962Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.started",
+      "actor": "skeptic",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday? counterevidence criticism limitations",
+        "role": "SKEPTIC",
+        "taskId": "c016d300-91b8-4829-aed6-2658fbab3cd9"
+      }
+    },
+    {
+      "id": "e78f35a7-85e7-40d4-afe7-3a11ce2e435c",
+      "timestamp": "2026-09-12T18:07:45.740Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+        "title": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+        "domain": "fastcompany.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "a5f4f538-8afd-4175-8935-329b49eef4e8",
+      "timestamp": "2026-09-12T18:07:46.094Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+        "title": "Another newly listed insurance company headed back to private market",
+        "domain": "spglobal.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "ba9dec63-5de3-4ca3-aed1-9fb9b4e18844",
+      "timestamp": "2026-09-12T18:07:46.644Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "f0e64252-552c-45f8-857f-7fb54605378a",
+        "title": "Prometheus Stock Price, Valuation & News",
+        "domain": "stockanalysis.com",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "c105a2ee-a86e-4e75-ae61-19133581c493",
+      "timestamp": "2026-09-12T18:07:46.659Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.completed",
+      "actor": "skeptic",
+      "payload": {
+        "query": "Will a newly created private company double its stock price next Tuesday? counterevidence criticism limitations",
+        "role": "SKEPTIC",
+        "found": 3
+      }
+    },
+    {
+      "id": "35c6f198-8d30-4d9e-81b9-b02de7b4f462",
+      "timestamp": "2026-09-12T18:07:46.673Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.started",
+      "actor": "skeptic",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Will a newly created private company double its stock price next Tuesday. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "taskId": "f19e0c78-b722-4d40-80f6-78d2ac3e4cef"
+      }
+    },
+    {
+      "id": "65425ff5-12b5-41cb-b320-e1f82fa66eec",
+      "timestamp": "2026-09-12T18:07:47.403Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "research.search.completed",
+      "actor": "skeptic",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Will a newly created private company double its stock price next Tuesday. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "found": 3
+      }
+    },
+    {
+      "id": "30d1a1f9-d455-4f35-9f29-be6c0d555e1d",
+      "timestamp": "2026-09-12T18:07:47.458Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "skeptic.completed",
+      "actor": "skeptic",
+      "payload": {
+        "searches": 3,
+        "newSourceCount": 3
+      }
+    },
+    {
+      "id": "a312d931-c53b-4a9d-ae5b-4830752897ac",
+      "timestamp": "2026-09-12T18:07:47.467Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "independence-auditor",
+      "payload": {
+        "phase": "GENEALOGY",
+        "percent": 68,
+        "message": "Tracing shared origins so repeated citations do not count as independent proof."
+      }
+    },
+    {
+      "id": "105dd844-40db-4f3a-adb1-54f720a18e27",
+      "timestamp": "2026-09-12T18:07:47.491Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "genealogy.completed",
+      "actor": "independence-auditor",
+      "payload": {
+        "relationships": 0
+      }
+    },
+    {
+      "id": "7d734681-6c6b-4921-84f6-9314cb009f84",
+      "timestamp": "2026-09-12T18:07:47.501Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "adjudicator",
+      "payload": {
+        "phase": "ADJUDICATING",
+        "percent": 76,
+        "message": "Adjudicating each claim using quality, directness, recency, and independent lineages."
+      }
+    },
+    {
+      "id": "c42d16e2-930b-41fb-87fd-35464fbbede7",
+      "timestamp": "2026-09-12T18:07:47.511Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "adjudication.completed",
+      "actor": "adjudicator",
+      "payload": {
+        "counts": {
+          "SUPPORTED": 2,
+          "CONTRADICTED": 0,
+          "MIXED": 0,
+          "UNCERTAIN": 2
+        },
+        "claims": 4
+      }
+    },
+    {
+      "id": "38446792-8ee1-4016-b16f-d9b0155a34c3",
+      "timestamp": "2026-09-12T18:07:47.521Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "weakness-detector",
+      "payload": {
+        "phase": "FOLLOW_UP",
+        "percent": 82,
+        "message": "No additional targeted search was needed within the research budget."
+      }
+    },
+    {
+      "id": "b07f921a-ebfb-499a-8801-e5595c60aa1d",
+      "timestamp": "2026-09-12T18:07:47.531Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "agent.progress",
+      "actor": "reporter",
+      "payload": {
+        "phase": "REPORTING",
+        "percent": 92,
+        "message": "Writing a cited report from the evidence graph."
+      }
+    },
+    {
+      "id": "843fb74b-6c29-453b-82ba-071301c5a56f",
+      "timestamp": "2026-09-12T18:07:47.553Z",
+      "sessionId": "1e59d658-e16c-4acb-b39f-7e687b3dee27",
+      "type": "session.completed",
+      "actor": "system",
+      "payload": {
+        "sources": 10,
+        "claims": 4,
+        "searchCalls": 5
+      }
+    }
+  ],
+  "report": {
+    "title": "ClaimLens evidence report",
+    "claims": [
+      {
+        "claimId": "21537ce8-dd7c-42c6-918a-f758eeae858a",
+        "text": "The evidence base is being evaluated for this proposition: Will a newly created private company double its stock price next Tuesday.",
+        "status": "UNCERTAIN",
+        "evidenceStrength": 10,
+        "evidence": []
+      },
+      {
+        "claimId": "b639c3a1-8999-4bdc-a7c6-9d98cbcbda75",
+        "text": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+        "status": "UNCERTAIN",
+        "evidenceStrength": 8,
+        "evidence": [
+          {
+            "type": "QUALIFIES",
+            "confidence": 90,
+            "quote": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+            "citation": {
+              "sourceId": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+              "title": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+              "url": "https://www.fastcompany.com/91576516/wall-streets-ipo-comeback-is-delivering-mixed-results"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 49,
+            "quote": "Another newly listed insurance company headed back to private market",
+            "citation": {
+              "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+              "title": "Another newly listed insurance company headed back to private market",
+              "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+        "text": "5 Things to Know Before the Stock Market Opens on Tuesday",
+        "status": "SUPPORTED",
+        "evidenceStrength": 77,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "Reddit was added to the S&P 500 index on Aug.",
+            "citation": {
+              "sourceId": "0feb317e-15d7-4714-b479-2ebe44f031f1",
+              "title": "Billionaire Stanley Druckenmiller Bought This Newly Added S&P 500 Stock That's Up 351% Since Its IPO | The Motley Fool",
+              "url": "https://www.fool.com/investing/2026/08/21/billionaire-stanley-druckenmiller-bought-this-newl/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 54,
+            "quote": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool .",
+            "citation": {
+              "sourceId": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+              "title": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 90,
+            "quote": "5 Things to Know Before the Stock Market Opens on Tuesday",
+            "citation": {
+              "sourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+              "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+              "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-tuesday-september-8-2026-12110869"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 47,
+            "quote": "How to Value Private Companies - Investopedia",
+            "citation": {
+              "sourceId": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+              "title": "How to Value Private Companies - Investopedia",
+              "url": "https://www.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 46,
+            "quote": "Understanding Private Placement and Its Impact on Share Prices",
+            "citation": {
+              "sourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+              "title": "Understanding Private Placement and Its Impact on Share Prices",
+              "url": "https://www.investopedia.com/ask/answers/052815/how-does-private-placement-affect-share-price.asp"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 48,
+            "quote": "explain the income, market, and asset-based approaches to private company valuation and factors relevant to the selection of each approach;.",
+            "citation": {
+              "sourceId": "91232350-e673-41f9-be15-095bf1a3a300",
+              "title": "Private Company Valuation | CFA Institute",
+              "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 52,
+            "quote": "Another newly listed insurance company headed back to private market",
+            "citation": {
+              "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+              "title": "Another newly listed insurance company headed back to private market",
+              "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 51,
+            "quote": "Invest in the world's most exciting startups before they go public..",
+            "citation": {
+              "sourceId": "f0e64252-552c-45f8-857f-7fb54605378a",
+              "title": "Prometheus Stock Price, Valuation & News",
+              "url": "https://stockanalysis.com/private/prometheus/"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+        "text": "Understanding Private Placement and Its Impact on Share Prices",
+        "status": "SUPPORTED",
+        "evidenceStrength": 74,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "The two consensus figures are $899 million and $0.63 per share, respectively..",
+            "citation": {
+              "sourceId": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+              "title": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool",
+              "url": "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 46,
+            "quote": "5 Things to Know Before the Stock Market Opens on Tuesday",
+            "citation": {
+              "sourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+              "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+              "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-tuesday-september-8-2026-12110869"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 47,
+            "quote": "How to Value Private Companies - Investopedia",
+            "citation": {
+              "sourceId": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+              "title": "How to Value Private Companies - Investopedia",
+              "url": "https://www.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 90,
+            "quote": "Understanding Private Placement and Its Impact on Share Prices",
+            "citation": {
+              "sourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+              "title": "Understanding Private Placement and Its Impact on Share Prices",
+              "url": "https://www.investopedia.com/ask/answers/052815/how-does-private-placement-affect-share-price.asp"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 48,
+            "quote": "Until now we have focused on the valuation of publicly held companies with periodic audited financial statements and an observable market-based share price.",
+            "citation": {
+              "sourceId": "91232350-e673-41f9-be15-095bf1a3a300",
+              "title": "Private Company Valuation | CFA Institute",
+              "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 50,
+            "quote": "Another newly listed insurance company headed back to private market",
+            "citation": {
+              "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+              "title": "Another newly listed insurance company headed back to private market",
+              "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 54,
+            "quote": "Hiive is a secondary marketplace where accredited investors can buy and sell shares of private, pre-IPO companies.",
+            "citation": {
+              "sourceId": "f0e64252-552c-45f8-857f-7fb54605378a",
+              "title": "Prometheus Stock Price, Valuation & News",
+              "url": "https://stockanalysis.com/private/prometheus/"
+            }
+          }
+        ]
+      }
+    ],
+    "generatedAt": "2026-09-12T18:07:47.538Z",
+    "executiveConclusion": "The available evidence is incomplete. Treat this investigation as a map of what is known and what still needs verification.",
+    "statusCounts": {
+      "SUPPORTED": 2,
+      "CONTRADICTED": 0,
+      "MIXED": 0,
+      "UNCERTAIN": 2
+    },
+    "keyFindings": [
+      {
+        "claimId": "b639c3a1-8999-4bdc-a7c6-9d98cbcbda75",
+        "text": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+        "status": "UNCERTAIN",
+        "evidenceStrength": 8,
+        "citations": [
+          {
+            "sourceId": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+            "title": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+            "url": "https://www.fastcompany.com/91576516/wall-streets-ipo-comeback-is-delivering-mixed-results"
+          },
+          {
+            "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+            "title": "Another newly listed insurance company headed back to private market",
+            "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349"
+          }
+        ]
+      },
+      {
+        "claimId": "15f91c04-01c6-48f9-aa47-f2fb0779ec33",
+        "text": "5 Things to Know Before the Stock Market Opens on Tuesday",
+        "status": "SUPPORTED",
+        "evidenceStrength": 77,
+        "citations": [
+          {
+            "sourceId": "0feb317e-15d7-4714-b479-2ebe44f031f1",
+            "title": "Billionaire Stanley Druckenmiller Bought This Newly Added S&P 500 Stock That's Up 351% Since Its IPO | The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/08/21/billionaire-stanley-druckenmiller-bought-this-newl/"
+          },
+          {
+            "sourceId": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+            "title": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday/"
+          },
+          {
+            "sourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+            "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+            "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-tuesday-september-8-2026-12110869"
+          },
+          {
+            "sourceId": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+            "title": "How to Value Private Companies - Investopedia",
+            "url": "https://www.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp"
+          },
+          {
+            "sourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+            "title": "Understanding Private Placement and Its Impact on Share Prices",
+            "url": "https://www.investopedia.com/ask/answers/052815/how-does-private-placement-affect-share-price.asp"
+          },
+          {
+            "sourceId": "91232350-e673-41f9-be15-095bf1a3a300",
+            "title": "Private Company Valuation | CFA Institute",
+            "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation"
+          },
+          {
+            "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+            "title": "Another newly listed insurance company headed back to private market",
+            "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349"
+          },
+          {
+            "sourceId": "f0e64252-552c-45f8-857f-7fb54605378a",
+            "title": "Prometheus Stock Price, Valuation & News",
+            "url": "https://stockanalysis.com/private/prometheus/"
+          }
+        ]
+      },
+      {
+        "claimId": "382d58cd-d4e2-4f79-8a27-29758296d95c",
+        "text": "Understanding Private Placement and Its Impact on Share Prices",
+        "status": "SUPPORTED",
+        "evidenceStrength": 74,
+        "citations": [
+          {
+            "sourceId": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+            "title": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool",
+            "url": "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday/"
+          },
+          {
+            "sourceId": "402e1eee-c47e-4792-9e01-41bba36adec7",
+            "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+            "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-tuesday-september-8-2026-12110869"
+          },
+          {
+            "sourceId": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+            "title": "How to Value Private Companies - Investopedia",
+            "url": "https://www.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp"
+          },
+          {
+            "sourceId": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+            "title": "Understanding Private Placement and Its Impact on Share Prices",
+            "url": "https://www.investopedia.com/ask/answers/052815/how-does-private-placement-affect-share-price.asp"
+          },
+          {
+            "sourceId": "91232350-e673-41f9-be15-095bf1a3a300",
+            "title": "Private Company Valuation | CFA Institute",
+            "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation"
+          },
+          {
+            "sourceId": "12924f50-6c44-4499-9eac-fd92127e905c",
+            "title": "Another newly listed insurance company headed back to private market",
+            "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349"
+          },
+          {
+            "sourceId": "f0e64252-552c-45f8-857f-7fb54605378a",
+            "title": "Prometheus Stock Price, Valuation & News",
+            "url": "https://stockanalysis.com/private/prometheus/"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "10 retrieved sources were assessed; snippets and page availability can affect directness.",
+      "No source genealogy relationship was established."
+    ],
+    "sources": [
+      {
+        "id": "d0051cb5-7758-481e-a0a0-ed87e24333b9",
+        "title": "Wall Street's IPO comeback is delivering mixed results - Fast Company",
+        "publisher": "fastcompany.com",
+        "url": "https://www.fastcompany.com/91576516/wall-streets-ipo-comeback-is-delivering-mixed-results",
+        "retrievedAt": "2026-09-12T18:07:39.671Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "d72ef5f2-5786-49f2-8109-96e2adca04f9",
+        "title": "2026 IPO Calendar | Upcoming Initial Public Offerings",
+        "publisher": "marketbeat.com",
+        "url": "https://www.marketbeat.com/IPOs/",
+        "retrievedAt": "2026-09-12T18:07:40.239Z",
+        "searchRole": "RESEARCHER",
+        "quality": 60
+      },
+      {
+        "id": "0feb317e-15d7-4714-b479-2ebe44f031f1",
+        "title": "Billionaire Stanley Druckenmiller Bought This Newly Added S&P 500 Stock That's Up 351% Since Its IPO | The Motley Fool",
+        "publisher": "fool.com",
+        "url": "https://www.fool.com/investing/2026/08/21/billionaire-stanley-druckenmiller-bought-this-newl/",
+        "publishedAt": "2026-08-21T13:51:00.000Z",
+        "retrievedAt": "2026-09-12T18:07:41.056Z",
+        "searchRole": "RESEARCHER",
+        "quality": 70
+      },
+      {
+        "id": "46301507-7f6c-4af1-8ec1-4f62fdedfc70",
+        "title": "Why Braze Stock Tumbled by Over 5% on Tuesday | The Motley Fool",
+        "publisher": "fool.com",
+        "url": "https://www.fool.com/investing/2026/09/08/why-braze-stock-tumbled-by-over-5-on-tuesday/",
+        "publishedAt": "2026-09-08T23:15:24.000Z",
+        "retrievedAt": "2026-09-12T18:07:42.978Z",
+        "searchRole": "RESEARCHER",
+        "quality": 70
+      },
+      {
+        "id": "402e1eee-c47e-4792-9e01-41bba36adec7",
+        "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+        "publisher": "investopedia.com",
+        "url": "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-on-tuesday-september-8-2026-12110869",
+        "retrievedAt": "2026-09-12T18:07:43.245Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "d1da2a22-9d77-4d09-9151-66932f9a10ce",
+        "title": "How to Value Private Companies - Investopedia",
+        "publisher": "investopedia.com",
+        "url": "https://www.investopedia.com/articles/fundamental-analysis/11/valuing-private-companies.asp",
+        "retrievedAt": "2026-09-12T18:07:43.405Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "271f7c35-c2a6-4f95-b453-f50ff69de1b6",
+        "title": "Understanding Private Placement and Its Impact on Share Prices",
+        "publisher": "investopedia.com",
+        "url": "https://www.investopedia.com/ask/answers/052815/how-does-private-placement-affect-share-price.asp",
+        "retrievedAt": "2026-09-12T18:07:44.324Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "91232350-e673-41f9-be15-095bf1a3a300",
+        "title": "Private Company Valuation | CFA Institute",
+        "publisher": "cfainstitute.org",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/private-company-valuation",
+        "retrievedAt": "2026-09-12T18:07:44.870Z",
+        "searchRole": "RESEARCHER",
+        "quality": 60
+      },
+      {
+        "id": "12924f50-6c44-4499-9eac-fd92127e905c",
+        "title": "Another newly listed insurance company headed back to private market",
+        "publisher": "spglobal.com",
+        "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/another-newly-listed-insurance-company-headed-back-to-private-market-104996349",
+        "retrievedAt": "2026-09-12T18:07:46.086Z",
+        "searchRole": "SKEPTIC",
+        "quality": 50
+      },
+      {
+        "id": "f0e64252-552c-45f8-857f-7fb54605378a",
+        "title": "Prometheus Stock Price, Valuation & News",
+        "publisher": "stockanalysis.com",
+        "url": "https://stockanalysis.com/private/prometheus/",
+        "retrievedAt": "2026-09-12T18:07:46.636Z",
+        "searchRole": "SKEPTIC",
+        "quality": 60
+      }
+    ],
+    "whyResearchContinued": "The initial evidence set was reviewed by a separate skeptic stage before adjudication."
+  }
+}

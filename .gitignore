@@ -5,6 +5,8 @@ node_modules/
 data/*.json
 data/**/*.json
 !data/demo-session.json
+!data/evaluations/
+!data/evaluations/*.json
 *.log
 .DS_Store
 .pi/goals/

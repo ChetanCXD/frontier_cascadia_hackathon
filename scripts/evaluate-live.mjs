@@ -1,4 +1,5 @@
-import { writeFile } from 'node:fs/promises';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
 import { JsonSessionStore } from '../src/domain/store.mjs';
 import { ResearchPipeline } from '../src/research/pipeline.mjs';
 import { SearchClient } from '../src/research/search.mjs';
@@ -24,7 +25,17 @@ for (const item of cases) {
   const citationsValid = state.report?.claims?.every((claim) => claim.evidence.every((evidence) => citationIds.has(evidence.citation.sourceId))) ?? false;
   if (state.session.status !== 'COMPLETE' || !state.report || !state.sources.length || !state.claims.length || skepticSearches < 1 || !citationsValid) throw new Error(`Live evaluation failed its base assertions for ${item.name}`);
   if (item.name === 'insufficient' && !statusCounts.UNCERTAIN) throw new Error('Insufficient-evidence case did not retain an UNCERTAIN central proposition');
-  summary.push({ name: item.name, question: item.question, sessionId: created.session.id, status: state.session.status, sources: state.sources.length, claims: state.claims.length, edgeTypes, sourceRelationships: state.sourceRelationships.length, relationshipTypes: [...new Set(state.sourceRelationships.map((relation) => relation.type))], statusCounts, skepticSearches, followUps: state.events.filter((event) => event.type === 'followup.triggered').length, report: Boolean(state.report), assertions: { citationsValid, skepticSearches: skepticSearches >= 1 } });
+  const artifactDir = process.env.EVALUATION_DIR || 'data/evaluations';
+  await mkdir(artifactDir, { recursive: true });
+  const artifact = {
+    artifactVersion: 1, realRun: true, provider: 'DuckDuckGo HTML', evaluatedAt: new Date().toISOString(),
+    case: item, session: state.session, progress: state.progress, tasks: state.tasks,
+    claims: state.claims, sources: state.sources.map(({ content: _content, ...source }) => source),
+    evidenceEdges: state.evidenceEdges, sourceRelationships: state.sourceRelationships,
+    adjudications: state.adjudications, events: state.events, report: state.report,
+  };
+  await writeFile(join(artifactDir, `${item.name}.json`), `${JSON.stringify(artifact, null, 2)}\n`);
+  summary.push({ name: item.name, question: item.question, sessionId: created.session.id, artifact: join(artifactDir, `${item.name}.json`), status: state.session.status, sources: state.sources.length, claims: state.claims.length, edgeTypes, sourceRelationships: state.sourceRelationships.length, relationshipTypes: [...new Set(state.sourceRelationships.map((relation) => relation.type))], statusCounts, skepticSearches, followUps: state.events.filter((event) => event.type === 'followup.triggered').length, report: Boolean(state.report), assertions: { citationsValid, skepticSearches: skepticSearches >= 1 } });
   console.log(JSON.stringify(summary.at(-1)));
 }
 await writeFile(process.env.EVALUATION_OUTPUT || 'data/evaluation-summary.json', `${JSON.stringify({ generatedAt: new Date().toISOString(), cases: summary }, null, 2)}\n`);

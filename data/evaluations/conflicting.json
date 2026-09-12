@@ -1,0 +1,2562 @@
+{
+  "artifactVersion": 1,
+  "realRun": true,
+  "provider": "DuckDuckGo HTML",
+  "evaluatedAt": "2026-09-12T18:07:11.584Z",
+  "case": {
+    "name": "conflicting",
+    "question": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle?"
+  },
+  "session": {
+    "id": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+    "createdAt": "2026-09-12T18:06:59.463Z",
+    "title": "Investigation: Are electric vehicles better for the environment than gasoline cars over their full lifecycle?",
+    "question": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle?",
+    "status": "COMPLETE",
+    "updatedAt": "2026-09-12T18:07:11.573Z",
+    "metadata": {
+      "evaluationCase": "conflicting"
+    },
+    "phase": "DONE",
+    "completedAt": "2026-09-12T18:07:11.560Z"
+  },
+  "progress": {
+    "phase": "DONE",
+    "percent": 100,
+    "message": "Investigation complete. Inspect the graph to see why each claim earned its status.",
+    "actor": "system",
+    "updatedAt": "2026-09-12T18:07:11.560Z"
+  },
+  "tasks": [
+    {
+      "id": "7dd5d9bb-b7ca-4f3f-80f9-35e038241684",
+      "createdAt": "2026-09-12T18:06:59.486Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "objective": "Researcher search: Are electric vehicles better for the environment than gasoline cars over their full lifecycle?",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:02.672Z"
+    },
+    {
+      "id": "2fae245a-1eb4-4072-b2db-0c337b8fb3a7",
+      "createdAt": "2026-09-12T18:06:59.488Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "objective": "Researcher search: Are electric vehicles better for the environment than gasoline cars over their full lifecycle? independent evidence data study",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:05.362Z"
+    },
+    {
+      "id": "3f9769c0-f364-41ea-b28f-9eaef698b2b3",
+      "createdAt": "2026-09-12T18:06:59.489Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "objective": "Researcher search: Are electric vehicles better for the environment than gasoline cars over their full lifecycle? limitations criticism analysis",
+      "status": "COMPLETE",
+      "priority": 60,
+      "assignedTo": "RESEARCHER",
+      "constraints": [
+        "Prefer direct, recent, and primary evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:07.596Z"
+    },
+    {
+      "id": "30a1ed80-382a-4be3-a265-b22874ffcc4d",
+      "createdAt": "2026-09-12T18:07:07.962Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "objective": "Skeptic search: Are electric vehicles better for the environment than gasoline cars over their full lifecycle? counterevidence criticism limitations",
+      "status": "COMPLETE",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:09.683Z"
+    },
+    {
+      "id": "7b7f569c-5d85-4819-ab5b-ae6ca878174b",
+      "createdAt": "2026-09-12T18:07:07.970Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "objective": "Skeptic search: The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle. contrary evidence independent data",
+      "status": "COMPLETE",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:11.033Z"
+    },
+    {
+      "id": "b0e12e28-e417-4b5e-9195-c7e6fe01a203",
+      "createdAt": "2026-09-12T18:07:07.978Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "objective": "Skeptic search: The environmental impact of electric vehicles: A novel life cycle-based ... contrary evidence independent data",
+      "status": "OPEN",
+      "priority": 80,
+      "assignedTo": "SKEPTIC",
+      "constraints": [
+        "Look for credible contradiction, qualification, or independent evidence"
+      ],
+      "updatedAt": "2026-09-12T18:07:07.978Z"
+    }
+  ],
+  "claims": [
+    {
+      "id": "3c407520-0e24-414a-8cb4-81514821902d",
+      "createdAt": "2026-09-12T18:07:07.641Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "text": "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle.",
+      "updatedAt": "2026-09-12T18:07:11.491Z",
+      "isCentral": true,
+      "extractionScore": 0,
+      "status": "UNCERTAIN",
+      "evidenceStrength": 7,
+      "factors": {
+        "supportWeight": 0,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 0,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 0,
+        "corroboration": 0,
+        "balance": 0,
+        "coverage": 0,
+        "qualificationAdjustment": 73
+      }
+    },
+    {
+      "id": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "createdAt": "2026-09-12T18:07:07.642Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "text": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+      "updatedAt": "2026-09-12T18:07:11.491Z",
+      "originSourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+      "extractionScore": 100,
+      "status": "SUPPORTED",
+      "evidenceStrength": 77,
+      "factors": {
+        "supportWeight": 74,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 37,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 100,
+        "qualificationAdjustment": 61
+      }
+    },
+    {
+      "id": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "createdAt": "2026-09-12T18:07:07.642Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "text": "After two years of use, lithium-ion battery electric vehicles (BEVs) result in a reduction in cumulative carbon dioxide (CO₂) emissions compared to fossil-based internal combustion engine (ICE) vehicles, according to a new study published this week in the open-access journal PLOS Climate by Pankaj Sadavarte of Duke University, US, and colleagues..",
+      "updatedAt": "2026-09-12T18:07:11.492Z",
+      "originSourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+      "extractionScore": 85,
+      "status": "SUPPORTED",
+      "evidenceStrength": 77,
+      "factors": {
+        "supportWeight": 71,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 35,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 100,
+        "qualificationAdjustment": 65
+      }
+    },
+    {
+      "id": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "createdAt": "2026-09-12T18:07:07.642Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "text": "Yes: although electric cars' batteries make them more carbon-intensive to manufacture than gas cars, they more than make up for it by driving much cleaner under nearly any conditions.",
+      "updatedAt": "2026-09-12T18:07:11.492Z",
+      "originSourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "extractionScore": 74,
+      "status": "SUPPORTED",
+      "evidenceStrength": 74,
+      "factors": {
+        "supportWeight": 54,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 5,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 81,
+        "qualificationAdjustment": 67
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+      "createdAt": "2026-09-12T18:07:01.563Z",
+      "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/",
+      "canonicalUrl": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars",
+      "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+      "publisher": "energysage.com",
+      "sourceType": "web",
+      "quality": 65,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "Learn more about one of the most commonly asked questions about electric vehicles: are they more environmentally friendly than gas cars?",
+      "links": [
+        "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars",
+        "https://www.energysage.com/onboarding/start",
+        "https://www.energysage.com/solar/calculator",
+        "https://www.energysage.com/solar",
+        "https://www.energysage.com/local-data/solar-panel-cost",
+        "https://www.energysage.com/solar/are-solar-panels-worth-it",
+        "https://www.energysage.com/solar/much-solar-panels-save",
+        "https://www.energysage.com/solar/best-solar-panels-complete-ranking",
+        "https://www.energysage.com/solar-panels",
+        "https://www.energysage.com/solar/best-solar-inverters",
+        "https://www.energysage.com/solar-inverters",
+        "https://www.energysage.com/supplier/search?selected_facets=services%3Ainstallers",
+        "https://www.energysage.com/solar/how-to-pay-for-solar",
+        "https://www.energysage.com/solar/buy-lease-solar-panels",
+        "https://www.energysage.com/solar/pre-paid-solar-leases-and-ppas",
+        "https://www.energysage.com/solar/solar-loans/zero-down-solar-financing-options",
+        "https://www.energysage.com/local-data/solar-rebates-incentives",
+        "https://storage-onboarding.energysage.com/onboarding/battery/address",
+        "https://www.energysage.com/energy-storage",
+        "https://www.energysage.com/energy-storage/are-you-good-fit-energy-storage",
+        "https://www.energysage.com/energy-storage/how-much-do-batteries-cost",
+        "https://www.energysage.com/energy-storage/how-many-solar-batteries-needed",
+        "https://www.energysage.com/energy-storage/adding-battery-to-solar-energy-system-as-retrofit",
+        "https://www.energysage.com/energy-storage/best-home-batteries",
+        "https://www.energysage.com/solar-batteries",
+        "https://www.energysage.com/energy-storage/best-batteries-for-whole-home-backup",
+        "https://www.energysage.com/energy-storage/battery-backup-power-vs-generators-which-is-right-for-you",
+        "https://www.energysage.com/energy-storage/how-do-you-pay-for-storage",
+        "https://www.energysage.com/energy-storage/what-is-a-virtual-power-plant",
+        "https://heatpumps.energysage.com/projects/new/welcome",
+        "https://www.energysage.com/heat-pumps",
+        "https://www.energysage.com/heat-pumps/costs-and-benefits-air-source-heat-pumps",
+        "https://www.energysage.com/heat-pumps/pros-and-cons-of-air-source-heat-pumps",
+        "https://www.energysage.com/heat-pumps/heat-pump-size-guide",
+        "https://www.energysage.com/heat-pumps/how-many-solar-panels-for-air-source-heat-pumps",
+        "https://www.energysage.com/heat-pumps/best-heat-pumps",
+        "https://www.energysage.com/heat-pumps/best-cold-climate-heat-pump",
+        "https://www.energysage.com/heat-pumps/heat-pumps-vs-mini-splits",
+        "https://www.energysage.com/heat-pumps/heat-pumps-vs-furnaces",
+        "https://www.energysage.com/heat-pumps/heat-pump-vs-ac",
+        "https://www.energysage.com/financing",
+        "https://www.energysage.com/heat-pumps/heat-pump-incentives",
+        "https://www.energysage.com/heat-pumps/heat-pump-save-money",
+        "https://hca3.qmerit.com/hca/energy_sage/assessment?amp%3Butm_medium=home",
+        "https://www.energysage.com/ev-charging",
+        "https://www.energysage.com/ev-charging/how-much-does-ev-charger-installation-cost",
+        "https://www.energysage.com/ev-charging/ev-charger-rebates-incentives",
+        "https://www.energysage.com/ev-charging/do-you-need-an-electrical-panel-upgrade-for-your-ev-",
+        "https://www.energysage.com/ev-charging/ev-charging-stations",
+        "https://www.energysage.com/ev-charging/different-types-of-ev-chargers",
+        "https://www.energysage.com/ev-charging/hardwire-vs-plug-in-ev-charger",
+        "https://www.energysage.com/ev-charging/outdoor-ev-charger-installation",
+        "https://www.energysage.com/ev-charging/how-many-panels-do-you-need-for-your-ev",
+        "https://www.energysage.com/electric-vehicles",
+        "https://www.energysage.com/electric-vehicles/how-to-pay-for-your-ev",
+        "https://www.energysage.com/ev-charging/electric-vehicle-charging-cost",
+        "https://energysage.wattbuy.com/en/lp/energysage?amp%3Butm_campaign=ppp_cta&amp%3Butm_medium=header",
+        "https://www.energysage.com/electricity/future-of-electricity-electrification",
+        "https://www.energysage.com/energy-efficiency/energy-efficient-homes",
+        "https://energysage.wattbuy.com/en?amp%3Butm_campaign=nav&amp%3Butm_source=energysage",
+        "https://www.energysage.com/electricity/what-is-retail-energy",
+        "https://www.energysage.com/blog/power-to-choose-your-electricity-plan",
+        "https://electrification.qmerit.com/",
+        "https://www.energysage.com/about-us",
+        "https://www.energysage.com/energy-advisors",
+        "https://www.energysage.com/press",
+        "https://careers.se.com/Defaultlandingpage/jobs?amp%3Blocation=Boston&keywords=%22energysage%22",
+        "https://www.energysage.com/authors",
+        "https://www.energysage.com/editorial-guidelines",
+        "https://www.energysage.com/data",
+        "https://www.energysage.com/news",
+        "https://www.energysage.com/testimonials",
+        "https://www.energysage.com/landing/newsletter-signup?amp%3Butm_medium=website&amp%3Butm_source=footer",
+        "https://www.youtube.com/@EnergySage",
+        "https://www.energysage.com/installers",
+        "https://www.energysage.com/partners/corporations",
+        "https://www.energysage.com/partners/non-profits",
+        "https://www.energysage.com/partners/utilities",
+        "https://www.energysage.com/press/energysage-intel-home-electrification-marketplace-report-22",
+        "https://www.energysage.com/",
+        "https://accounts.energysage.com/login",
+        "https://www.energysage.com/authors/ellen-sirull",
+        "https://www.iea.org/reports/electric-vehicles",
+        "https://www.energysage.com/blog/inflation-reduction-act",
+        "https://hca3.qmerit.com/hca/energy_sage/assessment?amp%3Butm_medium=articles",
+        "https://www.energysage.com/market/start",
+        "https://www.energysage.com/about-clean-energy/what-is-my-carbon-footprint-calculating-co2-impact",
+        "https://www.epa.gov/energy/greenhouse-gases-equivalencies-calculator-calculations-and-references",
+        "https://www.sciencedaily.com/releases/2020/03/200323125602.htm",
+        "https://www.energysage.com/ev-charging/tesla-supercharger-guide",
+        "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle",
+        "https://www.epa.gov/automotive-trends/download-automotive-trends-report",
+        "https://thegogreenpost.com/electric-cars-vs-gas-cars-which-has-an-overall-lower-impact",
+        "https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator",
+        "https://www.energy.gov/eere/femp/electric-vehicles-toolkit",
+        "https://www.tesla.com/impact/product",
+        "https://www.energysage.com/market-intro",
+        "https://www.youtube.com/@GoGreenPost",
+        "https://www.energysage.com/electric-vehicles/electric-vehicle-faq",
+        "https://www.energysage.com/authors/bobby-mackenzie"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:01.563Z",
+      "retrievedBy": [
+        "RESEARCHER",
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle?",
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? limitations criticism analysis",
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? counterevidence criticism limitations"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:07:09.268Z"
+    },
+    {
+      "id": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+      "createdAt": "2026-09-12T18:07:01.930Z",
+      "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm",
+      "canonicalUrl": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm",
+      "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+      "publisher": "sciencetimes.com",
+      "publishedAt": "2025-11-14T11:59:35.000Z",
+      "sourceType": "analysis",
+      "quality": 65,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "Explore the true EV environmental impact by comparing carbon emissions of electric vs gasoline vehicles and their role in advancing green transportation.",
+      "links": [
+        "https://www.sciencetimes.com/",
+        "https://www.sciencetimes.com/tech-inno",
+        "https://www.sciencetimes.com/design",
+        "https://www.sciencetimes.com/nanotech",
+        "https://www.sciencetimes.com/energy",
+        "https://www.sciencetimes.com/policy",
+        "https://www.sciencetimes.com/space",
+        "https://www.sciencetimes.com/physic-math",
+        "https://www.sciencetimes.com/chemistry",
+        "https://www.sciencetimes.com/medic-health",
+        "https://www.sciencetimes.com/environ-climate",
+        "https://jobs.sciencetimes.com/",
+        "https://www.sciencetimes.com/reporters/renz-soliman",
+        "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.sciencetimes.com%2Farticles%2F60793%2F20251114%2Fhow-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm",
+        "https://twitter.com/intent/tweet?text=How+Electric+Vehicles+vs+Gasoline+Cars+Compare+on+Carbon+Emissions+and+Green+Transportation+https%3A%2F%2Fwww.sciencetimes.com%2Farticles%2F60793%2F20251114%2Fhow-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm",
+        "https://www.linkedin.com/shareArticle?mini=true&title=How+Electric+Vehicles+vs+Gasoline+Cars+Compare+on+Carbon+Emissions+and+Green+Transportation&url=https%3A%2F%2Fwww.sciencetimes.com%2Farticles%2F60793%2F20251114%2Fhow-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm",
+        "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm",
+        "https://pixabay.com/photos/electric-car-charging-station-4276419",
+        "https://www.sciencetimes.com/articles/51198/20240710/rechargeable-lithium-ion-batteries-gadgets-electric-vehicles-growing-source-forever.htm",
+        "https://www.azocleantech.com/article.aspx?ArticleID=38",
+        "https://www.webuildvalue.com/en/facts/sustainable-rail-transport.html",
+        "https://www.sciencetimes.com/articles/60702/20251105/unlocking-power-future-batteries-groundbreaking-battery-technology-breakthroughs-fueling.htm",
+        "https://www.nrdc.org/stories/electric-vs-gas-cars-it-cheaper-drive-ev",
+        "https://www.sciencetimes.com/articles/51586/20241112/the-role-of-technology-in-achieving-net-zero-emissions-from-ai-to-lca-tools.htm",
+        "https://www.sciencetimes.com/articles/60787/20251114/how-long-ev-batteries-really-last-what-lithium-ion-degradation-means-battery-health.htm",
+        "https://www.sciencetimes.com/articles/62584/20260911/could-ai-actually-wipe-out-humanity-2030-ai-doomsday-debate-grows-after-anthropic-insider.htm",
+        "https://www.sciencetimes.com/articles/62574/20260910/tesla-cybercab-software-glitch-exposes-hidden-manual-driving-controls-passenger-screen.htm",
+        "https://www.sciencetimes.com/articles/62573/20260910/man-claims-he-synthesized-chatgpt-designed-schizophrenia-drug-his-home-garage.htm",
+        "https://www.sciencetimes.com/articles/62576/20260910/are-sun-stars-really-just-giant-balls-fire-what-science-says.htm",
+        "https://www.sciencetimes.com/articles/62583/20260911/nasa-detects-massive-fireball-over-kentucky-200-pound-comet-fragment.htm",
+        "https://www.sciencetimes.com/articles/62585/20260911/nasa-ibm-unveil-new-ai-model-designed-map-moon-greater-detail.htm",
+        "https://www.sciencetimes.com/articles/62586/20260911/mercury-may-have-shrunk-more-scientists-thought-new-study-suggests.htm",
+        "https://www.sciencetimes.com/articles/62501/20260828/scientists-use-gravity-mapping-reveal-more-1-billion-tons-hidden-ice-utahs-mountains.htm",
+        "https://www.sciencetimes.com/articles/62187/20260721/anthropic-launches-ai-science-rare-disease-grants-offering-50000-claude-credits.htm",
+        "https://www.sciencetimes.com/articles/62189/20260721/melting-boiling-freezing-explained-understanding-phase-changes-matter.htm",
+        "https://www.sciencetimes.com/articles/62185/20260721/fireflies-are-far-dimmer-century-old-brightness-estimate-suggested-new-study-shows.htm",
+        "https://www.sciencetimes.com/about-us",
+        "https://www.sciencetimes.com/termsofservice",
+        "https://www.sciencetimes.com/privacypolicy",
+        "https://www.sciencetimes.com/contact-us",
+        "https://www.facebook.com/ScienceTimesLLC",
+        "https://twitter.com/ScienceTimesCom"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:01.930Z",
+      "retrievedBy": [
+        "RESEARCHER",
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle?",
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? limitations criticism analysis",
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? counterevidence criticism limitations"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:07:09.031Z"
+    },
+    {
+      "id": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "createdAt": "2026-09-12T18:07:02.649Z",
+      "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars",
+      "canonicalUrl": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars",
+      "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+      "publisher": "climate.mit.edu",
+      "sourceType": "academic",
+      "quality": 90,
+      "sourceKind": "PRIMARY",
+      "snippet": "",
+      "excerpt": "Yes: although electric cars' batteries make them more carbon-intensive to manufacture than gas cars, they more than make up for it by driving much cleaner under nearly any conditions.",
+      "links": [
+        "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars",
+        "https://climate.mit.edu/",
+        "https://climate.mit.edu/what-we-know-about-climate-change",
+        "https://climate.mit.edu/what-can-be-done-about-climate-change",
+        "https://climate.mit.edu/primer",
+        "https://climate.mit.edu/ask-mit-climate-podcast",
+        "https://climate.mit.edu/explainers",
+        "https://climate.mit.edu/ask-mit-climate",
+        "https://climate.mit.edu/educators",
+        "https://climate.mit.edu/news",
+        "https://climate.mit.edu/events",
+        "https://climate.mit.edu/resources-mit",
+        "https://climate.mit.edu/search/google",
+        "https://web.mit.edu/",
+        "https://climate.mit.edu/ask-mit-climate-form",
+        "https://climate.mit.edu/explainers/electric-vehicles",
+        "https://climate.mit.edu/explainers/greenhouse-gases",
+        "https://climate.mit.edu/ask-mit/how-much-co2-emitted-manufacturing-batteries",
+        "https://climate.mit.edu/explainers/batteries",
+        "https://climate.mit.edu/explainers/fossil-fuels",
+        "https://climate.mit.edu/explainers/mining-and-metals",
+        "https://climate.mit.edu/explainers/hydrogen",
+        "https://climate.mit.edu/explainers/electric-grid",
+        "https://climate.mit.edu/explainers/renewable-energy",
+        "https://mit.us11.list-manage.com/subscribe/post?amp%3Bid=17d8deda98&u=7247cc773946fb96a52ecfa04",
+        "https://creativecommons.org/licenses/by-nc-sa/4.0",
+        "https://www.ivl.se/download/18.34244ba71728fcb3f3faf9/1591706083170/C444.pdf",
+        "https://www.transportenvironment.org/wp-content/uploads/2021/07/2019_11_Analysis_CO2_footprint_lithium-ion_batteries.pdf",
+        "https://theicct.org/sites/default/files/publications/EV-life-cycle-GHG_ICCT-Briefing_09022018_vF.pdf",
+        "https://greet.es.anl.gov/index.php",
+        "https://energy.mit.edu/wp-content/uploads/2019/11/Insights-into-Future-Mobility.pdf",
+        "https://afdc.energy.gov/vehicles/electric_emissions.html",
+        "http://www.andrewmoseman.com/bio",
+        "https://globalchange.mit.edu/about-us/personnel/paltsev-sergey",
+        "https://climate.mit.edu/users/mit-energy-initiative",
+        "https://climate.mit.edu/users/mit-center-sustainability-science-and-strategy",
+        "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+        "https://www.reuters.com/business/autos-transportation/lifetime-carbon-emissions-electric-vehicles-vs-gasoline-cars-2021-06-29",
+        "https://www.nytimes.com/2021/03/02/climate/electric-vehicles-environment.html",
+        "https://climate.mit.edu/ask-mit-climate?amp%3Bf%5B0%5D=topics%3A133&field_topics_target_id%5B64%5D=64",
+        "https://climate.mit.edu/ask-mit-climate?amp%3Bf%5B0%5D=topics%3A135&field_topics_target_id%5B64%5D=64",
+        "https://climate.mit.edu/ask-mit-climate?amp%3Bf%5B0%5D=topics%3A116&field_topics_target_id%5B64%5D=64",
+        "https://climate.mit.edu/ask-mit-climate?amp%3Bf%5B0%5D=topics%3A11&field_topics_target_id%5B64%5D=64",
+        "https://climate.mit.edu/ask-mit-climate?amp%3Bf%5B0%5D=topics%3A137&field_topics_target_id%5B64%5D=64",
+        "https://climate.mit.edu/explainers/aviation",
+        "https://climate.mit.edu/explainers/freight-transportation",
+        "https://climate.mit.edu/ask-mit/how-safe-are-large-battery-facilities",
+        "https://climate.mit.edu/ask-mit/are-trucks-and-buses-burn-natural-gas-better-climate-diesel-ones",
+        "https://climate.mit.edu/ask-mit/which-industries-contribute-most-climate-change",
+        "https://climate.mit.edu/ask-mit/how-much-extra-electricity-would-we-need-switch-every-gas-powered-car-electric-vehicle",
+        "https://climate.mit.edu/user/login",
+        "https://climate.mit.edu/about",
+        "https://climate.mit.edu/terms-conditions",
+        "https://climate.mit.edu/privacy-policy",
+        "https://web.mit.edu/accessibility",
+        "https://climate.mit.edu/contact-climate-portal",
+        "https://climateproject.mit.edu/",
+        "http://web.mit.edu/",
+        "https://www.instagram.com/askmitclimate",
+        "https://www.tiktok.com/@askmitclimate",
+        "https://www.youtube.com/@AskMITClimate",
+        "https://askmitclimate.simplecast.com/",
+        "https://www.communicatorawards.com/winners/winners-gallery"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:02.649Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle?"
+      ]
+    },
+    {
+      "id": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+      "createdAt": "2026-09-12T18:07:04.183Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S095965262102223X",
+      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S095965262102223X",
+      "title": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+      "publisher": "sciencedirect.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:04.183Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? independent evidence data study"
+      ]
+    },
+    {
+      "id": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+      "createdAt": "2026-09-12T18:07:04.729Z",
+      "url": "https://www.eurekalert.org/news-releases/1102315",
+      "canonicalUrl": "https://www.eurekalert.org/news-releases/1102315",
+      "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+      "publisher": "eurekalert.org",
+      "sourceType": "web",
+      "quality": 65,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "After two years of use, lithium-ion battery electric vehicles (BEVs) result in a reduction in cumulative carbon dioxide (CO₂) emissions compared to fossil-based internal combustion engine (ICE) vehicles, according to a new study published this week in the open-access journal&nbsp;PLOS Climate&nbsp;by Pankaj Sadavarte of Duke University, US, and colleagues.",
+      "links": [
+        "https://www.eurekalert.org/advancedSearch",
+        "https://www.eurekalert.org/",
+        "https://www.eurekalert.org/news-releases/browse",
+        "https://www.eurekalert.org/multimedia",
+        "https://www.eurekalert.org/meetings/announcements",
+        "https://www.eurekalert.org/login",
+        "https://www.eurekalert.org/register",
+        "https://www.eurekalert.org/releaseguidelines",
+        "https://www.eurekalert.org/multimedia/1096814",
+        "https://plos.io/48u0I2t",
+        "https://doi.org/10.1371/journal.pclm.0000714",
+        "http://dx.doi.org/10.1371/journal.pclm.0000714",
+        "https://www.eurekalert.org/news-releases/1102315",
+        "https://facebook.com/EurekAlert",
+        "https://twitter.com/EurekAlert",
+        "https://youtube.com/EurekAlert",
+        "https://www.eurekalert.org/help",
+        "https://www.eurekalert.org/services",
+        "https://www.eurekalert.org/contact",
+        "https://www.eurekalert.org/termsAndConditions",
+        "https://www.eurekalert.org/privacy",
+        "https://www.eurekalert.org/disclaimer"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:04.729Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? independent evidence data study"
+      ]
+    },
+    {
+      "id": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+      "createdAt": "2026-09-12T18:07:05.338Z",
+      "url": "https://www.ucs.org/resources/driving-cleaner",
+      "canonicalUrl": "https://www.ucs.org/resources/driving-cleaner",
+      "title": "Driving Cleaner | Union of Concerned Scientists",
+      "publisher": "ucs.org",
+      "sourceType": "web",
+      "quality": 65,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "On average, battery-electric vehicles produce roughly half the global warming emissions of comparable gasoline-powered vehicles",
+      "links": [
+        "https://www.ucs.org/resources/driving-cleaner",
+        "https://www.ucs.org/about",
+        "https://www.ucs.org/about/accomplishments",
+        "https://www.ucs.org/about/funding-financials",
+        "https://www.ucs.org/about/mission-values",
+        "https://www.ucs.org/about/ways-give",
+        "https://www.ucs.org/about/history",
+        "https://www.ucs.org/about/regional-work",
+        "https://www.ucs.org/about/programs",
+        "https://www.ucs.org/about/people",
+        "https://www.ucs.org/about/racial-equity",
+        "https://www.ucs.org/about/jobs",
+        "https://www.ucs.org/about/news",
+        "https://www.ucs.org/take-action",
+        "https://www.ucs.org/take-action/science-rising",
+        "https://www.ucs.org/take-action/climate-accountability",
+        "https://www.ucs.org/take-action/climate-campaign-future",
+        "https://www.ucs.org/take-action/power-ahead",
+        "https://www.ucs.org/take-action/transforming-transportation",
+        "https://www.ucs.org/take-action/preventing-nuclear-war",
+        "https://www.ucs.org/take-action/healthy-food-and-farms",
+        "https://www.ucs.org/take-action/healthier-democracy",
+        "https://www.ucs.org/science-network",
+        "https://www.ucs.org/resources",
+        "https://es.ucs.org/",
+        "https://www.ucs.org/search",
+        "https://secure.ucs.org/a/defend-science-donate-now?MS=topnav",
+        "https://secure.ucs.org/onlineactions/X4d_KofrBEWDRO3-p9U8-g2?MS=topnav",
+        "https://secure.ucs.org/onlineactions/UTzgs8R_NUmst2iZobkSmg2?MS=topnav",
+        "https://secure.ucs.org/a/monthlygiving?MS=topnav",
+        "https://secure.ucs.org/onlineactions/LA5-XXhFGUKJjpKyRFvQcw2?MS=topnav",
+        "https://secure.ucs.org/onlineactions/6TtUU7KYKkKm07SkWzm_Yw2?MS=topnav",
+        "https://www.ucs.org/",
+        "https://www.ucs.org/climate",
+        "https://www.ucs.org/resources/climate-science-legal-contexts",
+        "https://www.ucs.org/climate/impacts",
+        "https://www.ucs.org/climate/science",
+        "https://www.ucs.org/climate/accountability",
+        "https://www.ucs.org/climate/solutions",
+        "https://secure.ucsusa.org/a/2024-congress-invest-affordable-climate-resilient-housing",
+        "https://www.ucs.org/energy",
+        "https://www.ucs.org/resources/data-centers-california",
+        "https://www.ucs.org/energy/renewable-energy",
+        "https://www.ucs.org/energy/nuclear-power",
+        "https://www.ucs.org/energy/fossil-fuels",
+        "https://www.ucs.org/energy/solutions",
+        "https://secure.ucsusa.org/a/2023-power-outage-public-info",
+        "https://www.ucs.org/transportation",
+        "https://www.ucs.org/node/16093",
+        "https://www.ucs.org/transportation/access",
+        "https://www.ucs.org/transportation/technologies",
+        "https://www.ucs.org/transportation/oil",
+        "https://www.ucs.org/transportation/solutions",
+        "https://secure.ucsusa.org/a/we-need-ev-infrastructure-nationwide",
+        "https://www.ucs.org/food",
+        "https://www.ucs.org/resources/less-fertilizer-better-outcomes",
+        "https://www.ucs.org/food/sustainable-agriculture",
+        "https://www.ucs.org/food/healthy-food",
+        "https://www.ucs.org/food/food-justice",
+        "https://www.ucs.org/food/solutions",
+        "https://secure.ucsusa.org/a/2024-farm-bill-for-communities-not-corporations",
+        "https://www.ucs.org/nuclear-weapons",
+        "https://www.ucs.org/resources/plutonium-pit-production",
+        "https://www.ucs.org/nuclear-weapons/justice",
+        "https://www.ucs.org/nuclear-weapons/worldwide",
+        "https://www.ucs.org/nuclear-weapons/missile-defense",
+        "https://www.ucs.org/nuclear-weapons/solutions",
+        "https://secure.ucsusa.org/a/2024-tell-congress-no-more-nuclear-weapons-testing",
+        "https://www.ucs.org/science-democracy",
+        "https://www.ucs.org/node/16219",
+        "https://www.ucs.org/science-democracy/independent-science",
+        "https://www.ucs.org/science-democracy/evidence-based-decisions",
+        "https://www.ucs.org/science-democracy/healthier-democracy",
+        "https://secure.ucs.org/a/2025-scientific-integrity-federal-protections",
+        "https://secure.ucs.org/a/partners?MS=topnav",
+        "https://www.ucs.org/resources/reports",
+        "https://www.ucs.org/node/1407",
+        "https://www.ucs.org/node/14614",
+        "https://www.ucs.org/node/1230",
+        "https://www.ucs.org/resources/driving-cleaner?read-online-content=1",
+        "https://blog.ucs.org/dave-reichmuth/how-much-cleaner-is-your-ev-than-a-gasoline-car",
+        "https://www.ucs.org/node/14707",
+        "https://www.ucs.org/node/14706",
+        "https://www.ucs.org/node/14720",
+        "https://www.ucs.org/resources/electric-vehicles-are-cleaner",
+        "https://www.ucs.org/sites/default/files/2022-09/driving-cleaner-executive-summary.pdf",
+        "https://www.ucs.org/sites/default/files/2022-09/driving-cleaner-report.pdf",
+        "https://bsky.app/intent/compose?text=https%3A%2F%2Fwww.ucs.org%2Fresources%2Fdriving-cleaner+Driving+Cleaner",
+        "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.ucs.org%2Fresources%2Fdriving-cleaner",
+        "https://linkedin.com/shareArticle?title=Driving+Cleaner&url=https%3A%2F%2Fwww.ucs.org%2Fresources%2Fdriving-cleaner",
+        "https://www.ucs.org/resources/ucs-vs-anti-science-actions",
+        "https://www.ucs.org/resources/addressing-freight-pollution-source",
+        "https://www.ucs.org/resources/self-driving-cars-101",
+        "https://www.ucs.org/resources/all-about-surface-transport-reauthorization",
+        "https://secure.ucs.org/a/sign-up-today",
+        "https://forms.ucsusa.org/contact",
+        "https://secure.ucsusa.org/onlineactions/dR5QqmX2uUCLCFD1KkVEzg2?MS=footer",
+        "https://store.ucsusa.org/",
+        "https://blog.ucsusa.org/",
+        "https://secure.ucsusa.org/onlineactions/vjfJ0O5BC0KMyD3Emh_gwQ2?ms=Blogfooter"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:05.338Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? independent evidence data study"
+      ]
+    },
+    {
+      "id": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+      "createdAt": "2026-09-12T18:07:07.572Z",
+      "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+      "canonicalUrl": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+      "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+      "publisher": "techtimes.com",
+      "publishedAt": "2026-04-27T13:27:05.000Z",
+      "sourceType": "web",
+      "quality": 70,
+      "sourceKind": "SECONDARY",
+      "snippet": "",
+      "excerpt": "Electric cars vs gas cars show clear emissions differences, but battery mining and grid energy shape the future of transportation sustainability.",
+      "links": [
+        "https://www.techtimes.com/",
+        "https://www.techtimes.com/personaltech",
+        "https://www.techtimes.com/science",
+        "https://www.techtimes.com/biztech",
+        "https://www.techtimes.com/health",
+        "https://www.techtimes.com/t-lounge",
+        "https://www.techtimes.com/reviews",
+        "https://myaccount.techtimes.com/manage",
+        "https://signin.techtimes.com/oauth/logout",
+        "https://www.techtimes.com/auto",
+        "https://www.techtimes.com/reporters/glanze-patrick",
+        "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F316158%2F20260427%2Fshould-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+        "https://x.com/intent/tweet?text=Should+Electric+Cars+Fully+Replace+Gas+Cars+in+the+Future%3F+Environmental+Pros+and+Cons+https%3A%2F%2Fwww.techtimes.com%2Farticles%2F316158%2F20260427%2Fshould-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+        "https://www.linkedin.com/shareArticle?mini=true&title=Should+Electric+Cars+Fully+Replace+Gas+Cars+in+the+Future%3F+Environmental+Pros+and+Cons&url=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F316158%2F20260427%2Fshould-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+        "http://reddit.com/submit?title=Should+Electric+Cars+Fully+Replace+Gas+Cars+in+the+Future%3F+Environmental+Pros+and+Cons&url=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F316158%2F20260427%2Fshould-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+        "https://flipboard.com/",
+        "https://getpocket.com/edit?url=https%3A%2F%2Fwww.techtimes.com%2Farticles%2F316158%2F20260427%2Fshould-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+        "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+        "https://unsplash.com/photos/black-and-silver-car-on-parking-lot-O63S96_qn8c",
+        "https://www.techtimes.com/articles/314598/20260212/8-electric-vehicle-myths-debunked-2026-range-cost-batteries-charging-facts.htm",
+        "https://www.constellation.com/energy-101/energy-innovation/electric-cars-vs-gas-cars.html",
+        "https://astara.com/en/blog/future-electric-cars-what-expect-coming-years",
+        "https://www.techtimes.com/articles/315734/20260408/tesla-vs-gas-mini-driver-breaks-down-mileage-ev-charging-costs-beating-gasoline-fill-ups.htm",
+        "https://recharged.com/articles/will-electric-cars-replace-gas-cars",
+        "https://www.techtimes.com/articles/316134/20260424/elon-musk-teases-tesla-cybercab-entering-production-giga-texaswhen-will-it-roll-out-publicly.htm",
+        "https://www.techtimes.com/tags/environmental-impact",
+        "https://www.techtimes.com/articles/327370/20260911/starship-flight-14-targets-first-orbit-starlink-v3-satellites-falcon-9-cannot-carry.htm",
+        "https://www.techtimes.com/articles/327355/20260911/penance-eyes-steam-next-fest-indie-survival-horror-wraps-community-playtesting.htm",
+        "https://www.techtimes.com/articles/327352/20260911/australia-receives-first-sold-electric-semi-trucks-windrose-e700-cuts-costs-84-percent.htm",
+        "https://www.techtimes.com/articles/327356/20260911/joby-aviation-flies-electric-air-taxi-dfw-every-approach-writes-us-commercial-rules.htm",
+        "https://www.techtimes.com/articles/327365/20260911/pharmacy-guild-chiefs-snapped-priceline-stores-collapse-they-publicly-opposed.htm",
+        "https://www.techtimes.com/feature",
+        "https://www.techtimes.com/techbuzz",
+        "https://www.techtimes.com/about-us",
+        "https://www.techtimes.com/contact-us",
+        "https://www.techtimes.com/termsofservice",
+        "https://www.techtimes.com/privacypolicy"
+      ],
+      "searchRole": "RESEARCHER",
+      "retrievedAt": "2026-09-12T18:07:07.571Z",
+      "retrievedBy": [
+        "RESEARCHER"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? limitations criticism analysis"
+      ]
+    },
+    {
+      "id": "06483762-ac1e-41d5-b370-cbea19d80097",
+      "createdAt": "2026-09-12T18:07:09.657Z",
+      "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+      "canonicalUrl": "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+      "title": "Electric Vehicle Myths | US EPA",
+      "publisher": "epa.gov",
+      "publishedAt": "2021-05-14T12:10:33.000Z",
+      "sourceType": "government",
+      "quality": 95,
+      "sourceKind": "PRIMARY",
+      "snippet": "",
+      "excerpt": "Facts and myths about electric vehicles.",
+      "links": [
+        "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+        "https://www.epa.gov/alerts",
+        "https://www.epa.gov/",
+        "https://www.epa.gov/environmental-topics",
+        "https://www.epa.gov/environmental-topics/air-topics",
+        "https://www.epa.gov/bedbugs",
+        "https://www.epa.gov/environmental-topics/chemicals-pesticides-and-toxics-topics",
+        "https://www.epa.gov/emergency-response",
+        "https://www.epa.gov/environmental-topics/environmental-information-by-location",
+        "https://www.epa.gov/environmental-topics/health-topics",
+        "https://www.epa.gov/environmental-topics/land-waste-and-cleanup-topics",
+        "https://www.epa.gov/lead",
+        "https://www.epa.gov/mold",
+        "https://www.epa.gov/radon",
+        "https://www.epa.gov/research",
+        "https://www.epa.gov/environmental-topics/science-topics",
+        "https://www.epa.gov/environmental-topics/water-topics",
+        "https://www.epa.gov/topics-epa-web",
+        "https://www.epa.gov/laws-regulations",
+        "https://www.epa.gov/regulatory-information-sector",
+        "https://www.epa.gov/regulatory-information-topic",
+        "https://www.epa.gov/compliance",
+        "https://www.epa.gov/enforcement",
+        "https://www.epa.gov/guidance",
+        "https://www.epa.gov/laws-regulations/laws-and-executive-orders",
+        "https://www.epa.gov/laws-regulations/regulations",
+        "https://www.epa.gov/report-violation",
+        "https://echo.epa.gov/report-environmental-violations",
+        "https://www.epa.gov/office-inspector-general/forms/epa-oig-hotline-complaint-form",
+        "https://www.epa.gov/aboutepa",
+        "https://www.epa.gov/aboutepa/our-mission-and-what-we-do",
+        "https://www.epa.gov/aboutepa/regional-and-geographic-offices",
+        "https://www.epa.gov/aboutepa/epa-laboratories-and-science-advisory-organizations",
+        "https://www.epa.gov/newsroom",
+        "https://www.epa.gov/planandbudget",
+        "https://www.epa.gov/aboutepa/epa-organization-chart",
+        "https://www.epa.gov/history",
+        "https://www.epa.gov/greenvehicles",
+        "https://www.epa.gov/greenvehicles/learn-about-green-vehicles",
+        "https://www.epa.gov/greenvehicles/forms/green-vehicle-guide-e-updates",
+        "https://www.epa.gov/greenvehicles/ev-video-challenge-winners",
+        "https://www.epa.gov/egrid/power-profiler",
+        "https://www.fueleconomy.gov/feg/Find.do?action=bt2",
+        "https://greet.anl.gov/",
+        "https://www.anl.gov/article/doe-launches-its-first-lithiumion-battery-recycling-rd-center-recell",
+        "https://www.energy.gov/sites/default/files/2021-06/FCAB%20National%20Blueprint%20Lithium%20Batteries%200621_0.pdf",
+        "https://www.recurrentauto.com/research/how-long-do-ev-batteries-last",
+        "https://www.energy.gov/eere/vehicles/batteries",
+        "https://www.energy.gov/oe/articles/building-better-grid-initiative",
+        "https://www.energy.gov/bil/bipartisan-infrastructure-law-programs-department-energy",
+        "https://www.energy.gov/articles/president-biden-doe-and-dot-announce-5-billion-over-five-years-national-ev-charging",
+        "https://driveelectric.gov/stations-growth",
+        "https://driveelectric.gov/stations",
+        "https://afdc.energy.gov/evi-pro-lite",
+        "https://www.fueleconomy.gov/feg/findacar.shtml",
+        "https://www.govinfo.gov/content/pkg/CFR-2017-title49-vol6/xml/CFR-2017-title49-vol6-part571.xml",
+        "https://afdc.energy.gov/vehicles/electric_maintenance.html",
+        "https://www.eia.gov/todayinenergy/detail.php?id=48896",
+        "https://www.fueleconomy.gov/feg/atv-ev.shtml",
+        "https://www.fueleconomy.gov/feg/atv.shtml",
+        "https://www.energy.gov/eere/femp/bidirectional-charging-and-electric-vehicles-mobile-storage",
+        "https://www.energy.gov/sites/prod/files/2019/12/f69/GITT%20ISATT%20EVs%20at%20Scale%20Grid%20Summary%20Report%20FINAL%20Nov2019.pdf",
+        "https://www.pnnl.gov/sites/default/files/media/file/EV-AT-SCALE_1_IMPACTS_final.pdf",
+        "https://www.nature.com/articles/s41560-022-01105-7",
+        "https://www.scientificamerican.com/article/why-electric-vehicles-wont-break-the-grid",
+        "https://www.eia.gov/consumption/residential/data/2020/index.php?view=consumption",
+        "https://www.eia.gov/consumption/residential/data/2020/c&amp;e/pdf/ce5.3a.pdf",
+        "https://www.eia.gov/consumption/residential/data/2020/c&amp;e/pdf/ce5.5b.pdf",
+        "https://nhts.ornl.gov/od?amp%3Butm_source=govdelivery",
+        "https://www.aaa.com/AAA/common/AAR/files/AAA-Electric-Vehicle-Range-Testing-Report.pdf",
+        "https://www.epa.gov/greenvehicles/electric-plug-hybrid-electric-vehicles",
+        "https://www.epa.gov/greenvehicles/plug-electric-vehicle-charging-basics",
+        "https://www.epa.gov/greenvehicles/plug-electric-vehicle-charging-details",
+        "https://www.epa.gov/greenvehicles/getting-started-home-ev-charging",
+        "https://www.epa.gov/greenvehicles/watts-important-seven-tips-every-ev-driver-should-know",
+        "https://www.epa.gov/greenvehicles/fuel-economy-and-ev-range-testing",
+        "https://www.epa.gov/greenvehicles/hydrogen-transportation",
+        "https://www.epa.gov/greenvehicles/help-make-transportation-greener",
+        "https://www.epa.gov/greenvehicles/comparison-your-car-vs-electric-vehicle",
+        "https://www.epa.gov/greenvehicles/smog-vehicle-emissions",
+        "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle",
+        "https://www.epa.gov/greenvehicles/fast-facts-transportation-greenhouse-gas-emissions",
+        "https://www.epa.gov/greenvehicles/routes-lower-greenhouse-gas-emissions-transportation-future",
+        "https://www.epa.gov/automotive-trends",
+        "https://www.epa.gov/greenvehicles/50-years-epas-automotive-trends-report",
+        "https://www.epa.gov/greenvehicles/learn-about-fuel-economy-label",
+        "https://www.epa.gov/greenvehicles/miles-gallon-mpg-math",
+        "https://www.epa.gov/greenvehicles/your-mileage-may-vary",
+        "https://www.epa.gov/greenvehicles/what-if-ideas-reducing-transportation-greenhouse-gases",
+        "https://www.epa.gov/greenvehicles/self-driving-vehicles",
+        "https://www.epa.gov/greenvehicles/shared-mobility",
+        "https://www.epa.gov/greenvehicles/find-smartway-vehicle",
+        "https://www.epa.gov/greenvehicles/forms/contact-us-about-green-vehicle-guide",
+        "https://www.epa.gov/lep/assistance",
+        "https://espanol.epa.gov/",
+        "https://www.epa.gov/lep/arabic",
+        "https://www.epa.gov/lep/simplified-chinese",
+        "https://www.epa.gov/lep/traditional-chinese",
+        "https://www.epa.gov/lep/french",
+        "https://www.epa.gov/lep/sante-ak-anviwonman-enfomasyon-kreyol-ayisyen"
+      ],
+      "searchRole": "SKEPTIC",
+      "retrievedAt": "2026-09-12T18:07:09.657Z",
+      "retrievedBy": [
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? counterevidence criticism limitations",
+        "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle. contrary evidence independent data"
+      ],
+      "lastRetrievedAt": "2026-09-12T18:07:10.904Z"
+    },
+    {
+      "id": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+      "createdAt": "2026-09-12T18:07:10.782Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364032126004272",
+      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S1364032126004272",
+      "title": "Environmental sustainability of electric vehicles: A life cycle review ...",
+      "publisher": "sciencedirect.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "SKEPTIC",
+      "retrievedAt": "2026-09-12T18:07:10.782Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle. contrary evidence independent data"
+      ]
+    },
+    {
+      "id": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+      "createdAt": "2026-09-12T18:07:11.010Z",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899",
+      "canonicalUrl": "https://www.sciencedirect.com/science/article/pii/S0378427425015899",
+      "title": "Are electric vehicles actually bad for the environment?",
+      "publisher": "sciencedirect.com",
+      "sourceType": "web",
+      "quality": 50,
+      "snippet": "",
+      "excerpt": "",
+      "searchRole": "SKEPTIC",
+      "retrievedAt": "2026-09-12T18:07:11.010Z",
+      "fetchError": "HTTP 403",
+      "links": [],
+      "retrievedBy": [
+        "SKEPTIC"
+      ],
+      "retrievalQueries": [
+        "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle. contrary evidence independent data"
+      ]
+    }
+  ],
+  "evidenceEdges": [
+    {
+      "id": "3a8291c7-30de-4d9d-b7ef-b1bc06e93118",
+      "createdAt": "2026-09-12T18:07:07.658Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+      "type": "SUPPORTS",
+      "quote": "The environmental impact of driving a gasoline vehicle.",
+      "confidence": 56,
+      "strength": 21,
+      "directness": 27,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "e3632e1f-13d6-4782-bfc6-0ebfc096f815",
+      "createdAt": "2026-09-12T18:07:07.675Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+      "type": "SUPPORTS",
+      "quote": "In this article, we'll explain the environmental impact of electric cars, including both all-electric vehicles (AEVs) and plug-in hybrid electric vehicles (PHEVs) compared to traditional gas-powered vehicles..",
+      "confidence": 49,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "2369eb8f-277a-4526-a51a-75a902751447",
+      "createdAt": "2026-09-12T18:07:07.688Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+      "type": "SUPPORTS",
+      "quote": "Electric cars have a lower impact than gas-powered cars when it comes to driving them.",
+      "confidence": 52,
+      "strength": 14,
+      "directness": 17,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "b4b9f7cb-d5ed-4657-a2df-8433f4904785",
+      "createdAt": "2026-09-12T18:07:07.697Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+      "type": "SUPPORTS",
+      "quote": "What Are the Limitations and Concerns Regarding EV Environmental Impact?.",
+      "confidence": 55,
+      "strength": 20,
+      "directness": 25,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "d585bbb5-128c-453f-9c31-aa57bbdc4d51",
+      "createdAt": "2026-09-12T18:07:07.710Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+      "type": "SUPPORTS",
+      "quote": "According to lifecycle assessments, emissions savings can range from 30% to over 50% compared with internal combustion engine vehicles, depending on regional factors.",
+      "confidence": 52,
+      "strength": 15,
+      "directness": 18,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "45449f2d-969f-478b-91fb-58b5bbab7f2e",
+      "createdAt": "2026-09-12T18:07:07.720Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+      "type": "SUPPORTS",
+      "quote": "Although EV production generates more emissions upfront due to battery manufacturing, this is typically offset during use, especially when powered by cleaner electricity..",
+      "confidence": 49,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "985760ae-ef03-40b0-a3c5-3f1243aa33a3",
+      "createdAt": "2026-09-12T18:07:07.748Z",
+      "claimId": "3c407520-0e24-414a-8cb4-81514821902d",
+      "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "type": "QUALIFIES",
+      "quote": "Are electric vehicles definitely better for the climate than gas-powered cars?",
+      "confidence": 57,
+      "strength": 17,
+      "directness": 21,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "426f667a-460c-46ce-a152-60e8ce487bec",
+      "createdAt": "2026-09-12T18:07:07.785Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "type": "QUALIFIES",
+      "quote": "There are still a bunch of questions around equity of access..",
+      "confidence": 52,
+      "strength": 7,
+      "directness": 9,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "62f144e8-6de9-4f9b-8256-2180642c15b9",
+      "createdAt": "2026-09-12T18:07:07.822Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "type": "QUALIFIES",
+      "quote": "So instead of a gas tank, we have a battery and instead of an internal combustion engine, we have an electric motor..",
+      "confidence": 53,
+      "strength": 8,
+      "directness": 10,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "36fbe69b-29f8-4690-bcb0-06115d86a8fc",
+      "createdAt": "2026-09-12T18:07:07.850Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "type": "QUALIFIES",
+      "quote": "Yes: although electric cars' batteries make them more carbon-intensive to manufacture than gas cars, they more than make up for it by driving much cleaner under nearly any conditions.",
+      "confidence": 83,
+      "strength": 74,
+      "directness": 92,
+      "explanation": "The source qualifies the claim with conditions, uncertainty, or scope.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "df0230e3-f9f6-48f7-9212-1ea96af29312",
+      "createdAt": "2026-09-12T18:07:07.851Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+      "type": "SUPPORTS",
+      "quote": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+      "confidence": 90,
+      "strength": 100,
+      "directness": 100,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "8ff9976e-7229-4b99-bce5-ea5c3d2fd6fd",
+      "createdAt": "2026-09-12T18:07:07.851Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+      "type": "SUPPORTS",
+      "quote": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+      "confidence": 49,
+      "strength": 10,
+      "directness": 13,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "55db86b5-d42e-4f96-8016-f476e1c4e17d",
+      "createdAt": "2026-09-12T18:07:07.855Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+      "type": "SUPPORTS",
+      "quote": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+      "confidence": 52,
+      "strength": 13,
+      "directness": 16,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "c5e8573a-2855-465d-ac3f-5fc3d4d7c102",
+      "createdAt": "2026-09-12T18:07:07.862Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+      "type": "SUPPORTS",
+      "quote": "After two years of use, lithium-ion battery electric vehicles (BEVs) result in a reduction in cumulative carbon dioxide (CO₂) emissions compared to fossil-based internal combustion engine (ICE) vehicles, according to a new study published this week in the open-access journal PLOS Climate by Pankaj Sadavarte of Duke University, US, and colleagues..",
+      "confidence": 85,
+      "strength": 85,
+      "directness": 100,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "f0689a6f-9f44-441f-ad2f-cc66d5c0f692",
+      "createdAt": "2026-09-12T18:07:07.868Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+      "type": "SUPPORTS",
+      "quote": "by contributing institutions or for the use of any information through the EurekAlert system..",
+      "confidence": 48,
+      "strength": 5,
+      "directness": 7,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "9a3539e9-9ac5-40b6-abdb-71583f19fdb2",
+      "createdAt": "2026-09-12T18:07:07.871Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+      "type": "SUPPORTS",
+      "quote": "Electric vehicles (EVs) have the potential to dramatically reduce these emissions, especially when charged by low-carbon renewable electricity..",
+      "confidence": 51,
+      "strength": 12,
+      "directness": 14,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "751a1c31-a25c-491f-a9b7-2c4d74fe8ab6",
+      "createdAt": "2026-09-12T18:07:07.878Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+      "type": "SUPPORTS",
+      "quote": "Electric vehicles (EVs) have the potential to dramatically reduce these emissions, especially when charged by low-carbon renewable electricity..",
+      "confidence": 49,
+      "strength": 7,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "2be794bf-bc67-4326-9c45-dfeeba51245b",
+      "createdAt": "2026-09-12T18:07:07.884Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+      "type": "SUPPORTS",
+      "quote": "For text alerts, text \"SCIENCE\" to 67369 or sign up online ..",
+      "confidence": 48,
+      "strength": 5,
+      "directness": 6,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "6d2edc6e-e6bf-49cd-b978-cec3c7ed5096",
+      "createdAt": "2026-09-12T18:07:07.892Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+      "type": "SUPPORTS",
+      "quote": "What are the environmental downsides of electric vehicles?.",
+      "confidence": 52,
+      "strength": 12,
+      "directness": 15,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "f811b432-8735-47c3-97cd-54fbf4eef26a",
+      "createdAt": "2026-09-12T18:07:07.906Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+      "type": "SUPPORTS",
+      "quote": "As the future of electric vehicles develops, improvements in battery efficiency, charging infrastructure, and renewable energy integration will continue to reduce emissions.",
+      "confidence": 51,
+      "strength": 11,
+      "directness": 13,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "a85c5353-23f8-45e2-9e3e-e09586b9119b",
+      "createdAt": "2026-09-12T18:07:07.917Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+      "type": "SUPPORTS",
+      "quote": "Cleaner energy sources make EVs significantly more sustainable.",
+      "confidence": 49,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "The source contains language relevant to the claim.",
+      "role": "RESEARCHER"
+    },
+    {
+      "id": "f2cb77bc-12ed-4f3a-b15c-f862fb673f31",
+      "createdAt": "2026-09-12T18:07:11.317Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+      "type": "QUALIFIES",
+      "quote": "A significant advantage of EVs compared to conventional gasoline vehicles is their energy efficiency.",
+      "confidence": 58,
+      "strength": 12,
+      "directness": 15,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "4bf6eebd-c24b-4c54-9d20-9afa3f2e09b9",
+      "createdAt": "2026-09-12T18:07:11.339Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+      "type": "QUALIFIES",
+      "quote": "EVs use approximately 87%–91% of the energy from the battery and regenerative braking to propel the vehicle.",
+      "confidence": 56,
+      "strength": 8,
+      "directness": 10,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "8ce30be4-3000-47c8-9ce3-83b9ef3d73dc",
+      "createdAt": "2026-09-12T18:07:11.339Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+      "type": "QUALIFIES",
+      "quote": "Environmental sustainability of electric vehicles: A life cycle review ...",
+      "confidence": 68,
+      "strength": 46,
+      "directness": 58,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "04b5a9e4-d0f4-4302-aa2b-e3190bfe98fb",
+      "createdAt": "2026-09-12T18:07:11.339Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+      "type": "QUALIFIES",
+      "quote": "Environmental sustainability of electric vehicles: A life cycle review ...",
+      "confidence": 51,
+      "strength": 8,
+      "directness": 10,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "f31f43f2-4921-41d7-9351-8984eeb4db53",
+      "createdAt": "2026-09-12T18:07:11.339Z",
+      "claimId": "3c407520-0e24-414a-8cb4-81514821902d",
+      "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+      "type": "QUALIFIES",
+      "quote": "Are electric vehicles actually bad for the environment?",
+      "confidence": 59,
+      "strength": 26,
+      "directness": 33,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "e453d369-16ce-4694-aaf8-234a8a67a200",
+      "createdAt": "2026-09-12T18:07:11.339Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+      "type": "QUALIFIES",
+      "quote": "Are electric vehicles actually bad for the environment?",
+      "confidence": 56,
+      "strength": 20,
+      "directness": 25,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "0bac9223-d3d5-4d41-a51d-5d829e9b2d03",
+      "createdAt": "2026-09-12T18:07:11.339Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+      "type": "QUALIFIES",
+      "quote": "Are electric vehicles actually bad for the environment?",
+      "confidence": 50,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    },
+    {
+      "id": "18ddca61-56c7-4a38-825b-41c540897dfa",
+      "createdAt": "2026-09-12T18:07:11.339Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+      "type": "QUALIFIES",
+      "quote": "Are electric vehicles actually bad for the environment?",
+      "confidence": 50,
+      "strength": 6,
+      "directness": 8,
+      "explanation": "Skeptic retrieval surfaced a relevant condition or alternative perspective.",
+      "role": "SKEPTIC"
+    }
+  ],
+  "sourceRelationships": [
+    {
+      "id": "f0330487-7185-5431-b013-df63b9d5ed72",
+      "createdAt": "2026-09-12T18:07:11.442Z",
+      "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "targetSourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+      "type": "CITES",
+      "confidence": 94,
+      "suspected": false,
+      "basis": "explicit hyperlink found in retrieved page"
+    },
+    {
+      "id": "8a723b14-ccb3-57d9-90ec-b06c32ff49a8",
+      "createdAt": "2026-09-12T18:07:11.442Z",
+      "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+      "targetSourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+      "type": "DERIVED_FROM",
+      "confidence": 72,
+      "suspected": true,
+      "basis": "suspected dependency inferred from explicit hyperlink"
+    }
+  ],
+  "adjudications": [
+    {
+      "id": "27549b00-3778-5cf7-bd63-457098587487",
+      "createdAt": "2026-09-12T18:07:11.489Z",
+      "claimId": "3c407520-0e24-414a-8cb4-81514821902d",
+      "status": "UNCERTAIN",
+      "evidenceStrength": 7,
+      "factors": {
+        "supportWeight": 0,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 0,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 0,
+        "corroboration": 0,
+        "balance": 0,
+        "coverage": 0,
+        "qualificationAdjustment": 73
+      },
+      "supportingSourceIds": [],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "876f0b1f-e012-485e-9795-69be881bd8b9",
+        "b5931288-684b-4bf8-8d27-bbd29d5ba5b5"
+      ]
+    },
+    {
+      "id": "b2b4f814-b00f-5db8-bf23-e42ad1869d6b",
+      "createdAt": "2026-09-12T18:07:11.489Z",
+      "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+      "status": "SUPPORTED",
+      "evidenceStrength": 77,
+      "factors": {
+        "supportWeight": 74,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 37,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 100,
+        "qualificationAdjustment": 61
+      },
+      "supportingSourceIds": [
+        "8192f100-08a5-4785-bd80-a6fa94b1b037",
+        "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+        "e3803ab7-c52a-41be-91c1-5ad606145f86",
+        "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+        "bf4224de-b857-4db3-8fa0-63413a9d323e",
+        "66fed455-1ffe-4e29-a321-d03c9fea2f4c"
+      ],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "06483762-ac1e-41d5-b370-cbea19d80097",
+        "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+        "b5931288-684b-4bf8-8d27-bbd29d5ba5b5"
+      ]
+    },
+    {
+      "id": "f7aa0dd3-6a65-524e-b3f9-9dce9f0cef21",
+      "createdAt": "2026-09-12T18:07:11.489Z",
+      "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+      "status": "SUPPORTED",
+      "evidenceStrength": 77,
+      "factors": {
+        "supportWeight": 71,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 6,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 35,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 100,
+        "qualificationAdjustment": 65
+      },
+      "supportingSourceIds": [
+        "8192f100-08a5-4785-bd80-a6fa94b1b037",
+        "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+        "e3803ab7-c52a-41be-91c1-5ad606145f86",
+        "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+        "bf4224de-b857-4db3-8fa0-63413a9d323e",
+        "66fed455-1ffe-4e29-a321-d03c9fea2f4c"
+      ],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "06483762-ac1e-41d5-b370-cbea19d80097",
+        "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+        "b5931288-684b-4bf8-8d27-bbd29d5ba5b5"
+      ]
+    },
+    {
+      "id": "c4a90876-a9a7-56d6-9706-8ef8c32f14a5",
+      "createdAt": "2026-09-12T18:07:11.489Z",
+      "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+      "status": "SUPPORTED",
+      "evidenceStrength": 74,
+      "factors": {
+        "supportWeight": 54,
+        "contradictionWeight": 0,
+        "independentSupportGroups": 5,
+        "independentContradictionGroups": 0,
+        "sourceQuality": 32,
+        "corroboration": 100,
+        "balance": 100,
+        "coverage": 81,
+        "qualificationAdjustment": 67
+      },
+      "supportingSourceIds": [
+        "8192f100-08a5-4785-bd80-a6fa94b1b037",
+        "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+        "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+        "bf4224de-b857-4db3-8fa0-63413a9d323e",
+        "66fed455-1ffe-4e29-a321-d03c9fea2f4c"
+      ],
+      "contradictingSourceIds": [],
+      "qualifyingSourceIds": [
+        "876f0b1f-e012-485e-9795-69be881bd8b9",
+        "b5931288-684b-4bf8-8d27-bbd29d5ba5b5"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "699fe5c8-a965-42a0-a7a3-0a93ccb4cef6",
+      "timestamp": "2026-09-12T18:06:59.468Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "planner",
+      "payload": {
+        "phase": "PLANNING",
+        "percent": 5,
+        "message": "Planning independent research paths."
+      }
+    },
+    {
+      "id": "b098eb0f-d4ec-4091-9f68-b52ea24f2ddb",
+      "timestamp": "2026-09-12T18:06:59.491Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "planner.completed",
+      "actor": "planner",
+      "payload": {
+        "paths": 3
+      }
+    },
+    {
+      "id": "2933edc8-74fb-426b-afb3-da7390574b95",
+      "timestamp": "2026-09-12T18:06:59.493Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 15,
+        "message": "Researcher is finding the strongest available evidence."
+      }
+    },
+    {
+      "id": "459aec4d-288d-4207-b378-e795e0d9d2c4",
+      "timestamp": "2026-09-12T18:06:59.497Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle?",
+        "role": "RESEARCHER",
+        "taskId": "7dd5d9bb-b7ca-4f3f-80f9-35e038241684"
+      }
+    },
+    {
+      "id": "f57f570e-505f-4c5e-b50f-4ac81357292e",
+      "timestamp": "2026-09-12T18:07:01.567Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+        "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+        "domain": "energysage.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "9a3e84fd-1f8e-4621-8067-24c5ebe365b1",
+      "timestamp": "2026-09-12T18:07:01.937Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+        "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+        "domain": "sciencetimes.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "a1fc3d6a-cb7c-4e2b-89ef-6a43bf01746d",
+      "timestamp": "2026-09-12T18:07:02.654Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+        "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+        "domain": "climate.mit.edu",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "c7cf1c39-b7ab-4ce8-9dba-abe78c5da59c",
+      "timestamp": "2026-09-12T18:07:02.674Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle?",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "f0c46f08-b75a-4186-866d-b25ac733706e",
+      "timestamp": "2026-09-12T18:07:02.680Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 22,
+        "message": "Researcher found 3 sources."
+      }
+    },
+    {
+      "id": "556dd5c4-38c3-459d-ac29-e328bce47ab3",
+      "timestamp": "2026-09-12T18:07:02.687Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? independent evidence data study",
+        "role": "RESEARCHER",
+        "taskId": "2fae245a-1eb4-4072-b2db-0c337b8fb3a7"
+      }
+    },
+    {
+      "id": "0b236cbb-5b21-41fd-aaeb-f0e4b22cd69a",
+      "timestamp": "2026-09-12T18:07:04.190Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+        "title": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+        "domain": "sciencedirect.com",
+        "role": "RESEARCHER",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "18cfdcc2-d3c4-4717-914d-d5f67a11d6c2",
+      "timestamp": "2026-09-12T18:07:04.734Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+        "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+        "domain": "eurekalert.org",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "d3b57016-97ce-4f5e-a676-367568ac7f87",
+      "timestamp": "2026-09-12T18:07:05.346Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+        "title": "Driving Cleaner | Union of Concerned Scientists",
+        "domain": "ucs.org",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "74ffb98a-3ff2-46dc-9a02-373386352e08",
+      "timestamp": "2026-09-12T18:07:05.366Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? independent evidence data study",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "090aabf8-a96a-4d69-af7d-f702afb28347",
+      "timestamp": "2026-09-12T18:07:05.375Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 28,
+        "message": "Researcher found 6 sources."
+      }
+    },
+    {
+      "id": "fe700e46-a13e-4f8b-a8c8-7bc54c2137f3",
+      "timestamp": "2026-09-12T18:07:05.384Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.started",
+      "actor": "researcher",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? limitations criticism analysis",
+        "role": "RESEARCHER",
+        "taskId": "3f9769c0-f364-41ea-b28f-9eaef698b2b3"
+      }
+    },
+    {
+      "id": "ffc5ecb5-5f2d-40fb-b2e5-5cff92f410ea",
+      "timestamp": "2026-09-12T18:07:06.498Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+        "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+        "domain": "sciencetimes.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "6654e624-3400-4435-a0c6-0d0b8f5e74fc",
+      "timestamp": "2026-09-12T18:07:07.145Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+        "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+        "domain": "energysage.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "dec268ef-3c46-4f50-a0a5-ea4e7468ef9c",
+      "timestamp": "2026-09-12T18:07:07.578Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "researcher",
+      "payload": {
+        "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+        "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+        "domain": "techtimes.com",
+        "role": "RESEARCHER"
+      }
+    },
+    {
+      "id": "73621af8-ed6e-484f-9c8f-a54d91ec6e48",
+      "timestamp": "2026-09-12T18:07:07.599Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.completed",
+      "actor": "researcher",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? limitations criticism analysis",
+        "role": "RESEARCHER",
+        "found": 3
+      }
+    },
+    {
+      "id": "4d624cb2-b56e-4d3f-86e6-e43db4cc2af8",
+      "timestamp": "2026-09-12T18:07:07.606Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "researcher",
+      "payload": {
+        "phase": "RESEARCHING",
+        "percent": 35,
+        "message": "Researcher found 7 sources."
+      }
+    },
+    {
+      "id": "f8847a70-039a-4134-bed4-5d7bd1e37306",
+      "timestamp": "2026-09-12T18:07:07.612Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "claim-extractor",
+      "payload": {
+        "phase": "EXTRACTING",
+        "percent": 40,
+        "message": "Extracting atomic claims and linking them to source passages."
+      }
+    },
+    {
+      "id": "666bf5d5-e4b4-4205-bba7-e2dfb80f553d",
+      "timestamp": "2026-09-12T18:07:07.926Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "claims.extracted",
+      "actor": "claim-extractor",
+      "payload": {
+        "count": 4
+      }
+    },
+    {
+      "id": "75b55033-ab18-45a7-adbd-3bf56e43d7a9",
+      "timestamp": "2026-09-12T18:07:07.952Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "skeptic",
+      "payload": {
+        "phase": "SKEPTIC",
+        "percent": 50,
+        "message": "Skeptic is searching for contradictions, caveats, and missing primary evidence."
+      }
+    },
+    {
+      "id": "b55cdf1e-76e2-4490-847f-3cd14c48c2d9",
+      "timestamp": "2026-09-12T18:07:07.990Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.started",
+      "actor": "skeptic",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? counterevidence criticism limitations",
+        "role": "SKEPTIC",
+        "taskId": "30a1ed80-382a-4be3-a265-b22874ffcc4d"
+      }
+    },
+    {
+      "id": "7b3a5160-bc92-41d7-bd8e-2490ec989bb0",
+      "timestamp": "2026-09-12T18:07:09.040Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+        "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+        "domain": "sciencetimes.com",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "ba50d230-bfe2-4f09-b553-6e7c2b93f395",
+      "timestamp": "2026-09-12T18:07:09.278Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+        "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+        "domain": "energysage.com",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "b96e4842-365f-4d8a-9e57-7c9467733252",
+      "timestamp": "2026-09-12T18:07:09.664Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+        "title": "Electric Vehicle Myths | US EPA",
+        "domain": "epa.gov",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "9c1003a4-ac32-43f3-a85f-b099621c28e0",
+      "timestamp": "2026-09-12T18:07:09.689Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.completed",
+      "actor": "skeptic",
+      "payload": {
+        "query": "Are electric vehicles better for the environment than gasoline cars over their full lifecycle? counterevidence criticism limitations",
+        "role": "SKEPTIC",
+        "found": 3
+      }
+    },
+    {
+      "id": "472d2cb5-eb39-4097-9cb0-a7bf496a5f29",
+      "timestamp": "2026-09-12T18:07:09.703Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.started",
+      "actor": "skeptic",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "taskId": "7b7f569c-5d85-4819-ab5b-ae6ca878174b"
+      }
+    },
+    {
+      "id": "33052bcb-2676-43ac-b506-335e117d523d",
+      "timestamp": "2026-09-12T18:07:10.799Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+        "title": "Environmental sustainability of electric vehicles: A life cycle review ...",
+        "domain": "sciencedirect.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "8c3b6b57-2418-49ec-9d82-9f8d68631877",
+      "timestamp": "2026-09-12T18:07:10.920Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+        "title": "Electric Vehicle Myths | US EPA",
+        "domain": "epa.gov",
+        "role": "SKEPTIC"
+      }
+    },
+    {
+      "id": "13995b16-3295-47a8-b95b-ed183147a00c",
+      "timestamp": "2026-09-12T18:07:11.026Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.source.found",
+      "actor": "skeptic",
+      "payload": {
+        "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+        "title": "Are electric vehicles actually bad for the environment?",
+        "domain": "sciencedirect.com",
+        "role": "SKEPTIC",
+        "fetchError": "HTTP 403"
+      }
+    },
+    {
+      "id": "55e36b04-eb35-491f-b2f8-834e69b50b61",
+      "timestamp": "2026-09-12T18:07:11.039Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "research.search.completed",
+      "actor": "skeptic",
+      "payload": {
+        "query": "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle. contrary evidence independent data",
+        "role": "SKEPTIC",
+        "found": 3
+      }
+    },
+    {
+      "id": "9b129b22-5b3f-4ffc-87cd-ed1bc76aaf0a",
+      "timestamp": "2026-09-12T18:07:11.347Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "skeptic.completed",
+      "actor": "skeptic",
+      "payload": {
+        "searches": 3,
+        "newSourceCount": 5
+      }
+    },
+    {
+      "id": "b7ca3183-8332-4823-8787-e252d9f9a430",
+      "timestamp": "2026-09-12T18:07:11.370Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "independence-auditor",
+      "payload": {
+        "phase": "GENEALOGY",
+        "percent": 68,
+        "message": "Tracing shared origins so repeated citations do not count as independent proof."
+      }
+    },
+    {
+      "id": "24866f31-e065-453f-a01d-8acc6657cb46",
+      "timestamp": "2026-09-12T18:07:11.449Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "genealogy.completed",
+      "actor": "independence-auditor",
+      "payload": {
+        "relationships": 2
+      }
+    },
+    {
+      "id": "792db9f6-1d79-4996-99bc-f6adcf745371",
+      "timestamp": "2026-09-12T18:07:11.466Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "adjudicator",
+      "payload": {
+        "phase": "ADJUDICATING",
+        "percent": 76,
+        "message": "Adjudicating each claim using quality, directness, recency, and independent lineages."
+      }
+    },
+    {
+      "id": "262c1007-a2eb-4be3-8d41-0faee0964207",
+      "timestamp": "2026-09-12T18:07:11.498Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "adjudication.completed",
+      "actor": "adjudicator",
+      "payload": {
+        "counts": {
+          "SUPPORTED": 3,
+          "CONTRADICTED": 0,
+          "MIXED": 0,
+          "UNCERTAIN": 1
+        },
+        "claims": 4
+      }
+    },
+    {
+      "id": "5a905d11-11a4-43ed-af2c-94c7091365cc",
+      "timestamp": "2026-09-12T18:07:11.518Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "weakness-detector",
+      "payload": {
+        "phase": "FOLLOW_UP",
+        "percent": 82,
+        "message": "No additional targeted search was needed within the research budget."
+      }
+    },
+    {
+      "id": "714f0489-905d-4497-bc3c-05de9f568cd4",
+      "timestamp": "2026-09-12T18:07:11.535Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "agent.progress",
+      "actor": "reporter",
+      "payload": {
+        "phase": "REPORTING",
+        "percent": 92,
+        "message": "Writing a cited report from the evidence graph."
+      }
+    },
+    {
+      "id": "0bf7f386-6ac7-4c89-84b8-52990b52a167",
+      "timestamp": "2026-09-12T18:07:11.571Z",
+      "sessionId": "1f81bbd0-f0a5-4375-b3e7-e87c3e27698b",
+      "type": "session.completed",
+      "actor": "system",
+      "payload": {
+        "sources": 10,
+        "claims": 4,
+        "searchCalls": 5
+      }
+    }
+  ],
+  "report": {
+    "title": "ClaimLens evidence report",
+    "claims": [
+      {
+        "claimId": "3c407520-0e24-414a-8cb4-81514821902d",
+        "text": "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle.",
+        "status": "UNCERTAIN",
+        "evidenceStrength": 7,
+        "evidence": [
+          {
+            "type": "QUALIFIES",
+            "confidence": 57,
+            "quote": "Are electric vehicles definitely better for the climate than gas-powered cars?",
+            "citation": {
+              "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+              "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+              "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 59,
+            "quote": "Are electric vehicles actually bad for the environment?",
+            "citation": {
+              "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+              "title": "Are electric vehicles actually bad for the environment?",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+        "text": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+        "status": "SUPPORTED",
+        "evidenceStrength": 77,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 56,
+            "quote": "The environmental impact of driving a gasoline vehicle.",
+            "citation": {
+              "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+              "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+              "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 55,
+            "quote": "What Are the Limitations and Concerns Regarding EV Environmental Impact?.",
+            "citation": {
+              "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+              "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+              "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 52,
+            "quote": "There are still a bunch of questions around equity of access..",
+            "citation": {
+              "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+              "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+              "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 90,
+            "quote": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+            "citation": {
+              "sourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+              "title": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S095965262102223X"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 52,
+            "quote": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+            "citation": {
+              "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+              "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+              "url": "https://www.eurekalert.org/news-releases/1102315"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 51,
+            "quote": "Electric vehicles (EVs) have the potential to dramatically reduce these emissions, especially when charged by low-carbon renewable electricity..",
+            "citation": {
+              "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+              "title": "Driving Cleaner | Union of Concerned Scientists",
+              "url": "https://www.ucs.org/resources/driving-cleaner"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 52,
+            "quote": "What are the environmental downsides of electric vehicles?.",
+            "citation": {
+              "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+              "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+              "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 58,
+            "quote": "A significant advantage of EVs compared to conventional gasoline vehicles is their energy efficiency.",
+            "citation": {
+              "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+              "title": "Electric Vehicle Myths | US EPA",
+              "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 68,
+            "quote": "Environmental sustainability of electric vehicles: A life cycle review ...",
+            "citation": {
+              "sourceId": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+              "title": "Environmental sustainability of electric vehicles: A life cycle review ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1364032126004272"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 56,
+            "quote": "Are electric vehicles actually bad for the environment?",
+            "citation": {
+              "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+              "title": "Are electric vehicles actually bad for the environment?",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+        "text": "After two years of use, lithium-ion battery electric vehicles (BEVs) result in a reduction in cumulative carbon dioxide (CO₂) emissions compared to fossil-based internal combustion engine (ICE) vehicles, according to a new study published this week in the open-access journal PLOS Climate by Pankaj Sadavarte of Duke University, US, and colleagues..",
+        "status": "SUPPORTED",
+        "evidenceStrength": 77,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "In this article, we'll explain the environmental impact of electric cars, including both all-electric vehicles (AEVs) and plug-in hybrid electric vehicles (PHEVs) compared to traditional gas-powered vehicles..",
+            "citation": {
+              "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+              "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+              "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 52,
+            "quote": "According to lifecycle assessments, emissions savings can range from 30% to over 50% compared with internal combustion engine vehicles, depending on regional factors.",
+            "citation": {
+              "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+              "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+              "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 53,
+            "quote": "So instead of a gas tank, we have a battery and instead of an internal combustion engine, we have an electric motor..",
+            "citation": {
+              "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+              "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+              "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+            "citation": {
+              "sourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+              "title": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S095965262102223X"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 85,
+            "quote": "After two years of use, lithium-ion battery electric vehicles (BEVs) result in a reduction in cumulative carbon dioxide (CO₂) emissions compared to fossil-based internal combustion engine (ICE) vehicles, according to a new study published this week in the open-access journal PLOS Climate by Pankaj Sadavarte of Duke University, US, and colleagues..",
+            "citation": {
+              "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+              "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+              "url": "https://www.eurekalert.org/news-releases/1102315"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "Electric vehicles (EVs) have the potential to dramatically reduce these emissions, especially when charged by low-carbon renewable electricity..",
+            "citation": {
+              "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+              "title": "Driving Cleaner | Union of Concerned Scientists",
+              "url": "https://www.ucs.org/resources/driving-cleaner"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 51,
+            "quote": "As the future of electric vehicles develops, improvements in battery efficiency, charging infrastructure, and renewable energy integration will continue to reduce emissions.",
+            "citation": {
+              "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+              "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+              "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 56,
+            "quote": "EVs use approximately 87%–91% of the energy from the battery and regenerative braking to propel the vehicle.",
+            "citation": {
+              "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+              "title": "Electric Vehicle Myths | US EPA",
+              "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 51,
+            "quote": "Environmental sustainability of electric vehicles: A life cycle review ...",
+            "citation": {
+              "sourceId": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+              "title": "Environmental sustainability of electric vehicles: A life cycle review ...",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1364032126004272"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 50,
+            "quote": "Are electric vehicles actually bad for the environment?",
+            "citation": {
+              "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+              "title": "Are electric vehicles actually bad for the environment?",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+            }
+          }
+        ]
+      },
+      {
+        "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+        "text": "Yes: although electric cars' batteries make them more carbon-intensive to manufacture than gas cars, they more than make up for it by driving much cleaner under nearly any conditions.",
+        "status": "SUPPORTED",
+        "evidenceStrength": 74,
+        "evidence": [
+          {
+            "type": "SUPPORTS",
+            "confidence": 52,
+            "quote": "Electric cars have a lower impact than gas-powered cars when it comes to driving them.",
+            "citation": {
+              "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+              "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+              "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "Although EV production generates more emissions upfront due to battery manufacturing, this is typically offset during use, especially when powered by cleaner electricity..",
+            "citation": {
+              "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+              "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+              "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 83,
+            "quote": "Yes: although electric cars' batteries make them more carbon-intensive to manufacture than gas cars, they more than make up for it by driving much cleaner under nearly any conditions.",
+            "citation": {
+              "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+              "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+              "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 48,
+            "quote": "by contributing institutions or for the use of any information through the EurekAlert system..",
+            "citation": {
+              "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+              "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+              "url": "https://www.eurekalert.org/news-releases/1102315"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 48,
+            "quote": "For text alerts, text \"SCIENCE\" to 67369 or sign up online ..",
+            "citation": {
+              "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+              "title": "Driving Cleaner | Union of Concerned Scientists",
+              "url": "https://www.ucs.org/resources/driving-cleaner"
+            }
+          },
+          {
+            "type": "SUPPORTS",
+            "confidence": 49,
+            "quote": "Cleaner energy sources make EVs significantly more sustainable.",
+            "citation": {
+              "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+              "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+              "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm"
+            }
+          },
+          {
+            "type": "QUALIFIES",
+            "confidence": 50,
+            "quote": "Are electric vehicles actually bad for the environment?",
+            "citation": {
+              "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+              "title": "Are electric vehicles actually bad for the environment?",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+            }
+          }
+        ]
+      }
+    ],
+    "generatedAt": "2026-09-12T18:07:11.547Z",
+    "executiveConclusion": "The available evidence is incomplete. Treat this investigation as a map of what is known and what still needs verification.",
+    "statusCounts": {
+      "SUPPORTED": 3,
+      "CONTRADICTED": 0,
+      "MIXED": 0,
+      "UNCERTAIN": 1
+    },
+    "keyFindings": [
+      {
+        "claimId": "3c407520-0e24-414a-8cb4-81514821902d",
+        "text": "The evidence base is being evaluated for this proposition: Are electric vehicles better for the environment than gasoline cars over their full lifecycle.",
+        "status": "UNCERTAIN",
+        "evidenceStrength": 7,
+        "citations": [
+          {
+            "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+            "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+            "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+          },
+          {
+            "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+            "title": "Are electric vehicles actually bad for the environment?",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+          }
+        ]
+      },
+      {
+        "claimId": "89ccccf3-974b-4d73-868a-4b9a5c0c6b6e",
+        "text": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+        "status": "SUPPORTED",
+        "evidenceStrength": 77,
+        "citations": [
+          {
+            "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+            "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+            "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/"
+          },
+          {
+            "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+            "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+            "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm"
+          },
+          {
+            "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+            "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+            "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+          },
+          {
+            "sourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+            "title": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S095965262102223X"
+          },
+          {
+            "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+            "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+            "url": "https://www.eurekalert.org/news-releases/1102315"
+          },
+          {
+            "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+            "title": "Driving Cleaner | Union of Concerned Scientists",
+            "url": "https://www.ucs.org/resources/driving-cleaner"
+          },
+          {
+            "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+            "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+            "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm"
+          },
+          {
+            "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+            "title": "Electric Vehicle Myths | US EPA",
+            "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths"
+          },
+          {
+            "sourceId": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+            "title": "Environmental sustainability of electric vehicles: A life cycle review ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1364032126004272"
+          },
+          {
+            "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+            "title": "Are electric vehicles actually bad for the environment?",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+          }
+        ]
+      },
+      {
+        "claimId": "d1135ed0-5795-4529-a15d-f4d4476013c7",
+        "text": "After two years of use, lithium-ion battery electric vehicles (BEVs) result in a reduction in cumulative carbon dioxide (CO₂) emissions compared to fossil-based internal combustion engine (ICE) vehicles, according to a new study published this week in the open-access journal PLOS Climate by Pankaj Sadavarte of Duke University, US, and colleagues..",
+        "status": "SUPPORTED",
+        "evidenceStrength": 77,
+        "citations": [
+          {
+            "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+            "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+            "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/"
+          },
+          {
+            "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+            "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+            "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm"
+          },
+          {
+            "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+            "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+            "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+          },
+          {
+            "sourceId": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+            "title": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S095965262102223X"
+          },
+          {
+            "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+            "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+            "url": "https://www.eurekalert.org/news-releases/1102315"
+          },
+          {
+            "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+            "title": "Driving Cleaner | Union of Concerned Scientists",
+            "url": "https://www.ucs.org/resources/driving-cleaner"
+          },
+          {
+            "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+            "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+            "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm"
+          },
+          {
+            "sourceId": "06483762-ac1e-41d5-b370-cbea19d80097",
+            "title": "Electric Vehicle Myths | US EPA",
+            "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths"
+          },
+          {
+            "sourceId": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+            "title": "Environmental sustainability of electric vehicles: A life cycle review ...",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1364032126004272"
+          },
+          {
+            "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+            "title": "Are electric vehicles actually bad for the environment?",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+          }
+        ]
+      },
+      {
+        "claimId": "8f3a9b19-5b7d-4115-99f6-49a6907683f2",
+        "text": "Yes: although electric cars' batteries make them more carbon-intensive to manufacture than gas cars, they more than make up for it by driving much cleaner under nearly any conditions.",
+        "status": "SUPPORTED",
+        "evidenceStrength": 74,
+        "citations": [
+          {
+            "sourceId": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+            "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+            "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/"
+          },
+          {
+            "sourceId": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+            "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+            "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm"
+          },
+          {
+            "sourceId": "876f0b1f-e012-485e-9795-69be881bd8b9",
+            "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+            "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars"
+          },
+          {
+            "sourceId": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+            "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+            "url": "https://www.eurekalert.org/news-releases/1102315"
+          },
+          {
+            "sourceId": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+            "title": "Driving Cleaner | Union of Concerned Scientists",
+            "url": "https://www.ucs.org/resources/driving-cleaner"
+          },
+          {
+            "sourceId": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+            "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+            "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm"
+          },
+          {
+            "sourceId": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+            "title": "Are electric vehicles actually bad for the environment?",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "10 retrieved sources were assessed; snippets and page availability can affect directness.",
+      "Some apparent source diversity was collapsed into suspected or explicit lineages; genealogy is an auditable heuristic, not certainty."
+    ],
+    "sources": [
+      {
+        "id": "8192f100-08a5-4785-bd80-a6fa94b1b037",
+        "title": "Electric Car vs. Gas Car Environmental Impact | EnergySage",
+        "publisher": "energysage.com",
+        "url": "https://www.energysage.com/electric-vehicles/environmental-impact-electric-vehicles-vs-gas-cars/",
+        "retrievedAt": "2026-09-12T18:07:01.563Z",
+        "searchRole": "RESEARCHER",
+        "quality": 65
+      },
+      {
+        "id": "2cfe7d5e-a36b-454d-90ce-7c39fff1fbe0",
+        "title": "How Electric Vehicles vs Gasoline Cars Compare on Carbon Emissions and Green Transportation",
+        "publisher": "sciencetimes.com",
+        "url": "https://www.sciencetimes.com/articles/60793/20251114/how-electric-vehicles-vs-gasoline-cars-compare-carbon-emissions-green-transportation.htm",
+        "publishedAt": "2025-11-14T11:59:35.000Z",
+        "retrievedAt": "2026-09-12T18:07:01.930Z",
+        "searchRole": "RESEARCHER",
+        "quality": 65
+      },
+      {
+        "id": "876f0b1f-e012-485e-9795-69be881bd8b9",
+        "title": "Are electric vehicles definitely better for the climate than gas-powered cars? | MIT Climate Portal",
+        "publisher": "climate.mit.edu",
+        "url": "https://climate.mit.edu/ask-mit/are-electric-vehicles-definitely-better-climate-gas-powered-cars",
+        "retrievedAt": "2026-09-12T18:07:02.649Z",
+        "searchRole": "RESEARCHER",
+        "quality": 90
+      },
+      {
+        "id": "e3803ab7-c52a-41be-91c1-5ad606145f86",
+        "title": "The environmental impact of electric vehicles: A novel life cycle-based ...",
+        "publisher": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S095965262102223X",
+        "retrievedAt": "2026-09-12T18:07:04.183Z",
+        "searchRole": "RESEARCHER",
+        "quality": 50
+      },
+      {
+        "id": "84f5640f-b125-49a5-87f3-bf3ac34cc91c",
+        "title": "Electric vehicles outperform gasoline cars in lifetime environmental impact | EurekAlert!",
+        "publisher": "eurekalert.org",
+        "url": "https://www.eurekalert.org/news-releases/1102315",
+        "retrievedAt": "2026-09-12T18:07:04.729Z",
+        "searchRole": "RESEARCHER",
+        "quality": 65
+      },
+      {
+        "id": "bf4224de-b857-4db3-8fa0-63413a9d323e",
+        "title": "Driving Cleaner | Union of Concerned Scientists",
+        "publisher": "ucs.org",
+        "url": "https://www.ucs.org/resources/driving-cleaner",
+        "retrievedAt": "2026-09-12T18:07:05.338Z",
+        "searchRole": "RESEARCHER",
+        "quality": 65
+      },
+      {
+        "id": "66fed455-1ffe-4e29-a321-d03c9fea2f4c",
+        "title": "Should Electric Cars Fully Replace Gas Cars in the Future? Environmental Pros and Cons",
+        "publisher": "techtimes.com",
+        "url": "https://www.techtimes.com/articles/316158/20260427/should-electric-cars-fully-replace-gas-cars-future-environmental-pros-cons.htm",
+        "publishedAt": "2026-04-27T13:27:05.000Z",
+        "retrievedAt": "2026-09-12T18:07:07.571Z",
+        "searchRole": "RESEARCHER",
+        "quality": 70
+      },
+      {
+        "id": "06483762-ac1e-41d5-b370-cbea19d80097",
+        "title": "Electric Vehicle Myths | US EPA",
+        "publisher": "epa.gov",
+        "url": "https://www.epa.gov/greenvehicles/electric-vehicle-myths",
+        "publishedAt": "2021-05-14T12:10:33.000Z",
+        "retrievedAt": "2026-09-12T18:07:09.657Z",
+        "searchRole": "SKEPTIC",
+        "quality": 95
+      },
+      {
+        "id": "eff6b423-a4f4-40ff-816f-ccda1c8e90fb",
+        "title": "Environmental sustainability of electric vehicles: A life cycle review ...",
+        "publisher": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1364032126004272",
+        "retrievedAt": "2026-09-12T18:07:10.782Z",
+        "searchRole": "SKEPTIC",
+        "quality": 50
+      },
+      {
+        "id": "b5931288-684b-4bf8-8d27-bbd29d5ba5b5",
+        "title": "Are electric vehicles actually bad for the environment?",
+        "publisher": "sciencedirect.com",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0378427425015899",
+        "retrievedAt": "2026-09-12T18:07:11.010Z",
+        "searchRole": "SKEPTIC",
+        "quality": 50
+      }
+    ],
+    "whyResearchContinued": "The initial evidence set was reviewed by a separate skeptic stage before adjudication."
+  }
+}
