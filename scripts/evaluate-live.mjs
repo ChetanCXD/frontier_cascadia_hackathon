@@ -19,7 +19,12 @@ for (const item of cases) {
   const state = await store.load(created.session.id);
   const edgeTypes = Object.fromEntries([...new Set(state.evidenceEdges.map((edge) => edge.type))].map((type) => [type, state.evidenceEdges.filter((edge) => edge.type === type).length]));
   const statusCounts = Object.fromEntries([...new Set(state.adjudications.map((item) => item.status))].map((status) => [status, state.adjudications.filter((item) => item.status === status).length]));
-  summary.push({ name: item.name, question: item.question, sessionId: created.session.id, status: state.session.status, sources: state.sources.length, claims: state.claims.length, edgeTypes, sourceRelationships: state.sourceRelationships.length, relationshipTypes: [...new Set(state.sourceRelationships.map((relation) => relation.type))], statusCounts, skepticSearches: state.events.filter((event) => event.actor === 'skeptic' && event.type === 'research.search.started').length, followUps: state.events.filter((event) => event.type === 'followup.triggered').length, report: Boolean(state.report) });
+  const skepticSearches = state.events.filter((event) => event.actor === 'skeptic' && event.type === 'research.search.started').length;
+  const citationIds = new Set(state.sources.map((source) => source.id));
+  const citationsValid = state.report?.claims?.every((claim) => claim.evidence.every((evidence) => citationIds.has(evidence.citation.sourceId))) ?? false;
+  if (state.session.status !== 'COMPLETE' || !state.report || !state.sources.length || !state.claims.length || skepticSearches < 1 || !citationsValid) throw new Error(`Live evaluation failed its base assertions for ${item.name}`);
+  if (item.name === 'insufficient' && !statusCounts.UNCERTAIN) throw new Error('Insufficient-evidence case did not retain an UNCERTAIN central proposition');
+  summary.push({ name: item.name, question: item.question, sessionId: created.session.id, status: state.session.status, sources: state.sources.length, claims: state.claims.length, edgeTypes, sourceRelationships: state.sourceRelationships.length, relationshipTypes: [...new Set(state.sourceRelationships.map((relation) => relation.type))], statusCounts, skepticSearches, followUps: state.events.filter((event) => event.type === 'followup.triggered').length, report: Boolean(state.report), assertions: { citationsValid, skepticSearches: skepticSearches >= 1 } });
   console.log(JSON.stringify(summary.at(-1)));
 }
 await writeFile(process.env.EVALUATION_OUTPUT || 'data/evaluation-summary.json', `${JSON.stringify({ generatedAt: new Date().toISOString(), cases: summary }, null, 2)}\n`);
