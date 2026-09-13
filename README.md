@@ -2,6 +2,8 @@
 
 ### Research that tries to prove itself wrong.
 
+### Video is the file named "Video Submission(1)(1).mp4"
+
 ClaimLens is an evidence debugger for research questions. Instead of returning a list of citations, it builds a claim-level evidence graph, runs a separate skeptic search, traces repeated source origins, and shows what the evidence does—and does not—support.
 
 > AI can produce a researched answer in seconds. The harder problem is knowing whether its evidence is independent, whether credible evidence contradicts it, and what it still does not know.
