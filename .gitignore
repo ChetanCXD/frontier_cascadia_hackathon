@@ -1,6 +1,0 @@
-.env
-.env.*
-!.env.example
-
-node_modules/
-.pi/npm/node_modules/

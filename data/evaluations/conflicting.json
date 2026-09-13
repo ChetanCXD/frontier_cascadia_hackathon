@@ -1,6 +1,8 @@
 {
   "artifactVersion": 1,
-  "realRun": true,
+  "realRun": false,
+  "runtimeProvider": "legacy-duckduckgo",
+  "mode": "legacy-fixture",
   "provider": "DuckDuckGo HTML",
   "evaluatedAt": "2026-09-12T18:43:52.730Z",
   "case": {

@@ -18,7 +18,7 @@ ClaimLens is an evidence debugger for research questions. Instead of returning a
 
 ## Run it
 
-Requirements: Node.js 20+ and network access for live research. No frontend build step or third-party runtime package is required.
+Requirements: Node.js 20+, an installed Pi CLI, authenticated `openai-codex` subscription, the `pi-web-access` extension, and network access for live research. No frontend build step or third-party runtime package is required.
 
 ```bash
 cp .env.example .env
@@ -30,13 +30,17 @@ Open <http://127.0.0.1:4173>. Use the example question:
 
 > Does intermittent fasting improve weight loss compared with calorie restriction?
 
-The default search adapter uses the public DuckDuckGo HTML endpoint. For stronger and more controllable results, configure one provider key in `.env`; ClaimLens tries configured providers before DuckDuckGo:
+Normal `POST /api/sessions` runs the installed Pi process in read-only mode. Pi is explicitly restricted to the `pi-web-access` `web_search` and `get_search_content` tools and uses inherited Codex authentication. Missing Pi, Codex authentication, the extension, or a successful web-search receipt fails the session closed; there is no search-provider fallback.
 
-```dotenv
-SEARCH_PROVIDER=brave
-BRAVE_SEARCH_API_KEY=...
-# or TAVILY_API_KEY / SERPER_API_KEY
+Verify the live prerequisites before starting:
+
+```bash
+pi --version
+pi auth check --provider openai-codex --json --no-refresh
+test -f "$HOME/.pi/agent/npm/node_modules/pi-web-access/index.ts"
 ```
+
+For tests only, inject a clearly labeled fixture runner or `fixtureMode` with a fixture search client (as the automated tests do). Fixture mode is never selected by a normal request and never produces live evidence.
 
 Useful configuration:
 
@@ -45,8 +49,15 @@ Useful configuration:
 | `PORT` | `4173` | HTTP port |
 | `HOST` | `127.0.0.1` | Bind address |
 | `DATA_DIR` | `./data/sessions` | Durable session JSON directory |
-| `SEARCH_PROVIDER` | `auto` | `auto`, `brave`, `tavily`, `serper`, or `duckduckgo` |
-| `MAX_SEARCH_CALLS` | `8` | Hard search-call budget per session |
+| `PI_EXECUTABLE` | `pi` | Installed Pi executable |
+| `PI_PROJECT_DIR` | `/home/chetan/pi_frontier` | Exact Pi working directory |
+| `PI_WEB_SEARCH_EXTENSION` | `$HOME/.pi/agent/npm/node_modules/pi-web-access/index.ts` | Pinned pi-web-access extension |
+| `PI_PROVIDER` | `openai-codex` | Codex subscription provider |
+| `PI_MODEL` | `gpt-5.6-luna` | Pi model |
+| `PI_TIMEOUT_MS` | `1800000` | Per-worker timeout (30 minutes) |
+| `PI_MAX_CONCURRENT_WORKERS` | `1` | Concurrent Pi worker bound |
+| `PI_MAX_CONTENT_CALLS` | `32` | Bounded retrieved-content calls per worker |
+| `MAX_SEARCH_CALLS` | `8` | Hard total web-search-call budget per session |
 | `MAX_SOURCES` | `28` | Hard source budget per session |
 | `MAX_RESEARCH_ITERATIONS` | `2` | Initial pass plus at most one follow-up pass |
 
@@ -73,16 +84,16 @@ The landing page only offers the saved-demo button when that file is present and
 ```text
 question
   -> planner
-  -> researcher search + bounded page retrieval
-  -> extractive claim builder + evidence classifier
-  -> skeptic searches for contradiction / qualification
+  -> installed Pi researcher + pi-web-search retrieval
+  -> source-grounded atomic claims and typed evidence edges
+  -> distinct Pi skeptic pass for contradiction / qualification
   -> source genealogy and independent-lineage analysis
   -> adjudicator (status + factors + score)
   -> weakness detector -> targeted follow-up (bounded)
   -> graph + claim-level report
 ```
 
-The server is a small Node ESM application using the built-in HTTP server and an atomic JSON repository. The browser client is plain HTML/CSS/JS and renders the graph with SVG so a clean clone has no dependency install or bundler failure mode. Search results and fetched excerpts are real web material; deterministic extraction is deliberately conservative when no model/search credential is configured.
+The server is a small Node ESM application using the built-in HTTP server and an atomic JSON repository. The browser client is plain HTML/CSS/JS and renders the graph with SVG so a clean clone has no dependency install or bundler failure mode. Pi search receipts, source metadata, excerpts, and citations are validated before persistence; raw assistant streams and chain-of-thought are never persisted. Deterministic domain scoring, genealogy, and report projection remain inspectable and compatible with fixture tests.
 
 ### API
 
@@ -102,9 +113,9 @@ Important entities are validated at construction time and carry timestamps and p
 npm test
 ```
 
-Tests cover URL canonicalization, source deduplication, source genealogy, independent evidence collapse, all four adjudication states, weakness/follow-up generation, report citation safety, durable persistence, pipeline role separation, and the HTTP API. The pipeline tests use clearly labeled synthetic provider fixtures; they do not masquerade as research evidence.
+Tests cover URL canonicalization, source deduplication, source genealogy, independent evidence collapse, all four adjudication states, weakness/follow-up generation, report citation safety, durable persistence, deterministic fixture compatibility, Pi schema/receipt grounding, split JSONL activity, Pi process failures, injected Pi role separation, and the HTTP API. Synthetic Pi/search fixtures are clearly labeled and never masquerade as live research.
 
-The committed live evaluator (`SEARCH_PROVIDER=duckduckgo node scripts/evaluate-live.mjs`) exercises:
+The live evaluator (`node scripts/evaluate-live.mjs`, with installed Pi and Codex authentication) exercises:
 
 1. a conflicting weight-loss question,
 2. a repeated-source/current-rate lineage question,
@@ -117,7 +128,7 @@ Results can be partial when a provider or page is unavailable; the session remai
 
 ## Limitations
 
-- Public HTML search and page parsing are best-effort. A provider API key improves coverage and metadata.
+- Pi web-search availability, network access, and page retrieval are best-effort; configuration or tool failures fail closed.
 - Extractive classification is not a substitute for human review or a calibrated fact-checking model.
 - Source genealogy is explicitly marked as inferred when based on overlap, and cannot prove common origin from text alone.
 - The JSON repository is intentionally simple for a hackathon MVP; use a database and job queue for multi-user production workloads.
@@ -125,7 +136,7 @@ Results can be partial when a provider or page is unavailable; the session remai
 
 ## Technologies
 
-Node.js ESM, built-in `http` and `fetch`, atomic JSON persistence, vanilla browser JavaScript, SVG, and CSS. Optional live search adapters: DuckDuckGo HTML, Brave Search, Tavily, and Serper.
+Node.js ESM, built-in `http` and `fetch`, atomic JSON persistence, vanilla browser JavaScript, SVG, and CSS. Pi is the live runtime; deterministic search adapters are test-only fixtures.
 
 ## Attribution and AI use
 

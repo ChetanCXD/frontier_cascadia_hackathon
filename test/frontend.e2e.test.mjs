@@ -17,6 +17,8 @@ const CHROME_CANDIDATES = [
 const chromePath = CHROME_CANDIDATES.find((candidate) => { try { accessSync(candidate, constants.X_OK); return true; } catch { return false; } });
 const hasWebSocket = typeof globalThis.WebSocket === 'function';
 const e2eAvailable = Boolean(chromePath && hasWebSocket);
+class BrowserSearchFixture { async search(query, { role }) { return { query, provider: 'fixture', errors: [], results: [{ title: `${role} fixture source`, url: `https://${role.toLowerCase()}.fixture.example/evidence`, snippet: role === 'RESEARCHER' ? 'A primary report finds measurable progress in the target area.' : 'Independent analysis finds limitations and uncertainty in the target area.' }] }; } }
+const browserFetchFixture = async (url, { searchResult, role }) => ({ url, canonicalUrl: url, title: searchResult.title, publisher: new URL(url).hostname, sourceType: role === 'RESEARCHER' ? 'government' : 'analysis', quality: role === 'RESEARCHER' ? 90 : 65, excerpt: searchResult.snippet, content: `${searchResult.snippet} This fixture preserves a source excerpt for testing.`, links: [], retrievedAt: new Date().toISOString() });
 const wait = (ms) => new Promise((resolveWait) => setTimeout(resolveWait, ms));
 
 async function waitForFile(path, timeoutMs = 12_000) {
@@ -57,7 +59,7 @@ async function browserSmoke() {
   let browser;
   const dataDir = join(temp, 'data', 'sessions');
   const saved = JSON.parse(await readFile(join(ROOT, 'data', 'demo-session.json'), 'utf8'));
-  const { server, store } = await createClaimLensServer({ dataDir, publicDir: join(ROOT, 'public'), pipelineConfig: { maxSearchCalls: 8, maxSources: 8, maxClaims: 4, maxFollowUps: 1, maxIterations: 2, searchResultsPerCall: 2 } });
+  const { server, store } = await createClaimLensServer({ dataDir, publicDir: join(ROOT, 'public'), searchClient: new BrowserSearchFixture(), fetchSourceImpl: browserFetchFixture, pipelineConfig: { maxSearchCalls: 8, maxSources: 8, maxClaims: 4, maxFollowUps: 1, maxIterations: 2, searchResultsPerCall: 2 } });
   const failed = await store.create('Can failure states remain inspectable?');
   await store.update(failed.session.id, state => { state.session.status = 'FAILED'; state.session.phase = 'FAILED'; state.session.error = 'Simulated failure for browser verification.'; state.errors.push({ message: state.session.error }); state.progress = { phase: 'FAILED', percent: 36, message: 'Research failed. Partial evidence remains available.' }; });
   await new Promise((resolveListen) => server.listen(0, '127.0.0.1', resolveListen));

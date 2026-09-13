@@ -21,6 +21,8 @@ import {
 import { extractClaims, evidenceEdgesFor } from './claims.mjs';
 import { SearchClient } from './search.mjs';
 import { fetchSource } from './fetch-source.mjs';
+import { PiOutputError, validatePiResult } from './pi-schema.mjs';
+import { PiResearchRunner } from './pi-runner.mjs';
 
 const DEFAULT_CONFIG = Object.freeze({
   maxSearchCalls: 8,
@@ -105,11 +107,12 @@ function mergeSource(existing, incoming, role, query) {
 }
 
 export class ResearchPipeline {
-  constructor({ store, searchClient = new SearchClient(), fetchSourceImpl = fetchSource, config = {}, onEvent } = {}) {
+  constructor({ store, searchClient = new SearchClient(), fetchSourceImpl = fetchSource, piRunner, config = {}, onEvent } = {}) {
     if (!store) throw new TypeError('ResearchPipeline requires a session store');
     this.store = store;
     this.searchClient = searchClient;
     this.fetchSource = fetchSourceImpl;
+    this.piRunner = piRunner;
     this.config = { ...DEFAULT_CONFIG, ...config };
     this.running = new Set();
     this.onEvent = onEvent;
@@ -285,6 +288,104 @@ export class ResearchPipeline {
     return report;
   }
 
+  async persistPiResult(sessionId, result) {
+    const sourceByUrl = new Map();
+    const initial = await this.store.load(sessionId);
+    for (const sourceResult of result.sources) {
+      const publishedAt = /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d+)?Z$/.test(sourceResult.publishedAt || '') ? sourceResult.publishedAt : undefined;
+      const incoming = sourceWithMetadata({ url: sourceResult.url, canonicalUrl: sourceResult.url, title: sourceResult.title, publisher: sourceResult.publisher, author: sourceResult.author, publishedAt, sourceType: sourceResult.sourceType, quality: 50, excerpt: sourceResult.excerpt, content: sourceResult.excerpt, retrievedAt: new Date().toISOString() }, { query: result.queries[0], url: sourceResult.url, title: sourceResult.title }, result.role);
+      const source = await this.addSource(sessionId, incoming, { query: result.queries[0] }, result.role);
+      sourceByUrl.set(canonicalizeUrl(sourceResult.url), source);
+    }
+    const claimByText = new Map((initial.claims ?? []).map((claim) => [claim.text.toLowerCase(), claim]));
+    for (const claimResult of result.claims) {
+      let claim = claimByText.get(claimResult.text.toLowerCase());
+      if (!claim) {
+        claim = createClaim({ id: randomUUID(), sessionId, text: claimResult.text });
+        const assessment = result.assessments.find((item) => item.claimText === claimResult.text);
+        if (assessment) claim.piAssessment = { ...assessment, citations: assessment.citations.map((url) => canonicalizeUrl(url)) };
+        await this.store.update(sessionId, (state) => { state.claims.push(claim); });
+        claimByText.set(claimResult.text.toLowerCase(), claim);
+      }
+    }
+    const addPiEdge = async (edge) => {
+      const claim = claimByText.get(edge.claimText.toLowerCase()); const source = sourceByUrl.get(canonicalizeUrl(edge.sourceUrl));
+      if (!claim || !source) throw new PiOutputError('Validated Pi evidence references an entity that was not persisted.');
+      const input = { id: randomUUID(), claimId: claim.id, sourceId: source.id, type: edge.type, quote: edge.quote, confidence: edge.confidence };
+      await this.store.update(sessionId, (state) => { const duplicate = state.evidenceEdges.find((candidate) => candidate.claimId === input.claimId && candidate.sourceId === input.sourceId && candidate.type === input.type); if (!duplicate) state.evidenceEdges.push(input); });
+    };
+    for (const edge of result.edges) await addPiEdge(edge);
+    for (const note of result.contradictions) await addPiEdge({ ...note, type: 'CONTRADICTS', confidence: 88 });
+    for (const note of result.qualifications) await addPiEdge({ ...note, type: 'QUALIFIES', confidence: 78 });
+    await this.store.update(sessionId, (state) => {
+      state.graph = buildGraphPayload(state);
+      state.session.runtimeProvider = 'pi';
+      state.session.runtimeRoles = [...new Set([...(state.session.runtimeRoles ?? []), result.role])];
+    });
+    return { sources: sourceByUrl.size, claims: result.claims.length, edges: result.edges.length + result.contradictions.length + result.qualifications.length };
+  }
+
+  async runPiRole(sessionId, initial, role, context = {}) {
+    const task = await this.addTask(sessionId, { objective: `Pi ${role.toLowerCase()} research pass for: ${initial.session.question}`, assignedTo: role, priority: role === 'SKEPTIC' ? 80 : 70, constraints: ['Use pi-web-access web_search only', 'Return source-grounded structured output without reasoning'] });
+    await this.taskStatus(sessionId, task.id, TaskStatus.IN_PROGRESS);
+    await this.emit(sessionId, 'research.pi.started', role.toLowerCase(), { provider: 'pi', runtime: 'pi', role, model: this.piRunner.config?.model, taskId: task.id, message: `Pi ${role.toLowerCase()} worker started.` });
+    try {
+      const packet = await this.piRunner.run({ role, question: initial.session.question, claims: context.claims ?? [], sources: context.sources ?? [], followUpReasons: context.followUpReasons ?? [], maxSearchCalls: context.maxSearchCalls, onProgress: (progress) => { void this.emit(sessionId, 'research.pi.progress', role.toLowerCase(), { provider: 'pi', runtime: 'pi', role, tool: String(progress.kind || '').slice(0, 80), query: String(progress.query ?? '').replace(/\s+/g, ' ').trim().slice(0, 500), queryCount: progress.queryCount, message: String(progress.message || '').slice(0, 300) }); } });
+      const result = packet?.result && typeof packet.result === 'object' ? packet.result : packet;
+      if (!packet?.observedUrls || !Array.isArray(packet.observedText) || !packet.observedContent) throw new PiOutputError('Pi runner did not provide web-search receipts; refusing to persist ungrounded evidence.', 'pi_receipts_missing');
+      const validated = validatePiResult(result, { role, observedUrls: packet.observedUrls, observedText: packet.observedText, observedContent: packet.observedContent });
+      const current = await this.store.load(sessionId); const existingUrls = new Set((current.sources ?? []).map((source) => canonicalizeUrl(source.url))); const newSources = new Set(validated.sources.map((source) => canonicalizeUrl(source.url)).filter((url) => !existingUrls.has(url))).size; const existingClaims = new Set((current.claims ?? []).map((claim) => claim.text.toLowerCase())); const newClaims = validated.claims.filter((claim) => !existingClaims.has(claim.text.toLowerCase())).length;
+      if (newSources < 0 || (current.sources?.length ?? 0) + newSources > this.config.maxSources || (current.claims?.length ?? 0) + newClaims > this.config.maxClaims) throw new PiOutputError('Pi result exceeded the cumulative source or claim budget.', 'pi_result_budget_exceeded');
+      const calls = Number(packet.searchCalls);
+      if (!Number.isInteger(calls) || calls < 1 || calls > (context.maxSearchCalls ?? this.config.maxSearchCalls)) throw new PiOutputError('Pi result did not provide a valid bounded web-search call count.', 'pi_search_budget_invalid');
+      if (context.budget) context.budget.searchCalls += calls;
+      const counts = await this.persistPiResult(sessionId, validated);
+      await this.taskStatus(sessionId, task.id, TaskStatus.COMPLETE);
+      await this.emit(sessionId, 'research.pi.completed', role.toLowerCase(), { provider: 'pi', runtime: 'pi', role, sourceCount: counts.sources, claimCount: counts.claims, edgeCount: counts.edges, searchQueryCount: validated.queries.length, searchCalls: packet?.searchCalls ?? undefined });
+      return validated;
+    } catch (error) {
+      await this.taskStatus(sessionId, task.id, TaskStatus.CANCELLED, error?.message ?? 'Pi worker failed');
+      throw error;
+    }
+  }
+
+  async runPiResearch(sessionId, initial) {
+    const budget = { searchCalls: 0 };
+    await this.store.update(sessionId, (state) => { state.session.runtimeProvider = 'pi'; state.session.runtimeProjectDir = this.piRunner.config?.projectDir; state.session.runtimeModel = this.piRunner.config?.model; });
+    await this.progress(sessionId, 'PLANNING', 5, 'Pi is planning independent research paths.', 'planner');
+    await this.emit(sessionId, 'research.runtime.selected', 'system', { provider: 'pi', runtime: 'pi', projectDir: this.piRunner.config?.projectDir, message: 'Research is delegated to the installed Pi runtime.' });
+    await this.progress(sessionId, 'RESEARCHING', 18, 'Pi researcher is searching with pi-web-search.', 'researcher');
+    const researcher = await this.runPiRole(sessionId, initial, 'RESEARCHER', { budget, maxSearchCalls: this.config.maxSearchCalls });
+    await this.progress(sessionId, 'EXTRACTING', 42, 'Pi researcher returned source-grounded claims.', 'researcher');
+    let state = await this.store.load(sessionId);
+    await this.progress(sessionId, 'SKEPTIC', 52, 'Pi skeptic is searching for contradictions and limitations.', 'skeptic');
+    if (budget.searchCalls >= this.config.maxSearchCalls) throw new PiOutputError('Pi web-search budget was exhausted before the skeptic pass.', 'pi_search_budget_exhausted');
+    const skeptic = await this.runPiRole(sessionId, initial, 'SKEPTIC', { claims: state.claims, sources: state.sources, budget, maxSearchCalls: this.config.maxSearchCalls - budget.searchCalls });
+    await this.emit(sessionId, 'skeptic.completed', 'skeptic', { provider: 'pi', runtime: 'pi', role: skeptic.role, searches: skeptic.queries.length, newSourceCount: (await this.store.load(sessionId)).sources.length - state.sources.length });
+    await this.progress(sessionId, 'GENEALOGY', 68, 'Tracing source lineage and independent origins.', 'independence-auditor');
+    await this.refreshGenealogy(sessionId);
+    await this.progress(sessionId, 'ADJUDICATING', 76, 'Adjudicating Pi claims using their retrieved evidence.', 'adjudicator');
+    let adjudications = await this.adjudicate(sessionId);
+    state = await this.store.load(sessionId);
+    const weak = detectWeakClaims(state.claims, adjudications, { minimumStrength: 78 });
+    const followUps = generateFollowUpTaskSpecs(weak, { maxTasks: this.config.maxFollowUps, sessionId });
+    let followUpReasons = [];
+    if (followUps.length && this.config.maxIterations > 1) {
+      followUpReasons = followUps.map((task) => `Pi found weak evidence for “${(state.claims.find((claim) => claim.id === task.claimId)?.text ?? task.objective).slice(0, 160)}” and ran a bounded independent follow-up.`);
+      await this.progress(sessionId, 'FOLLOW_UP', 82, 'Pi is running one bounded follow-up for weak claims.', 'weakness-detector');
+      await this.emit(sessionId, 'followup.triggered', 'weakness-detector', { provider: 'pi', runtime: 'pi', count: followUps.length, reasons: followUpReasons });
+      if (budget.searchCalls >= this.config.maxSearchCalls) throw new PiOutputError('Pi web-search budget was exhausted before the follow-up pass.', 'pi_search_budget_exhausted');
+      await this.runPiRole(sessionId, initial, 'FOLLOW_UP', { claims: state.claims, sources: state.sources, followUpReasons, budget, maxSearchCalls: this.config.maxSearchCalls - budget.searchCalls });
+      await this.refreshGenealogy(sessionId);
+      adjudications = await this.adjudicate(sessionId);
+    } else await this.progress(sessionId, 'FOLLOW_UP', 82, 'No bounded Pi follow-up was needed.', 'weakness-detector');
+    await this.progress(sessionId, 'REPORTING', 92, 'Writing a citation-backed report from Pi evidence.', 'reporter');
+    await this.writeReport(sessionId, followUpReasons);
+    await this.store.update(sessionId, (state) => { state.progress = { phase: 'DONE', percent: 100, message: 'Pi investigation complete. Inspect the graph to audit each claim.', actor: 'system', updatedAt: new Date().toISOString() }; state.session.phase = 'DONE'; state.session.status = SessionStatus.COMPLETE; state.session.completedAt = new Date().toISOString(); });
+    await this.emit(sessionId, 'session.completed', 'system', { provider: 'pi', runtime: 'pi', sources: (await this.store.load(sessionId)).sources.length, claims: adjudications.length });
+    return { researcher, skeptic, adjudications };
+  }
+
   async run(sessionId) {
     if (this.running.has(sessionId)) return;
     this.running.add(sessionId);
@@ -293,6 +394,7 @@ export class ResearchPipeline {
     try {
       const initial = await this.store.load(sessionId);
       if (!initial) throw new Error('Session not found');
+      if (this.piRunner) { await this.runPiResearch(sessionId, initial); return; }
       const question = initial.session.question;
       await this.progress(sessionId, 'PLANNING', 5, 'Planning independent research paths.', 'planner');
       const plans = planQueries(question);

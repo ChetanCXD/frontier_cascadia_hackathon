@@ -1,16 +1,27 @@
 import { createServer as nodeCreateServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, extname, join, normalize, resolve } from 'node:path';
 import { JsonSessionStore } from './domain/store.mjs';
 import { findSourceLineages } from './domain/graph.mjs';
 import { ResearchPipeline } from './research/pipeline.mjs';
 import { SearchClient } from './research/search.mjs';
+import { PiResearchRunner, piConfigFromEnv } from './research/pi-runner.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = resolve(HERE, '..', 'public');
 const MAX_BODY = 120_000;
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml' };
+
+function loadDotEnv(file = join(process.cwd(), '.env')) {
+  try {
+    for (const line of readFileSync(file, 'utf8').split(/\r?\n/)) {
+      const match = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*?)\s*$/); if (!match || match[1] in process.env) continue;
+      const value = match[2].replace(/^("|')(.*)\1$/, '$2').replace(/\$\{?([A-Za-z_][A-Za-z0-9_]*)\}?/g, (_, name) => process.env[name] ?? ''); process.env[match[1]] = value;
+    }
+  } catch (error) { if (error?.code !== 'ENOENT') throw error; }
+}
 
 function json(res, status, payload) {
   res.statusCode = status;
@@ -78,10 +89,11 @@ function snapshot(state) {
   };
 }
 
-export async function createClaimLensServer({ dataDir = resolve(process.cwd(), process.env.DATA_DIR || 'data/sessions'), publicDir = PUBLIC_DIR, env = process.env, searchClient, fetchSourceImpl, pipelineConfig } = {}) {
+export async function createClaimLensServer({ dataDir = resolve(process.cwd(), process.env.DATA_DIR || 'data/sessions'), publicDir = PUBLIC_DIR, env = process.env, searchClient, fetchSourceImpl, piRunner, piConfig, pipelineConfig, fixtureMode = false } = {}) {
   const store = await new JsonSessionStore(dataDir).init();
   const demoFile = resolve(dataDir, '..', 'demo-session.json');
-  const pipeline = new ResearchPipeline({ store, searchClient: searchClient ?? new SearchClient({ env }), fetchSourceImpl, config: { maxSearchCalls: Number(env.MAX_SEARCH_CALLS) || 8, maxSources: Number(env.MAX_SOURCES) || 28, maxClaims: Number(env.MAX_CLAIMS) || 6, maxFollowUps: Number(env.MAX_FOLLOW_UPS) || 2, maxIterations: Number(env.MAX_RESEARCH_ITERATIONS) || 2, ...pipelineConfig } });
+  const livePiRunner = piRunner ?? (!fixtureMode && !searchClient ? new PiResearchRunner({ ...piConfigFromEnv(env), ...(piConfig ?? {}) }) : undefined);
+  const pipeline = new ResearchPipeline({ store, searchClient: searchClient ?? new SearchClient({ env }), piRunner: livePiRunner, fetchSourceImpl, config: { maxSearchCalls: Number(env.MAX_SEARCH_CALLS) || 8, maxSources: Number(env.MAX_SOURCES) || 28, maxClaims: Number(env.MAX_CLAIMS) || 6, maxFollowUps: Number(env.MAX_FOLLOW_UPS) || 2, maxIterations: Number(env.MAX_RESEARCH_ITERATIONS) || 2, ...pipelineConfig } });
 
   const server = nodeCreateServer(async (req, res) => {
     try {
@@ -94,7 +106,7 @@ export async function createClaimLensServer({ dataDir = resolve(process.cwd(), p
         if (typeof input.question !== 'string') return errorJson(res, 400, 'The research question must be text.', 'invalid_question');
         const question = input.question.replace(/\s+/g, ' ').trim();
         if (question.length < 8 || question.length > 2_000) return errorJson(res, 400, 'Enter a research question between 8 and 2,000 characters.', 'invalid_question');
-        const state = await store.create(question, { demo: false });
+        const state = await store.create(question, { demo: false, runtimeProvider: livePiRunner ? 'pi' : 'fixture' });
         await pipeline.emit(state.session.id, 'session.created', 'system', { message: 'Research session created.' });
         void pipeline.run(state.session.id).catch(() => undefined);
         return json(res, 202, { sessionId: state.session.id, session: snapshot(await store.load(state.session.id)) });
@@ -148,6 +160,7 @@ export async function createClaimLensServer({ dataDir = resolve(process.cwd(), p
 }
 
 export async function startServer(options = {}) {
+  loadDotEnv();
   const app = await createClaimLensServer(options);
   const port = Number(options.port ?? process.env.PORT ?? 4173);
   const host = options.host ?? process.env.HOST ?? '127.0.0.1';
